@@ -2,7 +2,7 @@ it is my good faith belief that none of the code at <https://github.com/hermesEO
 
 please restore public access to the source repository in question. this shall serve as my electronic signature.
 
-thanks,
-[private]
-Westlake Village, CA 91362
+thanks,  
+[private]  
+Westlake Village, CA 91362  
 [private]
