@@ -7,8 +7,8 @@ I have a good faith belief that use of the copyrighted materials described above
 I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed
 
 
-[private]
+[private]  
 CCP Virtual World Operations
 
-[private]
+[private]  
 Reykjavík - Iceland
