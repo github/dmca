@@ -8,5 +8,5 @@ I swear, under penalty of perjury, that the information in this notification is 
 
 You may contact me by email or by physical address:
 
-[private]
+[private]  
 Ellsworth ME, 04605
