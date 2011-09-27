@@ -26,8 +26,8 @@ of the owner, of an exclusive right that is allegedly infringed.
 --
 [private]
 
-FreeSWITCH http://www.freeswitch.org/
-ClueCon http://www.cluecon.com/
+FreeSWITCH http://www.freeswitch.org/<br>
+ClueCon http://www.cluecon.com/<br>
 Twitter: http://twitter.com/FreeSWITCH_wire
 
 [private]
