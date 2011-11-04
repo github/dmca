@@ -39,8 +39,9 @@ I swear, under penalty of perjury, that the information in this notification
 is accurate and that I am the copyright owner, or am authorized to act on
 behalf of the owner, of an exclusive right that is allegedly infringed.
 
-### Author's personal identification: see passport copy (attached to this
-mail).
+### Author's personal identification
+
+See passport copy (attached to this mail).
 
 Hereby, we request to remove the copyright infringing file immediately!
 
