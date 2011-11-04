@@ -20,7 +20,7 @@ c/o X-PRESSIVE.COM GAMES<br />
 [private]<br />
 Germany
 
-Web: <www.x-pressive.com><br />
+Web: <www.x-pressive.com> <br />
 Mail: [private]
 
 ### Address of the owner/administrator of the allegedly infringing webpage /  content:
@@ -47,5 +47,5 @@ Hereby, we request to remove the copyright infringing file immediately!
 [private]<br />
 X-PRESSIVE.COM GAMES
 
-<www.x-pressive.com><br />
+<www.x-pressive.com> <br />
 [private]
