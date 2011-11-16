@@ -16,13 +16,13 @@ Thank you for your time, and I look forward to your response.
 
 Sincerely,
 
-[private]
-Copyright & Intellectual Property
+[private]<br>
+Copyright & Intellectual Property<br>
 Jagex Games Studio
 
-tel: [private]
+tel: [private]<br>
 fax: [private]
 
-<http://www.jagex.com/>
+<http://www.jagex.com/><br>
 <Copyright@jagex.com>
 
