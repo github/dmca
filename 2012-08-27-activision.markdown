@@ -16,8 +16,10 @@ StarCraft software titles 
 World of Warcraft software titles
 
 Links: 
+
 <https://github.com/Cheezeaza/aRevM22>
-<https://github.com/Almamu/aRevM2/tree/master>
+
+<https://github.com/Almamu/aRevM2>
 
 I hereby give notice of these activities to you and request that you take expeditious action to remove or disable access to the material described above, and thereby prevent the illegal reproduction and distribution of this software via your company's network.
 I appreciate your cooperation in this matter. Please advise me regarding what actions you take.
