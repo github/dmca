@@ -17,7 +17,7 @@ World of Warcraft software titles
 
 Links: 
 
-<https://github.com/Cheezeaza/aRevM22>
+<https://github.com/Cheezeaza/aRevM2>
 
 <https://github.com/Almamu/aRevM2>
 
