@@ -8,12 +8,12 @@ I, [private] of Envisional Ltd do solemnly and sincerely declare as follows:
 - I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.
 
 Description of Content (see below for title breakdown)*:
-Call of Duty software titles 
-Diablo software titles 
-Prototype software titles 
-Skylanders software titles 
-StarCraft software titles 
-World of Warcraft software titles
+- Call of Duty software titles 
+- Diablo software titles 
+- Prototype software titles 
+- Skylanders software titles 
+- StarCraft software titles 
+- World of Warcraft software titles
 
 Links: 
 
