@@ -15,7 +15,10 @@ ADVANCED:
 
 dmca_title="$@"
 
-[[ -n "$dmca_title" ]] || usage && exit 127
+if [ ! -n "$dmca_title" ]; then
+ usage
+ exit 1
+fi
 
 date_prefix="$(date +%Y-%m-%d)"
 file_title=$(echo "$dmca_title" \
@@ -23,10 +26,10 @@ file_title=$(echo "$dmca_title" \
 	| tr '[:upper:]' '[:lower:]' \
 	| tr -c '[:alnum:]' '-')
 
-filename="${date_prefix}_${file_title}.markdown"
+filename="${date_prefix}-${file_title}.markdown"
 
 if [ -n "$VISUAL" ]; then
-	$VISUAL $filename
+	exec $VISUAL $filename
 else
 	touch $filename
 fi
