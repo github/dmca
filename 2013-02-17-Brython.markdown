@@ -30,7 +30,7 @@ work listed in Item #1 above. Include the name of the concerned litigious
 material (all images or posts if relevant) with its complete reference.*
 
 The project called brython on GitHub : https://github.com/evandrix/brython
-It was created by [private] (alias evandrix). Only one commit was done,
+It was created by [private]. Only one commit was done,
 on Dec 17, 2012.  It is a copy of the files on the Google Code site at that
 date : see for instance the script brython.js :
 - original version on the Google Site at revision 144, published Dec. 14 :
