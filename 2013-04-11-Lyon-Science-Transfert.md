@@ -7,7 +7,7 @@ COSMO software is the co-ownership of Ecole Normale Supérieure de Lyon France (
 Lyon), Centre National de la Recherche Scientifique France (CNRS), and Universitat
 Stuttgart Germany (HLRS). COSMO software has been registered by a bailiff you will find
 enclosed the report ofregistration.
-2. Part of material available at the address https://github.com/yannicktocpuet/COSMO
+2. Part of material available at the address https://github.com/yannicktocquet/COSMO
 infringes ENS Lyon, CNRS and HLRS copyrighted works. You will find enclosed the
 complete list ofthe files which infringe copyrighted works.
 3. GitHub Inc. may contact the copyright holder through me at the following address:
@@ -16,7 +16,7 @@ complete list ofthe files which infringe copyrighted works.
 France.
 4. The owner/administrator of the infringing works is probably known to ENS Lyon, CNRS
 and HLRS, but we are not sure it is the person we think of. This person as also used the
-name of [private] to open the account https://github.com/yannicktocguet without
+name of [private] to open the account https://github.com/yannicktocquet without
 [private] authorization.
 5. I have a good faith belief that use of the copyrighted materials described above on the
 infringing web pages is not authorized by the copyright owners, or their agent, or the law.
