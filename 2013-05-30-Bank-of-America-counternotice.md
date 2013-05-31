@@ -25,7 +25,7 @@ In response to the DMCA takedown notice, thus, I assert the following:
 for this document.
 
 (2) The material whose takedown notice I am disputing is located at
-http://adamdonahue.net/nodes.
+www.github.com/adamdonahue/nodes.
 
 (3) I assert in good faith that the material was removed as a result of a
 mistake or misidentification on the part of Bank of America.
