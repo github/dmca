@@ -9,8 +9,7 @@ main product called JRebel ( http://zeroturnaround.com/software/jrebel/ ).
 The version corresponding to the cracked JRebel in the GitHub repository is
 JRebel 5.3.1. It can be downloaded from
 
-http://zeroturnaround.com/software/jrebel/download/thank-you/?file=jrebel-5.3.1-nosetup.zip.
-
+  http://zeroturnaround.com/software/jrebel/download/thank-you/?file=jrebel-5.3.1-nosetup.zip.
 
 2. (Infringing material.) The infringing material is located at
 https://github.com/ddatsh/jrebel . It contains two items: a cracked version
