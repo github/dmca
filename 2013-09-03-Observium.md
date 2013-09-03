@@ -5,8 +5,7 @@ http://www.observium.org/svn/observer/trunk/
 https://github.com/jcollie/observium, which is a modified mirror of our
 svn repository, distributing modified copies is prohibited by our
 license, which is in the infringing repository
-(https://github.com/jcollie/observium/blob/master/LICENSE) note section
-#2 and #3.
+(https://github.com/jcollie/observium/blob/master/LICENSE) note section #2 and #3.
 
 3) [private]
 
