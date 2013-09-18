@@ -1,4 +1,21 @@
+GitHub Inc
+Attn: DMCA takedown
+88 Colin P Kelly Jr St
+San Francisco, CA. 94107
+
+17 September 2013
+
+SHERIDANS
+
 [private]
+
+Email
+[private]
+
+Telephone
+[private]
+
+By email oniy: copyright@github.com
 
 Dear Sirs
 
@@ -10,7 +27,7 @@ Our client is the developer and publisher of and is the owner of all copyright a
 
 Our client informed us that you brought it to the attention of several Minecraft source codes:
 
-http://github.com/solacemc/Minecraft—Source
+https://github.com/solacemc/Minecraft-Source
 
 (the 'Infringing Source Codes’)
 
