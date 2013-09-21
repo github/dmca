@@ -1,16 +1,15 @@
 20/09/2013  
 
-**Sender Information:**
-FragRadio
-[private], Operational Manager
+**Sender Information:**  
+FragRadio  
+[private], Operational Manager  
 [private]  
 
-**Recipient Information:**
-github.com.
+**Recipient Information:**  
+github.com.  
 C/O Copyright Agent for Notice of Claims of Copyright Infringement
 
-Sent via: Email via PDF to support@github.com ref: NONE GIVEN - [private]
-
+Sent via: Email via PDF to support@github.com ref: NONE GIVEN - [private]  
 **DMCA Notice of Copyright Infringement**  
 **re: FragRadio github page t/a [private]**
 
