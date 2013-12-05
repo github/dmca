@@ -8,12 +8,12 @@ Work Description: Shipping Details Plugin for WooCommerce
 
 Copyright Owner: PatSaTECH
 Copied From:
-http://codecanyon.net/item/ship...plugin-for-woocommerce/2018867
+http://codecanyon.net/item/shipping-details-plugin-for-woocommerce/2018867
 
 2. The claimed infringing material is located at the following links.
 
 Material Location:
-https://github.com/alexxxa/Ship...9jb21tZXJjZV92MS42LnJhci5odG1s>
+https://github.com/alexxxa/Shipping-Details-Plugin-for-WooCommerce <http://progsfiles.com/download/5/aHR0cDovL2xldGl0Yml0Lm5ldC9kb3dubG9hZC82OTMzMS42MThlOTQxNTZiYjg4ODRlZjI5MWE3NDUwYjU3L3NoaXBwaW5nLWRldGFpbHMtcGx1Z2luLWZvci13b29jb21tZXJjZV92MS42LnJhci5odG1s>
 
 3. Contact information related to this claim:
 
