@@ -1,24 +1,24 @@
 1. The specific agent contact information is owned by American Family, which is what is listed within the scripts found at the Github links below in #2.
 
-    * The original data is found on our website (www.amfam.com) via the agent search option.
+  The original data is found on our website (www.amfam.com) via the agent search option.
 
 2. Agent information is found within the links below.
 
-    * https://gist.github.com/sandersnewmedia
+  https://gist.github.com/sandersnewmedia
 
-    * https://gist.github.com/sandersnewmedia/711821
+  https://gist.github.com/sandersnewmedia/711821
 
 3. [private]
 
-    Security Threat Intelligence
+   Security Threat Intelligence
 
-    [private]
+   [private]
 
-    American Family Insurance
+   American Family Insurance
 
-    6000 American Parkway
+   6000 American Parkway
 
-    Madison WI 53783
+   Madison WI 53783
 
 4. American Family Insurance; 6000 American Parkway; Madison WI 53783
 
