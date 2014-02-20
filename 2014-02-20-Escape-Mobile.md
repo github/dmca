@@ -1,4 +1,5 @@
 1.
+
 The content being infringed upon:
 
 https://github.com/schonstal/escape-mobile
@@ -33,23 +34,33 @@ An example of the published work can be found here:
 
 https://play.google.com/store/apps/details?id=au.com.twosquared.escape
 
-3. My contact information:
+3. 
 
-[private]
+My contact information:
 
-4. The email address of the infringer:
+   [private]
 
-[private]
+4. 
 
-5. I have a good faith belief that use of the copyrighted materials
+The email address of the infringer:
+
+   [private]
+
+5. 
+
+I have a good faith belief that use of the copyrighted materials
 described above on the infringing web pages is not authorized by the
 copyright owner, or its agent, or the law.
 
-6. I swear, under penalty of perjury, that the information in this
+6. 
+
+I swear, under penalty of perjury, that the information in this
 notification is accurate and that I am the copyright owner, or am
 authorized to act on behalf of the owner, of an exclusive right that is
 allegedly infringed.
 
-7. My digital signature:
+7. 
 
-[private]
+My digital signature:
+
+   [private]
