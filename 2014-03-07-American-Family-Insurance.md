@@ -2,9 +2,7 @@ Good Afternoon GitHub Administrator,
 
 Below is a Copyright claim request for removal of the link listed below from Github.
 
-1. The specific Homesite.com contact information is owned by American Family, which is what is listed within the information found. (Please note American Family acquired Homesite in January 2014.  Please see the following press release for additional details:  https://www.homesite.com/documents/2013-09-04-news-release.pdf)
-
-    * The original data is found on the website (Homesite.com).
+1. The specific Homesite.com contact information is owned by American Family, which is what is listed within the information found. (Please note American Family acquired Homesite in January 2014.  Please see the following press release for additional details:  https://www.homesite.com/documents/2013-09-04-news-release.pdf) The original data is found on the website (Homesite.com).
 
 2. Homesite.com information is found within the links below.
    
