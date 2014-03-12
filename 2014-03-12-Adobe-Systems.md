@@ -4,13 +4,13 @@ Re: Infringement of the Adobe Systems Incorporated Trademarks and Copyrights
 
 To Whom It May Concern:
 
-1.      I am the legal representative authorized to act on behalf of the owner, of certain intellectual property rights ("IP Owner");
+1. I am the legal representative authorized to act on behalf of the owner, of certain intellectual property rights ("IP Owner");
 
-2.      I have a good faith belief that the website http://illallangi.com/2012/12/19/packaging-lightroom/ offer items and contains materials that are not authorized by the IP Owner, or the law, and therefore infringes the IP Owner's rights; and
+2. I have a good faith belief that the website http://illallangi.com/2012/12/19/packaging-lightroom/ offer items and contains materials that are not authorized by the IP Owner, or the law, and therefore infringes the IP Owner's rights; and
 
-3.      The information in this notice is accurate.
+3. The information in this notice is accurate.
 
-4.      I May Be Contacted At:
+4. I May Be Contacted At:
 
             Name of IP Owner:   Adobe Systems Incorporated
            
@@ -26,7 +26,7 @@ To Whom It May Concern:
            
             Fax:                        [private]
 
-5.      The reasons that the URL website must be suspended are as follows:
+5. The reasons that the URL website must be suspended are as follows:
      a. Offers information on the circumvention of the technological protection measure implemented by Adobe Systems Inc. to protect its copyrighted works from infringement, as defined by the Digital Millennium Copyright Act, 17 U.S. C. 1201, et seq. or otherwise unauthorized item that violates the IP Owner's trademarks and copyright.
      b. Misuses the IP Owner's brand name, trademarks and copyright.
 
