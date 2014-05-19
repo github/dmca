@@ -1,6 +1,6 @@
 Dear GitHub Team,
 
-My name is Reiko Fukuyama and I am writing on behalf of LINE Corporation, in regards to a copyright violation on the GitHub website.
+My name is [private] and I am writing on behalf of LINE Corporation, in regards to a copyright violation on the GitHub website.
 
 I believe in good faith that "Protocol documentation for LINE instant messenger" infringes LINE Corporation's copyrights and that the use of our source code is not authorized by the rights holder, its agent or the law.
 
