@@ -6,20 +6,20 @@ providing you the required information.
 
 1. Physical or electronic signature:
 
-[image: Inline image 1]
+    [image: Inline image 1]
 
-Alternatively, [private]
+    Alternatively, [private]
 
 2. Location of material that has been disabled is
 
-https://github.com/laf/librenms/
+    https://github.com/laf/librenms/
 
 3. I swear under the penalty of perjury that I have a good faith belief
 that none of the code at
 
-https://github.com/laf/librenms/compare/issue-laf-32 and
+    https://github.com/laf/librenms/compare/issue-laf-32 and
 
-https://github.com/laf/librenms/commit/dc2503a2ff1c16807ccfa0d5227bb25232282f7e
+    https://github.com/laf/librenms/commit/dc2503a2ff1c16807ccfa0d5227bb25232282f7e
 
 infringes
 on Observium's copyrights and that their take down request is in error. The
