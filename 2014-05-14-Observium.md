@@ -1,11 +1,12 @@
 1) This file on our SVN repository :
-http://fisheye.observium.org/br...iscovery/vlans.inc.php?hb=true
+http://fisheye.observium.org/browse/Observium/includes/discovery/vlans.inc.php?hb=true
 (Line 54 down)
 This version of common.php :
-http://fisheye.observium.org/br...common.php?r1=5082&r2=5082&u=3
+http://fisheye.observium.org/browse/Observium/includes/common.php?r1=5082&r2=5082&u=3
 
 2) This commit :
-https://github.com/laf/librenms...1c16807ccfa0d5227bb25232282f7e
+https://github.com/laf/librenms/commit/dc2503a2ff1c16807ccfa0d5227bb25232282f7e
+
 This issue : https://github.com/laf/librenms/compare/issue-laf-32
 
 3) [private]
