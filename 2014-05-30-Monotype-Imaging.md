@@ -1,4 +1,4 @@
-Re: **Proprietary Font Usage at https://github.com/kexuejin/iFont/
+Re: **Proprietary Font Usage at https://github.com/kexuejin/iFont/**
 
 To Whom It May Concern:
 
