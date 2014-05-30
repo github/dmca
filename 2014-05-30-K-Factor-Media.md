@@ -3,6 +3,7 @@ Infringing Content: https://github.com/wp-plugins/fb-light-popup-solehnet
 K-Factor Media, LLC owns the rights to this code. We currently own and
 operate SF Globe: http://sfglobe.com. The original code can be found here
 (if you view source): http://sfglobe.com/?id=806
+
 ----------------------------------------------------------
 
 Please note that the infringing content overlaps in terms of functions,
@@ -19,6 +20,7 @@ showEndVideoPrompt
 the scroll function
 
 var dlg = new DialogWrapper();
+
 --------------------------------------------------------------------------
 
 [private] on behalf of K-Factor Media, LLC
