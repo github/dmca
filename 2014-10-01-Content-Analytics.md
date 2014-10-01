@@ -18,8 +18,8 @@ Content Analytics, Inc.*
 *https://github.com/gexiangchun728/tmText/blob/c91dff97d1ab707604bbc9ef76cfab114eb38f2a/aws_config/Vagrantfile
 
 <https://github.com/gexiangchun728/tmText/blob/c91dff97d1ab707604bbc9ef76cfab114eb38f2a/aws_config/Vagrantfile>
---
-access keys that belong to Content Analytics Inc.*
+
+-- access keys that belong to Content Analytics Inc.*
 
 I have a good faith belief that use of the copyrighted materials described
 above on the infringing web pages is not authorized by the copyright owner,
