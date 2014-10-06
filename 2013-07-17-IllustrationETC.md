@@ -26,7 +26,7 @@ You may contact me regarding this at:
 [private]
 
 You MAY NOT use my personal contact information for any other purpose and 
-you MAY NOT give it to anyone else, including Mr. Kelso.
+you MAY NOT give it to anyone else, including Mr. [private].
 
 Mr. [private]'s email is:
 
