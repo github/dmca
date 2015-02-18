@@ -76,7 +76,7 @@ https://github.com/AdonisSaveYourLife/CS398
 
 https://github.com/mukichou/CS398
 
-https://github.com/josephmilla/CS398
+[redacted]
 
 https://github.com/fchang1/UIUC-cs398
 
