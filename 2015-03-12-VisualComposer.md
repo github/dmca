@@ -12,8 +12,6 @@ https://github.com/mmihey/js_composer
 
 The infringing material is located at the following URLs:
 
-[REDACTED]
-
 https://github.com/dauidus/js_composer-extended
 
 https://github.com/russellgreen/wordpress-themes/tree/master/powermag/inc/js_composer
