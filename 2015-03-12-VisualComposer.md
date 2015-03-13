@@ -274,6 +274,35 @@ https://github.com/npbtrac/NP---ENPII/tree/master/wp-content/themes/dt-the7/wpba
 
 https://github.com/rivanov/learnit/tree/master/wp-content/plugins/js_composer
 
+https://github.com/ifollow/pdd/tree/master/wp-content/plugins/js_composer
+
+https://github.com/daemon2010/crossblog/tree/master/wp-content/plugins/js_composer
+
+https://github.com/mauroswiss/smgconectados/tree/master/wp-content/plugins/js_composer
+
+https://github.com/repo-edel/multimatics/tree/master/wp-content/themes/subway/wpbakery/js_composer
+
+https://github.com/iojha/gbsite/tree/master/wordpress/wp-content/plugins/js_composer
+
+https://github.com/saki1001/canaries/tree/master/wp-content/themes/flexform/includes/page-builder
+
+https://github.com/cphillipp/bartonlawfirm/tree/master/wp-content/plugins/js_composer
+
+https://github.com/yijinsei/thefashionstand/tree/master/wp-content/plugins/js_composer
+
+https://github.com/Camrule/wordpress.v1/tree/master/wordpress/wp-content/themes/salient/salient/wpbakery/js_composer
+
+https://github.com/linhcatcat/src/tree/develop/saltwaterseafood/wp-content/themes/saltwaterseafood/wpbakery/js_composer
+
+https://github.com/lostady/incoaching/tree/master/wp-content/themes/flexform/includes/page-builder
+
+https://github.com/kimbushik/INNO_SRC/tree/master/INNO_WEB2/siq/wp-content/themes/PressGrid/admin/composer
+
+https://github.com/laszlofoldesi/sfweb-2013/tree/master/wp-content/themes/flexform/includes/page-builder
+
+https://github.com/vaarmen/ArtMenia/tree/master/www/main/wp-content/themes/artland/includes/page-builder
+
+
 
 My contact information is:
 
