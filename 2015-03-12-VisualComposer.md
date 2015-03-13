@@ -234,6 +234,46 @@ https://github.com/lucilio/arquiteturas-tema-wp/tree/master/wpbakery/js_composer
 
 https://github.com/Intensive/epoxy/tree/master/lkjh/plugins/js_composer
 
+https://github.com/TheHealthCareConnection/healthcareconnection/tree/master/wp-content/themes/medicenter/wpbakery/js_composer
+
+https://github.com/dylanenright/rightsideshirts/tree/master/wp-content/plugins/js_composer
+
+https://github.com/npbtrac/NP---QLKDN/tree/master/wp-content/themes/dt-the7/wpbakery/js_composer
+
+https://github.com/ivagueba/ParajeDiria/tree/master/IDO/paraje-diria/wp-content/plugins/js_composer_amy
+
+https://github.com/dennisperremans/wordpress/tree/master/wp-content/plugins/js_composer
+
+https://github.com/ericzhou1982/tadashishoji.com.cn/tree/master/wp-content/plugins/js_composer
+
+https://github.com/selicker/LHR-Multisite-Install/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/mccork91/glenbio/tree/master/wp-content/themes/giant/framework/md-page-builder/lib/js_composer
+
+https://github.com/calvintwr/BellyWellyJelly/tree/calvin/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/ralphhaynes/healthqpons_blog/tree/master/wp-content/plugins/js_composer
+
+https://github.com/shickenterprise/fourteeng_local/tree/master/wp-content/themes/silicon/inc/js_composer
+
+https://github.com/Lynup-Agency/lynup.com/tree/master/new-wp-template/wp-content/plugins/js_composer
+
+https://github.com/russellgreen/wordpress-themes/tree/master/powermag/inc/js_composer
+
+https://github.com/HanxiongShi/nc-finpipe/tree/master/wp-content/plugins/js_composer
+
+https://github.com/iexodus/mpages/tree/master/wp-content/themes/jupiter/framework/wpbakery/js_composer
+
+https://github.com/vadia007/bigplanet/tree/master/wp-content/themes/no/river/wpbakery/js_composer
+
+https://github.com/vadia007/bigplanet/tree/master/wp-content/themes/no/salient/wpbakery/js_composer
+
+https://github.com/filipesilvadev/inbasket/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/npbtrac/NP---ENPII/tree/master/wp-content/themes/dt-the7/wpbakery/js_composer
+
+https://github.com/rivanov/learnit/tree/master/wp-content/plugins/js_composer
+
 
 My contact information is:
 
