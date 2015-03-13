@@ -43,6 +43,27 @@ https://github.com/GrayRum/fiberclaw.com/tree/master/wp-content/plugins/js_compo
 
 https://github.com/MacFlay/wordpress/tree/master/wp-content/plugins/js_composer
 
+https://github.com/maccgizzle/maccg-wp-content/tree/master/themes/paragon/framework/page-composer
+
+https://github.com/jeremiesaintgeorge/invitelepape/tree/master/ken/page-composer
+
+https://github.com/junxiondelhi/svnindia/tree/master/wp-content/plugins/twoot-toolkit/js_composer
+
+https://github.com/narikenabilli/Elite-Economics/tree/master/wp-content/plugins/twoot-toolkit/js_composer
+
+https://github.com/junxiondelhi/alianceindia/tree/master/wp-content/plugins/twoot-toolkit/js_composer
+
+https://github.com/navkakate/collabo/tree/master/wp-content/themes/Durus/framework/page-builder/js_composer
+
+https://github.com/e4c4/stark/tree/master/content/wp-content/themes/FolioGridPro/functions/js_composer
+
+https://github.com/skitle/HuebnerPeterson/tree/master/plugins/js_composer
+
+https://github.com/ecanha/wp-content/tree/master/plugins/js_composer
+
+https://github.com/nizaranand/pascaldesign/tree/master/chameleon-pro/functions/js_composer
+
+https://github.com/kidkameleon/kidkameleon.com/tree/master/wp-content/themes/salient/wpbakery/js_composer
 
 
 My contact information is:
