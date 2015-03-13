@@ -97,6 +97,43 @@ https://github.com/Ellyosmark/mmmoda/tree/master/content/wp-content/plugins/js_c
 
 https://github.com/stratosvetsos/fardi/tree/master/wp-content/plugins/js_composer
 
+https://github.com/tmforum/perspectives/tree/master/wp-content/plugins/js_composer
+
+https://github.com/MacFlay/wordpress/tree/master/wp-content/plugins/js_composer
+
+https://github.com/buildbuyer/wp-content/tree/master/plugins/js_composer
+
+https://github.com/sallf/tag_tours/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/mindswithoutfear/Test-Repo/tree/master/wp-content/plugins/js_composer
+
+https://github.com/GrayRum/fiberclaw.com/tree/master/wp-content/plugins/js_composer
+
+https://github.com/yerdne/pagina_scan/tree/master/wp-content/plugins/js_composer
+
+https://github.com/jikoyster/LBF/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/Webfactoo-repo/efg/tree/master/wp-content/plugins/js_composer
+
+https://github.com/AlexanderZon/ecobed/tree/master/wp-content/themes/jupiter_3.9.3/page-composer
+
+https://github.com/rjjb3427/salient/tree/master/wpbakery/js_composer
+
+https://github.com/iabarcamesa/apirce/tree/master/wp-content/plugins/js_composer
+
+https://github.com/webbio/polar-special/tree/master/wp-content/plugins/js_composer
+
+https://github.com/cavergox/sliopress/tree/master/content/plugins/js_composer
+
+https://github.com/andreictin/CWDCorporateSimplu/tree/master/lkjh/plugins/js_composer
+
+https://github.com/nt46/salient/tree/master/wpbakery/js_composer
+
+https://github.com/Calamity-Co/Yurei/tree/BugFixing/wp-content/plugins/js_composer
+
+https://github.com/W3G/zonza/tree/master/wp-content/plugins/md-page-builder/js_composer
+
+https://github.com/okimangelo/advansus/tree/master/wp-content/plugins/js_composer
 
 My contact information is:
 
