@@ -186,6 +186,53 @@ https://github.com/manishpatel1986/manish_test/tree/master/wp-content/plugins/js
 
 https://github.com/Tobboo/testblog/tree/master/wp-content/plugins/js_composer
 
+https://github.com/warmwhisky/ngwenyaglass/tree/master/wp-content/themes/salient0/wpbakery/js_composer
+
+https://github.com/katharina1/stripedzebra/tree/master/wp-content/plugins/js_composer
+
+https://github.com/jaytord/ecoforce-solutions_site/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/vmorelli/tantic-inn/tree/master/wp-content/plugins/js_composer
+
+https://github.com/linhcatcat/freelance/tree/master/wp-content/themes/saltwaterseafood/wpbakery/js_composer
+
+https://github.com/neonsys/nexteonsite/tree/master/wp-content/plugins/js_composer
+
+https://github.com/goodbayscott/goodbay/tree/master/dev/elisabetta/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/theimaginelab/sunset-gates/tree/3daa8a61bf5fe36654d2719a62659c1c0ac72c01/wp-content/themes/dt-the7/wpbakery/js_composer
+
+https://github.com/aberrio/gs-wordpress/tree/master/wp-content/themes/flati/wpbakery/js_composer
+
+https://github.com/gmakkinga/PenningsDiesel.nl/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/Drashti-Patel/wordpress-repository/tree/mysql/wordpress/wp-content/plugins/js_composer
+
+https://github.com/LouizEchi/Powerlink/tree/master/wp-content/plugins/js_composer
+
+https://github.com/ogreco/TafiOscar/tree/master/wp-content/themes/liofolio/page_builder/js_composer
+
+https://github.com/Acens/lotus/tree/master/_/public_html/wp-content/themes/jupiter/framework/wpbakery/js_composer
+
+https://github.com/Isotex/grupoisotex/tree/alejandro/wp-content/themes/isotex_vzla_wp/admin/plugins/js_composerd
+
+https://github.com/rootlevel/wpcom/tree/master/wp-content/themes/flexform/includes/page-builder
+
+https://github.com/kpa6/scrolx/tree/master/www/wp-content/plugins/js_composer
+
+https://github.com/gq-dev/gq-smart/tree/master/plugins/js_composer
+
+https://github.com/trub/portfolio-wordpress-heroku/tree/master/wp-content/plugins/js_composer
+
+https://github.com/MagentaRu/maxoptracom/tree/master/wp-content/themes/jupiter/page-composer
+
+https://github.com/dannynamnum/sweetimescupcakes/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/fernandoguirao/nutria/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/lucilio/arquiteturas-tema-wp/tree/master/wpbakery/js_composer
+
+https://github.com/Intensive/epoxy/tree/master/lkjh/plugins/js_composer
 
 
 My contact information is:
