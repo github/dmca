@@ -65,6 +65,24 @@ https://github.com/nizaranand/pascaldesign/tree/master/chameleon-pro/functions/j
 
 https://github.com/kidkameleon/kidkameleon.com/tree/master/wp-content/themes/salient/wpbakery/js_composer
 
+https://github.com/ksingh812/tkthub/tree/master/plugins/js_composer
+https://github.com/colinkeany/MediaTree/tree/master/wp-content/themes/Astra/wpbakery/js_composer
+https://github.com/crimsonronin/amanualforcreatingatheists/tree/master/wp-content/themes/salient/wpbakery/js_composer
+
+https://github.com/ovidio43/mosmsmagazine/tree/master/momsmagazine/wpbakery/js_composer
+https://github.com/WorkPress123/VN1234/tree/master/wp-content/themes/Newspaper/wpbakery/js_composer
+https://github.com/alnafiea/dates/tree/master/wp-content/plugins/js_composer
+https://github.com/disisid/nimtx1/tree/master/wp-content/themes/salient/wpbakery/js_composer
+https://github.com/Prox3/DecoraKits/tree/master/wp-content/themes/shoppica/library/js_composer
+https://github.com/Prox3/DecoraKits/tree/master/wp-content/themes/shoppica/library/js_composer
+https://github.com/fernandhacosta/8984673892/tree/master/giant/framework/md-page-builder/lib/js_composer
+https://github.com/mrkhoa99/wordpresstheme/tree/master/wp-content/plugins/js_composer
+https://github.com/webbio/nul25/tree/master/wp-content/themes/salient/wpbakery/js_composer
+https://github.com/kazvorpal/fu/tree/master/wp-content/themes/fu/inc/js_composer
+https://github.com/BeardandFedora/spawncamping-archer/tree/master/wp-content/plugins/js_composer
+https://github.com/Ellyosmark/mmmoda/tree/master/content/wp-content/plugins/js_composer
+https://github.com/stratosvetsos/fardi/tree/master/wp-content/plugins/js_composer
+
 
 My contact information is:
 
