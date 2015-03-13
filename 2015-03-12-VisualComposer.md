@@ -26,6 +26,25 @@ https://github.com/gq-dev/gq-smart/tree/master/plugins/js_composer
 
 https://github.com/MacFlay/publiczni/tree/master/plugins/js_composer.zip
 
+https://github.com/nt46/salient/tree/master/wpbakery/js_composer
+
+https://github.com/BeardandFedora/spawncamping-archer/tree/master/wp-content/plugins/js_composer
+
+https://github.com/kinesisinc/kns/tree/master/wp-content/plugins/visual-composer
+
+https://github.com/alnafiea/dates/tree/master/wp-content/plugins/js_composer
+
+https://github.com/ksingh812/tkthub/tree/master/plugins/js_composer
+
+https://github.com/junxiondelhi/alianceindia/tree/master/wp-content/plugins/twoot-toolkit/js_compose.
+..
+
+https://github.com/GrayRum/fiberclaw.com/tree/master/wp-content/plugins/js_composer
+
+https://github.com/MacFlay/wordpress/tree/master/wp-content/plugins/js_composer
+
+
+
 My contact information is:
 
 [REDACTED]
