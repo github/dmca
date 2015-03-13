@@ -66,7 +66,9 @@ https://github.com/nizaranand/pascaldesign/tree/master/chameleon-pro/functions/j
 https://github.com/kidkameleon/kidkameleon.com/tree/master/wp-content/themes/salient/wpbakery/js_composer
 
 https://github.com/ksingh812/tkthub/tree/master/plugins/js_composer
+
 https://github.com/colinkeany/MediaTree/tree/master/wp-content/themes/Astra/wpbakery/js_composer
+
 https://github.com/crimsonronin/amanualforcreatingatheists/tree/master/wp-content/themes/salient/wpbakery/js_composer
 
 https://github.com/ovidio43/mosmsmagazine/tree/master/momsmagazine/wpbakery/js_composer
