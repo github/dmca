@@ -16,7 +16,11 @@ The infringing material is located at the following URLs:
 
 https://github.com/dauidus/js_composer-extended
 
-[REDACTED]
+https://github.com/russellgreen/wordpress-themes/tree/master/powermag/inc/js_composer
+https://github.com/gq-dev/gq-smart/tree/master/plugins/js_composer
+https://github.com/russellgreen/wordpress-themes/tree/master/powermag/inc/js_composer
+https://github.com/gq-dev/gq-smart/tree/master/plugins/js_composer
+https://github.com/MacFlay/publiczni/tree/master/plugins/js_composer.zip
 
 My contact information is:
 
