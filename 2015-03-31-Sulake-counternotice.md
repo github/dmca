@@ -27,7 +27,7 @@ The repository does not contain and has never contained any copyright
 infringing material.
 
 I consent to the jurisdiction of Federal District Court for the judicial
-district in which my address is located the Northern District of California,
+district of California,
 and I will accept service of process from the person who provided the DMCA
 notification or an agent of such person.
 
