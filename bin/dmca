@@ -1,0 +1,39 @@
+#!/bin/bash
+# bin/dmca
+# Why think about filenames. Be lazy. Run with no input for usage.
+
+function usage {
+	echo "$0: Creates a file for a new DMCA Takedown"
+	echo "USAGE:
+	$0 DMCA Title
+	creates the file YYYY-MM-DD_dmca_title.markdown
+
+ADVANCED:
+	If the environment variable VISUAL is defined, it will open the created file
+	in your visual editor."
+}
+
+dmca_title="$@"
+
+if [ ! -n "$dmca_title" ]; then
+ usage
+ exit 1
+fi
+
+date_prefix="$(date +%Y-%m-%d)"
+file_title=$(echo "$dmca_title" \
+	| tr -d '\n' \
+	| tr '[:upper:]' '[:lower:]' \
+	| tr -c '[:alnum:]' '-')
+
+filename="${date_prefix}-${file_title}.markdown"
+
+if [ -n "$VISUAL" ]; then
+	exec $VISUAL $filename
+else
+	touch $filename
+fi
+
+
+
+# usage
