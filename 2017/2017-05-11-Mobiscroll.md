@@ -6,8 +6,6 @@ https://mobiscroll.com
 
 **What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository's URL:**  
 https://github.com/hayhay19911103/yonkerWeb/blob/16c205d73c7106651b47e2dc3a5c646921eb311f/static/js/mobiscroll.custom-2.17.0.min.js
-https://github.com/tongwust/shining/blob/7c586eab8672bab7f6ae79f31f00c2c1028abd67/public/shining/javascripts/mobiscroll.custom-2.16.1.min.js
-https://github.com/tongwust/shining/blob/7c586eab8672bab7f6ae79f31f00c2c1028abd67/public/shining/javascripts/.svn/text-base/mobiscroll.custom-2.16.1.min.js.svn-base
 
 **Have you searched for any forks of the allegedly infringing files or repositories? Each fork is a distinct repository and must be identified separately if you believe it is infringing and wish to have it taken down.**  
 
