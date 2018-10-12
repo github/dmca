@@ -119,7 +119,6 @@ https://github.com/GitHdu/example/blob/1de0005b05e4da723079036404b2e8777f202d70/
 https://github.com/dp9u0/jb-license-server/tree/3049677971312ef41e30e620f70ae65d51398e8d  
 https://github.com/zhangjunlei26/zjl_shell/blob/f14138bd5dcc411360a6680957195b538c47f3e4/man/phpStrom.md  
 https://github.com/shashikantgupta/Front-end-Developer-Directory/blob/004b8260e98194ae25e5b6021e7112755a8821cc/Important-Notes.txt  
-https://github.com/dongta195/experience/issues/6
 
 Because:
 1) you and github.com users owning repositories / gists mentioned above are not the owners of the
