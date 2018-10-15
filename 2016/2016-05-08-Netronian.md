@@ -6,7 +6,7 @@ I have read and understand GitHub's Guide to Filing a DMCA Notice.
 
 *Name:* [Private]
 
-*Company:* Netronian Inc.
+*Company:* [Private]
 
 *Phone:* [Private]
 
@@ -64,13 +64,13 @@ date that the 2 individuals created their repositories on github.com
 [image: Inline image 2]  
 [image: Inline image 3]  
 [image: Inline image 1]  
-[image: Netronian Inc.]  
+[image: [Private]]  
 
 Best Regards,
 
 [Private]
 
-Netronian Inc.
+[Private] Inc.
 
 [Private]
 
