@@ -1,3 +1,5 @@
+# DMCA takedown notices
+
 #### What is this?
 Inspired by [Lumen](https://lumendatabase.org/topics/1) (*formerly Chilling Effects*) and [Google](https://cloud.google.com/storage/docs/dmca), this repo contains the text of DMCA takedown notices and counter-notices we've received here at GitHub. We publish them as they are received, with only personally identifiable information redacted.
 
