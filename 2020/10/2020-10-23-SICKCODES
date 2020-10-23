@@ -1,0 +1,99 @@
+October 24, 2020 
+
+GitHub
+
+Dear Sir or Madam:
+
+I am contacting you on behalf of the community and its avid members. Sick Codes is a security 
+research group has no member companies. Without prejudice save as to costs, we submit that the 
+RIAA is unauthorized to act on behalf of its member companies on matters involving the DMCA takedown of youtube-dl. https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md
+
+Copyright Violations.
+We have learned that your service is hosting the following source codes
+on its network at the following locations, among others:
+
+https://github.com/youtube/youtube-chat-for-minecraft
+Explicitty suggests using YouTube inside Minecraft.
+
+https://github.com/youtube/yt-direct-lite-iOS
+Explicity suggests saving videos to library that may upset recording artists that are members of the RIAA:
+"Click Save Video to store the image in the library."
+
+https://github.com/youtube/yt-auto-curate-ruby
+Explicity suggests to "automatically "watch" a list of videos and take action when a new video is found that meets certain criteria."
+
+https://github.com/youtube/yt-auto-curate-ruby
+Explicity suggests to "automatically "watch" a list of videos and take action when a new video is found that meets certain criteria."
+
+https://github.com/youtube/yt-watchme
+Explicity suggests "creating a YouTube Live Streaming event and streams into that event.""
+
+https://github.com/youtube/yt-android-player
+Explicity suggests creating:
+* A simple YouTube Android API demo application which shows how to create a simple application that
+* displays a YouTube Video in a {@link YouTubePlayerView}.
+
+https://github.com/youtube/yt-direct-lite-android
+Explicity suggests using "an Android OS application that captures video, uploads it to YouTube"
+This could be used to violate the rights of any user, anywhere, who does not wish to be filmed.
+
+The above list includes a teeny, tiny, sample of the source code being hosted on GitHub.
+
+Based on our review of the representative sample noted above, we have a good faith belief that 
+most of the above repositories are infringing to the same extent as the parent repository.
+
+The clear purpose of this source code is to (i) circumvent the technological protection measures
+used by authorized streaming services such as YouTube, and (ii) reproduce and distribute music
+videos and sound recordings owned by our member companies without authorization for such
+use. We note that the source code is described on GitHub as “a command-line program to
+download videos from YouTube.com and a few more sites.”1
+
+We also note that the source
+code prominently includes example use of the source code the downloading of copies of our
+members’ copyrighted sound recordings and music videos, as noted in Exhibit A hereto. For
+example, as shown on Exhibit A, the source code expressly suggests its use to copy and/or
+distribute the following copyrighted works owned by our member companies:
+
+https://github.com/youtube/youtubechatbot
+http://yourprojectid.appspot.com/?videoId=xxxxx
+
+The source code notes that the various works on YouTube are licensed under the YouTube Standard
+license, which expressly restricts access to copyrighted works only for streaming on YouTube
+and prohibits their further reproduction or distribution without consent of the copyright owner;
+without authorization of the copyright owner or YouTube.
+
+We have a good faith belief that this activity is not authorized by the copyright owner, its agent,
+or the law. We assert that the information in this notification is accurate, based upon the data
+available to us.
+
+Anticircumvention Violation. We also note that the provision or trafficking of the source code
+violates 17 USC §§1201(a)(2) and 1201(b)(1). The source code is a technology primarily
+designed or produced for the purpose of, and marketed for, circumventing a technological
+measure that effectively controls access to copyrighted sound recordings on YouTube, including
+copyrighted sound recordings owned by our members. For further context, please see the
+attached court decision from the Hamburg Regional Court that describes the technological
+measure at issue (known as YouTube’s “rolling cipher”), and the court’s determination that the
+technology employed by YouTube is an effective technical measure within the meaning of EU
+
+Indeed, the code in the any of the source repos above make clear that the source code was
+designed and is marketed for the purpose of circumventing YouTube’s technological measures
+to enable unauthorized access to our member’s copyrighted works, and to make unauthorized
+copies and distributions thereof: they identify our member’s works, they note that the works
+are VEVO videos (virtually all of which are owned by our member companies), they
+acknowledge the those works are licensed to YouTube under the YouTube standard license, and
+they use those examples in the source code to describe how to obtain unauthorized access to
+copies of our members’ works.
+
+In light of the above noted copyright infringements and anticircumvention violations, we ask
+that you immediately take down and disable access to the the above source code at all of its
+locations where it is hosted on GitHub, including without limitation those locations in the
+representative list set forth above.
+
+This e-mail does not constitute a waiver of any right to recover damages incurred by virtue of
+any such unauthorized activities, and all such rights as well as claims for other relief are
+expressly reserved.
+
+You may contact me on Twitter @sickcodes [twitter.com/sickcodes](twitter.com/sickcodes),  
+
+Sincerely,  
+@sickcodes
