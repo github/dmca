@@ -1,4 +1,4 @@
-October 23, 2020
+October 24, 2020
 
 GitHub
 
@@ -12,12 +12,12 @@ Loadin' DVDs like a motherfuckin' fiend,
 Bring my camera to the movies and I put em on BT,
 Back all that stolen content up on DVD-ROMs,
 'Cuz my tip's been piracy since I dropped out my Mom's,
-And just because I share my MP3s,
+And just because I share my OGGs,
 They got the government comin' after me,
 Instead of suin' kids why don't you step on up,
 And release a couple albums that don't completely suck,
 Stop puttin DRM onto audio CDs,
-That don't make it any harder to steal your MP3s,
+That don't make it any harder to steal your OGGs,
 If I want your shit for free, I ain't gonna have to pay,
 And all your bullshit is why the fuck I say,
 Hack the Gibson, hack the Gibson,
