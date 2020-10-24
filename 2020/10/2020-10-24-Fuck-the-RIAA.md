@@ -2,7 +2,7 @@ October 23, 2020
 
 GitHub
 
-Dear Sir or Madam:
+To whom it ma concern,
 
 I am contacting you on behalf of the Free Software community and its members.
 
