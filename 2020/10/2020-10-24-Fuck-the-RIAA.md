@@ -2,7 +2,7 @@ October 23, 2020
 
 GitHub
 
-To whom it ma concern,
+To whom it may concern,
 
 I am contacting you on behalf of the Free Software community and its members.
 
