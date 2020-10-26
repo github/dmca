@@ -1,8 +1,8 @@
 This repository exists to provide transparency by posting the text of DMCA notices and counter notices received.
 
-If you are looking to file or dispute a takedown notice by posting to this repository, please STOP :stop_sign: because we do not accept Pull Requests or other contributions to this repository. 
+If you are looking to file or dispute a takedown notice, we accept Pull Requests and/or other contributions to this repository. 
 
-But read on to learn about the available paths forward.
+Read on to learn about other available paths forward.
 
 
 If you are a copyright owner wishing to submit a takedown notice, read our [DMCA Policy](https://docs.github.com/en/free-pro-team@latest/github/site-policy/dmca-takedown-policy) and [Guide to Submitting a DMCA Takedown Notice](https://docs.github.com/en/free-pro-team@latest/github/site-policy/guide-to-submitting-a-dmca-takedown-notice). You can submit the actual notice using our special [Copyright Claims Contact Form](https://github.com/contact/dmca).
