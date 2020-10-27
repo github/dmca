@@ -42,6 +42,7 @@ Praise the lolis!
 And... eh... I am bored.
 
 BTW. I USE ARCH.
+https://anonfiles.com/nbT5q1k7p9/youtube-dl-git-416da574e-1-any.pkg.tar_zst
 
 What could I write?
 
