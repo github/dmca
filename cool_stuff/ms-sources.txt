@@ -1,0 +1,69 @@
+https://rentry.co/centralizer-info
+
+
+Info hoard
+Source code download.
+
+    nt5src.7z winxp SP1 and win2k3 sources
+    https://anonfiles.com/R714gdY9o2
+    magnet:?xt=urn:btih:1a4e5b67060ff2bc8fe2de36a6c265c77f392a0c&dn=NOTREPACKED
+    40GB torrent with multiple MS products, guides and conspiracy theory materials, and its variants:
+        Original, source of the fake, passworded windows_xp_source.rar
+        https://www.limetorrents.info/Microsoft-leaked-source-code-archive%202020-09-20-torrent-15232218.html
+        nt5src.7z has been included
+        https://www.limetorrents.info/Microsoft-leaked-source-code-archive%202020-09-24-torrent-15247398.html
+        Fake windows_xp_source.rar is removed
+        https://www.limetorrents.info/Microsoft-leaked-source-code-archive-2020-10-04-torrent-15286445.html
+        https://anonfiles.com/b1F6mbc4p3/Microsoft_leaked_source_code_archive_2020-10-04_torrent
+    nt5src and toolset, IDA 7.7, build instruction videos:
+    http://yotsuba7pverpfs5.onion/files/
+    nt5src.7z info:
+    nt5src.7z 2,93 GB (3.149.677.191 bytes)
+    CRC32 E283D63D
+    MD5 94DEA413D439DDA8ABCAC83CFE799FC7
+    SHA-1 350B2617D3095517A8D1981062C9D88A48B5D1A2
+    SHA-256 2BB3609FA4C2B2641F43AEF751A84DB5820B64748B7D2D0891D1CB1E55268CE9
+    Build toolsets:
+        https://boards.4channel.org/g/thread/78051146#p78054899 Sizzle dev, by OpenNTGuy
+        https://boards.4channel.org/g/thread/78051146#p78058836 Toolset v3, by anon, with guide
+        https://boards.4channel.org/g/thread/78093279#p78114381 Toolset v4, by anon
+    Building guides:
+    https://rentry.co/build-win2k3
+    Project activity hives:
+        The threads. Most active, but barely any coordination.
+
+        The chats:
+        IRC: irc.rizon.net #xpleaks
+        Stagnant.
+
+        Matrix: https://matrix.to/#/!gaxpoQqVZuAKwRucaK:privacytools.io?via=privacytools.io
+        "Unable to decrypt: The sender's device has not sent us the keys for this message."
+        Is active.
+
+        Telegram: https://t.me/openxp
+        ?????????
+        - Site with GIT, bug tracker. Has some activity.
+        http://wopen3qf3trpihet.onion/
+        http://wopen.i2p/
+        - Wiki dedicated to xpsp1/win2k3 leaks. Very recent.
+        http://openxp.libre requires OpenNIC or webproxy.
+    BuildEnv CLI toolset descriptions and parameters
+    https://empyreal96.github.io/build-env-info/
+
+Other stuff
+
+    List of /wxp/ threads with summaries. Hoard of info links.
+    https://rentry.co/centralizer-threads
+    https://rentry.co/centralizer-info
+    Various XP and win2k3 ISOs:
+        https://the-eye.eu/public/MSDN/Windows%20Server%202003/
+        https://the-eye.eu/public/MSDN/Windows%20XP/
+    Collection of cracked IDA dissasemblers, HexRays decompilers, guide PDFs:
+    http://fuckilfakp5d6a5t.onion/
+    Extracted media files from winleaks:
+    https://anonfiles.com/Z2K1s0Z9ob/823a0c8bf611a9cd17eed3b54d81510c_7z
+    Misc:
+    https://blog.jayway.com/2014/09/03/creating-self-signed-certificates-with-makecert-exe-for-development/
+    https://github.com/4d61726b/VirtualKD-Redux
+    Cemetary
+    http://noexit4237wjhu6v.onion/

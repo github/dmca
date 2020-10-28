@@ -1,0 +1,15 @@
+https://github-enterprise.s3.amazonaws.com/hyperv/releases/github-enterprise-2.22.0.vhd - Hyper-V
+https://github-enterprise.s3.amazonaws.com/kvm/releases/github-enterprise-2.22.0.qcow2 - OpenStack KVM
+https://github-enterprise.s3.amazonaws.com/esx/releases/github-enterprise-2.22.0.ova - VMWare ESXi/vSphere
+https://github-enterprise.s3.amazonaws.com/xen/releases/github-enterprise-2.22.0.vhd - Xen
+
+First download a github enterprise vm image and deploy it on the corresponding virtualization solution
+Then get a trial license and load it into the management console
+Then enable ssh access by generating a key and blah blah you know the deal
+Once you are inside the shell, go to the /data directory
+then download this script inside of it
+https://gist.githubusercontent.com/jacobbednarz/e2f08812664c6d689f9bafeff040aa5c/raw/e10d488571acf59da024e50b2af9a0c2d913ab5e/ghe-revealer.rb
+Run it. ruby ghe-revealer.rb
+You may get a "no such file or directory" error sometimes, just create that filename in the directory it tells you and it should be able to move on
+Once it finishes, congrats! You have the unobfuscated, most recent, commented github.com codebase
+/data/github

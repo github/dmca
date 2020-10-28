@@ -1,0 +1,642 @@
+https://pastebin.com/raw/bgGW8JGF
+
+more at https://emulation.gametechwiki.com/index.php/ROM_%26_ISO_Sites
+
+*****************************************************************************************************************************************************
+* *
+* Rom Center paste edition 1.2.1 *
+* *
+*****************************************************************************************************************************************************
+
+
+
+=====================================================================================================================================================
+
+Formatting Key:
+
+################################################################################
+System |
+--------------------------------------------------------------------+
+Hosting Site | Region | Link
+| |
+| Type / Format | Comments
+################################################################################
+
+=====================================================================================================================================================
+
+TABLE OF CONTENTS
+
+Use ctrl+f to get around.
+
+- Retro Tab
+- Popular Games Tab
+- Nintendo Tab
+> DS
+> DS Download Play
+> DSi
+> DSiWare
+> 3DS
+> GameCube
+> Wii
+> WiiWare and VC
+> Wii U
+- Sony Tab
+> PS1
+> PS2
+> PS3
+> PSP
+> PS Vita
+> More Games / Updates / DLCs
+- Sega Tab
+> Dreamcast
+> Saturn
+> CD & Mega CD
+- Microsoft Tab
+> Xbox
+> Xbox 360
+> XBLA
+> XBLG
+> Xbox Classic JTAG
+- PC Tab
+> MS-DOS
+> Windows 3.x
+> 1990s to early 2000s
+> GoodOldDownloads
+- Other Tab
+> Arcade
+> Romsets
+> Miscellaneous
+- Reputable ROM Sites
+- Bypass Tab
+
+
+
+=====================================================================================================================================================
+
+Retro Tab
+
+=====================================================================================================================================================
+
+For retro games released on cartridge:
+This includes NES, SNES GB and GBA
+
+https://archive.org/details/no-intro_romsets
+
+Click view contents next to the .zip to download individual games.
+
+=====================================================================================================================================================
+
+Popular Games Tab
+
+=====================================================================================================================================================
+
+| Download https://archive.org/download/nNASOS1.8/nNASOS1.8.zip and extract the files into a folder.
+How to extract .dec files: | To extract a rom, drag the rom onto the .exe.
+| A command prompt should popup and extract the ISO from the .dec file.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Metroid |
+--------------------------------------------------------------------+
+Metroid Prime Trilogy ............................................. | https://archive.org/download/RedumpNintendoWiiAmericaPart3_201802/Metroid%20Prime%20Trilogy%20(USA).7z
+Metroid Prime v1.0 ISO (GC) ....................................... | https://archive.org/download/RedumpNintendoGameCubeAmericaPart3/Metroid%20Prime%20(USA)%20(v1.00).zip
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Mario |
+--------------------------------------------------------------------+
+Mario Party 7 ISO (GC) ............................................ | https://archive.org/download/RedumpNintendoGameCubeAmericaPart3/Mario%20Party%207%20(USA).zip
+Mario Party 8 ISO (Wii) ........................................... | https://archive.org/download/RedumpNintendoWiiAmericaPart3_201802/Mario%20Party%208%20(USA)%20(v1.02).7z
+Mario Kart Double Dash ISO (GC) ................................... | https://archive.org/download/RedumpNintendoGameCubeAmericaPart3/Mario%20Kart%20-%20Double%20Dash%21%21%20(USA).zip
+Super Paper Mario ISO (Wii) ....................................... | https://archive.org/download/RedumpNintendoWiiAmericaPart5/SuperPaperMariousav1.02.7z
+Super Mario Sunshine ISO (GC) ..................................... | https://archive.org/download/RedumpNintendoGameCubeAmericaPart3/Super%20Mario%20Sunshine%20(USA).zip
+Super Mario Galaxy 1 ISO (Wii) .................................... | https://archive.org/download/RedumpNintendoWiiAmericaPart5/SuperMarioGalaxyusaenfres.7z
+Super Mario Galaxy 2 ISO (Wii) .................................... | https://archive.org/download/RedumpNintendoWiiAmericaPart5/SuperMarioGalaxy2usaenfres.7z
+Super Mario Bros Wii ISO (Wii) .................................... | https://www110.zippyshare.com/v/UuaBEizz/file.html
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Fire Emblem |
+--------------------------------------------------------------------+
+Fire Emblem Path of Radiance ...................................... | https://archive.org/download/RedumpNintendoGameCubeAmericaPart2/Fire%20Emblem%20-%20Path%20of%20Radiance%20(USA).zip
+Fire Emblem Path of Radiance (Japan) ISO (GC) ..................... | https://archive.org/download/AsiaGamecubeCollectionByGhostware/Fire%20Emblem%20-%20Souen%20no%20Kiseki.iso
+Fire Emblem Radiant Dawn ISO (Wii) ................................ | https://archive.org/download/RedumpNintendoWiiAmericaPart2/FireEmblem-RadiantDawnusav1.01.zip
+Fire Emblem Radiant Dawn (Japan) ISO (Wii) ........................ | https://archive.org/download/WiiRedumpNKitPart3/Fire%20Emblem%20-%20Akatsuki%20no%20Megami%20(Japan)%20(Rev%201)/
+Fire Emblem Fates Special Edition CIA (USA) ............................. | https://drive.google.com/file/d/1WL5CTbZ4wxT3sgwTLAG2NUIDyXvvohH6/view?usp=sharing
+Fire Emblem Fates Special Edition 3DS (USA)............................. | https://drive.google.com/file/d/1AyGeJlF4KIo8qkj8ya6ByjfSkE7p4Kaj/view?usp=sharing
+Fire Emblem Fates Special Edition CIA (EUROPE)............................. | https://drive.google.com/file/d/1tqVP43kyGKdizKMergE1T_E4LCmS8A-v/view?usp=sharing
+Fire Emblem Fates Special Edition 3DS (EUROPE)............................. | https://drive.google.com/file/d/1qnvdyxcZxPwxfsRfQmbJPGBHBIRmQPEm/view?usp=sharing
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Pokemon (3DS) |
+--------------------------------------------------------------------+
+.CIA | |
+-----+ |
+Pokemon X ......................................................... | https://drive.google.com/file/d/1uWCpYDb2d2SuO-JKprMNNqzTTpKCxgjt/view?usp=sharing
+|
+Pokemon Y ......................................................... | https://drive.google.com/file/d/11RrWsNau5VsAF5RjPLVZaXlIx15DPE7O/view?usp=sharing
+|
+Pokemon Omega Ruby ................................................ | https://drive.google.com/file/d/18jeVh5qnHCCq4KMCjouulTdea5bJI-dx/view?usp=sharing
+|
+Pokemon Alpha Sapphire ............................................ | https://drive.google.com/file/d/1dVNxulnQ5yGbkDFroB6ymtINkOt7yR5C/view?usp=sharing
+|
+Pokemon Sun ....................................................... | https://drive.google.com/file/d/1DcDfNJfaOZBsrY4ra-XccvuCY5x1ad6m/view?usp=sharing
+|
+Pokemon Moon ...................................................... | https://drive.google.com/file/d/1OshckW-yurqvpriUNfGlA7vUJ3SaHuUV/view?usp=sharing
+|
+Pokemon Ultra Sun ................................................. | https://drive.google.com/file/d/1gdUTd-HJ6oqjDKI80zaIua_MtHp1_V9W/view?usp=sharing
+|
+Pokemon Ultra Moon ................................................ | https://drive.google.com/file/d/1pOxcVTz5db9OHQz_0fcKM6x3er7rZtt4/view?usp=sharing
+|
+|
+--------------------------------------------------------------------+
+.3DS | |
+-----+ |
+Pokemon X ......................................................... | https://drive.google.com/file/d/18hdNheZh-lRHDdq9bjcXqeoLXrJ8uM2f/view?usp=sharing
+|
+Pokemon Y ......................................................... | https://drive.google.com/file/d/1qjNb9Z5PJL3c7rJiNa4enIFUFLcAPsxC/view?usp=sharing
+|
+Pokemon Omega Ruby ................................................ | https://drive.google.com/file/d/1OUlwesnyHVm1itWCA0HcWPt9LBYEGAi-/view?usp=sharing
+|
+Pokemon Alpha Sapphire ............................................ | https://drive.google.com/file/d/1Uetn4u4obNsIk8qIwoPQTKzd25pEKPgE/view?usp=sharing
+|
+Pokemon Sun ....................................................... | https://drive.google.com/file/d/1Jl9oOTo-uJBdNHeRuxVw7TGlwSN6bHRz/view?usp=sharing
+|
+Pokemon Moon ...................................................... | https://drive.google.com/file/d/1GxMZqAyPpfalw34Gz664E6u8KcMLDfwd/view?usp=sharing
+|
+Pokemon Ultra Sun ................................................. | https://drive.google.com/file/d/1s43yV1_uctS3VyCOHQvqnR7EQMHPYoWa/view?usp=sharing
+|
+|
+Pokemon Ultra Moon ................................................ | https://drive.google.com/file/d/1hMB_m6YDQLYZIbuu8ysI7yJhlT4IxvIR/view?usp=sharing
+|
+|
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Pokemon (DS) |
+--------------------------------------------------------------------+
+Pokemon Diamond ................................................... | https://drive.google.com/open?id=1pfvszwnrIg3-GaMPargjp6EvumJFqkAi
+Pokemon Pearl ..................................................... | https://drive.google.com/open?id=1Fklq8XJhBF5Gwe-Ll6lPNfLIY77yq3po
+Pokemon Platinum .................................................. | https://drive.google.com/open?id=1OnoeZv0Q02IPFKg-xoCJGGZn5uLpH0t8
+Pokemon HeartGold ................................................. | https://drive.google.com/open?id=11fPIwl0Nz8My3cxY_x9Z9lFEh8uipAZS
+Pokemon SoulSilver ................................................ | https://drive.google.com/open?id=1uo-HY9J-SU-nVhKiEAcsPhVsPBlElaar
+Pokemon Black/White ............................................... | https://drive.google.com/open?id=1-QHpX-hkakfdBhJI9_zZeXZLUvGRvmb-
+Pokemon Black 2/White 2 ........................................... | https://drive.google.com/open?id=1DiET3chM0NqoBSNJpnGRi2XXtN-a1TFA
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Persona |
+--------------------------------------------------------------------+
+Persona 5 ......................................................... | https://downloadgameps3.com/persona-5-eur-usa-psn-fix-all-dlc-free-iso/
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Legend of Zelda |
+--------------------------------------------------------------------+
+Legend of Zelda Breath of the Wild Wii U ..........................
+| https://1fichier.com/?3fgq6x02xn07u7opehxf
+|
+Legend of Zelda Twilight Princess ISO (Wii)........................ | https://archive.org/download/RedumpNintendoWiiAmericaPart3_201802/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20(USA)%20(En%2CFr%2CEs)%20(v1.02).zip
+|
+Legend of Zelda Twilight Princess ISO (GC) ........................ | https://archive.org/download/RedumpNintendoGameCubeAmericaPart3/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20(USA).zip
+|
+Legend of Zelda Skyward Sword ISO (Wii)............................ | https://archive.org/download/RedumpNintendoWiiAmericaPart3_201802/Legend%20of%20Zelda%2C%20The%20-%20Skyward%20Sword%20(USA)%20(En%2CFr%2CEs)%20(v1.02).zip
+Legend of Zelda Wind Waker ISO (GC) ............................... | https://archive.org/download/RedumpNintendoGameCubeAmericaPart3/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20(USA).zip
+Legend of Zelda Ocarina of Time CIA ............................... | https://www.mediafire.com/file/g01hb3ctvxafckr/TLOZ-OT-USA-CIA-RF-Ziperto.rar/file
+Legend of Zelda Ocarina of Time 3DS ............................... | https://megaup.net/6bw9/TLOZOOT-USA-DecrTD-Ziperto.rar
+Legend of Zelda Ocarina of Time v1.0 N64 .......................... | https://archive.org/download/No-Intro-Collection_2016-01-03_Fixed/Nintendo%20-%20Nintendo%2064.zip/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20(USA).zip
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Super Smash Bros |
+--------------------------------------------------------------------+
+Super Smash Bros Wii U ............................................ | https://drive.google.com/drive/u/0/folders/0B-b_aHxMLFVGcEtYMkxucEMwQkE
+| Password = vnsharing
+Super Smash Bros Brawl ISO (Wii) .................................. | https://archive.org/download/RedumpNintendoWiiAmericaPart5/SuperSmashBros.Brawlusav1.02.7z
+Super Smash Bros Melee v1.02 ISO (GC) ........................ https://archive.org/download/RedumpNintendoGameCubeAmericaPart3/Super%20Smash%20Bros.%20Melee%20(USA)%20(En%2CJa)%20(v1.02).zip
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Xenoblade |
+--------------------------------------------------------------------+
+Xenoblade Chronicles ISO (Wii) ............................... https://archive.org/download/Httpsarchive.orgdetailsRedumpNintendoWiiAmericaPart6/Xenoblade%20Chronicles%20(USA)%20(En%2CFr%2CEs).7z
+Xenoblade Chronicles X Wii U ...................................... | https://drive.google.com/uc?id=0B0EJ-FQrrFZDN0x6M1UyQVVkNXc&export=download
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+=====================================================================================================================================================
+
+Nintendo Tab
+
+=====================================================================================================================================================
+
+DS |
+--------------------------------------------------------------------+
+Internet Archive | All | https://archive.org/download/nintendoDS_20201007_122606
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+DS Download Play |
+--------------------------------------------------------------------+
+Internet Archive | All | https://archive.org/download/nintendodsdownloadplay
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+DSi |
+--------------------------------------------------------------------+
+Internet Archive | All | https://archive.org/download/nintendodsidecrypted
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+DSiWare |
+--------------------------------------------------------------------+
+Internet Archive | All | https://archive.org/download/nintendodsiware
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+3DS |
+--------------------------------------------------------------------+
+Google Drive | All | https://drive.google.com/drive/folders/1R5c6-nY5mMns8G1u2tcbYumfTCGXDQ5w
+| |
+| | If the roms are encrypted, use https://gbatemp.net/download/batch-cia-3ds-decryptor.35098/ to decrypt.
++---------------------------------------+
+Mega | All | https://drive.google.com/file/d/1r1CS6UVPLafPbCFM7sjF1baupsEr5APH/view This contains megalinks, read the top of the document for
+instructions
+| |
+| | If the roms are encrypted, use https://gbatemp.net/download/batch-cia-3ds-decryptor.35098/ to decrypt.
++---------------------------------------+
+1fichier | All |
+| |
+| 3DS ROMs | https://1fichier.com/dir/KMeGpDP0
+| 3DS eShop | https://1fichier.com/dir/nESi1EKS
+| 3DS x-files | https://1fichier.com/dir/2Nxn17kf
+| 3DS CIA | https://1fichier.com/dir/xc31u89B
+| 3DS CIA eShop | https://1fichier.com/dir/5T5Hyirz
+| |
+| 3DS Legit CIA USA | https://1fichier.com/dir/umeaMFlu
+| 3DS Legit CIA EUR | https://1fichier.com/dir/0eVpBvpk
+| 3DS Legit CIA JAP | https://1fichier.com/dir/ht5QBrAP
+| 3DS Legit CIA World | https://1fichier.com/dir/w0BJ4s1m
+| |
+| 3DS Decrypted Citra | https://1fichier.com/dir/CoEt1W5k
+| 3DS Decrypted Citra eShop | https://1fichier.com/dir/6UeIpWHB
+| |
+| 3DS ROMs Pack | https://1fichier.com/dir/6imdGY4v
+| 3DS eShop Pack 001-584 | https://1fichier.com/dir/YI6Ie0ey
+| 3DS eShop Pack z001-z343 | https://1fichier.com/dir/5VoRXLfa
+| 3DS CIA Pack | https://1fichier.com/dir/uDYdX1sS
+| 3DS CIA eShop Pack | https://1fichier.com/dir/0mXbgfhE
+| |
+| | u/lossyless's mirror of AlvRo's collection
+| | Password for packs is AlvRo
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+GameCube |
+--------------------------------------------------------------------+
+Internet Archive (NKit) | All | 
+| |https://archive.org/download/GCRedumpNKitPart1
+| | https://archive.org/download/GCRedumpNKitPart2
+| |
+| | Works on Dolphin emulator but not on real hardware.
+| | If using real hardware, use https://vimm.net/vault/?p=nkit to convert to ISO.
++---------------------------------------+
+Internet Archive (ISO) | All | 
+| |https://archive.org/download/RedumpNintendoGameCubeAmerica
+| | https://archive.org/download/RedumpNintendoGameCubeAmericaPart2
+| | https://archive.org/download/RedumpNintendoGameCubeAmericaPart3
+| |
+| | https://archive.org/download/NCubeJ
+| |
+| | https://archive.org/download/GamecubeCollectionByGhostware
+| | https://archive.org/download/EuropeanGamecubeCollectionByGhostware
+| | https://archive.org/download/AustraliaGamecubeCollectionByGhostware
+| | https://archive.org/download/AsiaGamecubeCollectionByGhostware
++-----------------------------------------+
+Google Drive | USA | https://drive.google.com/drive/folders/1SufgE7p7_c_hVghyeD0M9Iu5UQluMIjN
++-----------------------------------------+
+RapidGator All regions, Alvro Collection
++-----------------------------------------+
+https://rapidgator.net/folder/5842373/Gamecube.html 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Wii |
+--------------------------------------------------------------------+
+Internet Archive (NKit) | All | https://archive.org/download/WiiRedumpNKitPart1
+| | https://archive.org/download/WiiRedumpNKitPart2
+| | https://archive.org/download/WiiRedumpNKitPart3
+| | https://archive.org/download/WiiRedumpNKitPart4
+| | https://archive.org/download/WiiRedumpNKitPart5
+| | https://archive.org/download/WiiRedumpNKitPart6
+| | https://archive.org/download/WiiRedumpNKitPart7
+| | https://archive.org/download/WiiRedumpNKitPart8
+| |
+| | Works on Dolphin emulator but not on real hardware.
+| | If using real hardware, use https://vimm.net/vault/?p=nkit to convert to ISO.
++---------------------------------------+
+Internet Archive (nNASOS) | USA | https://archive.org/download/RedumpNintendoWiiAmericaPart1
+| | https://archive.org/download/RedumpNintendoWiiAmericaPart2
+| | https://archive.org/download/RedumpNintendoWiiAmericaPart3
+| | https://archive.org/download/RedumpNintendoWiiAmericaPart3_201802
+| | https://archive.org/download/RedumpNintendoWiiAmericaPart5
+| | https://archive.org/download/Httpsarchive.orgdetailsRedumpNintendoWiiAmericaPart6
+| |
+| | To extract from .dec files:
+| | Download https://archive.org/download/nNASOS1.8/nNASOS1.8.zip
+| | and extract the files into a folder.
+| | To extract a rom drag the rom onto the .exe.
+| | A command prompt should popup and extract the ISO from the .dec file.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+WiiWare and VC |
+--------------------------------------------------------------------+
+Google Drive | All | https://drive.google.com/drive/folders/1ZpX5Nh4BNzWDvpXJJuqVlX2Qz7xpwpVU
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Wii U |
+--------------------------------------------------------------------+
+Tool: | All | https://www.reddit.com/r/CemuPiracy/comments/bszm0p/how_to_set_up_wii_u_usb_helper_after_its/
+Wii U USB Helper | |
+| | Check the checkbox that says "Unpack" to use the files with cemu emulator.
++---------------------------------------+
+Multiple | USA | https://pastelink.net/1u60w
+| |
+| | SuperBio's personal list
++---------------------------------------+
+1fichier | All |
+| |
+| Wii U Scene Games | https://1fichier.com/dir/m5ePCKap
+| Wii U NUS Disc | https://1fichier.com/dir/fLjikX8e
+| Wii U NUS EUR Download | https://1fichier.com/dir/FqS58mKV
+| Wii U NUS JAP Download | https://1fichier.com/dir/dC1albDM
+| Wii U NUS USA Download | https://1fichier.com/dir/KztT23Ni
+| Wii U NUS EUR Retail | https://1fichier.com/dir/opa05Fgp
+| Wii U NUS JAP Retail | https://1fichier.com/dir/hhH48jRb
+| Wii U NUS USA Retail | https://1fichier.com/dir/nhfrTx7o
+| Wii U NUS GBA VC | https://1fichier.com/dir/nua5HFpx
+| Wii U NUS MSX VC | https://1fichier.com/dir/Me5gOUI1
+| Wii U NUS NES VC | https://1fichier.com/dir/sLmldpn2
+| Wii U NUS N64 VC | https://1fichier.com/dir/2mgYcUbT
+| Wii U NUS NDS VC | https://1fichier.com/dir/FBFHWv8q
+| Wii U NUS SNES VC | https://1fichier.com/dir/6dYErydt
+| Wii U NUS T16 VC | https://1fichier.com/dir/YP6CjGET
+| Wii U NUS Wii VC | https://1fichier.com/dir/jlSNe6NY
+| Wii U Raw Disc | https://1fichier.com/dir/trzUB9hU
+| Wii U Raw EUR Download | https://1fichier.com/dir/F4yUCbWX
+| Wii U Raw JAP Download | https://1fichier.com/dir/yKmCZqPV
+| Wii U Raw USA Download | https://1fichier.com/dir/ORSSwuRk
+| Wii U Raw EUR Retail | https://1fichier.com/dir/oaxakkKQ
+| Wii U Raw JAP Retail | https://1fichier.com/dir/TnBFiAZ9
+| Wii U Raw USA Retail | https://1fichier.com/dir/jBFnuEwS
+| Wii U Raw GBA VC | https://1fichier.com/dir/jTZSLBjW
+| Wii U Raw MSX VC | https://1fichier.com/dir/7mzmelSl
+| Wii U Raw NES VC | https://1fichier.com/dir/37a543Yi
+| Wii U Raw N64 VC | https://1fichier.com/dir/53HnN3kL
+| Wii U Raw NDS VC | https://1fichier.com/dir/ekQxDwbY
+| Wii U Raw SNES VC | https://1fichier.com/dir/wbjpovz9
+| Wii U Raw T16 VC | https://1fichier.com/dir/qmPkEERJ
+| Wii U Raw Wii VC | https://1fichier.com/dir/3flnLad6
+| |
+| | u/lossyless's mirror of AlvRo's collection
++---------------------------------------+
+
+=====================================================================================================================================================
+
+Sony Tab
+
+=====================================================================================================================================================
+
+PS1 |
+--------------------------------------------------------------------+
+Internet Archive | All | https://archive.org/download/Sony-Playstation-USA-Redump.org-2019-05-27
+| | https://archive.org/download/Sony-Playstation-EUR-Redump.org
+| | https://archive.org/download/SonyPlaystation-EUR-Part2-Redump.org2019-06-05
+| | https://archive.org/download/Sony-Playstation-JP-ASIA-Part-1
+| | https://archive.org/download/Sony-Playstation-JP-ASIA-Part-2
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+PS2 |
+--------------------------------------------------------------------+
+1fichier | All |
+| |
+| # | https://1fichier.com/dir/7g2fi2iX?af=116809
+| A | https://1fichier.com/dir/3Jfuy0wG?af=116809
+| B | https://1fichier.com/dir/gNtJNfAl?af=116809
+| C | https://1fichier.com/dir/s4DElwzi?af=116809
+| D | https://1fichier.com/dir/57a6IAJ2?af=116809
+| E | https://1fichier.com/dir/Z3vPwPjw?af=116809
+| F | https://1fichier.com/dir/VlKbTp0d?af=116809
+| G | https://1fichier.com/dir/X353054M?af=116809
+| H | https://1fichier.com/dir/Q6CRwNN8?af=116809
+| I | https://1fichier.com/dir/4ErRtBOI?af=116809
+| J | https://1fichier.com/dir/bFwnBjCE?af=116809
+| K | https://1fichier.com/dir/i140zE1c?af=116809
+| L | https://1fichier.com/dir/FuMPpz1X?af=116809
+| M | https://1fichier.com/dir/9p2SdTBb?af=116809
+| N | https://1fichier.com/dir/GtLFrtCN?af=116809
+| O | https://1fichier.com/dir/P0Y6TWSW?af=116809
+| P | https://1fichier.com/dir/pP9hkx5o?af=116809
+| Q | https://1fichier.com/dir/sgn2ME4l?af=116809
+| R | https://1fichier.com/dir/IpagfiTo?af=116809
+| S | https://1fichier.com/dir/OWYrbePo?af=116809
+| T | https://1fichier.com/dir/3xneJRl2?af=116809
+| U | https://1fichier.com/dir/sc6KBZt7?af=116809
+| V | https://1fichier.com/dir/fKviBrK7?af=116809
+| W | https://1fichier.com/dir/g1DSaNPk?af=116809
+| X | https://1fichier.com/dir/bE7J1Xry?af=116809
+| Y | https://1fichier.com/dir/20rhdgNs?af=116809
+| Z | https://1fichier.com/dir/HCPQ5wkj?af=116809
++---------------------------------------+
+Internet Archive | USA | https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01
+| | https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part2
+| | https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part3
+| | https://archive.org/download/redumpSonyPlaystation2UsaGames2018Aug01Part4
+| | https://archive.org/download/redumpSonyPlaystation2UsaOther2018Aug01
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+PS3 |
+--------------------------------------------------------------------+
+1fichier | All |
+| |
+| PS3 ISO https://1fichier.com/dir/dGaJHRTE
+| PSN | https://1fichier.com/dir/GHPsH7BR
+| PSN No-Intro EUR | https://1fichier.com/dir/C4bKPEek
+| PSN No-Intro JAP | https://1fichier.com/dir/JqUY8xP9
+| PSN No-Intro USA | https://1fichier.com/dir/UInHfKBH
+| |
+| | u/lossyless's mirror of AlvRo's collection
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+PSP |
+--------------------------------------------------------------------+
+1fichier | All |
+| |
+| ISO numbered | https://1fichier.com/dir/pgQsZrcI
+| ISO unnumbered | https://1fichier.com/dir/DmxF5qaI
+| UMD Music | https://1fichier.com/dir/nhBtGJNR
+| PSX2PSP | https://1fichier.com/dir/OUiBqZiw
+| PSN | https://1fichier.com/dir/xHslM3vu
+| PSN DLC | https://1fichier.com/dir/OSXseaWa
+| |
+| | u/lossyless's mirror of AlvRo's collection
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+PS Vita |
+--------------------------------------------------------------------+
+1fichier | All |
+| |
+| VPK | https://1fichier.com/dir/801BBiju
+| Patched | https://1fichier.com/dir/NSP7NOub
+| VPK No-Intro | https://1fichier.com/dir/HQuCBwBo
+| PSN | https://1fichier.com/dir/Ao5anM3x
+| MaiDump | https://1fichier.com/dir/m9ESjgKK
+| |
+| | u/lossyless's mirror of AlvRo's collection
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+For More Games/Updates/DLCs |
+--------------------------------------------------------------------+
+NoPayStation | All | https://docs.google.com/spreadsheets/d/18HHxaQhGgqDjH2mIgC3T1OVWNRr_4HHfuLsYmiKXnfk/edit#gid=597019973
++---------------------------------------+
+
+=====================================================================================================================================================
+
+Sega Tab
+
+=====================================================================================================================================================
+
+Dreamcast |
+--------------------------------------------------------------------+
+Internet Archive | All |
+| | https://archive.org/download/RedumpSegaDreamcast20160613
+| | https://archive.org/download/DreamcastCollectionByGhostwareMulti-region
+| | https://archive.org/download/almstcmpltdrmcst
+| | https://archive.org/download/tosecdcus20190822
+| |
+| | GDIs
++---------------------------------------+
+1fichier | All | https://1fichier.com/dir/v7aTubb7?af=116809
+| |
+| | Note: The zips in the 1fichier link are in bin/cue format.
+| | To play dreamcast on emulators, please use sets with GDIs.
++---------------------------------------+
+Google Drive | All |
+| |
+| CDI Collection | https://docs.google.com/spreadsheets/d/14fCQ3NXIlW1ZC_gjIejpQVPG34fLWmSoXYgSTyxdRWM/edit#gid=0
+| TiZ Homebrew Games | https://drive.google.com/drive/folders/1qIlLS51uBLEmsguvxNTWj8Qg2BAyF1dE
+| TiZ Homebrew Apps | https://mega.nz/#F!q7oxzDga!JfJulP8EX1-poB0nkgy2ZA
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Saturn |
+--------------------------------------------------------------------+
+Sega Saturn ISO Europe - https://1fichier.com/dir/WxVupm76
+Sega Saturn ISO Japan - https://1fichier.com/dir/aE9UkONw
+Sega Saturn ISO USA - https://1fichier.com/dir/7ozQKouO
+| |
+u/lossyless's mirror of AlvRo's collection
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+CD & Mega CD |
+--------------------------------------------------------------------+
+Sega Mega CD - https://1fichier.com/dir/049PVyEz
+Sega Mega CD Redump - https://1fichier.com/dir/tErJhsKz
+u/lossyless's mirror of AlvRo's collection
++---------------------------------------+
+
+=====================================================================================================================================================
+
+Microsoft Tab
+
+=====================================================================================================================================================
+
+Xbox |
+--------------------------------------------------------------------+
+1fichier | All | https://1fichier.com/dir/rI4cQejj
+| |
+| | u/lossyless's mirror of AlvRo's collection
++---------------------------------------+
+Internet Archive | Multiple | https://archive.org/details/XBOX_HDD_READY
+| | https://archive.org/details/XBOX_HDD_READY_2
+| | https://archive.org/details/XBOX_HDD_READY_2_201710
+| | https://archive.org/details/XBOX_HDD_READY_3
+| |
+| | HDD Ready Collection (for modded Xbox)
++---------------------------------------+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Xbox 360 |
+--------------------------------------------------------------------+
+1fichier | All |
+| |
+| | https://1fichier.com/dir/kB3B4f06
+| DLC | https://1fichier.com/dir/9hN0qXU5
+| |
+| | u/lossyless's mirror of AlvRo's collection
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+XBLA |
+--------------------------------------------------------------------+
+1fichier | All | https://1fichier.com/dir/evygZtYf
+| | https://1fichier.com/dir/Amdj4xgS
+| |
+| | u/lossyless's mirror of AlvRo's collection
+--------------------------------------------------------------------------------------
+XBLIG |
+--------------------------------------------------------------------+
+1fichier | All |
+| |
+| | https://1fichier.com/dir/6I7efTuw
+| XNA Title update.rar | https://1fichier.com/?dxtg8dfosch29ymuzg7h
+| |
+| | u/lossyless's mirror of AlvRo's collection
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Xbox Classic JTAG |
+--------------------------------------------------------------------+
+1fichier | All |
+| |
+| | https://1fichier.com/dir/pMEfZIAg
+| Xbox 360 Backwards Compatibility.rar | https://1fichier.com/?ff5j8yyt6h3bf4398d1t
+| |
+| | u/lossyless's mirror of AlvRo's collection
++---------------------------------------+
+
+=====================================================================================================================================================
+
+PC Tab
+
+=====================================================================================================================================================
+
+MS-DOS |
+--------------------------------------------------------------------+
+Total DOS Collection #16 | | https://archive.org/download/Total_DOS_Collection_Release_16_March_2019
+| eXoDOS v3.11 | https://exodos.the-eye.eu/
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Windows 3.x |
+--------------------------------------------------------------------+
+Win3xO | | https://the-eye.eu/public/Games/eXo/Win3xO/
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+1990s to early 2000s |
+--------------------------------------------------------------------+
+Internet Archive | | https://archive.org/
+MyAbandonware | | https://www.myabandonware.com/
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+GoodOldDownloads |
+--------------------------------------------------------------------+
+Self-hosted
+| | https://goggamespc7v6z5e.onion.ws/
+| | https://freegogpcgames.com/
+| | http://www.ovagames.com/
+
+=====================================================================================================================================================
+
+Other Tab
+
+=====================================================================================================================================================
+
+Arcade |
+--------------------------------------------------------------------+
+MAME 0.202 ROMs | zipped | https://1fichier.com/?eoktp9g9skrzsed496zx
+MAME 0.220 ROMs | | https://archive.org/download/mame0220_rom
+MAME 0.220 ROMs | Software List | https://archive.org/download/mame_sl_0220/MAME%20SL%200.220%20(Merged)/
+MAME 0.220 CHDs | | https://archive.org/download/mame0218_chd
+MAME 0.224 ROMs | | https://archive.org/details/mame0224_rom
+MAME 0.225 ROMs | https://archive.org/download/mame225_rom
+Final Burn Neo | | https://archive.org/download/2020_01_06_fbn
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Romsets |
+--------------------------------------------------------------------+
+No-Intro 2020 | | https://archive.org/download/no-intro_romsets/no-intro%20romsets/
+GoodSets | | https://1fichier.com/dir/ugDwQd8N
+TOSEC 2018-12-27 | | https://archive.org/download/TOSEC_Main_Branch_Release_2018-12-27
+EverDrive 2018 | Torrent | https://pastebin.com/raw/ywTQeDmS
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Miscellaneous |
+--------------------------------------------------------------------+
+u/lossyless's 1fichier mirror of AlvRo's collection | https://pastebin.com/79q1mdZm
+--------------------------------------------------------------------+
+Doom WADs | https://archive.org/download/2020_03_22_DOOM/DOOM%20WADs/
+--------------------------------------------------------------------+
+
+=====================================================================================================================================================
+
+Reuptable ROM Sites
+
+=====================================================================================================================================================
+
+edge|emulation has GoodSets, and a decent amount of ROMs.
+
+Vimm's Lair Vimm is cool and Vimm's Lair is easily the oldest rom site on Earth. Good collection of ROMs
+
+=====================================================================================================================================================
+
+Bypass Tab
+
+=====================================================================================================================================================
+
+GDrive Quota Bypass Method |
+--------------------------------------------------------------------+
+
+To bypass the quota, first you need to have a gdrive, it's free with gmail.
+Go into the gdrive folder that is quota'd and find the game you are after. Right click it and select add to my drive.
+Now from here navigate to your gdrive and right click the game you just added. Select make a copy, which will appear in your gdrive.
+You can download the copy now as the quota changes when you copy it.

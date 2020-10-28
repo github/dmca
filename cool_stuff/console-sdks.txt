@@ -1,0 +1,44 @@
+Various: https://drive.google.com/drive/folders/1UAkAUBVyhZE0Kb9BVq03xsFnJXfh2oma?usp=sharing
+         https://archive.org/details/2016_SDK_Collection
+
+Nintendo: https://mega.nz/folder/ZN1Q1IDQ#Jddsemx8xTCNEEnu-H8YEg
+          https://archive.org/details/ique-trl-win32
+          https://archive.org/details/OfficialNintendoSDKs2010
+          https://archive.org/details/WiiDevelopmentPackage
+          https://archive.org/details/GCN_SDK_Documentation
+          https://archive.org/details/devrs.7z
+          https://archive.org/details/wii-sdk
+          https://archive.org/details/gbasdk
+          https://archive.org/details/NintendoDSSDK
+          https://archive.org/details/GameCubeSDK
+          https://archive.org/details/rvl_sdk
+          https://archive.org/details/armcompiler
+          https://archive.org/details/othernintendosdks
+          https://archive.org/details/Nintendo64SDK
+          https://archive.org/details/wiisdk
+          https://archive.org/details/n64sdk
+          https://archive.org/details/dsi-special-nands
+          https://archive.org/details/nitro-sdk-docs
+          https://archive.org/details/dssdktools
+          https://archive.org/details/vbsdk
+          https://archive.org/details/wiiusdk
+          https://archive.org/details/switchsdk
+          https://archive.org/details/snessdk
+          https://archive.org/details/gbcsdk
+          https://archive.org/details/amiibosdk
+          https://archive.org/details/sdk64
+          https://archive.org/details/GCSDK
+          https://archive.org/details/3ds-sdk
+oman dump (N64 verilog source): https://mega.nz/folder/ntBzkKLA#mxQ6uPkGQK4dT8VPHOXuLA
+
+PS3: https://archive.org/details/ps3-4.75-sdk
+     https://archive.org/details/ps3-sdk-4.00
+     https://archive.org/details/ps3-sdk-3.70
+     https://archive.org/details/ps3-sdk-3.40
+     https://archive.org/details/ps3-sdk-2.70
+     https://archive.org/details/ps3-sdk-1.92
+     https://archive.org/details/ps3-sdks-incomplete
+
+PS4: https://archive.org/details/PS4SDK
+
+Xbox: https://archive.org/details/xbox-sdks
