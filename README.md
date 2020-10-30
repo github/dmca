@@ -15,7 +15,7 @@ We do not accept Pull Requests in this repository.
 
 If you are looking to file or dispute a takedown notice by posting to this repository, please STOP :stop_sign: because we do not accept Pull Requests or other contributions to this repository. If you would just like to comment on a commit to discuss it, that's fine, but again please note that GitHub does not actively monitor comments or other contributions to this repository. So if you want send a comment *to GitHub* for any reason about this repository, please [contact us directly](https://support.github.com/contact).
 
-Please note that re-posting the exact same content that was the subject of a takedown notice without following the proper process ([outlined below](#responding-to-a-dmca-notice)) is a violation of GitHub’s [DMCA Policy](https://docs.github.com/en/github/site-policy/dmca-takedown-policy) and [Terms of Service](https://docs.github.com/en/github/site-policy/github-acceptable-use-policies). If you commit  or post content to this repository that violates our Terms of Service, we will delete that content and may suspend access to your account as well.
+Please note that re-posting the exact same content that was the subject of a takedown notice without following the proper process ([outlined below](#responding-to-a-dmca-notice)) is a violation of GitHub’s [DMCA Policy](https://docs.github.com/en/github/site-policy/dmca-takedown-policy) and [Terms of Service](https://docs.github.com/en/github/site-policy/github-acceptable-use-policies). If you commit or post content to this repository that violates our Terms of Service, we will delete that content and may suspend access to your account as well.
 
 Otherwise, read on to learn about the available paths forward.
 
