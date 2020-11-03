@@ -10,7 +10,7 @@ We hold copyright to all Archanics software and related products.
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
 
-The following repositories of mapping apps are clearly stolen intellectual property from Archanics , and their source code should not be shown online; we don’t consent to them being on GitHub.
+The following repositories of mapping apps are stolen intellectual property from Archanics. The source code can not be shown online; we do not consent to them on GitHub.
 
 https://github.com/thenry3/ArchanicsGPS
 
@@ -18,9 +18,7 @@ https://github.com/thenry3/ArchanicsMaps
 
 **What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.**
 
-What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.
-
-entire repro herein and all related projects should be taken down.
+The entire repo and all related projects should be taken down.
 
 https://github.com/thenry3/ArchanicsMaps
 
@@ -33,12 +31,12 @@ https://github.com/thenry3/ArchanicsGPS/branches
 
 **Is the work licensed under an open source license? If so, which open source license? Are the allegedly infringing files being used under the open source license, or are they in violation of the license?**
 
-NOT, it’s not open source
+No, it is not open source.
 
 **What would be the best solution for the alleged infringement? Are there specific changes the other person can make other than removal? Can the repository be made private?**
 
-NO, the repo cannot be made private (making a private repro won’t fix the problem)  
-The code was stolen and should not have been posted
+No, the repo cannot be made private (making a personal repro won’t fix the problem)  
+The code was stolen and should not have been posted.
 
 **Do you have the alleged infringer’s contact information? If so, please provide it.**
 
@@ -56,9 +54,9 @@ email [private]
 
 **So that we can get back to you, please provide either your telephone number or physical address.**
 
-email is best to begin  
+Please try to email me first:  
 [private]  
-if need be after emails, (please try email me first), then oK to call  
+Please try emailing me first, if I do not respond, please call at:  
 [private]
 
 **Please type your full legal name below to sign this request.**
