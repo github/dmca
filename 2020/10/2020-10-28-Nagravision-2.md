@@ -19,7 +19,7 @@ https://gist.github.com/juliohenckel/fc92185f6a90dddef4ea38b2e9792526/raw
 
 The sole purpose of these URLs is to grant unauthorized access to one or more of the Channels.
 
-We, as a result of this demand that you immediately remove, disable access, or block access to those mentioned above unauthorized and infringing URLs, and permanently cease all use of Discovery's intellectual property.
+We, as a result of this, demand that you immediately remove, disable access, or block access to those mentioned above unauthorized and infringing URLs, and permanently cease all use of Discovery's intellectual property.
 
 This letter is official notification under the principles of the Berne Convention ("BC"), Article 8 in the WIPO Copyright Treaty ("WTC"), Article 14 in The Electronic Commerce Directive ("ECD") and Section 512(c) of the Digital Millennium Copyright Act ("DMCA").
 
