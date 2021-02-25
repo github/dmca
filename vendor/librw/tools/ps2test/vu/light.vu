@@ -1,0 +1,94 @@
+; Ambient light:
+	NOP				LQ VF26, ambientLight(VI00)
+	NOP				XITOP VI01
+	NOP				IADDIU VI03, VI12, 2
+Ambloop:
+	NOP				LQ VF03, 0(VI03)	; output color
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	ITOF0 VF03, VF03		NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	ADD.xyz VF03, VF03, VF26	NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	FTOI0 VF03, VF03		NOP
+	NOP				IADDI VI01, VI01, -1
+	NOP				IADDIU VI03, VI03, numOutAttribs
+	NOP				IBNE VI01, VI00, Ambloop
+	NOP				SQ VF03, -numOutAttribs(VI03)
+; end amblight
+
+; Direct Light
+	NOP				LQ VF26, lightDir(VI00)
+	NOP				XITOP VI01
+	NOP				XTOP VI02
+	NOP				IADDIU VI03, VI12, 2
+	SUB.xyz VF26, VF00, VF26	NOP
+Dirloop:
+	NOP				LQ VF01, 3(VI02);	; normal
+	NOP				LQ VF02, 0(VI03);	; output color
+	NOP				NOP
+	NOP				NOP
+	MUL VF03, VF01, VF26		NOP
+	ITOF0 VF02, VF02		NOP
+	NOP				NOP
+	NOP				NOP
+	ADDy.x VF03, VF03, VF03y	NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	ADDz.x VF03, VF03, VF03z	NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	MAX.x VF03, VF00, VF03		NOP	; clamp to 0
+	NOP[I]				LOI 255
+	NOP				NOP
+	NOP				NOP
+	MULi.x VF03, VF03, I		NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	ADDx.xyz VF02, VF02, VF03x	NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	FTOI0 VF02, VF02		NOP
+	NOP				IADDI VI01, VI01, -1
+	NOP				IADDIU VI02, VI02, numInAttribs
+	NOP				IADDIU VI03, VI03, numOutAttribs
+	NOP				IBNE VI01, VI00, Dirloop
+	NOP				SQ VF02, -numOutAttribs(VI03)
+; end dirlight
+
+; Material color and clamp
+	NOP				LQ VF27, matColor(VI00)
+	NOP				XITOP VI01
+	NOP				IADDIU VI03, VI12, 2
+Colorloop:
+	NOP				LQ VF03, 0(VI03)
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	ITOF0 VF03, VF03		NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	MUL VF03, VF03, VF27		NOP
+	NOP[I]				LOI 255
+	NOP				NOP
+	NOP				NOP
+	MINIi VF03, VF03, I		NOP
+	NOP				NOP
+	NOP				NOP
+	NOP				NOP
+	FTOI0 VF03, VF03		NOP
+	NOP				IADDI VI01, VI01, -1
+	NOP				IADDIU VI03, VI03, numOutAttribs
+	NOP				IBNE VI01, VI00, Colorloop
+	NOP				SQ VF03, -numOutAttribs(VI03)
+; end material color

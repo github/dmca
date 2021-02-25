@@ -1,0 +1,32 @@
+image: Visual Studio 2017
+configuration: Release
+environment:
+  GLFW_BASE: glfw-3.2.1.bin.WIN64
+  GLFW_URL: https://github.com/glfw/glfw/releases/download/3.2.1/%GLFW_BASE%.zip
+  SDL2_BASE: SDL2-devel-2.0.8-VC
+  SDL2_URL: https://www.libsdl.org/release/%SDL2_BASE%.zip
+  SDL2_DIRAME: SDL2-2.0.8
+  PREMAKE5_URL: https://github.com/premake/premake-core/releases/download/v5.0.0-alpha12/premake-5.0.0-alpha12-windows.zip
+  matrix:
+  - PLATFORM: win-amd64-null
+  - PLATFORM: win-amd64-gl3
+    PREMAKE5_EXTRA_ARGS: --gfxlib=glfw
+  - PLATFORM: win-amd64-gl3
+    PREMAKE5_EXTRA_ARGS: --gfxlib=sdl2
+  - PLATFORM: win-amd64-d3d9
+
+install:
+  - appveyor DownloadFile %GLFW_URL% -FileName "%APPVEYOR_BUILD_FOLDER%/%GLFW_BASE%.zip"
+  - 7z x "%APPVEYOR_BUILD_FOLDER%/%GLFW_BASE%.zip"
+  - appveyor DownloadFile %SDL2_URL% -FileName "%APPVEYOR_BUILD_FOLDER%/%SDL2_BASE%.zip"
+  - 7z x "%APPVEYOR_BUILD_FOLDER%/%SDL2_BASE%.zip"
+  - appveyor DownloadFile %PREMAKE5_URL% -FileName "%APPVEYOR_BUILD_FOLDER%/premake5.zip"
+  - mkdir "%APPVEYOR_BUILD_FOLDER%/bin" && cd "%APPVEYOR_BUILD_FOLDER%/bin" && 7z x "%APPVEYOR_BUILD_FOLDER%/premake5.zip"
+  - set PATH=%APPVEYOR_BUILD_FOLDER%/bin;%PATH%
+before_build:
+  - mkdir "%APPVEYOR_BUILD_FOLDER%/build"
+  - cd "%APPVEYOR_BUILD_FOLDER%"
+  - premake5 vs2017 --glfwdir64=%APPVEYOR_BUILD_FOLDER%/%GLFW_BASE% --sdl2dir=%APPVEYOR_BUILD_FOLDER%/%SDL2_DIRAME% %PREMAKE5_EXTRA_ARGS%
+build:
+  project: c:\projects\librw\build\librw.sln
+  verbosity: minimal

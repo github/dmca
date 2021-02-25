@@ -1,0 +1,27 @@
+language: c
+
+compiler:
+  - gcc
+  - clang
+
+os:
+  - linux
+  - osx
+
+osx_image: xcode11.3
+
+addons:
+  apt:
+    packages:
+      - libogg-dev
+      - libopus-dev
+  homebrew:
+    brewfile: true
+
+env: PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/opt/openssl/lib/pkgconfig
+
+script:
+  - ./autogen.sh
+  - ./configure
+  - make
+  - make distcheck

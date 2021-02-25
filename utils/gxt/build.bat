@@ -1,0 +1,8 @@
+gxt -g III -i "american.txt" -o "../../gamefiles/TEXT/american.gxt"
+gxt -g III -i "english.txt" -o "../../gamefiles/TEXT/english.gxt"
+gxt -g III -i "french.txt" -o "../../gamefiles/TEXT/french.gxt"
+gxt -g III -i "german.txt" -o "../../gamefiles/TEXT/german.gxt"
+gxt -g III -i "italian.txt" -o "../../gamefiles/TEXT/italian.gxt"
+gxt -g III -i "spanish.txt" -o "../../gamefiles/TEXT/spanish.gxt"
+gxt -g III -r -i "russian.txt" -o "../../gamefiles/TEXT/russian.gxt"
+gxt -g III -p -i "polish.txt" -o "../../gamefiles/TEXT/polish.gxt"

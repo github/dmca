@@ -1,0 +1,37 @@
+# Image from https://hub.docker.com/_/gcc/ based on Debian
+image: gcc:9
+
+autotools:
+  stage: build
+  before_script:
+    - apt-get update &&
+      apt-get install -y libopus-dev libogg-dev libssl-dev
+        zip
+  script:
+    - ./autogen.sh
+    - ./configure
+    - make
+    - make distcheck
+  tags:
+    - docker
+
+makefile:
+  stage: build
+  before_script:
+    - apt-get update &&
+      apt-get install -y libopus-dev libogg-dev libssl-dev
+  script:
+    - make -C unix
+    - make -C unix check
+  tags:
+    - docker
+
+doc:
+  stage: build
+  before_script:
+    - apt-get update &&
+      apt-get install -y doxygen graphviz
+  script:
+    - make -C doc
+  tags:
+    - docker

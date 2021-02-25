@@ -1,0 +1,94 @@
+.global skinPipe
+
+.equ vertexTop, 0x2d0
+.equ numInAttribs, 5
+.equ numOutAttribs, 3
+.equ numOutBuf, 2
+.equ vertCount, ((vertexTop-numOutBuf)/(numInAttribs*2+numOutAttribs*numOutBuf))
+.equ offset, (vertCount*numInAttribs)
+.equ outBuf1, (2*offset)
+.equ outSize, ((vertexTop-outBuf1-2)/2)
+.equ outBuf2, (outBuf1+outSize)
+
+.equ lightMat,		0x3d0
+.equ ambientLight, 	0x3d4
+.equ lightDir,		0x3d5
+
+.equ matrix, 		0x3f0
+.equ XYZScale, 		0x3f7
+.equ XYZOffset, 	0x3f8
+.equ gifTag, 		0x3fa
+.equ matColor, 		0x3fb
+.equ surfProps, 	0x3fc
+
+
+.balign 16,0
+skinPipe:
+DMAret *
+MPG 0, *
+.vu
+Start:
+#include "setup_persp.vu"
+Cnt:
+	NOP				XTOP VI02			; input pointer
+	NOP				LQ VF01, gifTag(VI00)
+	NOP				XITOP VI01			; vertex count
+	NOP				IADDIU VI05, VI00, 0x4000
+	NOP				IADD VI05, VI05, VI05
+	NOP				IOR VI05, VI05, VI01
+	NOP				SQ VF01, 0(VI12)
+	NOP				ISW.x VI05, 0(VI12)
+	NOP				IADDIU VI03, VI12, 1		; output pointer
+	NOP				LQ VF18, lightMat(VI00)
+	NOP				LQ VF19, lightMat+1(VI00)
+	NOP				LQ VF20, lightMat+2(VI00)
+
+Loop:
+	NOP				LQI VF01, (VI02++)		; vertex
+	NOP				LQI VF02, (VI02++)		; UV
+	NOP				LQI VF03, (VI02++)		; color
+	NOP				LQI VF04, (VI02++)		; normal
+	NOP				IADDIU VI02, VI02, 1		; skip weights
+
+	MULAw.xyzw ACC, VF31, VF00w	NOP				; transform vertex
+	MADDAx.xyw ACC, VF28, VF01x	NOP
+	MADDAy.xyw ACC, VF29, VF01y	NOP
+	MADDz.xyzw VF01, VF30, VF01z	NOP
+	ITOF0 VF03, VF03		NOP
+	ITOF0[I] VF04, VF04		LOI 0.0078125			; - normal scale
+	NOP				NOP
+	NOP				DIV Q, VF00w, VF01w
+	NOP				WAITQ
+	MULq VF01, VF01, Q		NOP				; perspective division
+	MULi VF04, VF04, I		NOP				; scale normal
+	NOP				MR32.z VF02, VF00
+	NOP				NOP
+	SUB.w VF01, VF01, VF01		NOP
+	MULAx.xyz ACC, VF18, VF04x	NOP				; transform normal
+	MADDAy.xyz ACC, VF19, VF04y	NOP
+	MADDz.xyz VF04, VF20, VF04z	NOP
+	ADD.xyz VF01, VF01, VF25	NOP
+	MULq VF02, VF02, Q		NOP
+	NOP				NOP
+	FTOI0 VF03, VF03		NOP
+	FTOI4 VF01, VF01		NOP
+	NOP				SQ VF04, -2(VI02)		; store normal
+	NOP				IADDI VI01, VI01, -1
+	NOP				SQI VF02, (VI03++)		; STQ
+	NOP				SQI VF03, (VI03++)		; color
+	NOP				SQI VF01, (VI03++)		; vertex
+	NOP				IBNE VI01, VI00, Loop
+	NOP				NOP
+
+#include "light.vu"
+
+	NOP				XGKICK VI12
+	NOP				IADD VI15,VI00,VI12
+	NOP				IADD VI12,VI00,VI13
+	NOP[E]				IADD VI13,VI00,VI15
+	NOP				NOP
+	NOP				B Cnt
+	NOP				NOP
+
+.EndMPG
+.EndDmaData

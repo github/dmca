@@ -1,0 +1,21 @@
+.align 4
+.global Vu0CollisionDmaTag
+Vu0CollisionDmaTag:
+DMAcnt *
+MPG 0, *
+.vu
+.include "vu0Collision_1.s"
+.EndMPG
+.EndDmaData
+DMAend
+
+.global Vu0Collision2DmaTag
+Vu0Collision2DmaTag:
+DMAcnt *
+MPG 0, *
+.vu
+.include "vu0Collision_2.s"
+.EndMPG
+.EndDmaData
+DMAend
+.end

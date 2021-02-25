@@ -1,0 +1,58 @@
+image: Visual Studio 2015
+configuration:
+- Debug
+- Release
+- Release-NoHTTP
+
+platform:
+- Win32
+- x64
+
+environment:
+  opus_url: https://ci.appveyor.com/api/projects/$(APPVEYOR_ACCOUNT_NAME)/opus/artifacts/opus.zip
+
+install:
+- cd %APPVEYOR_BUILD_FOLDER%\..
+- 'curl -LOG --data-urlencode "job=Configuration: %CONFIGURATION:-NoHTTP=%; Platform: %PLATFORM%" %OPUS_URL%'
+- 7z x opus.zip -oopus-artifacts
+- move /Y opus-artifacts opus
+- git clone -q https://github.com/xiph/ogg.git ogg
+- msbuild ogg\win32\VS2015\libogg.sln /p:Configuration=%CONFIGURATION:-NoHTTP=%;Platform=%PLATFORM% /m /v:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% git clone -q --branch=OpenSSL_1_0_2-stable https://github.com/openssl/openssl.git openssl
+- ps: >-
+        If ($env:Platform -Match "Win32") {
+            $env:VCVARS_PLATFORM="x86"
+            $env:OPENSSL_TARGET="VC-WIN32"
+            $env:DO="do_nasm"
+        } Else {
+            $env:VCVARS_PLATFORM="amd64"
+            $env:OPENSSL_TARGET="VC-WIN64A"
+            $env:DO="do_win64a"
+        }
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% chocolatey install -y nasm
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% set PATH=%PROGRAMFILES%\nasm;%PATH%
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% call "%VS140COMNTOOLS%\..\..\VC\vcvarsall.bat" %VCVARS_PLATFORM%
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% cd openssl
+# without prefix, libs end up in out32 for both 32 and 64-bit
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% perl Configure %OPENSSL_TARGET% --prefix=%CD%\%PLATFORM%\Release
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% call ms\%DO%
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% nmake /f ms\nt.mak
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% nmake /f ms\nt.mak install
+# prevents warning 4099 on linking
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% copy /B tmp32\lib.pdb %CD%\%PLATFORM%\Release\lib\lib.pdb
+- cd %APPVEYOR_BUILD_FOLDER%
+
+build:
+  project: win32\VS2015\opusfile.sln
+  parallel: true
+  verbosity: minimal
+
+after_build:
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% copy /B %APPVEYOR_BUILD_FOLDER%\..\openssl\%PLATFORM%\Release\lib\* win32\VS2015\%PLATFORM%\%CONFIGURATION%\
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% mkdir include\openssl
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% copy /B %APPVEYOR_BUILD_FOLDER%\..\openssl\inc32\openssl include\openssl\
+- 7z a opusfile.zip win32\VS2015\%PLATFORM%\%CONFIGURATION%\opusfile.??? include\
+- if %CONFIGURATION:-NoHTTP=%==%CONFIGURATION% 7z a opusfile.zip win32\VS2015\%PLATFORM%\%CONFIGURATION%\lib.pdb win32\VS2015\%PLATFORM%\%CONFIGURATION%\*.lib
+
+artifacts:
+- path: opusfile.zip

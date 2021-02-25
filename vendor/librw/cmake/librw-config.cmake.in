@@ -1,0 +1,18 @@
+include("${CMAKE_CURRENT_LIST_DIR}/librw-targets.cmake")
+
+set(LIBRW_PLATFORM "@LIBRW_PLATFORM@")
+set(LIBRW_PLATFORMS "@LIBRW_PLATFORMS@")
+set(LIBRW_PLATFORM_@LIBRW_PLATFORM@ ON)
+
+if(LIBRW_PLATFORM_GL3)
+    set(LIBRW_GL3_GFXLIB "@LIBRW_GL3_GFXLIB@")
+    set(LIBRW_GL3_GFXLIBS "@LIBRW_GL3_GFXLIBS@")
+
+    set(OpenGL_GL_PREFERENCE GLVND)
+    find_package(OpenGL REQUIRED)
+    if(LIBRW_GL3_GFXLIB STREQUAL "GLFW")
+        find_package(glfw3 REQUIRED)
+    elseif(LIBRW_GL3_GFXLIB STREQUAL "SDL2")
+        find_package(SDL2 REQUIRED)
+    endif()
+endif()

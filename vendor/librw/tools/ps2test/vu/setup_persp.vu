@@ -1,0 +1,39 @@
+/* This is the the projection matrix we start with:
+ * 1/2w       0    ox/2w + 1/2   -ox/2w
+ *    0   -1/2h   -oy/2h + 1/2    oy/2h
+ *    0       0              1        0
+ *    0       0              1        0
+ * To get rid of the +1/2 in the combined matrix we
+ * subtract the z-row/2 from the x- and y-rows.
+ *
+ * The z-row is then set to [0 0 0 1] such that multiplication
+ * by XYZscale gives [0 0 0 zScale]. After perspective division
+ * and addition of XYZoffset we then get zScale/w + zShift for z.
+ *
+ * XYZScale scales xy to the resolution and z by zScale.
+ * XYZOffset translates xy to the GS coordinate system (where
+ * [2048, 2048] is the center of the frame buffer) and add zShift to z.
+ */
+
+; constant:
+;	VF28-VF31	transformation matrix
+;	VF25		XYZ offset
+
+
+	SUB.z  VF28, VF28, VF28		LOI 0.5				; right.z = 0
+	SUB.z  VF29, VF29, VF29		LQ VF28, matrix(VI00)		; up.z = 0 - load matrix
+	SUB.z  VF30, VF30, VF30		LQ VF29, matrix+1(VI00)		; at.z = 0 - load matrix
+	ADDw.z VF31, VF00, VF00		LQ VF30, matrix+2(VI00)		; at.z = 1 - load matrix
+	NOP				LQ VF31, matrix+3(VI00)		;          - load matrix
+	MULi.w VF20, VF28, I		LQ.xyz VF01, XYZScale(VI00)	; fix matrix - load scale
+	MULi.w VF21, VF29, I		NOP				; fix matrix
+	MULi.w VF22, VF30, I		NOP				; fix matrix
+	MULi.w VF23, VF31, I		NOP				; fix matrix
+	SUBw.xy VF28, VF28, VF20	NOP				; fix matrix
+	SUBw.xy VF29, VF29, VF21	NOP				; fix matrix
+	SUBw.xy VF30, VF30, VF22	NOP				; fix matrix
+	SUBw.xy VF31, VF31, VF23	NOP				; fix matrix
+	MUL.xy  VF28, VF28, VF01	LQ.xyz VF25, XYZOffset(VI00)	; scale matrix
+	MUL.xy  VF29, VF29, VF01	IADDIU VI12, VI00, outBuf1	; scale matrix
+	MUL.xy  VF30, VF30, VF01	IADDIU VI13, VI00, outBuf2	; scale matrix
+	MUL.xyz VF31, VF31, VF01	NOP				; scale matrix

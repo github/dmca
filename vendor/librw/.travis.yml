@@ -1,0 +1,46 @@
+language: cpp
+
+matrix:
+  include:
+  - os: linux
+    env: TARGET=release_linux-amd64-null
+    script:
+    - mkdir -p "$TRAVIS_BUILD_DIR/build"
+    #- docker build -t librw "$TRAVIS_BUILD_DIR"
+    #- docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" --name librw_instance -d librw sleep infinity
+    - docker pull librw/librw
+    - docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" -v "$TRAVIS_BUILD_DIR/build:/build:rw,z" --name librw_instance -d librw/librw sleep infinity
+    - docker exec -u builder librw_instance /bin/bash -c "cd /librw && premake5 gmake && cd /librw/build && make config=$TARGET verbose=1"
+  - os: linux
+    env: TARGET=release_linux-amd64-gl3 GFXLIB=glfw
+    services: docker
+    script:
+    - mkdir -p "$TRAVIS_BUILD_DIR/build"
+    #- docker build -t librw "$TRAVIS_BUILD_DIR"
+    #- docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" --name librw_instance -d librw sleep infinity
+    - docker pull librw/librw
+    - docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" -v "$TRAVIS_BUILD_DIR/build:/build:rw,z" --name librw_instance -d librw/librw sleep infinity
+    - docker exec -u builder librw_instance /bin/bash -c "cd /librw && premake5 --gfxlib=$GFXLIB gmake && cd /librw/build && make config=$TARGET verbose=1"
+  - os: linux
+    env: TARGET=release_linux-amd64-gl3 GFXLIB=sdl2
+    services: docker
+    script:
+    - mkdir -p "$TRAVIS_BUILD_DIR/build"
+    #- docker build -t librw "$TRAVIS_BUILD_DIR"
+    #- docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" --name librw_instance -d librw sleep infinity
+    - docker pull librw/librw
+    - docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" -v "$TRAVIS_BUILD_DIR/build:/build:rw,z" --name librw_instance -d librw/librw sleep infinity
+    - docker exec -u builder librw_instance /bin/bash -c "cd /librw && premake5 --gfxlib=$GFXLIB gmake && cd /librw/build && make config=$TARGET verbose=1"
+  - name: "ps2"
+    os: linux
+    env: TARGET=release_ps2
+    services: docker
+    script:
+    - mkdir -p "$TRAVIS_BUILD_DIR/build"
+    #- docker build -t librw "$TRAVIS_BUILD_DIR"
+    #- docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" --name librw_instance -d librw sleep infinity
+    - docker pull librw/librw
+    - docker run -v "$TRAVIS_BUILD_DIR:/librw:rw,z" -v "$TRAVIS_BUILD_DIR/build:/build:rw,z" --name librw_instance -d librw/librw sleep infinity
+    - docker exec -u builder librw_instance /bin/bash -c "cd /librw && premake5 gmake && cd /librw/build && make config=$TARGET verbose=1"
+  allow_failures:
+  - name: "ps2"

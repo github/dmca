@@ -1,0 +1,83 @@
+name: Build using conan+cmake
+on:
+  pull_request:
+  push:
+  release:
+    types: published
+jobs:
+  build-cmake:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+        platform: ['null', 'gl3', 'd3d9', 'ps2']
+        gl3_gfxlib: ['glfw', 'sdl2']
+        exclude:
+          - os: windows-latest
+            platform: ps2
+          - os: ubuntu-latest
+            platform: d3d9
+          - os: macos-latest
+            platform: d3d9
+          - platform: 'null'
+            gl3_gfxlib: sdl2
+          - platform: d3d9
+            gl3_gfxlib: sdl2
+          - platform: ps2
+            gl3_gfxlib: sdl2
+    runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.platform == 'ps2' }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: "Setup conan"
+        run: |
+          python -m pip install conan
+          conan config init
+          conan config set log.print_run_commands=True
+          conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
+          conan remote add madebr_ps2dev https://api.bintray.com/conan/madebr/ps2dev
+      - name: "Add os=Playstation2 + gcc.version=3.2 to .conan/settings.yml"
+        if: ${{ matrix.platform == 'ps2' }}
+        shell: python
+        run: |
+          import os, yaml
+          settings_path = os.path.expanduser("~/.conan/settings.yml")
+          yml = yaml.safe_load(open(settings_path))
+          yml["os"]["Playstation2"] = None
+          yml["compiler"]["gcc"]["version"].append("3.2")
+          yml["compiler"]["gcc"]["version"].sort()
+          yaml.safe_dump(yml, open(settings_path, "w"))
+      - name: "Create host profile"
+        shell: bash
+        run: |
+          if test "${{ matrix.platform }}" = "ps2"; then
+            cp conan/playstation2 host_profile
+          else
+            cp ~/.conan/profiles/default host_profile
+          fi
+      - name: "Export Playstation 2 CMake toolchain conan recipe"
+        run: |
+          conan export cmake/ps2toolchain ps2dev-cmaketoolchain/master@
+      - name: "Download/build dependencies (conan install)"
+        run: |
+          conan install ${{ github.workspace }} librw/master@ -if build -o platform=${{ matrix.platform }} -o gl3_gfxlib=${{ matrix.gl3_gfxlib}} --build missing -pr:h ./host_profile -pr:b default
+        env:
+          CONAN_SYSREQUIRES_MODE: enabled
+      - name: "Build librw (conan build)"
+        run: |
+          conan build ${{ github.workspace }} -if build -bf build -pf package
+      - name: "Package librw (conan package)"
+        run: |
+          conan package ${{ github.workspace }} -if build -bf build -pf package
+      - name: "Create binary package (cpack)"
+        working-directory: ./build
+        run: |
+          cpack
+      - name: "Archive binary package (github artifacts)"
+        uses: actions/upload-artifact@v2
+        with:
+          name: "${{ matrix.os }}-${{ matrix.platform }}"
+          path: build/*.tar.xz
+          if-no-files-found: error

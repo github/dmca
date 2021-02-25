@@ -1,0 +1,42 @@
+default:
+  tags:
+    - docker
+  # Image from https://hub.docker.com/_/gcc/ based on Debian
+  image: gcc:9
+
+whitespace:
+  stage: test
+  only:
+    - merge_requests
+  script:
+    - git diff-tree --check origin/master HEAD
+
+autoconf:
+  stage: build
+  before_script:
+    - apt-get update &&
+      apt-get install -y zip doxygen
+  script:
+    - ./autogen.sh
+    - ./configure
+    - make
+    - make distcheck
+  cache:
+    paths:
+      - "src/*.o"
+      - "src/.libs/*.o"
+      - "silk/*.o"
+      - "silk/.libs/*.o"
+      - "celt/*.o"
+      - "celt/.libs/*.o"
+
+cmake:
+  stage: build
+  before_script:
+    - apt-get update &&
+      apt-get install -y cmake ninja-build
+  script:
+    - mkdir build
+    - cmake -S . -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Release -DOPUS_BUILD_TESTING=ON -DOPUS_BUILD_PROGRAMS=ON
+    - cmake --build build
+    - cd build && ctest --output-on-failure

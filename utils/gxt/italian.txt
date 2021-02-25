@@ -1,0 +1,8196 @@
+﻿{
+    New strings are at the bottom of file.
+    Do not change the order of strings.
+    You can fix the typos of existing translation but please refrain from
+    unnecessary edits like rephasing because you think it suits better for your taste.
+}
+
+[LETTER1]
+abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789"$,.'-?!!SDBFàèéìòùÀÈÉÌÒÙ
+
+[DEFNAM]
+Claude----------------------
+
+[IN_VEH]
+~g~Ehi! Torna nel veicolo!
+
+[IN_VEH2]
+~g~Avrai bisogno di un veicolo per questo lavoro!
+
+[IN_BOAT]
+~g~Hai bisogno di un'imbarcazione per questo lavoro!
+
+[HEY]
+~g~Non procedere da solo, stai insieme ai tuoi compagni!
+
+[HEY2]
+~g~Non dividetevi, tieni il gruppo compatto!
+
+[HEY3]
+~g~Hai abbandonato il tuo uomo! Torna indietro e recupera 8-Ball!
+
+[HEY4]
+~g~Se abbandoni Misty, Luigi ti fa a pezzi! Vai a recuperarla!
+
+[HEY5]
+~g~Manca una ragazza alla lista! Vai a recuperarla!
+
+[HEY6]
+~g~Hai perso l'onore insieme a Yakuza Kanbu. Devi proteggerlo!
+
+[HEY7]
+~g~Un'arma extra può tornare utile. Torna indietro e recupera il tuo contatto!
+
+[HEY8]
+~g~Forse non hai ben presente il concetto di protezione: non abbandonare il vecchietto orientale!
+
+[HEY9]
+~g~Vuoi sapere cosa si dice in giro? Fa'una visita al tuo contatto!
+
+[HELP2_A]
+Premi il ~h~tasto /~w~ mentre corri per effettuare uno ~h~scatto~w~.
+
+[HELP3]
+Ricorda che puoi eseguire uno scatto solo per brevi tratti.
+
+[HELP4_A]
+Premi il ~h~tasto ~k~~VEHICLE_ACCELERATE~~w~ per ~h~accelerare~w~.
+
+[HELP4_D]
+Sposta la ~h~levetta analogica destra~w~ verso l'alto per ~h~accelerare~w~.
+
+[HELP5_A]
+Premi il ~h~tasto ~k~~VEHICLE_BRAKE~~w~ per ~h~frenare~w~ o, se il veicolo è fermo, per inserire la ~h~retromarcia~w~.
+
+[HELP5_D]
+Sposta la ~h~levetta analogica destra~w~ verso il basso per ~h~frenare~w~ o, se il veicolo è fermo, per inserire la ~h~retromarcia~w~.
+
+[HELP6_A]
+Premi il ~h~tasto ~k~~VEHICLE_HANDBRAKE~~w~ per tirare il ~h~freno a mano~w~.
+
+[HELP6_C]
+Premi il ~h~tasto ~k~~VEHICLE_HANDBRAKE~~w~ per tirare il ~h~freno a mano~w~.
+
+[HELP6_D]
+Premi il ~h~tasto ~k~~VEHICLE_HANDBRAKE~~w~ per tirare il ~h~freno a mano~w~.
+
+[HELP7_A]
+Tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~ per ~h~mirare~w~ con il fucile di precisione.
+
+[HELP7_D]
+Tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~ per ~h~mirare~w~ con il fucile di precisione.
+
+[HELP8_A]
+Premi il ~h~tasto ~k~~PED_SNIPER_ZOOM_IN~~w~ per ~h~zoomare~w~ col fucile e il ~h~tasto ~k~~PED_SNIPER_ZOOM_OUT~~w~ per ~h~allargare il campo~w~.
+
+[HELP9_A]
+Premi il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per ~h~sparare~w~ con il fucile di precisione.
+
+[HELP10]
+Questo distintivo indica che hai un livello di sospetto.
+
+[HELP11]
+Più distintivi hai, maggiore è il tuo livello di sospetto.
+
+[HELP13]
+In alcuni casi potresti dover utilizzare passaggi non indicati sul radar.
+
+[TIMER]
+Questa è una missione a tempo: devi completarla prima che il contatore raggiunga lo zero.
+
+[MISTY1]
+~r~Mistry è pronta per l'obitorio!
+
+[OUT_VEH]
+~g~Esci dal veicolo!
+
+[GARAGE]
+Porta l'auto dentro il garage e poi esci a piedi all'esterno.
+
+[WANTED1]
+~g~Semina i poliziotti per perdere il tuo livello di sospetto.
+
+[NODOORS]
+~g~Non sono sardine! Trova un veicolo con sedili a sufficienza.
+
+[TRASH]
+~g~Hai ridotto proprio male il tuo veicolo! Vedi di farlo riparare!
+
+[WRECKED]
+~g~Il veicolo è a pezzi!
+
+[HORN]
+~g~Suona il clacson.
+
+[HORN4]
+Premi il ~h~tasto R3~w~ per attivare il ~h~clacson~w~.
+
+[NOMONEY]
+~g~Ti servono più soldi!
+
+[OUTTIME]
+~r~Troppo lento, troppo lento!
+
+[SPOTTED]
+~r~Ti hanno visto!
+
+[REWARD]
+RICOMPENSA ~1~$
+
+[GAMEOVR]
+GAME OVER
+
+[Z]
+Valore asse Z: ~1~
+
+[M_FAIL]
+MISSIONE FALLITA!
+
+[M_PASS]
+MISSIONE COMPIUTA! ~1~$
+
+[O_PASS]
+LAVORO OCCASIONALE ESEGUITO!
+
+[O_FAIL]
+LAVORO OCCASIONALE FALLITO!
+
+[DEAD]
+MASSACRATO!
+
+[BUSTED]
+BECCATO!
+
+[S_PROMP]
+Quando non stai eseguendo una missione, puoi ~h~salvare la partita qui~w~ in questo modo il tempo avanzerà di sei ore.
+
+[NUMBER]
+~1~
+
+[SCORE]
+~1~$
+
+[LOADCAR]
+CARICAMENTO VEICOLO... (PREMI L1 PER ANNULLARE)
+
+[CARSOFF]
+Veicoli disabilitati.
+
+[CARS_ON]
+Veicoli attivati.
+
+[TEXTXYZ]
+Scrittura delle coordinate sul file...
+
+[CHEATON]
+Modalità trucchi attivata
+
+[CHEATOF]
+Modalità trucchi disattivata
+
+[UZI_IN]
+L'Uzi adesso e' disponibile da AmmuNation!
+
+[IMPORT1]
+Esci fuori e aspetta il tuo veicolo.
+
+[PAGEB1]
+Pistola depositata nel nascondiglio
+
+[PAGEB2]
+Uzi depositato nel nascondiglio
+
+[PAGEB3]
+Armatura depositata nel nascondiglio
+
+[PAGEB4]
+Fucile a pompa depositato nel nascondiglio
+
+[PAGEB5]
+Granate depositate nel nascondiglio
+
+[PAGEB6]
+Molotov depositate nel nascondiglio
+
+[PAGEB7]
+AK47 depositato nel nascondiglio
+
+[PAGEB8]
+Fucile di precisione depositato nel nascondiglio
+
+[PAGEB9]
+M16 depositato nel nascondiglio
+
+[PAGEB10]
+Lanciamissili depositato nel nascondiglio
+
+[PAGEB11]
+Lanciafiamme depositato nel nascondiglio
+
+[WANT_A]
+Non puoi essere arrestato se il tuo ~h~livello di sospetto~w~ è nullo.
+
+[WANT_B]
+Il tuo ~h~livello di sospetto~w~ è rappresentato da una riga di stelle nell'angolo superiore destro dello schermo.
+
+[WANT_C]
+Adesso hai un ~h~livello di sospetto~w~ pari a uno...
+
+[WANT_D]
+due...
+
+[WANT_E]
+tre...
+
+[WANT_F]
+Man mano che il tuo ~h~livello di sospetto~w~ aumenta, attirerai l'attenzione di forze dell'ordine sempre più potenti.
+
+[WANT_G]
+Se vieni ~h~'beccato'~w~, verrai portato alla più vicina stazione di polizia.
+
+[WANT_H]
+I poliziotti prenderanno tutte le tue armi e parte dei tuoi risparmi come bustarella.
+
+[WANT_I]
+Qualsiasi missione stessi affrontando, sarà considerata fallita.
+
+[WANT_J]
+Scoprirai alcuni modi per ridurre il tuo livello di sospetto procedendo nel gioco.
+
+[WANT_K]
+Se sei in un veicolo, i ~h~carozzieri~w~ potranno ~h~azzerare il tuo livello di sospetto~w~.
+
+[HEAL_B]
+Quando sei ~h~'massacrato'~w~, verrai trasportato al più vicino ospedale.
+
+[HEAL_C]
+Perderai tutte le tue armi e i dottori prenderanno parte dei tuoi risparmi per rimetterti in sesto.
+
+[HEAL_E]
+Scoprirai alcuni modi per curarti o per proteggerti dagli attacchi procedendo nel gioco.
+
+[DAM]
+DANNO:
+
+[KILLS]
+UCCISIONI:
+
+[FARES]
+CLIENTI:
+
+[BULL]
+LINGOTTI:
+
+[EVID]
+PROVE:
+
+[HEALTH]
+CONDIZIONI VEICOLO:
+
+[COLLECT]
+RACCOLTO:
+
+[BOMB]
+Guida il veicolo dentro un'armeria per installare una ~h~bomba~w~. Costo - ~h~1000$~w~.
+
+[SAVE1]
+Passa attraverso la porta per ~h~salvare la partita~w~. Non puoi salvare durante una missione.
+
+[SAVE2]
+Qualsiasi veicolo parcheggiato nel garage verrà salvato insieme alla partita.
+
+[AMMU]
+Entra in AmmuNation per comprare un'arma.
+
+[BRIDGE1]
+Quando verrà riparato il ponte Callahan, potrai raggiungere Staunton Island.
+
+[TUNNEL]
+Quando il sottopassaggio Porter verrà inaugurato, potrai raggiungere Staunton Island.
+
+[LUIGI]
+MISSIONI LUIGI
+
+[TONI]
+MISSIONI TONI
+
+[JOEY]
+MISSIONI JOEY
+
+[FRANK]
+MISSIONI SALVATORE
+
+[DIABLO]
+MISSIONI DIABLO
+
+[ASUKA]
+MISSIONI ASUKA
+
+[B_SITE]
+MISSIONI SUBURBANE ASUKA
+
+[KENJI]
+MISSIONI KENJI
+
+[RAY]
+MISSIONI RAY
+
+[LOVE]
+MISSIONI LOVE
+
+[YARDIE]
+MISSIONI YARDIE
+
+[HOOD]
+MISSIONI HOOD
+
+[CITYZON]
+Città di Liberty
+
+[IND_ZON]
+Portland
+
+[PORT_W]
+Callahan Point
+
+[PORT_S]
+Molo atlantico
+
+[PORT_E]
+Porto di Portland
+
+[PORT_I]
+Trenton
+
+[S_VIEW]
+Portland View
+
+[CHINA]
+Chinatown
+
+[EASTBAY]
+Spiaggia di Portland
+
+[LITTLEI]
+Saint Mark
+
+[REDLIGH]
+Distretto a luci rosse
+
+[TOWERS]
+Hepburn Heights
+
+[HARWOOD]
+Harwood
+
+[ROADBR1]
+Ponte Callahan
+
+[ROADBR2]
+Ponte Callahan
+
+[TUNNELP]
+Sottopassaggio Porter
+
+[BOMB1]
+Garage di 8-Ball
+
+[COM_ZON]
+Staunton Island
+
+[STADIUM]
+Aspatria
+
+[HOSPI_2]
+Rockford
+
+[UNIVERS]
+Campus Liberty
+
+[CONSTRU]
+Fort Staunton
+
+[PARK]
+Parco Belleville
+
+[COM_EAS]
+Newport
+
+[SHOPING]
+Bedford Point
+
+[YAKUSA]
+Torrington
+
+[SUB_ZON]
+Shoreside Vale
+
+[AIRPORT]
+Aeroporto Francis
+
+[PROJECT]
+Giardini Wichita
+
+[SUB_IND]
+Pike Creek
+
+[SWANKS]
+Cedar Grove
+
+[BIG_DAM]
+Diga Cochrane
+
+[SUB_ZO2]
+Shoreside Vale
+
+[SUB_ZO3]
+Shoreside Vale
+
+[CAR_1]
+Ambulanza
+
+[CAR_2]
+Camion dei pompieri
+
+[CAR_3]
+Polizia
+
+[CAR_4]
+Cellulare
+
+[CAR_5]
+Caserma
+
+[CAR_6]
+Rhino
+
+[CAR_7]
+Auto dell'FBI
+
+[CAR_8]
+Securicar
+
+[CAR_9]
+Moonbeam
+
+[CAR_10]
+Coach
+
+[CAR_11]
+Flatbed
+
+[CAR_12]
+Linerunner
+
+[CAR_13]
+Trashmaster
+
+[CAR_14]
+Patriot
+
+[CAR_15]
+Mr Whoopee
+
+[CAR_16]
+Mule
+
+[CAR_17]
+Yankee
+
+[CAR_18]
+Pony
+
+[CAR_19]
+Bobcat
+
+[CAR_20]
+Rumpo
+
+[CAR_21]
+Blista
+
+[CAR_22]
+Dodo
+
+[CAR_23]
+Bus
+
+[CAR_24]
+Sentinel
+
+[CAR_25]
+Cheetah
+
+[CAR_26]
+Banshee
+
+[CAR_27]
+Stinger
+
+[CAR_28]
+Infernus
+
+[CAR_29]
+Esperanto
+
+[CAR_30]
+Kuruma
+
+[CAR_31]
+Stretch
+
+[CAR_32]
+Familiare
+
+[CAR_33]
+Landstalker
+
+[CAR_34]
+Manana
+
+[CAR_35]
+Idaho
+
+[CAR_36]
+Stallion
+
+[CAR_37]
+Taxi
+
+[CAR_38]
+Vecchio taxi
+
+[CAR_39]
+Maggiolino
+
+[LUIGIS]
+Club Luigi's
+
+[GOAWAY]
+~g~Stai già svolgendo una missione!
+
+[LUIGGO]
+~g~Luigi sta intervistando delle nuove ragazze. Torna più tari!
+
+[JOEYGO]
+~g~Joey è fuori città con Misty. Passa più tardi!
+
+[TONIGO]
+~g~Toni ha portato sua madre a teatro. Passa un'altra volta!
+
+[KEMUGO]
+~g~Maria e Kemuri sono impegnati la momento. Passa più tardi!
+
+[KENJGO]
+~g~Kenji è a una riunione della Yakuza. Passa un'altra volta!
+
+[RAYGO]
+~g~Ray è andato a un centro estetico. Passa un'altra volta!
+
+[LOVEGO]
+~g~Donald Love si sta occupando di affari urgenti. Prendi un appuntamento più tardi!
+
+[KENSGO]
+~g~Kenji e' occupato! Torna più tardi!
+
+[ASUSGO]
+~g~Asuka adesso non è disponibile!
+
+[HOODGO]
+~g~Gli Hood non sono disponibili!
+
+[WRONGT1]
+~g~Passa tra le 05:00 e le 21:00 per un lavoro
+
+[WRONGT2]
+~g~Passa tra le 06:00 e le 14:00 per un lavoro
+
+[WRONGT3]
+~g~Passa tra le 15:00 e le 00:00 per un lavoro
+
+[GUN_1A]
+Usa il ~h~tasto ~k~~PED_CYCLE_WEAPON_RIGHT~~w~ e il ~h~tasto ~k~~PED_CYCLE_WEAPON_LEFT~~w~ per passare in rassegna le armi.
+
+[GUN_2A]
+Tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~ per la ~h~mira automatica~w~ e premi il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per sparare! Allenati con i bersagli...
+
+[GUN_2C]
+Tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~ per la ~h~mira automatica~w~ e premi il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per sparare! Allenati con i bersagli...
+
+[GUN_2D]
+Tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~ per la ~h~mira automatica~w~ e premi il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per sparare! Allenati con i bersagli...
+
+[GUN_3A]
+Mentre tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~, premi il ~h~tasto ~k~~PED_CYCLE_TARGET_LEFT~~w~ o il ~h~tasto ~k~~PED_CYCLE_TARGET_RIGHT~~w~ per cambiare bersaglio.
+
+[GUN_3B]
+Mentre tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~, premi il ~h~tasto ~k~~PED_CYCLE_TARGET_LEFT~~w~ o il ~h~tasto ~k~~PED_CYCLE_TARGET_RIGHT~~w~ per cambiare bersaglio.
+
+[GUN_4A]
+Mentre tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~, puoi camminare o correre tenendo sotto mira il bersaglio.
+
+[GUN_4B]
+Mentre tieni premuto il ~h~tasto ~k~~PED_LOCK_TARGET~~w~, puoi camminare o correre tenendo sotto mira il bersaglio.
+
+[GUN_5]
+Puoi far pratica sparando a questi bersagli di carta. Quando hai finito, riprendi la missione.
+
+[TAXI1]
+~g~Trova un passeggero.
+
+[FARE1]
+~g~Destinazione: ~w~'Meeouch Sex Kitten Club' ~g~nel distretto a luci rosse.
+
+[FARE2]
+~g~Destinazione: ~w~'Supa Save' ~g~a Portland View.
+
+[FARE3]
+~g~Destinazione: ~w~'l'auditorio della scuola' ~g~a Chinatown.
+
+[FARE4]
+~g~Destinazione: ~w~'Greasy Joe's Cafe' ~g~a Callahan Point.
+
+[FARE5]
+~g~Destinazione: ~w~'AmmuNation' ~g~nel distretto a luci rosse.
+
+[FARE6]
+~g~Destinazione: ~w~'Easy Credit Autos' ~g~a Saint Mark.
+
+[FARE7]
+~g~Destinazione: ~w~'Woody's topless bar' ~g~nel distretto a luci rosse.
+
+[FARE8]
+~g~Destinazione: ~w~'Marcos Bistro' ~g~a Saint Mark.
+
+[FARE9]
+~g~Destinazione: ~w~'Garage importazioni-esportazioni' ~g~al porto di Portland.
+
+[FARE10]
+~g~Destinazione: ~w~'Punk Noodles' ~g~a Chinatown.
+
+[FARE12]
+~g~Destinazione: ~w~'lo stadio di football' ~g~in Aspatria.
+
+[FARE13]
+~g~Destinazione: ~w~'la chiesa' ~g~a Bedford Point.
+
+[FARE14]
+~g~Destinazione: ~w~'il Casinò' ~g~in Torrington.
+
+[FARE15]
+~g~Destinazione: ~w~'università di Liberty' ~g~al campus di Liberty.
+
+[FARE16]
+~g~Destinazione: ~w~'il grande magazzino' ~g~nel parco Belleville.
+
+[FARE17]
+~g~Destinazione: ~w~'il museo' ~g~a Newport.
+
+[FARE18]
+~g~Destinazione: ~w~'AmCo Building' ~g~a Torrington.
+
+[FARE19]
+~g~Destinazione: ~w~'Bolt Burgers' ~g~a Bedford Point.
+
+[FARE20]
+~g~Destinazione: ~w~'il parco' ~g~a Belleville.
+
+[FARE21]
+~g~Destinazione: ~w~'Aeroporto Francis'~g~.
+
+[FARE22]
+~g~Destinazione: ~w~'la diga di Cochrane'~g~.
+
+[FARE24]
+~g~Destinazione: ~w~'l'ospedale' ~g~a Pike Creek.
+
+[FARE25]
+~g~Destinazione: ~w~'il parco' ~g~a Shoreside Vale.
+
+[FARE26]
+~g~Destinazione: ~w~'North West Towers' ~g~ai giardini Wichita.
+
+[NEW_TAX]
+PIÙ GRANDI! PIÙ VELOCI! PIÙ ROBUSTI! I nuovi taxi Borgnine disponibili ad Harwood. Chiamate subito il numero 555-BORGNINE!
+
+[TSCORE2]
+~1~$
+
+[IN_ROW]
+Bonus ~1~ di seguito! ~1~$
+
+[TTUTOR]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Taxi.
+
+[TTUTOR2]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Taxi.
+
+[A_TIME]
++~1~ secondi
+
+[A_FULL]
+~r~Ambulanza piena!
+
+[A_RANGE]
+~g~Sei fuori dal raggio d'azione della radio. Ritorna in prossimità dell'ospedale!
+
+[FTUTOR]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Camion dei pompieri.
+
+[FTUTOR2]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Camion dei pompieri.
+
+[F_PASS1]
+Incendio spento!
+
+[F_RANGE]
+~g~Sei fuori dal raggio d'azione della radio. Ritorna in prossimità della stazione dei pompieri!
+
+[C_BREIF]
+~g~Sospetto visto in prossimità dell'area ~a~.
+
+[C_RANGE]
+~g~Sei fuori dal raggio d'azione della radio. Ritorna in prossimità della stazione di polizia!
+
+[DODO_FT]
+Hai volato per ~1~ secondi!
+
+[EBAL_A]
+Conosco un posto nei dintorni del distretto a luci rosse dove si puo'parlare,
+
+[EBAL_A1]
+ma le mie mani sono a pezzi, quindi è meglio se guidi te, fratello.
+
+[EBAL_1]
+Premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per ~h~entrare~w~ o ~h~uscire~w~ da un veicolo.
+
+[EBAL_1B]
+Premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per ~h~entrare~w~ o ~h~uscire~w~ da un veicolo.
+
+[EBAL_2]
+~g~Rientra in macchina!
+
+[EBAL_3]
+Questo è il ~h~radar~w~: usalo per orientarti nella città. Segui il ~h~puntino~w~ sul ~h~radar~w~ per trovare il nascondiglio!
+
+[EBAL_D]
+Conosco un tipo, è nel giro. Si chiama Luigi.
+
+[EBAL_D1]
+Forza, raggiungiamolo, magari riesco a procurarti qualche lavoretto.
+
+[EBAL_E]
+Forza, facciamo un salto. Te lo voglio presentare.
+
+[EBAL_I]
+Il boss sara' con voi al più presto...
+
+[EBAL_J]
+8-Ball ha alcune faccende da sbrigare al piano di sopra.
+
+[EBAL_K]
+Forse potresti farmi un favore.
+
+[EBAL_L]
+Una delle mie ragazze ha bisogno di un passaggio, prendi una macchina, recupera Misty dalla clinica e portala qua.
+
+[EBAL_N]
+E tieni le mani sul volante!
+
+[EBAL_4]
+~r~8-Ball è morto!
+
+[EBAL_5]
+~g~Trova un veicolo!
+
+[EBAL_6]
+~g~Recupera Misty!
+
+[LM1]
+'LE RAGAZZE DI LUIGI'
+
+[LM2]
+'NIENTE SPANK PER LE RAGAZZE'
+
+[LM3]
+'PORTA IN GIRO MISTY PER ME'
+
+[LM5]
+'FESTA DEGLI SBIRRI'
+
+[LM1_2]
+~g~Porta Misty al club Luigi's.
+
+[LM1_3]
+~g~Premi il clacson per far entrare la ragazza in macchina.
+
+[LM1_6]
+~g~Torna in macchina!
+
+[LM1_7]
+~g~Ferma il veicolo in prossimità di Misty per permetterle di salire.
+
+[LM1_8]
+Puoi tornare da Luigi per altri lavori o gironzolare per la città di Liberty.
+
+[LM2_A]
+C'è una nuova droga in giro per la città chiamata SPANK.
+
+[LM2_E]
+Qualche farabutto ne ha passata un po' alle mie ragazze giù al porto di Portland.
+
+[LM2_B]
+Raggiungi lo spacciatore e gioca a baseball con la sua testa!
+
+[LM2_G]
+Voglio soddisfazione per questo insulto!
+
+[LM2_1]
+~g~Prendi la sua macchina e falla riverniciare.
+
+[LM2_2A]
+Usa il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per tirare ~h~pugni~w~ e ~h~calci~w~ o per ~h~usare~w~ la mazza!
+
+[LM2_2C]
+Usa il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per tirare ~h~pugni~w~ e ~h~calci~w~ o per ~h~usare~w~ la mazza!
+
+[LM2_2D]
+Usa il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per tirare ~h~pugni~w~ e ~h~calci~w~ o per ~h~usare~w~ la mazza!
+
+[LM2_3]
+~g~Parcheggia la macchina nel rifugio di Luigi!
+
+[LM2_4]
+~g~Rivernicia la macchina!
+
+[LM3_A]
+Ehi, devo parlarti... Va bene Mick, ne discutiamo più tardi.
+
+[LM3_B]
+Come va ragazzo?
+
+[LM3_C]
+Il figlio del Don, Joey Leone, ha bisogno delle doti di Misty, la sua ragazza.
+
+[LM3_D]
+Valla a prendere a Hepburn Heights...
+
+[LM3_E]
+ma fa attenzione: è il territorio dei Diablo.
+
+[LM3_F]
+Poi portala in fretta fino al suo garage in Trenton.
+
+[LM3_H]
+Mi raccomando, tieni gli occhi sulla strada e lontano da Misty!
+
+[LM3_1D]
+Premi il ~h~tasto L3~w~ per suonare il ~h~clacson~w~ e avvertire Misty che sei arrivato.
+
+[LM3_2]
+~g~Porta Misty da Joey.
+
+[LM3_4]
+~g~Vai a prendere Misty!
+
+[LM3_5]
+Adesso lavori regolarmente per Luigi, vero? Era ora che trovasse un autista di cui ci si può fidare!
+
+[LM3_7]
+Sarò da te fra un minuto, stellina mia.
+
+[LM3_10]
+~g~Recupera un veicolo!
+
+[LM4_B]
+Occupati di ciò che ti ho chiesto.
+
+[LM4_C]
+Se ti serve un'arma, vai sul retro di AmmuNation dal lato opposto della metropolitana.
+
+[LM5_A]
+La festa degli sbirri viene tenuta in una vecchia scuola presso il ponte Callahan.
+
+[LM5_B]
+A quanto sembra vogliono un po' di azione vecchio stile...
+
+[LM5_C]
+Ora ho ragazze su tutti i marciapiedi della città.
+
+[LM5_D]
+Portale alla festa il prima possibile.
+
+[LM5_1]
+~g~Non sovraffollate il mezzo o mi sciuperai le ragazze! ~g~Scarica subito queste e poi vai a cercarne altre.
+
+[LM5_2]
+~r~Una delle ragazze di Luigi è ridotta a pezzi!
+
+[LM5_3]
+~g~Hai bisogno di un mezzo!
+
+[LM5_4]
+~g~Raccogli le ragazze che lavorano presso St. Marks.
+
+[LM5_5]
+~g~Porta le ragazze alla festa degli sbirri!
+
+[LM5_8]
+~g~Ragazze alla festa: ~1~
+
+[JM2]
+'ADDIO 'CHUNKY' LEE CHONG'
+
+[JM4]
+'L'AUTISTA DI CIPRIANI'
+
+[JM5]
+'CADAVERE NEL BAGAGLIAIO'
+
+[JM1_1]
+~g~Porta la macchina di Forelli al garage di 8-Ball a nord di qui, dietro a 'Easy Credit Autos'.
+
+[JM1_2]
+~g~Parcheggia la macchina nuovamente di fronte al Marco's Bistro.
+
+[JM1_3]
+~g~Attiva la bomba e vattene in fretta!
+
+[JM1_4]
+~g~Hai rovinato il veicolo! Fallo riparare!
+
+[JM1_5]
+~g~La bomba non è stata piazzata!
+
+[JM1_6]
+~g~Parcheggia la macchina nel posto giusto.
+
+[JM1_8A]
+~y~Ehi, amico mio!
+
+[JM1_8B]
+~y~L'armeria è automatizzata: entra dentro, ferma la macchina e il resto dell'operazione verrà eseguito automaticamente.
+
+[JM1_8C]
+~y~La prima volta è gratis, ma le altre volte dovrai pagare.
+
+[JM2_A]
+Chunky Lee Chong sta spacciando SPANK per una nuova gang dalla Colombia... o dal Colorado...o qualcosa del genere...
+
+[JM2_B]
+Non ricordo bene... ma del resto che importa?
+
+[JM2_D]
+Quel verme ha venduto la sua roba per l'ultima volta.
+
+[JM2_E]
+Voglio che tu lo elimini!
+
+[JM2_G]
+Equipaggiati con una calibro nove: sai dove trovarla, vero?
+
+[JM2_H]
+Guardati le spalle a Chinatown: è territorio della Triade.
+
+[JM3_A]
+Bene, colpiremo il furgone portavalori.
+
+[JM3_B]
+Esce da Chinatown tutti i giorni.
+
+[JM3_C]
+I proiettili non scalfiscono neanche la sua blindatura, per cui prendi una macchina e fallo uscire fuori strada.
+
+[JM3_D]
+Colpiscilo forte e le guardie dovrebbero arrendersi.
+
+[JM3_E]
+Ora portalo fino al magazzino vicino agli impianti portuali e i miei ragazzi si occuperanno del resto.
+
+[JM3_F]
+Ricorda che non starà in giro per delle ore, per cui non perdere tempo.
+
+[JM3_1]
+~g~Porta il furgone a destinazione.
+
+[JM3_2]
+~g~Sperona il furgone finché non è danneggiato oltre al 70 percento.
+
+[JM4_B]
+Oh! Ecco il tipo di cui ti stavo parlando.
+
+[JM4_C]
+Bene, ascolta: questo tipo non è italiano e non è un meccanico, ma sa come riparare le cose.
+
+[JM4_D]
+Il suo nome è Toni Cipriani.
+
+[JM4_E]
+Piacere, Toni Cipriani.
+
+[JM4_F]
+Portalo al ristorante Momma's a St Marks, OK?
+
+[JM4_G]
+Adesso ascolta, sto pianificando un lavoro che richiede un buon autista, per cui passa a trovarmi un giorno di questi, OK?
+
+[JM4_2]
+Aspetta qua! Tieni il motore acceso, potrebbero esserci grane.
+
+[JM4_3]
+È un'imboscata della Triade! Portaci via di qua, ragazzo!
+
+[JM4_4]
+La Triade pensa di potersi prendere gioco di me, la Triade... di ME!
+
+[JM4_6]
+Fai attenzione alla macchina! Ti ho detto di non fare stronzate.
+
+[JM4_7]
+~g~Accompagna Toni al ristorante Momma's.
+
+[JM4_8]
+~r~Toni è stato ucciso!
+
+[JM5_A]
+Perfetto! Semplicemente perfetto.
+
+[JM5_B]
+Sei proprio la persona di cui avevo bisogno!
+
+[JM5_D]
+Uno dei Forelli ha voluto fare il furbo e si è beccato quello che si meritava.
+
+[JM5_E]
+Porta il cadavere al rottamatore ad Hardwood, OK?
+
+[JM5_1]
+~g~Porta il cadavere al rottamatore!
+
+[JM5_2]
+~g~Sono i fratelli Forelli!
+
+[JM6_A]
+Ci si prospetta una bella corsetta, vero?
+
+[JM6_B]
+Bene, recupera un veicolo e raggiungi il rifugio a St. Marks e recupera alcuni miei amici.
+
+[JM6_C]
+Stanno per fare un colpo a una banca e hanno bisogno dell'autista.
+
+[JM6_D]
+Ho dato loro la mia parola che tu sei il migliore sul mercato.
+
+[JM6_E]
+Portali in banca prima delle cinque, non un minuto più tardi!
+
+[JM6_2]
+Tieni il motore acceso: torneremo in un attimo!
+
+[JM6_3]
+Portaci via di qua!!
+
+[JM6_4]
+Semina i poliziotti e portaci al rifugio!
+
+[JM6_6]
+~g~Prendi un veicolo meno appariscente!
+
+[JM6_7]
+~g~Hai bisogno di tutti e tre per rapinare la banca!
+
+[TM1]
+'RIPULIRE LA LAVANDERIA'
+
+[TM2]
+'LA RACCOLTA'
+
+[TM3]
+'SALVATORE RICHIEDE UN INCONTRO'
+
+[TM4]
+'TRIADE E TRIBOLAZIONE'
+
+[TM5]
+'PESCE ESPLOSIVO'
+
+[TONI_P]
+Ho un lavoro urgente per te! -Toni
+
+[TM1_A]
+~w~Prendi una sedia, ragazzo, prendi una maledetta sedia.
+
+[TM1_B]
+~w~Allora la lavanderia non intende pagare il pizzo, eh?
+
+[TM1_C]
+~w~La Triade pensa di poter mettersi contro di me?
+
+[TM1_D]
+~w~Insegniamo a questi presuntuosi cosa significa fare sul serio.
+
+[TM1_E]
+~w~Sì, insegniamo loro un po' di rispetto. Nessun mio figliolo si fa fregare dalla Triade.
+
+[TM1_F]
+Tuo padre, pace all'anima sua, non si è mai fatto fregare da quelli della Triade in Sicilia.
+
+[TM1_G]
+~w~Scusa mamma. Sì mamma.
+
+[TM1_H]
+~w~Voglio che tu distrugga i furgoni della lavanderia
+
+[TM1_I]
+~w~e faccia a pezzi qualsiasi idiota della Triade che oserà mettersi in mezzo.
+
+[TM1_J]
+~w~8-Ball ti fornirà qualsiasi cosa di cui tu possa aver bisogno.
+
+[TM2_A]
+~w~Toni vuole fare il duro,
+
+[TM2_AA]
+ma non riuscirà mai a eguagliare suo padre. Ha lasciato una nota per te sul tavolo.
+
+[TM2_B]
+~w~La lavanderia ha accettato di pagare: bel lavoro, ragazzo!
+
+[TM2_C]
+~w~Vai a recuperare i contanti e portali qua. Fai attenzione alla Triade.
+
+[TM2_D]
+~w~Potrebbero volerti ficcare qualche petardo nel sedere, ma tu non farti impressionare.
+
+[TM2_E]
+~w~Nessuno, e intendo nessuno, fa le scarpe a TONI CIPRIANI!
+
+[TM2_1]
+~g~Riporta i contanti a Toni!!!
+
+[TM2_2]
+~g~Li hai freddati tutti!
+
+[TM3_MA]
+~w~Non so dove sia!
+
+[TM3_MB]
+~w~Giuro che ogni tanto anche lui non si rende conto di cosa fa.
+
+[TM3_MC]
+~w~Suo padre invece era diverso. Sempre in prima linea, sempre in carica, coraggioso...
+
+[TM3_A]
+~w~Don Salvatore richiede un incontro.
+
+[TM3_B]
+~w~Recupera la limousine da suo garage e il suo ragazzo, Joey.
+
+[TM3_C]
+~w~Poi passa a prendere Luigi dal suo club e torna qua a prendere me.
+
+[TM3_D]
+~w~Poi andremo tutti assieme al luogo dell'incontro.
+
+[TM3_E]
+~w~Quelli della Triade non sanno quando è l'ora di fermarsi.
+
+[TM3_F]
+~w~Se vogliono la guerra, avranno la guerra!
+
+[TM3_G]
+~w~Adesso muoviamoci.
+
+[TM3_1]
+~g~Prendi la limousine da Joey.
+
+[TM3_2]
+~g~Ora vai a prendere Luigi.
+
+[TM3_3]
+~g~Ora vai a prendere Toni.
+
+[TM3_4]
+~g~Porta i tuoi passeggeri da Salvatore.
+
+[TM3_5]
+~y~Un'imboscata della Triade!!!
+
+[TM4_B]
+~w~Siamo in GUERRA! La Triade utilizza uno stabilimento per il pesce come facciata.
+
+[TM4_C]
+~w~La maggior parte del loro lavoro si svolge nel mercato del pesce di Chinatown.
+
+[TM4_D]
+~w~La lavanderia ha smesso nuovamente di pagarci il pizzo.
+
+[TM4_E]
+~w~Pensano di essere sotto la protezione della Triade, per cui si meritano una punizione esemplare.
+
+[TM4_F]
+~w~Prendi questi ragazzi e fai fuori i signori della Triade!
+
+[TM4_G]
+~w~E se ne hai il tempo, elimina anche qualcuno dei loro scagnozzi.
+
+[TM4_GAT]
+~w~Avrai bisogno di un 'furgone del pesce della Triade' per riuscire a entrare.
+
+[TM5_A]
+TESTO NON PIÙ NECESSARIO
+
+[TM5_B]
+~w~Basta, ne ho avuto abbastanza!
+
+[TM5_C]
+~w~Elimineremo una volta per tutte la Triade da Liberty!
+
+[TM5_D]
+8-Ball ha messo una bomba in un camion della nettezza urbana.
+
+[TM5_E]
+~w~La bomba è collegata a un timer, per cui se fai errori non resteranno prove. Vai a prendere il camion.
+
+[TM5_F]
+~w~Fai attenzione: 8-Ball ha detto che il sistema è molto sensibile e potrebbe esplodere se prendi un colpo.
+
+[TM5_G]
+~w~Il loro stabilimento aprirà i cancelli al camion.
+
+[TM5_H]
+~w~Parcheggia tra i due serbatoi del gas e allontanati in fretta!
+
+[TM5_I]
+~w~Voglio che piovano sgombri.
+
+[TM5_J]
+~w~Stiamo facendo le cose in grande, basta con gli scherzi.
+
+[FM2]
+'TAGLIARE L'ERBA'
+
+[FM4]
+'ULTIME RICHIESTE'
+
+[FM1_A]
+~w~Io e i ragazzi dobbiamo parlare di lavoro,
+
+[FM1_B]
+~w~per cui dovrai occuparti della mia ragazza questa sera.
+
+[FM1_C]
+~w~EHI MARIA! MUOVI IL CULO!
+
+[FM1_D]
+~w~Quella vacca fa sempre così.
+
+[FM1_E]
+~w~Ed eccola qua, la vera e unica regina di Sheba!
+
+[FM1_F]
+~w~Cosa stavi facendo di sopra?
+
+[FM1_G]
+~w~Qualsiasi cosa fosse, sono certo che mi è costato molto.
+
+[FM1_H]
+~w~Beh, credevo non mi volessi attorno quando parli di lavoro, vero?
+
+[FM1_I]
+~w~Entra in macchina e tieni chiusa la boccaccia.
+
+[FM1_J]
+~w~Prendi la limousine, ma riportala indietro come nuova, capito?
+
+[FM1_K]
+~w~E fai attenzione alla ragazza, può causarti dei problemi.
+
+[FM1_L]
+~w~Tranquillo, sono certa che il tuo nuovo cagnolino sa cosa deve fare:
+
+[FM1_M]
+~w~non è grande e grosso a sufficienza?
+
+[FM1_N]
+~w~Ehi, Fido: andiamo a far visita a Chico e prendiamo della roba per divertirci.
+
+[FM1_P]
+~g~Ecco, quello è Chico. Fermati vicino a lui.
+
+[FM1_S]
+~w~Buongiorno signora.
+
+[FM1_TT]
+~w~È UN RETATA DELLA POLIZZIA!
+
+[FM1_1]
+~g~Torna nella limousine!
+
+[FM1_2]
+~g~Rientra nella limousine!
+
+[FM1_3]
+~r~Se abbandoni Maria, Salvatore ti farà ammazzare! Torna indietro a prenderla.
+
+[FM1_4]
+~g~Hai scaricato la donna del Don. Torna al magazzino e aspetta Maria!
+
+[FM1_5]
+~g~Riporta Maria sana e salva a Salvatore!
+
+[FM1_6]
+~g~Chico non aspetterà per sempre. Porta Maria al porto.
+
+[FM1_7]
+~r~Maria è morta! Salvatore non ne sarà entusiasta...
+
+[FM1_8]
+~r~Hai fatto fuori lo spacciatore di Maria!
+
+[FM2_J]
+Lasciaci da soli per un minuto.
+
+[FM2_A]
+Il Cartello Colombiano sta producendo SPANK da qualche parte a Liberty.
+
+[FM2_K]
+Non sappiamo però dove, e loro sembrano conoscere ogni nostra mossa in anticipo.
+
+[FM2_L]
+C'è un tipo chiamato Ricciolino Bob che lavora al bar di Luigi.
+
+[FM2_M]
+Sta spendendo molti più soldi di quanti ne guadagna.
+
+[FM2_N]
+Normalmente prende un taxi per tornare a casa. Voglio che tu lo segua.
+
+[FM2_O]
+E se ci sta vendendo... fallo fuori!
+
+[FM2_F]
+Ecco il nostro caro amico: mister bocca larga.
+
+[FM2_G]
+Sei stato seguito? Lo sai che questo deve restare un nostro segreto.
+
+[FM2_H]
+No, no... nessuno mi ha seguito. Hai la mia roba?
+
+[FM2_I]
+Ecco il tuo SPANK, e adesso parla!
+
+[FM2_P]
+OK, i Leone stanno combattendo su due fronti.
+
+[FM2_Q]
+Sono ai ferri corti con la Triade e sembra che nessuno dei due sia intenzionato a cedere.
+
+[FM2_R]
+Contemporaneamente, Joey Leone si è fatto dei nemici tra i Forelli.
+
+[FM2_S]
+Ogni giorno perdono uomini e influenza sulla città.
+
+[FM2_T]
+Salvatore sta diventando pericoloso e paranoico. Sospetta di tutto e di tutti.
+
+[FM2_U]
+Con persone fedeli come te, non capisco di cosa si preoccupi.
+
+[FM2_1]
+~g~Ecco Ricciolino Bob!
+
+[FM2_2]
+~g~Ricciolino ha lasciato il club: seguilo!
+
+[FM2_5]
+~g~Andiamo al porto di Portland.
+
+[FM2_6]
+~r~Ricciolino non salirà su un taxi distrutto!
+
+[FM2_7]
+~r~Ricciolino è spaventato! L'appuntamento è saltato!
+
+[FM2_8]
+~g~Elimina Ricciolino Bob!
+
+[FM2_9]
+~r~Ricciolino Bob è morto!
+
+[FM2_10]
+~r~Ricciolino è scappato!
+
+[FM2_11]
+~g~Parcheggia di fronte al club Luigi's: Ricciolino Bob uscirà fra poco.
+
+[FM2_12]
+~r~Ti ha seminato!
+
+[FM3_A]
+~w~Dovremmo eliminare i fottuti Colombiani,
+
+[FM3_B]
+~w~ma siamo già in guerra con la Triade e non siamo abbastanza forti.
+
+[FM3_C]
+~w~Il Cartello ha fondi infiniti grazie allo smercio dello SPANK.
+
+[FM3_D]
+~w~Se li attacchiamo apertamente, ci spazzeranno via come foglie secche.
+
+[FM3_E]
+~w~Probalbimente producono lo SPANK sull'imbarcazione dove si è diretto Ricciolino.
+
+[FM3_F]
+~w~Per cui dovremo usare la testa... meglio ancora la tua testa.
+
+[FM3_G]
+~w~Ti chiedo di distruggere la fabbrica di SPANK come favore personale a me, Salvatore Leone.
+
+[FM3_H]
+~w~Se ci riuscirai, sarai una persona felice: potrai avere tutto ciò che vuoi.
+
+[FM3_I]
+~w~Vai a trovare 8-Ball: avrai bisogno della sua esperienza per far saltare l'imbarcazione.
+
+[FM3_8A]
+~w~Ehi amico, Salvatore ha appena chiamato:
+
+[FM3_8B]
+~w~per un lavoro come questo avrai bisogno di una bella potenza di fuoco.
+
+[FM3_8D]
+~w~ma tu sai che sono soldi spesi bene.
+
+[FM3_8E]
+~w~OK, procediamo allora!
+
+[FM3_8F]
+~w~Posso impostare questo bambino e farlo esplodere, ma non posso sparare con queste mani.
+
+[FM3_8G]
+~w~Prendi questo fucile e fai saltare un po' di teste!
+
+[FM3_4]
+~g~Ferma il veicolo e fai scendere 8-Ball!
+
+[FM3_7]
+~r~8-Ball è stato freddato!
+
+[FM3_8]
+~r~Le guardie sono state messe in guardia!
+
+[FM4_A]
+~w~Sei l'uomo delle pulizie che preferisco.
+
+[FM4_B]
+~w~Sono fiero di te, hai saputo prendere a calci quei maledetti!
+
+[FM4_C]
+~w~Ho un ultimo lavoro per te prima di celebrare.
+
+[FM4_D]
+~w~C'è una macchina vicino al club Luigi's.
+
+[FM4_E]
+~w~All'interno è schizzato cervello dappertutto.
+
+[FM4_F]
+~w~Abbiamo dovuto far ragionare un tipo e la cosa si è rilevata un po', ehm, sporca.
+
+[FM4_H]
+~w~Portala al rottamatore prima che la trovino i poliziotti.
+
+[AM3]
+'STRONCA I PAPARAZZI'
+
+[AM4]
+'GIORNO DI PAGA PER RAY'
+
+[AM5]
+'DOPPIA FACCIA'
+
+[AM1_A]
+Ci sono alcuni punti da chiarire prima di procedere con la nostra relazione di lavoro.
+
+[AM1_B]
+Direi che è il caso di mostrare le carte.
+
+[AM1_C]
+Io sono della Yakuza e so che hai lavorato per la famiglia di Salvatore Leone.
+
+[AM1_D]
+La mia organizzazione può darti lavoro,
+
+[AM1_E]
+ma prima devi dimostrare che i tuoi legami con la Mafia sono definitivamente chiusi.
+
+[AM1_G]
+Assicurati che non raggiunga vivo il suo club.
+
+[AM1_H]
+Nel frattempo io e Maria discuteremo dei tempi passati.
+
+[AM1_I]
+Oh... Asuka, hai un massaggiatore.
+
+[AM1_J]
+Non è un massaggiatore.
+
+[AM1_1]
+~g~Salvatore sta lasciando adesso il club Luigi's!
+
+[AM1_2]
+~r~Sei stato avvistato!
+
+[AM1_3]
+~r~Hai mancato Salvatore!
+
+[AM1_4]
+~r~Ma bravo, hai spaventato il bersaglio! E tu dovresti essere un professionista?
+
+[AM1_5]
+~g~Raggiungi il distretto a luci rosse e aspetta che Salvatore esca dal club.
+
+[AM1_7]
+~r~Salvatore è arrivato a casa e si sta bevendo un cocktail. Ma non ti chiamavano lo sciacallo?
+
+[AM1_8]
+~g~Salvatore uscirà dal club Luigi's attorno alle ~1~:~1~
+
+[AM2_4]
+~g~Sei più appariscente di un elefante fluorescente!
+
+[AM3_A]
+Un reporter ci è ronzato troppo attorno.
+
+[AM3_B]
+Io e Maria ci prenderemo un po' di vacanza fino a quando non ti sarai liberato di questo guardone.
+
+[AM4_A]
+Il mio truffatore preferito!
+
+[AM4_B]
+Maria è molto presa al momento: le dirò che sei passato.
+
+[AM4_C]
+Chi è? Asuka? Lo so, sono stata una bambina cattiva, ma devo andare in bagno! OK?
+
+[AM4_D]
+È giunta l'ora che incontri il nostro uomo nella polizia.
+
+[AM4_E]
+Ecco la ricompensa per l'ultimo lavoro che ha svolto per noi.
+
+[AM4_F]
+È un tipo molto cauto.
+
+[AM4_G]
+Raggiungi in fretta il telefono pubblico a Torrington e aspetta le istruzioni.
+
+[AM5_A]
+Maria e io siamo andati a fare spese.
+
+[AM5_B]
+La nostra fonte alla polizia ci ha informato che uno dei nostri autisti è un maledetto infiltrato!
+
+[AM5_C]
+Fuori dalla sua macchina è particolarmente vulnerabile: gli abbiamo posizionato addosso un tracciante.
+
+[AM5_D]
+Fallo sanguinare!
+
+[AM5_1]
+Ben fatto!
+
+[AS1]
+'ESCA'
+
+[AS2]
+'ESPRESSO E VIA!'
+
+[AS4]
+'RISCATTO'
+
+[AS1_A]
+~w~Miguel pensa non lo stia trattando correttamente.
+
+[AS1_B]
+~w~Ciò nonostante, mi ha rilevato quanta paura ha Catalina di una tua possibile vendetta.
+
+[AS2_A]
+~w~Abbiamo sottovalutato i piani di Catalina per lo SPANK.
+
+[AS2_B]
+~w~È ben più avanti dei Yardie nelle vendite per strada.
+
+[AS2_D]
+~w~Sembra spaccino lo SPANK attraverso i chioschi per strada.
+
+[AS2_1]
+~g~Distrutti tutti i chioschi a Portland!!!
+
+[AS2_2]
+~g~Distrutti tutti i chioschi a Staunton Island!!!
+
+[AS2_3]
+~g~Distrutti tutti i chioschi a Shoreside Vale!!!
+
+[AS2_4]
+~r~Il Cartello ha avvertito i loro spacciatori!
+
+[AS2_5]
+~g~Ci sono ancora dei chioschi a Shoreside Vale e a Staunton Island!
+
+[AS2_6]
+~g~Ci sono ancora dei chioschi a Shoreside Vale!
+
+[AS2_7]
+~g~Ci sono ancora dei chioschi a Staunton Island!
+
+[AS2_8]
+~g~Ci sono ancora dei chioschi a Portland!
+
+[AS2_9]
+~g~Ci sono ancora dei chioschi a Portland e a Shoreside Vale!
+
+[AS2_10]
+~g~Ci sono ancora dei chioschi a Portland e a Staunton Island!
+
+[AS2_12]
+~g~Gira per Liberty alla ricerca dei ~b~chioschi~g~!
+
+[AS3_A]
+~w~Dovremmo stringerlo ancora un po' o aspettare che diventi nero e cada?
+
+[AS3_B]
+~w~Diamogli uno sprone...
+
+[AS3_D]
+~w~Caro il mio truffatore!
+
+[AS3_E]
+~w~Mi stavo annoiando, così sono venuto a fare compagnia a Asuka.
+
+[AS3_1]
+~g~Trova una ~r~barca~g~ e raggiungi la ~b~boa segnalatrice~g~!
+
+[AS3_3]
+~g~Attendi fino a quando l'~y~aeroplano~g~ non inizia l'atterraggio!
+
+[AS3_5]
+~g~Raccogli il carico!
+
+[AS3_4]
+~g~Usa un lanciamissili per abbattere l'~g~aeroplano~g~!!!
+
+[AS3_2]
+~b~Raggiungi la boa di segnalazione della pista! ~y~L'aereo sta per atterrare!
+
+[AS3_6]
+~g~~1~ SU 8
+
+[KM1]
+'LA FUGA DI KANBU'
+
+[KM3]
+'STRONCA IL PATTO'
+
+[KM4]
+'SHIMA'
+
+[KM5]
+'VENDETTA'
+
+[KM1_A]
+Mia sorella mi ha parlato bene di te,
+
+[KM1_E]
+anche se credo ancora che voi gaijin siete tutti quanti deludenti.
+
+[KM1_B]
+Forse mi potresti aiutare a risolvere una situazione che si sta rilevando svantaggiosa.
+
+[KM1_F]
+Chiaramente il fallimento ha le sue conseguenze.
+
+[KM1_C]
+Un Kambu della Yakuza è tenuto in custodia per essere processato.
+
+[KM1_G]
+È un elemento importante della famiglia.
+
+[KM1_H]
+Liberalo e portalo al dojo a Bedford Point.
+
+[KM1_D]
+Grazie per la tua azione altruista. Se avrai mai bisogno di aiuto, il dojo sarà onorato di fornirti due uomini pronti ad affiancarti.
+
+[KM1_1]
+~g~Ruba una macchina della polizia!
+
+[KM1_2]
+Installa una bomba sulla macchina!
+
+[KM1_3]
+~g~Raggiungi il dojo della Yakuza.
+
+[KM1_5]
+~g~Adesso raggiungi la stazione di polizia.
+
+[KM1_6]
+Installa una bomba sulla macchina!
+
+[KM1_7]
+~g~Solo mezzi della polizia autorizzati!
+
+[KM1_9]
+~r~Non hai utilizzato un'auto esplosiva per distruggere il muro!
+
+[KM1_10]
+~r~Il Kandu della Yakuza è morto - insieme al tuo onore!
+
+[KM1_11]
+~r~Hai attirato la sventura su di te!
+
+[KM2_A]
+Non è consigliabile sottovalutare l'importanza dell'etichetta in questo ambiente.
+
+[KM2_B]
+Un uomo mi ha fatto una volta un favore e io non ho avuto l'opportunità di ricambiare la sua gentilezza.
+
+[KM2_C]
+La persona in questione ha la passione delle automobili e mi ha richiesto alcuni modelli per la sua collezione.
+
+[KM2_F]
+Il mio onore lo richiede.
+
+[KM2_2]
+~g~Macchine consegnate.
+
+[KM3_A]
+Quando i problemi insorgono, lo stolto mostra la schiena mentre il saggio si prepara ad affrontarli.
+
+[KM3_B]
+Il Cartello Colombiano ha ignorato ripetutamente le nostre richieste di non interferire con i nostri interessi a Liberty.
+
+[KM3_C]
+Adesso stanno negoziando con i Giamaicani per nel tentativo di umiliarci ulteriormente.
+
+[KM3_D]
+Stanno completando un accordo in città.
+
+[KM3_F]
+Prendi uno dei miei uomini, ruba una macchina degli Yardie e vai a porgere i miei saluti ai Colombiani.
+
+[KM3_E]
+Il nostro onore richiede che nessuno di loro sopravviva.
+
+[KM3_2]
+~g~Vai a prendere il tuo contatto.
+
+[KM3_3]
+~g~L'incontro si svolge nel parcheggio dell'ospedale a Rockford!
+
+[KM3_4]
+~r~Sono fuggiti!
+
+[KM3_6]
+~g~Uccidili, uccidili tutti quanti!
+
+[KM3_8]
+~g~Hai bisogno di una macchia degli Yardie per completare questa missione!
+
+[KM3_9]
+~r~Uno dei Colombiani è morto: l'accordo è saltato.
+
+[KM3_10]
+~r~Il contatto è morto!
+
+[KM4_A]
+Per essere veramente forte, non devi mai mostrare debolezze.
+
+[KM4_C]
+Vai e raccogli immediatamente i soldi per farli riciclare dal Casinò.
+
+[KM4_1]
+Non ti posso pagare e non lo fare neanche se potessi!
+
+[KM4_9]
+Alcuni delinquenti da strapazzo mi hanno appena rapinato! Hanno preso tutto quanto!
+
+[KM4_2]
+La vostra protezione è nulla.
+
+[KM4_10]
+E tu saresti della Yakuza? Con quella faccia?
+
+[KM4_3]
+Non è per questo che vi pago; se volevo essere protetto così bene mi affidavo alla polizia.
+
+[KM4_4]
+~g~Punisci la gang responsabile del furto dei ~b~soldi~g~!
+
+[KM4_7]
+~r~Il negoziante ha respirato per l'ultima volta!
+
+[KM4_5]
+Donald Love vorrebbe che tu passassi a trovarlo nel suo giardino.
+
+[KM4_6]
+Ci sono soldi dappertutto!
+
+[KM4_8]
+~g~Valigetta raccolta!
+
+[KM5_A]
+TU! Che piacevole coincidenza vedere il tuo sporco muso proprio adesso!
+
+[KM5_B]
+Sembrerebbe che i tuoi vani tentativi di dissuadere i Giamaicani
+
+[KM5_B1]
+a collaborare con il Cartello siano miseramente falliti!
+
+[KM5_C]
+Gli spacciatori Yardie stanno vendendo lo SPANK per ogni strada come se si trattasse di hotdog!
+
+[KM5_D]
+I maiali del Cartello stanno ridendoci dietro!
+
+[KM5_E]
+Ti darò un'ultima possibilità per provarmi che la fiducia a te data da mia sorella non era del tutto infondata.
+
+[KM5_F]
+Abbatti tutti i nostri avversari e lava il tuo onore nel loro sangue!!!
+
+[KM5_3]
+~r~Hai fallito nell'eliminare almeno ~1~ Yardie.
+
+[KM5_4]
+~g~Congratulazioni, hai eliminato ~1~ Yardie.
+
+[KM5_5]
+~g~Congratulazioni, hai eliminato ~1~ Yardie. BONUS ~1~$
+
+[RM1]
+'FAI TACERE L'UCCELLINO'
+
+[RM3]
+'ELIMINA LE PROVE'
+
+[RM4]
+'FUORI A PESCARE'
+
+[RM5]
+'STRONCA L'INFILTRATO'
+
+[RM1_D]
+Si trova sotto protezione in un palazzo della sicurezza testimoni. Il suo appartamento è dietro al parcheggio.
+
+[RM1_E]
+Dai fuoco al palazzo per farlo uscire allo scoperto e fai in modo che non parli mai più.
+
+[RM1_1]
+~g~Controlla l'appartamento della sicurezza testimoni.
+
+[RM1_2]
+~g~Elimina McAffrey!
+
+[RM2_A1]
+Ehi ragazzo, da questa parte!
+
+[RM2_A]
+Un mio vecchio amico ha uno spaccio d'armi a Rockford.
+
+[RM2_D]
+Ha bisogno di una mano ed è pronto a farti uno scontro sui migliori armamenti in circolazione.
+
+[RM2_E]
+Ray ha appena chiamato... non credevo però che saresti venuto da solo.
+
+[RM2_F]
+Bene, tre pistole sono meglio di una: prendete ciò che vi serve.
+
+[RM2_G]
+~g~Vai a parlare con Phil!
+
+[RM2_H]
+~r~Phil è stato ucciso!!!
+
+[RM2_L]
+Ehi! Se avessi avuto te come compagno in Nicaragua, probabilmente avrei ancora il braccio.
+
+[RM2_N]
+Lascia qua il bottino e vattene: mi occuperò io dei poliziotti.
+
+[RM3_D]
+Le prove sono trasportate da un veicolo attraverso la città.
+
+[RM3_E]
+Dovrai speronare quella macchina e raccogliere ogni prova che lascerà cadere.
+
+[RM3_F]
+Quando le avrai raccolte tutte, lasciale in macchina e dalle fuoco.
+
+[RM3_G]
+Sono sicuro che non avrai problemi a gestire la faccenda.
+
+[RM3_1]
+~g~Lascia le prove in macchina e dalle fuoco.
+
+[RM3_4]
+~g~L'accusa ha fatto cadere delle prove!
+
+[RM3_6]
+~r~Le foro saranno sparse per tutta Liberty!
+
+[RM3_7]
+~g~Adesso dai fuco alla macchina!
+
+[RM4_A]
+Inizio a pensare che il mio socio sia una talpa.
+
+[RM4_C]
+Esce fuori a pescare sulla sua imbarcazione quasi tutte le notti vicino al faro di Portland.
+
+[RM4_D]
+Ruba una lancia della polizia e manda a fondo i suoi piani doppiogiochisti!
+
+[RM4_1]
+~g~Ruba una lancia della polizia.
+
+[RM4_2]
+~g~Raggiungi il faro e affonda il socio di Ray!
+
+[RM5_A]
+Fottuto inutile!
+
+[RM5_A1]
+Hai combinato un vero casino! Sono con il culo scoperto perché non sei neanche capace di ammazzare una mosca.
+
+[RM5_B]
+Ti ho pagato profumatamente per eliminare il testimone ed è ancora vivo!
+
+[RM5_B1]
+E oggi deve fare una deposizione ai federali!
+
+[RM5_C]
+Sta per essere trasferito dall'ospedale Carson fino a Rockford.
+
+[RM5_D]
+Se canta sono fregato...
+
+[RM5_E]
+per cui vai ed esegui il lavoro per cui sei stato pagato!
+
+[RM5_1]
+~g~Intercetta l'ambulanza.
+
+[RM5_2]
+~g~Sei stato individuato!!!
+
+[RM5_3]
+~g~Era un diversivo!
+
+[RM5_4]
+~g~I proiettili non scalfiranno la blindatura!!!
+
+[RM5_5]
+~g~La blindatura è ignifuga!!!
+
+[RM5_7]
+~r~Il testimone è arrivato a destinazione!!!
+
+[RM5_8]
+~g~Il testimone è affogato!!!
+
+[LOVE2]
+'SPAZZA VIA WAKA-GASHIRA'
+
+[LOVE3]
+'UNA GOCCIA NELL'OCEANO'
+
+[LOVE1_A]
+Prima di tutto grazie per aver risolto il problema personale...
+
+[LOVE1_F]
+La gente crede a tutto in questi giorni.
+
+[LOVE1_D]
+Stanno cercando di estorcermi altri fondi, ma a me non piace chi ritratta all'ultimo minuto.
+
+[LOVE1_E]
+Un patto è un patto, per cui non gli sgancerò neppure un altro penny.
+
+[LOVE1_G]
+Vai a salvare il mio amico: fai tutto ciò che si rivelerà necessario.
+
+[LOVE1_2]
+~g~Salva il vecchietto orientale.
+
+[LOVE1_3]
+~g~Riporta il vecchietto orientale all'edificio di Donald Love.
+
+[LOVE1_4]
+~g~Il vecchietto orientale deve trovarsi in uno dei garage...
+
+[LOVE1_6]
+~r~Le interiora del vecchietto orientale sono sparse per tutta la strada!
+
+[LOVE1_7]
+~g~Il cancello verrà aperto solo per un'auto dei Colombiani.
+
+[LOVE2_A]
+Niente abbassa i prezzi degli immobili quanto una bella guerra fra gang...
+
+[LOVE2_B]
+tranne forse un'epidemia di peste... ma potrebbe non essere la soluzione migliore in questo caso.
+
+[LOVE2_C]
+È evidente chi la Yakuza e i Colombiani non sono amici per la pelle.
+
+[LOVE2_D]
+Perché non investire in questa opportunità?
+
+[LOVE2_E]
+Voglio che tu uccida il Waka-Gashira della Yakuza, Kenji Kasen.
+
+[LOVE2_F]
+Kenji partecipa a un incontro al parcheggio all'ultimo piano di un palazzo a Newport.
+
+[LOVE2_G]
+Recupera una macchina del Cartello ed eliminalo!
+
+[LOVE2_H]
+La Yakuza deve dare la colpa al Cartello per questa dichiarazione di guerra.
+
+[LOVE2_1]
+~g~Raggiungi Fort Staunton e ruba una macchina dei Colombiani!
+
+[LOVE2_2]
+~g~Raggiungi il ~p~palazzo a Newport~g~ ed elimina Kenji!
+
+[LOVE2_3]
+~r~Se procedi con una macchina non del Cartello, verrai identificato!!!
+
+[LOVE2_4]
+~r~Gli uomini della Yakuza ti hanno identificato!!!
+
+[LOVE2_6]
+~r~Hai ucciso tutti i testimoni!!!
+
+[LOVE3_A]
+In questi giorni di ipocrisia globale, alcune piacevoli comodità potrebbero essere difficili da importare.
+
+[LOVE3_C]
+Farò depositare alcuni pacchi in mare.
+
+[LOVE3_D]
+Assicurati di raccoglierli prima che qualcun altro lo faccia.
+
+[LOVE3_1]
+~g~Recupera un'~r~imbarcazione~g~ e insegui l'~y~aeroplano~g~!
+
+[LOVE4]
+'GRAND THEFT AERO'
+
+[LOVE5]
+'SERVIZIO DI SCORTA'
+
+[LOVE4_A]
+Grazie per aver recuperato i pacchi, ma si trattava solo di un diversivo.
+
+[LOVE4_B]
+Mi dispiace, ma sono gli inconvenienti del mestiere.
+
+[LOVE4_C]
+Il mio vero obiettivo era nascosto all'interno dell'aereo.
+
+[LOVE4_F]
+Ho corrotto gli ufficiali.
+
+[LOVE4_1]
+~r~Il Cartello Colombiano è in zona!!!
+
+[LOVE4_2]
+~g~Il pacco è scomparso! Scova i Colombiani e recuperalo!
+
+[LOVE4_3]
+~g~Panlantic Construction...?
+
+[LOVE4_5]
+~g~Il pacco dovrebbe essere a bordo dell'aereo...
+
+[LOVE4_6]
+~g~Prendi l'ascensore fino alla cima della torre!
+
+[LOVE5_B]
+Il mio amico orientale ha bisogno di una scorta mentre porta la mia ultima acquisizione a far autenticare.
+
+[LOVE5_1]
+~g~Procedi!
+
+[LOVE5_2]
+~g~Avrai bisogno di una macchina!
+
+[LOVE5_3]
+~g~Vai avanti a esplorare l'uscita dal sottopassaggio!
+
+[LOVE5_4]
+~r~Proteggi il camion!
+
+[RM6]
+'RICERCATO'
+
+[RM6_A]
+Non sei stato seguito? Bene.
+
+[RM6_B]
+Adesso basta, sono nei guai fino alla gola e sto iniziando a sprofondare!
+
+[RM6_D]
+Sono ricercato, me la batto.
+
+[RM6_E]
+Portami al mio volo all'aeroporto e non te ne pentirai!
+
+[RM6_666]
+Prenditi cura della mia Patriot antiproiettile. Ci vediamo a Miami! Ray
+
+[CAT1]
+'RISCATTO'
+
+[CAT2]
+'LO SCAMBIO'
+
+[CAT1_A]
+Ho la tua cara Maria. Non credo tu voglia che la sua faccia finisca come una polpetta per cani, vero?
+
+[CAT2_F]
+Mi sono rotta un'unghia e i miei capelli sono un disastro. Ma ci puoi credere? Mi è costato 50 dollari!
+
+[CAT2_G]
+Ero così spaventata, ma mi sono detta: adesso sei una signorina.
+
+[CAT2_H]
+Oh, ci divertiremo un mondo! Mia sorella mi ha detto che verrà a stare con me insieme ai suoi due figli
+
+[CAT2_I]
+poiché suo marito continua a tradirla a ogni occasione...
+
+[CAT1_C]
+XXXX
+
+[CAT1_D]
+XXXX
+
+[CAT1_E]
+XXXX
+
+[CAT1_F]
+Raggiungi Catalina prima dello scadere del tempo!
+
+[CAT1_G]
+XXXX
+
+[CAT1_H]
+XXXX
+
+[CAT1_I]
+XXXX
+
+[CAT1_J]
+XXXX
+
+[CAT1_K]
+XXXX
+
+[CAT1_L]
+XXXX
+
+[AS4_1]
+XXXX
+
+[CAT_MON]
+~g~Non hai abbastanza soldi. Ti servono 500.000$.
+
+[BITCH_D]
+~g~Maria è morta!
+
+[WEATHER]
+TEMPO AVVERSO
+
+[WEATHE2]
+TEMPO NORMALE
+
+[8001]
+Hai fallito miseramente!!!
+
+[1000]
+SEI MORTO
+
+[1001]
+SEI MORTO
+
+[1002]
+SEI MORTO
+
+[1003]
+SEI MORTO
+
+[1004]
+SEI MORTO
+
+[1005]
+SEI STATO CATTURATO
+
+[1006]
+SEI STATO CATTURATO
+
+[1007]
+SEI STATO CATTURATO
+
+[1008]
+SEI STATO CATTURATO
+
+[1009]
+SEI STATO CATTURATO
+
+[GA_4]
+Le bombe per le macchine costano 1000$
+
+[GA_5]
+La tua macchina ha già una bomba installata.
+
+[GA_6] { re3 change }
+Parcheggiala, attivala premendo il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ e DATTELA A GAMBE!
+
+[GA_7] { re3 change }
+Arma la bomba con il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~: esploderà non appena qualcuno cercherà di avviarla.
+
+[GA_8]
+Usa il detonatore per attivare la bomba.
+
+[GA_9]
+Hai raccolto ~1~ su 10 macchine speciali
+
+[GA_10]
+Non male. Eccoti ~1~$
+
+[GA_11]
+Ne abbiamo già una. A noi non serve!
+
+[GA_12]
+Bomba innescata
+
+[GA_13]
+Un furto da manuale. Completa la lista e ci sarà un bonus per te.
+
+[GA_14]
+Hai portato tutte le macchine. BENE! Eccoti un riconoscimento...
+
+[GA_15]
+Spero che ti piaccia il nuovo colore.
+
+[GA_16]
+La riverniciatura non è necessaria.
+
+[GA_19]
+Non siamo interessati a questo modello.
+
+[GA_20]
+Di questo modello ne abbiamo in abbondanza. Mi dispiace, non siamo interessati.
+
+[CR_1]
+La gru non può alzare questo veicolo.
+
+[PU_MONY]
+Non hai abbastanza soldi.
+
+[CO_ALL]
+Li hai presi tutti. Eccoti un piccolo extra...
+
+[PAUSED]
+PAUSA
+
+[HEALTH1]
+Via di qui! Sei in perfetta forma.
+
+[HEALTH2]
+L'assistenza medica costa.
+
+[HEALTH3]
+Ti rimetterò in sesto.
+
+[HEALTH4]
+Fanno 250$.
+
+[FEB_STA]
+Statistiche
+
+[FEB_BRI]
+Briefing
+
+[FEB_CON]
+Comandi
+
+[FEB_AUD]
+Audio
+
+[FEB_DIS]
+Video
+
+[FEB_LAN]
+Lingua
+
+[FEP_STA]
+STATISTICHE
+
+[FEP_BRI]
+BRIEFING
+
+[FEP_CON]
+COMANDI
+
+[FEP_AUD]
+AUDIO
+
+[FEP_DIS]
+VIDEO
+
+[FEP_LAN]
+LINGUA
+
+[FEF_ST1]
+Chi è il vero cattivo?
+
+[FEF_ST2]
+Che casino hai scatenato?
+
+[FEF_BR1]
+Hai perso il filo?
+
+[FEF_CO1]
+Hai bisogno di altri controlli?
+
+[FEF_CO2]
+Scegli la configurazione più adatta al tuo stile di gioco
+
+[FEF_SA1]
+Pensa alla tua posizione, salvala!
+
+[FEF_SA2]
+Salva e carica le partite
+
+[FEF_AU1]
+Pompa il volume!
+
+[FEF_AU2]
+Scegli la stazione radio e gli effetti
+
+[FEF_DI1]
+Cambia il gioco!
+
+[FEF_DI2]
+Personalizza il gioco per la tua TV
+
+[FEF_LA1]
+What you talking about willis? Che cavolo stai dicendo Willis?
+
+[FEF_LA2]
+Scegli il tuo gergo preferito
+
+[FEB_PMB]
+Brifing di missione precedenti:
+
+[FEC_NA]
+NA
+
+[FEC_CWL]
+Scorri armi a sinistra
+
+[FEC_CWR]
+Scorri armi a destra
+
+[FEC_LOF]
+Guarda avanti
+
+[FEC_TAR]
+Bersaglio
+
+[FEC_MOV]
+Movimento
+
+[FEC_CAM]
+Modalità telecamera
+
+[FEC_PAU]
+Pausa
+
+[FEC_ENV]
+Sali sul veicolo
+
+[FEC_JUM]
+Salta
+
+[FEC_ATT]
+Attacca o fuoco con arma
+
+[FEC_RUN]
+Corri
+
+[FEC_FPC]
+Visuale in prima persona
+
+[FEC_LL]
+Guarda a sinistra
+
+[FEC_LB1]
+Guarda
+
+[FEC_LB2]
+indietro
+
+[FEC_LB]
+Guarda indietro
+
+[FEC_LR]
+Guarda a destra
+
+[FEC_HOR]
+Clacson
+
+[FEC_VES]
+Comandi veicolo
+
+[FEC_RSC]
+Cambia stazione radio
+
+[FEC_BRA]
+Freno o retromarcia
+
+[FEC_HAB]
+Freno a mano
+
+[FEC_CAW]
+Arma vettura
+
+[FEC_ACC]
+Accelera
+
+[FEC_SMT]
+Attivatore missione speciale
+
+[FEA_OUT]
+Uscita:
+
+[FEA_ST]
+Stereo
+
+[FEA_MNO]
+Mono
+
+[FEA_NON]
+Nessuna
+
+[FEA_FM0]
+HEAD RADIO
+
+[FEA_FM1]
+DOUBLE CLEFF FM
+
+[FEA_FM2]
+JAH RADIO
+
+[FEA_FM3]
+RISE FM
+
+[FEA_FM4]
+LIPS 106
+
+[FEA_FM5]
+GAME FM
+
+[FEA_FM6]
+MSX FM
+
+[FEA_FM7]
+FLASHBACK 95.6
+
+[FEA_FM8]
+CHATTERBOX 109
+
+[FED_DBG]
+Menu Debug
+
+[FED_RID]
+Reload IDE
+
+[FED_RIP]
+Reload IPL
+
+[FED_PAH]
+Parse Heap
+
+[FED_RCD]
+CCullZones::RecalculateCullZoneData
+
+[FED_DFL]
+CTheScripts::DbgFlag
+
+[FED_DLS]
+Big White Debug Light Switched
+
+[FED_SPR]
+Show Ped Road Groups
+
+[FED_SCR]
+Show Car Road Grups
+
+[FED_SCZ]
+Show Cull Zones
+
+[FED_DSR]
+Debug Streaming Requests
+
+[FED_SCP]
+gbShowCollisionPolys
+
+[FEM_MCM]
+Memory Card Menu
+
+[FEM_RMC]
+Registra MEMORY CARD uno
+
+[FEM_TFM]
+Test Format MemCard One
+
+[FEM_TUM]
+Test UnFormat MemCard One
+
+[FEM_CRD]
+Create Root Dir
+
+[FEM_CLI]
+Crea e carica icone
+
+[FEM_FFF]
+Riempi il primo file con fuffa
+
+[FEM_SOG]
+Salva solo la partita
+
+[FEM_CES]
+Verifica ogni salvataggio 0kB4
+
+[FEM_STG]
+Salva la partita
+
+[FEM_STS]
+Salva la partita con il nome GTA3
+
+[FEM_CPD]
+Crea una cartella mag protetta
+
+[FEM_MC2]
+Memory Card Menu 2
+
+[FEM_TS]
+Prova salvataggio:
+
+[FEM_TL]
+Prova caricamento:
+
+[FEM_TD]
+Prova eliminazione:
+
+[PL_STAT]
+Statistiche giocatore
+
+[PE_WAST]
+Persone massacrate
+
+[PE_WSOT]
+Persone massacrate da altri
+
+[CAR_EXP]
+Macchine esplose
+
+[TM_BUST]
+Tempi battuti
+
+[M_WASTE]
+Uomini civili massacrati
+
+[F_WASTE]
+Donne civili massacrate
+
+[PIG_WST]
+Poliziotti massacrati
+
+[GNG_WST]
+Membri delle gang massacrati
+
+[MED_WST]
+Medici massacrati
+
+[FIRE_WS]
+Pompieri massacrati
+
+[DED_CRI]
+Criminali massacrati
+
+[DED_DED]
+Scrocconi massacrati
+
+[DED_HOK]
+Prostitute massacrate
+
+[HEL_DST]
+Elicotteri distrutti
+
+[PER_COM]
+Percentuale completata
+
+[KGS_EXP]
+Kg di esplosivi utilizzati
+
+[ACCURA]
+Accuratezza
+
+[ELBURRO]
+Miglior tempo di corsa in sec
+
+[CAR_CRU]
+Macchine distrutte
+
+[HED_EX]
+Teste esplose
+
+[TM_DED]
+Visite in ospedale
+
+[DAYSPS]
+Giorni trascorsi nel gioco
+
+[MMRAIN]
+Pioggia caduta in mm
+
+[MXCARD]
+Distanza max salto FOLLE (ft)
+
+[MXCARJ]
+Altezza max salto FOLLE (ft)
+
+[MXCARDM]
+Distanza max salto FOLLE (m)
+
+[MXCARJM]
+Altezza max salto FOLLE (m)
+
+[MXFLIP]
+Numero max ribaltamenti FOLLI in aria
+
+[MXJUMP]
+Numero max rotazioni FOLLI in aria
+
+[BSTSTU]
+Migliore acrobazia FOLLE:
+
+[INSTUN]
+Acrobazia folle
+
+[PRINST]
+Acrobazia folle perfetta
+
+[DBINST]
+Doppia acrobazia folle
+
+[DBPINS]
+Doppia acrobazia folle perfetta
+
+[TRINST]
+Tripla acrobazia folle
+
+[PRTRST]
+Tripla acrobazia folle perfetta
+
+[QUINST]
+Quadrupla acrobazia folle
+
+[PQUINS]
+Quadrupla acrobazia folle perfetta
+
+[NOSTUC]
+Nessuna acrobazia FOLLE effettuata
+
+[NOUNIF]
+Acrobazie uniche effettuate
+
+[NOUNGM]
+Acrobazie uniche complessive
+
+[NMISON]
+Missioni provate
+
+[NMMISP]
+Missioni superate
+
+[PASDRO]
+Passeggeri scaricati
+
+[MONTAX]
+Soldi guadagnati in taxi
+
+[DAYPLC]
+Spesa giornaliera polizia
+
+[CRIMRA]
+Livello criminalità:
+
+[GMSTOR]
+Negozio dei giochi
+
+[PREBRF]
+Briefing precedenti
+
+[CNTLS]
+Comandi
+
+[MUSMEN]
+Musica-FX
+
+[GAMSET]
+Impostazioni
+
+[LANGUA]
+Lingua
+
+[DSPLAY]
+Video
+
+[DEBUGM]
+Menu di debug
+
+[QUITOP]
+Esci dalle opzioni
+
+[CONTRL]
+Configurazione comandi
+
+[SET1EN]
+Configurazione 1. Abilitata.
+
+[SET1]
+Configurazione 1
+
+[SET2EN]
+Configurazione 2. Abilitata.
+
+[SET2]
+Configurazione 2
+
+[SET3EN]
+Configurazione 3. Abilitata.
+
+[SET3]
+Configurazione 3
+
+[SET4EN]
+Configurazione 4. Abilitata.
+
+[SET4]
+Configurazione 4
+
+[GOBACK]
+Indietro
+
+[SOUND]
+SONORO
+
+[MUSVOL]
+Volume musica
+
+[SFXVOL]
+Volume FX
+
+[SCROPT]
+OPZIONI SCHERMO
+
+[CTRSCR]
+Centra schermo
+
+[SCRFOR]
+Formato schermo
+
+[GMSVLQ]
+SALVA-CARICA-ESCI
+
+[GMREST]
+Ricomincia partita
+
+[NOGMSV]
+Puoi salvare solo al tuo nascondiglio.
+
+[DLFILE]
+Elimina i file di Grand Theft Auto III
+
+[CHFILE]
+SCEGLI IL FILE DA CARICARE
+
+[CHCDLD]
+Choose Card to Load From
+
+[CDUNFR]
+Card is unformatted.
+
+[CHFIDL]
+SCEGLI IL FILE DA CANCELLARE
+
+[SVCONF]
+SALVA CONFERMA
+
+[SVFNAM]
+Il nome del tuo salvataggio è
+
+[SAVEDN]
+Errore. Salvataggio non completato.
+
+[LANGSL]
+SCELTA LINGUA
+
+[ENGLIS]
+Inglese
+
+[GERMAN]
+Tedesco
+
+[ITALIA]
+Italiano
+
+[FRENCH]
+Francese
+
+[SPAIN]
+Spagnolo
+
+[RELIDE]
+ReLoadIde
+
+[RELIPE]
+ReLoadIpl
+
+[PARSHP]
+Parse Heap
+
+[DBGFON]
+CTheScripts::DbgFlag On
+
+[DBFOFF]
+CTheScripts::DbgFlag Off
+
+[BGWHON]
+Big White Debug Light Switched On
+
+[BGWOFF]
+Big White Debug Light Switched Off
+
+[DSTRON]
+Debug Streaming Requests On
+
+[DSTROFF]
+Debug Streaming Requests Off
+
+[PDRGON]
+ShowPedRoadGroups On
+
+[PRGOFF]
+ShowPedRoadGroups Off
+
+[CRRGON]
+ShowCarRoadGroups On
+
+[CRGOFF]
+ShowCarRoadGroups Off
+
+[CLZOON]
+Show Cull Zones On
+
+[CLZOOF]
+Show Cull Zones Off
+
+[SHPLON]
+gbShowCollisionPolys On
+
+[SHPLOF]
+gbShowCollisionPolys Off
+
+[CULREC]
+CCullZones::RecalculateCullZoneData()
+
+[FORMM1]
+FormatMemCard 1 (teststuff)
+
+[UNFRM1]
+UnFormatMemCard 1 (teststuff)
+
+[GORLEV]
+Livello violenza
+
+[SICASS]
+Stupro
+
+[SICSIC]
+Stupratore
+
+[SCASSL]
+Stupro selezionato
+
+[SCSCSL]
+Stupratore selezionato
+
+[PRVMEN]
+Briefing di missione precedente
+
+[DOSVGM]
+Vuoi salvare la partita?
+
+[FORMEN]
+Format Menu
+
+[MEMTST]
+MemoryCardTest screen
+
+[REGCAR]
+Register MemoryCard One
+
+[TEFONE]
+Test Format MemCard One
+
+[TEUFON]
+Test UnFormat MemCard One
+
+[CRROOT]
+CreaDirRoot
+
+[CRLDIC]
+Crea e carica icone
+
+[FLFSGF]
+Riempi il primo file con fuffa
+
+[PUSAVE]
+Salva solo il gioco
+
+[CHEVOK]
+VerificaOgniSalvataggioOKB4
+
+[SVGMON]
+SalvaIlGioco
+
+[CNTSAV]
+Impossibile salvare il gioco, sei in missione.
+
+[CNCSAV]
+Impossibile salvare il gioco, sei in macchina.
+
+[CRMGSV]
+Crea cartella magazine protetta
+
+[MGSVCN]
+Cartella Magazine creata
+
+[MGSVNC]
+Cartella Magazine non creata
+
+[YES]
+Sì
+
+[NO]
+No
+
+[X]
+x
+
+[LAST]
+Ultimo messaggio.
+
+[FEDS_XB]
+Selezione
+
+[FEDS_ST]
+Tasto START - RIPRENDI
+
+[FEST_OO]
+su
+
+[FEC_TUC]
+Torretta di controllo
+
+[FEC_SM3]
+Attivazione missione speciale (tasto R3)
+
+[FEC_RS3]
+Stazioni radio (tasto L3)
+
+[FEC_HO3]
+Clacson (tasto L3)
+
+[DIAB1]
+'TURISMO'
+
+[DIAB2]
+'IO GRIDO, TU GRIDI'
+
+[DIAB3]
+'BATTESIMO DEL FUOCO'
+
+[DIAB4]
+'GROSSO E ARTERIOSO'
+
+[DIAB1_A]
+El Burro ti vuole offrire un'opportunità. Vai alla cabina telefonica di Hepburn Heights se vuoi saperne di più.
+
+[DIAB1_C]
+Sei un pilota provetto. Ripassa per la cabina telefonica, 'El Burro' potrebbe avere altro lavoro per te.
+
+[DIAB1_1]
+~g~3..2..1.. VIA VIA VIA!
+
+[DIAB1_4]
+~g~Procurati un'auto veloce e vai alla griglia di partenza.
+
+[DIAB1_3]
+~r~Non riusciresti a vincere neanche una lotteria, FALLITO!
+
+[DIAB1_2]
+~g~Congratulazioni, hai vinto con l'incredibile tempo di ~1~ secondi.
+
+[FIRST]
+~g~Primo
+
+[SECOND]
+~g~Secondo
+
+[THIRD]
+~g~Terzo
+
+[FOURTH]
+~g~Quarto
+
+[DIAB2_1]
+~g~Prendi la valigia ad Harwood.
+
+[DIAB2_2]
+~g~Trova un furgone dei gelati.
+
+[DIAB2_3]
+~g~Parcheggia il furgone dei gelati al molo atlantico.
+
+[DIAB2_4]
+~g~Premi il ~w~tasto ~k~~VEHICLE_HORN~ ~g~per attivare il campanello.
+
+[DIAB2_6]
+~g~Premi il ~w~tasto ~k~~VEHICLE_HORN~ ~g~per attivare il campanello.
+
+[DIAB2_7]
+~g~Premi il ~w~tasto ~k~~VEHICLE_HORN~ ~g~per attivare il campanello.
+
+[DIAB2_5]
+~g~Esci dal furgone dei gelati e usa il telecomando per farlo esplodere.
+
+[YD1]
+'BLING-BLING SCRAMBLE'
+
+[YD2]
+'UZI RIDER'
+
+[YD3]
+'CORSA TRA GANGSTER'
+
+[YD4]
+'VENGA IL TUO REGNO'
+
+[YD_P]
+King Courtney vuole parlarti. Vai alla cabina telefonica ad Aspatria!
+
+[YD1_A]
+~w~Sono King Courtney.
+
+[YD1_A1]
+~w~Alla mia cricca Yardie servirebbe un buon autista e tu hai un'ottima reputazione.
+
+[YD1_B]
+~w~Vai in macchina alla discarica dalla parte opposta dello stadio e aspetta gli altri aspiranti.
+
+[YD1_C]
+~w~Ho uomini di guardia in postazioni sparse per tutta Staunton.
+
+[YD1_D]
+~w~Il primo pilota che raggiunge una postazione prende $1000, e cosi via fino alla tappa successiva.
+
+[YD1_D1]
+~w~Se raggiungi per primo più postazioni degli altri piloti, potrei avere del lavoro per te.
+
+[YD1_E]
+~g~Preparati alla gara!
+
+[YD1_F]
+~g~Hai anticipato la partenza; mi piace il tuo stile!
+
+[YD1_G]
+~r~È una GARA AUTOMOBILISTICA. Ti serve un'AUTO, idiota!
+
+[YD1GO]
+~g~VIA!
+
+[YD1_1]
+~r~1
+
+[YD1_2]
+~r~2
+
+[YD1_3]
+~r~3
+
+[YD1_BON]
+$1000!
+
+[Y1_1ST]
+~g~Sei arrivato primo con ~1~ postazioni!
+
+[Y1_2ND]
+~y~Sei arrivato secondo con ~1~ postazioni. ~y~Non male, ma non sei il migliore!
+
+[Y1_3RD]
+~r~Sei arrivato terzo con ~1~ postazioni. ~r~Credevo avessi detto di essere in gamba!
+
+[Y1_LAST]
+~r~Sei arrivato ultimo! ~r~Mi hai fatto perdere tempo, IDIOTA!
+
+[Y1_J1ST]
+~y~Primo a pari merito con ~1~ postazioni. ~y~Bravo, ma devi essere il migliore per guidare per Queen Lizzy!
+
+[Y1_J2ND]
+~r~Secondo a pari merito con ~1~ postazioni. Guidi come una scimmia impazzita!
+
+[Y1JLAST]
+~r~Ultimo a pari merito! Sei più veloce con la lingua che con l'auto!
+
+[Y1_TEST]
+AUTO IN ACQUA!
+
+[YD2_A]
+~w~Devo vedere se sei in grado di eseguire certi lavoretti per me.
+
+[YD2_A1]
+~w~Vediamo se ci si può fidare di te.
+
+[YD2_B]
+~w~Due dei miei ragazzi saranno lì a momenti per accompagnarti in un giro:
+
+[YD2_B1]
+~w~vedremo se sei davvero chi dici di essere.
+
+[YD2_C]
+~w~Andiamo a fare un giro a Hepburn Heights: levaci di torno alcuni di quei luridi Diablo che mancano di rispetto a Queen Lizzy.
+
+[YD2_CC]
+~w~Prendi, ti serviranno 'i ferri del mestiere'.
+
+[YD2_D]
+~w~Dovrai guidare e sparare. Noi faremo in modo che tu non finisca al creatore.
+
+[YD2_E]
+~w~Comincia a guidare!
+
+[YD2_F]
+~r~Ci è scappato! Facciamo secco quel bastardo muso giallo!!!
+
+[YD2_G1]
+~w~Hepburn Heights... Facciamo fuori qualche lurido Diablo...
+
+[YD2_G2]
+~w~Ma ricorda: ~r~non pensare di uscire da quest'auto!
+
+[YD2_H]
+~w~OK, riportaci nel territorio di Yardie! VIA VIA VIA!!!
+
+[YD2_L]
+~w~Bel lavoro, Cecchino!
+
+[YD2_M]
+~r~Ha distrutto la mia auto! Fallo secco!
+
+[YD2_N]
+~w~Rimetti il culo in macchina!
+
+[YD3_A]
+Devi rubare alcune auto delle gang avversarie
+
+[YD3_A1]
+per poter colpire nel loro territorio.
+
+[YD3_B]
+Mi serve una Sentinel della Mafia,
+
+[YD3_B1]
+una Stinger della Yakuza e uno
+
+[YD3_B2]
+Stallion dei Diablo per poter attaccare qualunque gang di Liberty.
+
+[YD3_C]
+Parcheggiale nel garage a Newport e ricorda,
+
+[YD3_C1]
+se le distruggi sono inutilizzabili!
+
+[YD3_D]
+Etichetta testo aggiuntiva
+
+[YD3_E]
+~r~Hai già rubato un'auto dei Diablo!
+
+[YD3_F]
+~r~Hai già rubato un'auto della Mafia!
+
+[YD3_G]
+~r~Hai già rubato un'auto della Yakuza!
+
+[YD3_H]
+~g~Auto dei Diablo rubata!
+
+[YD3_I]
+~g~Auto della Mafia rubata!
+
+[YD3_J]
+~g~Auto della Yakuza rubata!
+
+[YD3_K]
+~r~L'auto è quasi un rottame! Falla riparare!
+
+[YD3_L]
+~g~Portala al ~p~garage!
+
+[YD3_M]
+~r~Hai cappottato l'auto! Procuratene un'altra!
+
+[YD4_A]
+Stammi a sentire!
+
+[YD4_A1]
+Arriva fino a Bedford Point.
+
+[YD4_A2]
+C'è della roba nascosta in una vecchia automobile che mi serve subito!
+
+[YD4_B]
+LETTERA: Ho saputo che ti sei dato da fare. Beh mi sono data da fare anch'io.
+
+[YD4_C]
+Credo sia ora che tu provi il vero potere dello 'SPANK'! Baci e abbracci, Catalina, con amore.
+
+[YD4_D]
+PS: MUORI CANE BASTARDO, MUORI!
+
+[YD4_1]
+Pazzi strafatti di SPANK!
+
+[YD4_2]
+Distruggi i camion di SPANK!
+
+[HM_1]
+'SOLDI E UZI'
+
+[HM_2]
+'STERMINATOR'
+
+[HM_3]
+'PRONTO A ESPLODERE'
+
+[HM_5]
+'RISSA'
+
+[HOOD1_A]
+Raggiungi il telefono pubblico dei giardini Wichita se vuoi parlare d'affari.
+
+[HM1_A]
+Ehi, sono D-Ice dei Red Jack!
+
+[HM1_C]
+Questi stronzetti scorrazzano per le strade con nient'altro che armi e SPANK nella testa.
+
+[HM1_3]
+~g~I 'Nine' controllano il territorio dei giardini Wichita.
+
+[HM2_3]
+Se colpisci i pneumatici, il maggiolino radiocomandato esploderà!
+
+[HM2_4]
+Se supera la portata massima, il maggiolino radiocomandato esploderà!
+
+[HM2_5]
+~r~Fuori dalla portata massima!
+
+[HM3_1]
+~g~Vai al garage, ma stai attento: se l'auto viene danneggiata troppo, salterà in aria!
+
+[HM3_2]
+~g~Riporta l'auto in ottime condizioni: nessun danno!
+
+[HM3_3]
+~g~Fai riparare l'auto!
+
+[HM4_D]
+~g~Prendi un veicolo!
+
+[HM4_E]
+TESTO NON PIÙ NECESSARIO
+
+[HM4_1]
+~g~Dirigiti nel posto dove il carico s'è rovesciato: dovrai raccogliere almeno 30 lingotti.
+
+[HM4_2]
+~g~Ricorda di raggiungere il garage e depositare il carico quando il veicolo diventa troppo pesante e lento.
+
+[HM5_3]
+~r~Dovevi usare solo una mazza da baseball!
+
+[HM5_4]
+~r~Il tuo intermediario è morto!
+
+[MEA1]
+'L'IMBROGLIONE'
+
+[MEA2]
+'I LADRI'
+
+[MEA3]
+'LA MOGLIE'
+
+[MEA4]
+'L'AMANTE'
+
+[MEAT1_A]
+Un amico mi ha detto che puoi risolvermi dei problemi. Vai alla cabina telefonica a Trenton se credi di essere la persona giusta.
+
+[MEA1_B3]
+~g~Devi incontrare il direttore della banca.
+
+[MEA1_B6]
+~g~Porta l'auto dal rottamatore per distruggere le prove: esci dall'auto e la gru la raccoglierà.
+
+[MEA1_1]
+~r~Il direttore della banca è morto!
+
+[MEA1_2]
+~r~Ti era stato detto di rottamare il veicolo!
+
+[MEA1_3]
+~g~Esci dalla macchina!
+
+[MEA1_4]
+~r~Ti sei dimenticato del direttore della banca!
+
+[MEA2_B3]
+~g~Vai a incontrare i ladri.
+
+[MEA2_B4]
+~g~Accompagnali alla fabbrica di cibo per cani Bitch'n' Dog.
+
+[MEA2_B6]
+~g~Fai riverniciare l'auto per eliminare ogni prova.
+
+[MEA2_1]
+~r~Ti era stato detto di far rottamare il veicolo!
+
+[MEA2_2]
+~r~Un ladro è morto!
+
+[MEA2_4]
+~r~Ti sei dimenticato un ladro!
+
+[MEA3_B3]
+~g~Vai a prelevare la signora Chonks.
+
+[MEA3_B6]
+~g~Prendi l'auto e scaricala in mare: questo cancellerà ogni prova.
+
+[MEA3_1]
+~r~La moglie è morta!
+
+[MEA3_2]
+~r~Dovevi scaricare il veicolo in mare!
+
+[MEA3_3]
+~r~Ti sei dimenticato di della moglie!
+
+[MEA4_B3]
+~g~Vai a prendere l'amante della moglie.
+
+[MEA4_B6]
+È davvero troppo tardi per farlo, Marty. Ti ho dato una chance, ma adesso prenderò io il controllo del tuo business...
+
+[MEA4_1]
+~r~Carlos è morto!
+
+[MEA4_3]
+~r~Ti sei dimenticato di Carlos lo strozzino!
+
+[LOOK_A]
+Tieni premuto il ~h~tasto ~k~~VEHICLE_LOOKLEFT~ ~w~o il ~h~tasto ~k~~VEHICLE_LOOKRIGHT~~w~ per guardare a ~h~sinistra~w~ o a ~h~destra~w~ mentre sei nel veicolo. Premi entrambi i tasti per guardare ~h~indietro~w~.
+
+[LOVE6_1]
+~g~Adesso attira gli sbirri lontano dai magazzini!
+
+[LOVE6_2]
+~r~Non sei riuscito ad attirare gli sbirri abbastanza lontano!
+
+[RM4_3]
+~r~Il socio di Ray è fuggito!
+
+[RM6_C]
+La CIA sembra interessata allo SPANK
+
+[RM6_C1]
+e non vogliono che interferiamo con il Cartello.
+
+[C_PASS]
+MINACCIA ELIMINATA!
+
+[CTUTOR]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Vigilante.
+
+[CTUTOR2]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Vigilante.
+
+[COPCART]
+~g~Hai ~1~ secondi per tornare a un mezzo della polizia prima che termini la missione.
+
+[C_FAIL]
+Missione Vigilante terminata!
+
+[C_CANC]
+~r~Missione Vigilante annullata!
+
+[C_ESCP]
+~r~Il sospetto è fuggito!
+
+[C_TIME]
+~r~È scaduto il tuo tempo come tutore della legge!
+
+[C_VIGIL]
+BONUS VIGILANTE!
+
+[A_FAIL2]
+~r~La tua scarsa sollecitudine è stata fatale al paziente!
+
+[A_FAIL3]
+~r~Il paziente è morto!
+
+[A_PASS]
+Salvato!
+
+[F_FAIL2]
+~r~Sei arrivato tardi!
+
+[A_COMP2]
+Non ti stancherai mai!
+
+[RM2_M]
+Se ti servono armi da fuoco, passa di qui e prendi ciò che ti serve dagli armadietti.
+
+[HEAL_A]
+La tua ~h~salute~w~ è indicata in color arancione in alto a destra sullo schermo.
+
+[YD1_CNT]
+~1~ su 15!
+
+[FM1_9]
+~g~Lì davanti c'è il party: fai scendere Maria all'ingresso.
+
+[FM1_Y]
+~w~Sai, non mi divertivo così tanto da una vita, e mi hai trattato proprio bene. Con molto rispetto.
+
+[FM1_AA]
+~w~Oh, devo andare. Spero di rivederti.
+
+[NOCONTE]
+Ricollega il controller analogico (DUALSHOCK#) o controller analogico (DUALSHOCK#2) all'ingresso controller 1 per continuare.
+
+[WRCONT]
+Il controller collegato all'ingresso controller 1 non è supportato. Grand Theft Auto III richiede un controller analogico (DUALSHOCK#) o (DUALSHOCK#2).
+
+[WRCONTE]
+Il controller collegato all'ingresso controller 1 non è supportato. Grand Theft Auto III richiede un controller analogico (DUALSHOCK#) o controller analogico (DUALSHOCK#2).
+
+[WRONGCD]
+Disco errato. Inserisci il disco corretto.
+
+[NOCD]
+Il vano cassetto del disco è vuoto. Inserisci il disco.
+
+[OPENCD]
+Il vano cassetto del disco è aperto. Chiudi il vano.
+
+[CDERROR]
+Errore di lettura del DVD Grand Theft Auto III.
+
+[RESTART]
+Avvio di una nuova partita
+
+[GA_3]
+Niente più sconti. $1000 per la riverniciatura!
+
+[GA_1]
+Wow! Non tocco niente di COSÌ caldo!
+
+[GA_1A]
+Torna quando non sarai così occupato...
+
+[S_PROM2]
+Nel garage qua accanto puoi parcheggiare un veicolo quando salvi la partita.
+
+[STOCK]
+scorte esaurite
+
+[FM1_O]
+~w~Credo si trovi alla stazione vicino al porto di Chinatown.
+
+[EBAL_B]
+Siamo arrivati, togliamoci dalla strada e cerchiamo di cambiarci d'abito!
+
+[EBAL_G]
+Questo è il club Luigi's. Passiamo dal retro attraverso la porta di servizio.
+
+[AM4_3]
+Tu devi essere il nuovo tuttofare di Asuka!
+
+[AM4_4]
+Hai i soldi? Tutto qui?
+
+[AM4_5]
+So cosa pensi, un altro sbirro corrotto.
+
+[AM4_6]
+Beh, il mondo è corrotto.
+
+[AM4_7]
+Solo perché ho perso dei partner, quegli idioti degli Affari Interni hanno cominciato a curiosare.
+
+[AM4_8]
+Immagino che sentano puzza di bruciato.
+
+[AM4_9]
+Beh, questa città è una grande fogna.
+
+[AM4_10]
+Mi servirà aiuto anche fuori dai sindacati.
+
+[AM4_11]
+Se sei interessato, sai dove trovarmi.
+
+[CAM_A]
+Premi il ~h~tasto ~k~~CAMERA_CHANGE_VIEW_ALL_SITUATIONS~~w~ per cambiare le ~h~modalità di visuale ~w~quando sei a piedi o in un veicolo.
+
+[CAM_B]
+Premi il ~h~tasto direzionale in alto~w~ e ~h~in basso~w~ per cambiare le ~h~modalità di visuale ~w~quando sei a piedi o in un veicolo.
+
+[KM2_1]
+~g~Ripara l'auto, sarà come nuova.
+
+[LM3_6]
+Joey...
+
+[LM3_6A]
+Mi farai giocare ancora col tuo pistone?
+
+[LM3_9A]
+Potrebbe esserci del lavoro per te.
+
+[LM3_9B]
+OK?
+
+[AWAY2]
+~r~Sono scappati.
+
+[AWAY]
+~r~È scomparso nel nulla!
+
+[JM6_1]
+Raggiungi la banca sulla strada principale.
+
+[GA_6B] { re3 change }
+Parcheggiala, innesca la bomba schiacciando il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ e BATTITELA!
+
+[GA_7B] { re3 change }
+Innescala col ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~. La bomba esploderà quando si tenterà di avviare il motore.
+
+[BAT1]
+~g~Prendi la mazza!
+
+[EBAL_O]
+Se andrà tutto liscio, forse potrei darti altro lavoro. Adesso fuori di qui!
+
+[HELP9_B]
+Premere il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per ~h~sparare~w~ col fucile di precisione.
+
+[HELP9_C]
+Premere il ~h~tasto ~k~~PED_FIREWEAPON~~w~ per ~h~sparare~w~ col fucile di precisione.
+
+[JM6_8]
+~r~Hai perso tutti i rapinatori!
+
+[COLT_IN]
+La pistola è adesso disponibile da AmmuNation!
+
+[TAXI2]
+~r~Tempo scaduto!
+
+[TAXI3]
+~r~Il passeggero è fuggito terrorizzato!
+
+[TAXI7]
+~r~La tua auto è distrutta, falla riparare.
+
+[TAXI4]
+Tariffa completa!
+
+[TAXI5]
+BONUS VELOCITÀ!
+
+[TAXI6]
+Missione taxi terminata
+
+[FRANGO]
+~g~Salvatore vuole che tu aiuti prima Toni ad affrontare le Triadi!
+
+[PAGEB12]
+Tangente per la Polizia consegnata al nascondiglio
+
+[PAGEB13]
+Salute consegnata al nascondiglio
+
+[PAGEB14]
+Adrenalina consegnata al nascondiglio
+
+[KM1_4]
+~g~Ti serve un'auto della polizia per svolgere il lavoro!
+
+[CAT1_B]
+Porta 500.000$ alla Villa a Cedar Grove.
+
+[JM2_C]
+Ha un chiosco di spaghetti cinesi a China Town.
+
+[RM6_1]
+Eccoti la chiave di un deposito.
+
+[RM6_2]
+Troverai del denaro e alcune 'dotazioni' da utilizzare nei momenti difficili.
+
+[RM6_3]
+Ci vediamo.
+
+[FE_INIP]
+Inizializzazione e caricamento menu pausa... Un momento.
+
+[FESZ_CA]
+Annulla
+
+[FESZ_QU]
+Esci
+
+[FESZ_L1]
+Partita salvata con successo!
+
+[FESZ_L2]
+Il nome del file salvato è:
+
+[FESZ_OK]
+OK
+
+[FES_LGA]
+Carica partita
+
+[FES_NGA]
+Nuova partita
+
+[FES_CAN]
+Annulla
+
+[FESZ_QL]
+Tutti i progressi della partita attuale non ancora salvati andranno perduti. Vuoi procedere con il caricamento?
+
+[FESZ_QD]
+Vuoi eliminare questa partita salvata?
+
+[FESZ_QO]
+Vuoi procedere con la sovrascrittura di questa partita salvata?
+
+[FESZ_QR]
+Sei sicuro di voler iniziare una nuova partita? Tutti i progressi fatti fino all'ultimo salvataggio andranno perduti. Vuoi procedere?
+
+[FESZ_QS]
+VUOI PROCEDERE CON IL SALVATAGGIO?
+
+[SLONFP]
+Ingresso 1. File protetto.
+
+[T4X4_1]
+'CAMPO DEL PATRIOTA'
+
+[T4X4_2]
+'UN GIRO NEL PARCO'
+
+[T4X4_3]
+'AFFERRATO'
+
+[MM_1]
+'MASSACRO NEL PALAZZO'
+
+[T4X4_1A]
+~g~Hai ~y~5 minuti~g~ per attraversare ~y~15~g~ punti di controllo. ~g~Puoi attraversarli in ~y~QUALSIASI ORDINE~g~.
+
+[T4X4_1B]
+~1~ su 15!
+
+[T4X4_1C]
+~y~ATTRAVERSA~g~ il primo punto di controllo per attivare il timer. ~g~Ogni punto di controllo ti fornirà ~y~20 SECONDI~g~ extra.
+
+[T4X4_2A]
+~g~Hai ~y~2 minuti~g~ per attraversare ~y~12~g~ punti di controllo!!! ~g~Puoi attraversarli in ~y~QUALSIASI ORDINE~g~.
+
+[T4X4_2B]
+~1~ su 12!
+
+[T4X4_2C]
+~y~ATTRAVERSA~g~ il primo punto di controllo per attivare il timer. ~g~Ogni punto di controllo ti fornirà ~y~10 SECONDI~g~ extra.
+
+[T4X4_3A]
+~g~Hai ~y~5 minuti~g~ per attraversare ~y~20~g~ punti di controllo!!! ~g~Puoi attraversarli in ~y~QUALSIASI ORDINE~g~.
+
+[T4X4_3B]
+~y~ATTRAVERSA~g~ il primo punto di controllo per attivare il timer. ~g~Ogni punto di controllo ti fornirà ~y~10 SECONDI~g~ extra.
+
+[T4X4_3C]
+~1~ su 20!
+
+[T4X4_F]
+~r~Sei scappato! Troppo difficile per te?
+
+[MM_1_A]
+~g~Hai ~y~2 minuti~g~ per attraversare ~y~20 punti di controllo~g~ nel palazzo! ~g~Puoi attraversarli in ~y~QUALSIASI ORDINE~g~.
+
+[MM_1_B]
+~1~ su 20!
+
+[MM_1_C]
+~g~Sono 20 secondi più ~y~5 secondi~g~ per ogni punto di controllo. ~g~Il timer partirà ~y~IMMEDIATAMENTE~g~.
+
+[FM2_14]
+~r~Ti sei avvicinato troppo e hai spaventato Ricciolino!
+
+[FM2_15]
+~g~Non ti avvicinare troppo o Ricciolino si insospettirà!
+
+[UPSIDE]
+~r~Hai cappottato la macchina!
+
+[FM2_16]
+PAURIMETRO:
+
+[LM3_11]
+~g~Misty non sale su un autobus, prendi un altro veicolo!
+
+[LANDSTK]
+Landstalker
+
+[IDAHO]
+Idaho
+
+[STINGER]
+Stinger
+
+[LINERUN]
+Linerunner
+
+[PEREN]
+Perennial
+
+[SENTINL]
+Sentinel
+
+[PATRIOT]
+Patriot
+
+[FIRETRK]
+Camion dei pompieri
+
+[TRASHM]
+Trashmaster
+
+[STRETCH]
+Stretch
+
+[MANANA]
+Manana
+
+[INFERNS]
+Infernus
+
+[BLISTA]
+Blista
+
+[PONY]
+Pony
+
+[MULE]
+Mulo
+
+[CHEETAH]
+Cheetah
+
+[AMBULAN]
+Ambulanza
+
+[FBICAR]
+F.B.I.
+
+[MOONBM]
+Moonbeam
+
+[ESPERAN]
+Esperanto
+
+[TAXI]
+Taxi
+
+[KURUMA]
+Kuruma
+
+[BOBCAT]
+Bobcat
+
+[WHOOPEE]
+Mr Whoopee
+
+[BFINJC]
+BF Injection
+
+[POLICAR]
+Polizia
+
+[ENFORCR]
+Cellulare
+
+[SECURI]
+Securicar
+
+[BANSHEE]
+Banshee
+
+[PREDATR]
+Predator
+
+[BUS]
+Bus
+
+[RHINO]
+Rhino
+
+[BARRCKS]
+Caserma OL
+
+[TRAIN]
+Treno
+
+[HELI]
+Elicottero
+
+[DODO]
+Dodo
+
+[COACH]
+Coach
+
+[CABBIE]
+Cabbie
+
+[STALION]
+Stallion
+
+[RUMPO]
+Rumpo
+
+[RCBANDT]
+Bandito RC
+
+[BELLYUP]
+Triad
+
+[MRWONGS]
+Mr Wongs
+
+[MAFIACR]
+Mafia
+
+[YARDICR]
+Yardie
+
+[YAKUZCR]
+Yakuza
+
+[DIABLCR]
+Diablo
+
+[COLOMCR]
+Cartel
+
+[HOODSCR]
+Hoods
+
+[AEROPL]
+Aeroplano
+
+[SPEEDER]
+Speeder
+
+[REEFER]
+Reefer
+
+[PANLANT]
+Panlantic
+
+[FLATBED]
+Flatbed
+
+[YANKEE]
+Yankee
+
+[BORGNIN]
+Borgnine
+
+[TOYZ]
+TOYZ
+
+[FEST_DF]
+Distanza percorsa a piedi (miglia)
+
+[FEST_DC]
+Distanza percorsa in auto (miglia)
+
+[FESTDFM]
+Distanza percorsa a piedi (m)
+
+[FESTDCM]
+Distanza percorsa in auto (m)
+
+[FEST_R1]
+Campo del Patriota (secondi)
+
+[FEST_R2]
+un Giro nel Parco (secondi)
+
+[FEST_R3]
+Afferrato! (secondi)
+
+[FEST_RM]
+Massacro Multi-livello (secondi)
+
+[FEST_LS]
+Persone salvate in ambulanza
+
+[FEST_CC]
+Missione Vigilante - Criminali uccisi
+
+[FEST_FE]
+Totale incendi spenti
+
+[FEST_LF]
+Volo più lungo nel Dodo
+
+[FEST_BD]
+Disinnesco bomba - Miglior tempo
+
+[FEST_RP]
+Violenze eseguite
+
+[FEST_MP]
+Missioni eseguite
+
+[FEST_BB]
+Bling-bling Scramble:
+
+[FEST_H0]
+Maggior numero di checkpoints
+
+[FEST_GC]
+Auto delle gang distrutte:
+
+[FEST_H1]
+Distruzione Diablo
+
+[FEST_H2]
+Massacro Mafioso
+
+[FEST_H3]
+Calamità al Casinò
+
+[FEST_H4]
+Demolizioni Rumpo
+
+[USJI1]
+TESTO NON PIÙ RICHIESTO
+
+[USJI2]
+TESTO NON PIÙ RICHIESTO
+
+[USJI3]
+TESTO NON PIÙ RICHIESTO
+
+[USJ]
+BONUS PER ACROBAZIA UNICA!
+
+[SPRAY]
+Porta l'auto dal carrozziere per perdere il ~h~livello di sospetto~w~, ~h~riparare~w~ e ~h~riverniciare~w~ il veicolo. Costo - ~h~1000$~w~.
+
+[HM1_1]
+~g~Fredda 20 Purple Nine in 2 minuti e 30 secondi.
+
+[KM1_8A] { re3 change }
+Premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per ~h~attivare la bomba~w~: ricorda di toglierti di mezzo!
+
+[KM1_8D] { re3 change }
+Premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per ~h~attivare la bomba~w~: e ricorda di toglierti di mezzo!
+
+[KM1_12]
+~g~Portalo nel dojo, ma prima sbarazzati degli sbirri!
+
+[RATNG1]
+Borsaiolo
+
+[RATNG2]
+Prepotente
+
+[RATNG3]
+Teppista
+
+[RATNG4]
+Attaccabrighe
+
+[RATNG5]
+Gorilla
+
+[RATNG6]
+Autista
+
+[RATNG7]
+Aiutante
+
+[RATNG8]
+Riparatore
+
+[RATNG9]
+Socio
+
+[RATNG10]
+Uomo delle pulizie
+
+[RATNG11]
+Assassino
+
+[RATNG12]
+Braccio destro
+
+[RATNG13]
+Boia
+
+[RATNG14]
+Capo
+
+[RATNG15]
+Boss
+
+[1010]
+~r~Il tuo veicolo si è ribaltato
+
+[1011]
+~r~Il tuo veicolo si è ribaltato
+
+[1012]
+~r~Il tuo veicolo si è ribaltato
+
+[1013]
+~r~Il tuo veicolo si è ribaltato
+
+[1014]
+~r~Il tuo veicolo si è ribaltato
+
+[JM4_10]
+OK, ragazzo. Accompagnami prima alla lavanderia di Chinatown, devo occuparmi di alcuni affari.
+
+[JM4_11]
+La donna della lavanderia non mi ha pagato i soldi del pizzo.
+
+[JM4_12]
+E bada all'auto: Joey ha appena riparato questo rottame.
+
+[JM4_13]
+Quindi, niente colpi di testa, OK?
+
+[KM4_11]
+~g~Riporta i soldi al Casinò!
+
+[FEF_BR2]
+Ritrovalo leggendo i sommari di missione che hai già ricevuto.
+
+[TRAIN_1]
+Stazione Kurowski
+
+[TRAIN_2]
+Stazione Rothwell
+
+[TRAIN_3]
+Stazione Baillie
+
+[SUBWAY1]
+Stazione Portland
+
+[SUBWAY2]
+Stazione Rockford
+
+[SUBWAY3]
+Stazione Sud Staunton
+
+[SUBWAY4]
+Capolinea Shoreside
+
+[MEA4_2]
+~r~Marty Chonks è morto!
+
+[SPRAY1]
+Porta l'auto dal carrozziere per perdere il ~h~livello di sospetto~w~, ~h~riparare~w~ e ~h~rivernicirea~w~ il veicolo. Costo - ~h~1000$~w~. Per questa volta è gratis.
+
+[JM4_A]
+Sì, lo so Toni, l'ho sistemata per bene. Il motore fa le fusa, non so se mi spiego.
+
+[JM4_5]
+Ripassa più tardi e darò loro qualcosa da lavare... i panni macchiati del loro sangue!
+
+[AMMU_A]
+Luigi dice che ti serve 'un ferro del mestiere'...
+
+[AMMU_B]
+Joey mi ha detto di equipaggiarti...
+
+[AMMU_C]
+Vai sul retro del negozio. Ti ho lasciato una calibro nove in cortile.
+
+[AMMU_D]
+Ho tutto quello che ti serve per la tua auto-difesa.
+
+[AMMU_E]
+Vuoi anche una licenza?
+
+[AMMU_F]
+Non mi serve che mi mostri i documenti, hai una faccia fidata.
+
+[DETON]
+DETONAZIONE:
+
+[DRIVE_A] { re3 change }
+Seleziona un Uzi quando entri in un veicolo, poi guarda a destra o a sinistra e premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per sparare.
+
+[DRIVE_B] { re3 change }
+Seleziona un Uzi quando entri in un veicolo, poi guarda a destra o a sinistra e premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per sparare.
+
+[RECORD]
+~g~NUOVO RECORD!!!
+
+[NRECORD]
+~r~NESSUN NUOVO RECORD!
+
+[RCHELP] { re3 change }
+Premi il tasto ~k~~VEHICLE_FIREWEAPON~ o dirigi l'auto radiocomandata contro i pneumatici di un veicolo per provocarne la detonazione.
+
+[RCHELPA] { re3 change }
+Premi il tasto ~k~~VEHICLE_FIREWEAPON~ o dirigi l'auto radiocomandata contro i pneumatici di un veicolo per provocarne la detonazione.
+
+[RC_1]
+Hai 2 minuti per far esplodere quante più auto dei Diablo possibile!
+
+[RC_2]
+Hai 2 minuti per far esplodere quante più auto Mafiose possibile!
+
+[RC_3]
+Hai 2 minuti per far esplodere quante più auto della Yakuza possibile!
+
+[RC_4]
+Hai 2 minuti per far esplodere quante più auto degli Yardie possibile!
+
+[RC_5]
+Hai 2 minuti per far esplodere quante più auto degli Hood possibile!
+
+[RC_6]
+Hai 2 minuti per far esplodere quante più auto del Cartello possibile!
+
+[RAMPAGE]
+VIOLENZA!!
+
+[RAMP_P]
+VIOLENZA COMPIUTA!
+
+[RAMP_F]
+VIOLENZA FALLITA
+
+[PAGE_00]
+.
+
+[PAGE_01]
+Uccidi ~1~ Diablo in 120 secondi!
+
+[PAGE_02]
+Distruggi ~1~ veicoli in 120 secondi!
+
+[PAGE_03]
+Uccidi ~1~ Mafiosi in 120 secondi!
+
+[PAGE_04]
+Uccidi ~1~ elementi della Triade in 120 secondi!
+
+[PAGE_05]
+Uccidi ~1~ elementi della Triade in 120 secondi!
+
+[PAGE_06]
+Distruggi ~1~ veicoli in 120 secondi!
+
+[PAGE_07]
+Fai saltare la testa a ~1~ Yardie in 120 secondi!
+
+[PAGE_08]
+Brucia ~1~ elementi della Yakuza in 120 secondi!
+
+[PAGE_09]
+Distruggi ~1~ veicoli in 120 secondi!
+
+[PAGE_10]
+Distruggi ~1~ veicoli in 120 secondi!
+
+[PAGE_11]
+Annienta ~1~ Yardie in 120 secondi!
+
+[PAGE_12]
+Carbonizza ~1~ elementi della Yakuza in 120 secondi!
+
+[PAGE_13]
+Fai esplodere ~1~ Yardie in 120 secondi!
+
+[PAGE_14]
+Fai fuori ~1~ ColombianI in 120 secondi!
+
+[PAGE_15]
+Polverizza ~1~ Hood in 120 secondi!
+
+[PAGE_16]
+Distruggi ~1~ veicoli in 120 secondi!
+
+[PAGE_17]
+Investi in macchina ~1~ Colombiani in 120 secondi!
+
+[PAGE_18]
+Distruggi guidando ~1~ veicoli in 120 secondi!
+
+[PAGE_19]
+Stacca la testa a ~1~ Colombiani in 120 secondi!
+
+[PAGE_20]
+Decapita ~1~ Hood in 120 secondi!
+
+[JOEY_1]
+TESTO NON PIÙ RICHIESTO
+
+[JM1_A]
+Ehi, sono stufa, quand'è che si passa ai fatti?
+
+[JM1_B]
+Tra un minuto, cocca, ho una cosetta da sbrigare.
+
+[JM1_C]
+Ho un lavoretto per te, amico.
+
+[JM1_D]
+I fratelli Forelli mi devono soldi da troppo tempo
+
+[JM1_E]
+e occorre insegnargli un po' di rispetto.
+
+[JM1_F]
+'Labbra' Forelli si sta ingozzando come un porco al St Mark's Bistro,
+
+[JM1_G]
+quindi rubagli l'auto e portala nell'armeria di 8-Ball ad Harwood.
+
+[JM1_H]
+Conosci 8-Ball, vero?
+
+[JM1_I]
+Dopo che sarà stata installata una bomba, parcheggia l'auto dove l'hai trovata.
+
+[JM1_J]
+Poi rilassati e goditi lo spettacolo.
+
+[JM1_K]
+Ma fai in fretta, non starà a pranzo una vita.
+
+[CAT2_A1]
+Forza, brutta deficiente!
+
+[CAT2_A]
+La domanda è: sei venuto a salvare Maria o a riportarmi indietro?
+
+[CAT2_B]
+Beh, stammi a sentire,
+
+[CAT2_B2]
+spararti sarà un piacere, ma uscire con te è stato solo lavoro.
+
+[CAT2_C]
+Sei il mio peccinno amigo!
+
+[CAT2_D]
+Butta qui la grana.
+
+[CAT2_E]
+Ti sei dato molto da fare!
+
+[CAT2_E2]
+Ma non hai imparato che non devi fidarti di me.
+
+[CAT2_E3]
+Ammazzate quell'idiota.
+
+[CAT2_J]
+Fai decollare questo affare!
+
+[HM5_1]
+Ehi, Ice mi ha detto che saresti arrivato. Ecco le regole. Solo mazze. Niente pistole, niente auto.
+
+[HM5_5]
+È una battaglia per il rispetto, chiaro?.
+
+[HELP14]
+Per raccogliere le armi, passaci sopra a piedi. Non puoi raccoglierle mentre sei in un veicolo.
+
+[CRUSH]
+Parcheggia nell'area contrassegnata ed esci dal veicolo. Il veicolo verrà rottamato.
+
+[DIAB2_B]
+Un gruppo di gentaglia mi ha minacciato di asportare il mio attributo di tutto rispetto se non gli sgancio dei soldi.
+
+[DIAB2_C]
+Hanno minacciato l'uomo sbagliato, amigo.
+
+[DIAB2_D]
+Hanno un debole per il gelato.
+
+[DIAB2_E]
+Prendi la bomba che ho nascosto ad Harwood,
+
+[DIAB2_F]
+dirotta il furgone dei gelati durante i suoi spostamenti
+
+[DIAB2_G]
+e attira quegli idioti verso il loro destino con il campanello.
+
+[DIAB2_H]
+Si nascondono in un magazzino ad Atlantic Quay.
+
+[DIAB3_A]
+Qualche insolente della Triade ha rubato la mia stupenda macchina ieri notte,
+
+[DIAB3_B]
+l'ha distrutta e carbonizzata.
+
+[DIAB3_C]
+Uno dei miei più cari escrementi asinini si trovava nel bagagliaio
+
+[DIAB3_D]
+veri oggetti da collezione, insostituibili amico mio.
+
+[DIAB3_E]
+Ho nascosto un'arma lancinante alla periferia di Chinatown.
+
+[DIAB3_F]
+Prendila e insegna ai vandali della Triade a temere l'ira super-dotata di El Burro!
+
+[DIAB3_1]
+UCCIDI 25 ELEMENTI DELLA TRIADE
+
+[DIAB4_A]
+Un ladruncolo approfittatore ha rubato un furgone carico di copie delle mie ultime pubblicazioni!
+
+[DIAB4_B]
+Ma quell'idiota fatto di SPANK ha lasciato lo sportello posteriore aperto,
+
+[DIAB4_C]
+per cui tutto quello splendido capolavoro patinato
+
+[DIAB4_D]
+con intriganti foto pornografiche è stato sparso per tutta Liberty!
+
+[DIAB4_E]
+Prendi il furgone e segui la scia di copie di Un Asino si fa Dallas volume 1, 2 e 3
+
+[DIAB4_F]
+raccogliendole lungo la strada.
+
+[DIAB4_G]
+Quando raggiungi quel ladruncolo imbottito di SPANK, fallo fuori!
+
+[DIAB4_H]
+Poi consegna il mio materiale asinino a Riviste XXX nel quartiere a luci rosse.
+
+[DIAB4_1]
+~g~Porta il furgone nel retro di Riviste XXX.
+
+[HM1_E]
+Devi far vedere a queste depravate come si fa una vera sparatoria.
+
+[HM1_H]
+Togli di torno questi Nine!
+
+[HM2_A]
+Questi Nine mi stanno causando problemi.
+
+[HM2_B]
+Queste stronze hanno auto blindate e adesso stanno spacciando SPANK...
+
+[HM2_C]
+e lo smerciano senza paura ai miei fratelli.
+
+[HM2_D]
+C'è un'auto parcheggiata in strada.
+
+[HM2_E]
+Dentro c'è della roba che metterà le sorelline fuori combattimento...
+
+[HM3_A]
+Qualche bastardo ha messo una bomba nella mia auto.
+
+[HM3_B]
+Se perdo l'auto, la mia reputazione nel giro sarà finita.
+
+[HM3_C]
+Prendi la mia macchina e portala al garage a St. Marks, chiaro?
+
+[HM3_D]
+Fagli disinnescare la bomba, lascia che se ne occupino loro.
+
+[HM3_E]
+Il tempo corre e l'ordigno è tutto incasinato.
+
+[HM3_F]
+Se becchi una buca potrebbe saltare tutto in aria.
+
+[HM3_G]
+Adesso muoviti!
+
+[HM4_A]
+Ehi, un aereo federale portavalute si è appena schiantato all'aeroporto Francis.
+
+[HM4_B]
+C'è del platino sparso per tutta la pista.
+
+[HM4_C]
+Prendi un'auto e raccogline quanto ne puoi!
+
+[HM4_F]
+Puoi scaricare il malloppo in uno dei miei garage.
+
+[HM4_G]
+Il platino è molto pesante e rallenterà un po' l'automobile.
+
+[HM4_H]
+Quindi fai diverse consegne nel garage.
+
+[HM5_A]
+Quei Nine sono rimasti in una manciata di rognosi...
+
+[HM5_B]
+ma insistono ancora.
+
+[HM5_C]
+Ci siamo accordati per uno scontro.
+
+[HM5_D]
+Un gruppo dei loro contro due di noi, anzi...
+
+[HM5_E]
+due di te.
+
+[HM5_F]
+Ti accompagnerei, ma...
+
+[HM5_G]
+non sarò in libertà vigilata per altri tre mesi.
+
+[HM5_H]
+Tu mi capisci, vero?
+
+[HM5_I]
+Vai a trovare il mio fratellino,
+
+[HM5_J]
+Ti accompagnerà sul luogo della rissa, amico.
+
+[MEA1_B]
+Mi chiamo Chonks, Marty Chonks.
+
+[MEA1_C]
+Gestisco la fabbrica di cibo per cani Bitch'n'Dog qui vicino.
+
+[MEA1_D]
+Ho dei problemi finanziari, ma in fondo chi non ne ha?
+
+[MEA1_E]
+Più tardi mi incontrerò col direttore della mia banca.
+
+[MEA1_F]
+È un imbroglione schifoso che continua a far crescere gli interessi di un prestito per arricchirsi.
+
+[MEA1_G]
+Usa la mia auto, vallo a prendere e portalo qui.
+
+[MEA1_H]
+Ho una sorpresina per quella maledetta sanguisuga!
+
+[MEA2_A]
+Ho assunto dei ladri per entrare nel mio appartamento...
+
+[MEA2_C]
+Quei ladruncoli bastardi minacciano di dire tutto all'assicurazione,
+
+[MEA2_D]
+se non do loro una percentuale.
+
+[MEA2_E]
+Roba da non credere!
+
+[MEA2_F]
+Ho parcheggiato un'auto dietro i cancelli della fabbrica.
+
+[MEA2_G]
+Usala e valli a prelevare nel loro territorio nel quartiere a luci rosse.
+
+[MEA2_H]
+Poi portali qui in fabbrica così che comprendano il mio punto di vista.
+
+[MEA3_A]
+L'azienda farà bancarotta se non riesco a procurarmi in fretta parecchi contanti.
+
+[MEA3_B]
+Mia moglie ha un'assicurazione e l'unica cosa che sa fare è sperperare i miei soldi.
+
+[MEA3_C]
+Ho lasciato un'auto al solito posto.
+
+[MEA3_D]
+Vai a prendere mia moglie al salone di bellezza Classic Nails e accompagnala alla fabbrica.
+
+[MEA4_A]
+Maledizione, sono nei guai!
+
+[MEA4_B]
+Sembra che mia moglie avesse una storia con un tipo a cui devo dei soldi.
+
+[MEA4_C]
+È molto arrabiato e vuole vendetta!
+
+[MEA4_E]
+Lui si aspetta che cercherò di patteggiare...
+
+[MEA4_F]
+ma io credo che...
+
+[MEA4_G]
+i cani di Liberty assaggeranno dei bocconcini extra questo mese!
+
+[WELCOME]
+BENVENUTI A
+
+[HM1_2]
+~g~Prendi un veicolo e ricorda: contano solo le uccisioni fatte con l'Uzi mentre guidi!
+
+[HELP8_B]
+Premi il ~h~tasto ~k~~PED_SNIPER_ZOOM_IN~ ~w~per ~h~zoomare ~w~col fucile e il~h~ tasto ~k~~PED_SNIPER_ZOOM_OUT~~w~ per ~h~allargare il campo~w~.
+
+[LRQC_1]
+Asuka e io dobbiamo parlare, OK?
+
+[LRQC_2]
+Perché non ti fai un giro?
+
+[LRQC_3]
+Ti servira un posto dove nasconderti.
+
+[LRQC_4]
+C'è un magazzino al confine di Bellville che farà al caso tuo.
+
+[LRQC_5]
+Ritorna qui nel mio appartamento quando sei pronto,
+
+[LRQC_6]
+Così possiamo chiacchierare un po'.
+
+[JM6_5]
+~g~Ti serve un veicolo per la fuga, idiota!
+
+[JM2_F]
+Se ti serve un'arma, vai sul retro di AmmuNation dal lato opposto della metropolitana.
+
+[LOVE4_7]
+~g~C'è un cantiere edile a Staunton Island, forse hanno portato lì il pacco.
+
+[LOVE4_8]
+~g~Ti servirà un'auto per accedere al garage.
+
+[TSCORE]
+GUADAGNI: ~1~$
+
+[AM1_9]
+~r~Salvatore è fuggito di nuovo dentro il club Luigi's!
+
+[AM1_6]
+~g~Se ti aggiri attorno al club Luigi's, la Mafia ti avvisterà!
+
+[TM2_3]
+~g~È una trappola! Falli fuori tutti!!!
+
+[FM4_1]
+Sono Maria. L'auto è una trappola! Incontriamoci alla rampa a sud del ponte Callahan.
+
+[JM1_7]
+~g~Chiudi la portiera! Lo noterà!
+
+[KM5_1]
+~g~TRITATO DI SPACCIATORE!
+
+[KM5_6]
+~g~Devi uccidere almeno 8 spacciatori Yardie.
+
+[KM5_7]
+~g~Uccidili in fretta! Dopo aver venduto lo SPANK spariscono dalla circolazione.
+
+[RM3_8]
+~r~Quell'auto è un tranello!!!
+
+[LM3_8]
+Ehi, sono Joey.
+
+[LM3_9]
+Luigi mi ha detto che sei affidabile, quindi torna più tardi,
+
+[KM3_5]
+~g~Suona il clacson per avviare l'affare.
+
+[LOVE7]
+LA SCOMPARSA DI LOVE
+
+[LOVE2_5]
+~g~Kenji è un tritato di carne! Allontanati da Newport e abbandona l'auto!
+
+[AS2_11]
+~g~~1~ SU 9!
+
+[GARAGE1]
+~g~Esci dal veicolo ed esci fuori.
+
+[KM3_11]
+~g~Il Cartello è stato attaccato e la valigia non è stata recuperata.
+
+[KM3_12]
+~g~Uccidi tutti i Colombiani, distruggi i veicoli e recupera la valigia.
+
+[KM3_13]
+~g~Riconsegna la valigia al Casinò.
+
+[RM5_6]
+~g~Ci è scappato! Spaccagli la corazza con un veicolo o con una bella esplosione!
+
+[PBOAT_1] { re3 change }
+Premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per sparare con i cannoni della barca.
+
+[PBOAT_2] { re3 change }
+Premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per sparare con i cannoni della barca.
+
+[DIAB1_B]
+Sono El Burro dei Diablo.
+
+[DIAB1_D]
+Sei da poco a Liberty, ma ti sei già guadagnato una reputazione in città.
+
+[DIAB1_E]
+C'e una corsa d'auto con inizio alla vecchia scuola vicino al ponte Callahan.
+
+[DIAB1_F]
+Procurati un mezzo, il primo che attraversa tutti i posti di blocco vince il premio.
+
+[HM2_1] { re3 change }
+Usa i maggiolini radiocomandati per distruggere le auto blindate. Premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per farli esplodere.
+
+[HM2_1A] { re3 change }
+Usa i maggiolini radiocomandati per distruggere le auto blindate. Premi il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per farli esplodere.
+
+[HM2_2]
+~r~Non sei riuscito a distruggere tutte le auto blindate!
+
+[HM2_6]
+~g~Auto blindata distrutta!
+
+[RM3_A]
+Conosco un uomo molto importante in città, di manica larga,
+
+[RM3_H]
+con gusti, diciamo, esotici e i soldi per permetterseli.
+
+[RM3_B]
+È coinvolto in un processo e l'accusa ha delle sue foto piuttosto imbarazzanti
+
+[RM3_C]
+in cui appare in un party all'obitorio.
+
+[LOVE6_A]
+Una lezione d'affari, amico.
+
+[LOVE6_E]
+Se possiedi qualcosa di unico, il mondo intero cercherà di strappartelo dalle mani...
+
+[LOVE6_C]
+Squadre speciali di polizia hanno circondato la zona attorno al mio socio e al pacco.
+
+[LOVE6_D]
+Vai li, prendi il furgone e fuggi per attirarli dietro di te.
+
+[LOVE6_F]
+Tienili occupati, così che lui possa sfuggire!
+
+[AM3_C]
+Probabilmente quando lo leggerai questo sarà in alto mare! Ruba un'imbarcazione della polizia e mandalo a picco!
+
+[FESZ_UC]
+ANNULLA
+
+[FEDS_SM]
+L1,R1-CAMBIA MENU
+
+[FEDS_AS]
+;=-CAMBIA SELEZIONE
+
+[FEDSAS2]
+<>-CAMBIA SELEZIONE
+
+[FEDS_SS]
+L1,R1-CAMBIA SELEZIONE
+
+[FEDSSC1]
+;-SCORRIMENTO RAPIDO
+
+[FEDSSC2]
+=-FERMA SCORRIMENTO
+
+[MEA2_3]
+~g~Riporta l'auto alla fabbrica.
+
+[RM1_3]
+~r~McAffrey è scappato!
+
+[RM1_4]
+~g~Hai usato tutte le granate! Procuratene altre da AmmuNation!
+
+[RM1_5]
+~g~Torna indietro e incendia il rifugio!
+
+[RM6_4]
+~g~Vai al nascondiglio e preleva la roba di Ray.
+
+[RM6_5]
+~g~La CIA ha messo il ponte sotto sorveglianza, trova un altro punto d'accesso.
+
+[HM2_F]
+e distruggi tutte le loro attrezzature blindate.
+
+[HM_4]
+'CORSA AL LINGOTTO'
+
+[MEA2_B5]
+TESTO NON PIÙ NECESSARIO
+
+[MEA1_B5]
+TESTO NON PIÙ NECESSARIO
+
+[MEA3_B5]
+TESTO NON PIÙ NECESSARIO
+
+[MEA4_B7]
+ma se entri un attimo nel mio ufficio...
+
+[MEA3_B4]
+Marty vuole vedermi? È meglio che si sbrighi perché devo acconciarmi i capelli.
+
+[KM3_7]
+È un esperto in trappole della Yakuza!
+
+[FES_LOF]
+Caricamento fallito.
+
+[P1INSA]
+Ingresso 1. memory card (PS2) inserita. ~1~ K di spazio disponibile per salvare. ~1~ K necessari.
+
+[P1INSN]
+Ingresso 1. memory card (PS2). Spazio disponibile insufficiente. Elimina alcuni file.
+
+[FES_SLO]
+SALVA FILE
+
+[FES_ISC]
+CORROTTO
+
+[FESZ_TI]
+SALVA Z1
+
+[FESZ_SA]
+Salva partita
+
+[P1NOIN]
+Ingresso 1. memory card (PS2) non inserita
+
+[P1INSE]
+Ingresso 1. memory card (PS2) inserita.
+
+[MC_LDFL]
+Caricamento fallito!
+
+[MC_NWRE]
+Partita in fase di riavvio.
+
+[LOVE6_3]
+~g~Hai ~1~ secondi per tornare alla Securicar prima di fallire la missione.
+
+[LOVE6_4]
+~r~Hai distrutto la Securicar da depistaggio!
+
+[HELP1]
+Fermati nel centro del segnale blu.
+
+[HELP12]
+Cammina nel centro del segnale blu per attivare una missione.
+
+[HJSTAT]
+Distanza: ~1~.~1~m Altezza: ~1~.~1~m Ribaltamenti: ~1~ Rotazioni: ~1~_
+
+[HJSTATW]
+Distanza: ~1~.~1~m Altezza: ~1~.~1~m Ribaltamenti: ~1~ Rotazioni: ~1~_ E che grande atterraggio!
+
+[DIAB1_5]
+TEMPO DI GARA:
+
+[LOVE3_4]
+~r~Hai distrutto l'aereo!!!
+
+[F_FAIL1]
+Missione Camion dei pompieri terminata.
+
+[F_CANC]
+~r~Missione Pompieri annullata!
+
+[F_EXTIN]
+INCENDI:
+
+[A_COMP1]
+Missioni Infermieri completate!
+
+[A_CANC]
+~r~Missione Infermieri annullata!
+
+[A_COMP3]
+Missioni Infermieri completate! Ora non ti stancherai mai mentre corri!
+
+[ATUTOR]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Infermieri.
+
+[ATUTOR3]
+Premi il ~h~tasto ~k~~TOGGLE_SUBMISSIONS~~w~ per attivare o disattivare le missioni Infermieri.
+
+[ALEVEL]
+Missione Infermieri Livello ~1~
+
+[A_FAIL1]
+Missione Infermieri terminata.
+
+[FEST_HA]
+Missione Infermieri - Livello Max.
+
+[A_SAVES]
+PERSONE SALVATE: ~1~
+
+[C_KILLS]
+CRIMINALI UCCISI: ~1~
+
+[HM1_B]
+Ho un problema. Stanno cercando di farsi gioco di me.
+
+[AM2_A]
+La morte di Salvatore è un'ottima notizia,
+
+[AM2_A2]
+sei un killer efficiente. Mi piace come qualità in un uomo.
+
+[AM2_B]
+Lui è mio fratello Kenji.
+
+[AM2_C]
+Asuka ha un lavoretto per te: quando hai finito, passa al Casinò così parliamo.
+
+[AM2_D]
+Proprio come Kenji, che cerca sempre di usare i miei giocattoli.
+
+[AM2_E]
+La mia fonte alla polizia mi ha informato che la Mafia sta studiando le nostre operazioni nella città
+
+[AM2_E2]
+nel tentativo di scovarti.
+
+[AM2_F]
+Non possiamo continuare le nostre operazioni fino a quando il problema non verrà risolto.
+
+[AM2_G]
+Elimina questi insulsi spioni e termina questa vendetta una volta per tutte.
+
+[F_START]
+~g~Veicolo in fiamme avvistato nell'area ~a~. Vai a spegnere il fuoco.
+
+[AM4_1A]
+Vai al telefono al parco Belleville ovest.
+
+[AM4_1B]
+Vai al telefono nel campus Liberty.
+
+[AM4_1C]
+Vai al telefono al parco Belleville sud.
+
+[AM4_1D]
+Incontriamoci nei bagni pubblici nel parco.
+
+[HJSTATF]
+Distanza: ~1~ piedi Altezza: ~1~ piedi Ribaltamenti: ~1~ Rotazioni: ~1~_
+
+[HJSTAWF]
+Distanza: ~1~ piedi Altezza: ~1~ piedi Ribaltamenti: ~1~ Rotazioni: ~1~_ E che grande atterraggio!
+
+[HM1_F]
+Stai in guardia, però. Ci saranno dei Jack in giro che penseranno che vuoi far fuori anche loro!
+
+[HM1_D]
+'Nine' è il loro nome e la loro bandiera è porpora e ogni giorno che portano i loro colori...
+
+[HM1_G]
+è un giorno in cui i 'Jack' appaiono rammolliti.
+
+[MEA2_B]
+e ruba qualcosa così che io possa incassare l'assicurazione come fai tu.
+
+[TM3_H]
+~w~Hai fatto un bel lavoro laggiù, molto bravo.
+
+[TM3_I]
+~w~Forza, adesso ti presento al Don.
+
+[TM3_J]
+~w~Eehi!!! Luigi!
+
+[TM3_K]
+~w~Oh, le mie ragazze hanno sentito la sua mancanza, Don Salvatore, è mancato per molto tempo.
+
+[TM3_L]
+~w~Dì loro che una volta risolta questa situazione spiacevole,
+
+[TM3_M]
+~w~andremo tutti al club a festeggiare, OK?
+
+[TM3_N]
+~w~Ecco il mio ragazzo!
+
+[TM3_N2]
+~w~Come va, papà?
+
+[TM3_O]
+~w~Ti sei trovato una brava mogliettina?
+
+[TM3_P]
+~w~Ehi, tua madre, pace all'anima sua, si rivolterebbe nella tomba
+
+[TM3_Q]
+~w~vedendoti ancora senza moglie.
+
+[TM3_R]
+~w~Lo so, papà, ci sto pensando su.
+
+[TM3_S]
+~w~TONI! Come sta tua madre?
+
+[TM3_T]
+~w~È una donna eccezionale. Forte.
+
+[TM3_U]
+~w~Sta bene... tutto OK.
+
+[TM3_V]
+~w~Bene, bene. Voi ragazzi entrate pure, mentre io chiacchiero col nostro nuovo amico.
+
+[TM3_W]
+~w~Vedo un futuro roseo per te, figghiu miu...
+
+[RM1_A]
+Quell'infame di McAffrey, si prende più bustarelle di chiunque.
+
+[RM1_B]
+Pensa di venir assolto dignitosamente presentando delle prove inequivocabili.
+
+[RM1_C]
+Ha appena cantato!
+
+[RM4_B]
+Dobbiamo metterlo a tacere, per sempre.
+
+[RM4_E]
+Voglio che dorma con i pesci, in senso letterale.
+
+[LOVE3_B]
+Avvicinandosi all'aeroporto stasera, un piccolo aereo sorvolerà la baia.
+
+[LOVE4_D]
+Sfortunatamente le autorità aeroportuali avevano già iniziato a smantellare l'aereo
+
+[LOVE4_H]
+finché non sono intervenuto sborsando una fortuna.
+
+[LOVE4_E]
+Attraversa il ponte per Shoreside Vale e vai all'aeroporto internazionale Francis.
+
+[GTAB_A]
+Ehi, portiamo questo fuori di qui. Dio solo sa cos'è
+
+[GTAB_B]
+ma sembra che lui lo voglia davvero, quindi dovrà pur valere qualcosa.
+
+[GTAB_C]
+Chi diavolo è!
+
+[GTAB_D]
+TU!
+
+[GTAB_E]
+Ehi, in gamba amigo, stai calmo, amigo! Di niente, di niente!
+
+[GTAB_F]
+Ti ho lasciato sfogare!
+
+[GTAB_G]
+Non sparare amigo. Nessun problema. Siamo tutti amici. Ecco, prendi questo.
+
+[GTAB_H]
+Non fare la femminuccia!
+
+[GTAB_I]
+Non abbiamo scelta, baby!
+
+[GTAB_J]
+C'è sempre una scelta, stupido bastardo!
+
+[GTAB_K]
+Mi spiace per quella cretina, amigo, sono tutte uguali... por favor?
+
+[GTAB_L]
+Allora la puttana è scappata.
+
+[GTAB_M]
+Ma mi hai fatto un favore,
+
+[GTAB_N]
+non sei il solo che ha un conto in sospeso col Cartello,
+
+[GTAB_O]
+questo verme ha ucciso mio fratello!
+
+[GTAB_P]
+Non ho mai ucciso nessun Yakuza!
+
+[GTAB_Q]
+BUGIARDO! Abbiamo visto tutti l'assassino del Cartello.
+
+[GTAB_R]
+Daremo la caccia ed elimineremo tutti voi cani Colombiani!
+
+[GTAB_S]
+Farò un'operazione al nostro amichetto per strappargli qualche informazione e per divertirmi.
+
+[GTAB_T]
+Tu, passa più tardi, sono certo che avrò bisogno del tuo aiuto.
+
+[GTAB_U]
+Ti prego, amigo, non lasciarmi con lei, è tutta matta! Amigo? Ehi Amiiigooo!!! Aieeeeeeaaaaahh!!!
+
+[LOVE5_A]
+Ti stai dimostrando un buon investimento, cosa rara in questi giorni.
+
+[KM3_1]
+~g~Il Cartello aspetta una gang di Yardie. Vai a rubare una loro auto! Dirigiti a nord, ne troverai una a Newport.
+
+[LOVE1_1]
+~g~Procurati un'auto dei gangster Colombiani per infiltrarti nel loro nascondiglio: dirigiti a nord, ne troverai una a Fort Staunton.
+
+[FM1_Q1]
+~w~Ti va di divertirti? Un po' di... hmmm? Un po' di SPANK?
+
+[FM1_R]
+~w~Ciao Chico. No, il solito.
+
+[FM1_T]
+~w~Grazie Chico, a presto.
+
+[FM1_W]
+~w~OK, Fido, aspetta qui e tieni d'occhio l'auto mentre io vado a sculettare un po'.
+
+[FM1_X]
+~w~OK, Fido, andiamocene via di qui. Uuuhhh!
+
+[FM1_Q]
+~w~Ehi, Maria! La mia ragazza preferita!
+
+[FM1_S1]
+~w~Ehi, forse dovresti dare un'occhiata al party nei magazzini sulla costa est del molo atlantico.
+
+[FM1_U]
+~w~Gracias e buon divertimento. È roba buona.
+
+[FM1_V]
+~w~Forza, Fido, facciamo un salto a questo party!
+
+[FM1_SS]
+~r~SCANNER: ~g~4-5 a tutte le unità: rinforzi per l'operazione antinarcotici al molo atlantico...
+
+[LOVE6_B]
+Anche se hanno scarsa comprensione del suo autentico valore.
+
+[TM3_A1]
+~r~Joey è spacciato!
+
+[TM3_A2]
+~r~Joey e Luigi sono stati cremati!
+
+[TM3_A3]
+~r~Joey, Luigi e Toni sono fritti!
+
+[FM4_2]
+Ascolta, Salvatore pensa che vogliamo tradirlo,
+
+[FM4_3]
+per cui ti stava per consegnare al Cartello per raggiungere un accordo.
+
+[FM4_4]
+Non potevo lasciarglielo fare, e poi la cosa peggiore è che
+
+[FM4_4B]
+è tutta colpa mia... perché gli ho detto che stavamo insieme.
+
+[FM4_5]
+Non chiedermi il perché. Non lo so.
+
+[FM4_6]
+Senti, sei un uomo spacciato in territorio mafioso, e anch'io devo svignarmela.
+
+[FM4_6B]
+Ho visto troppi omicidi. Troppo sangue!
+
+[FM4_7]
+Questa è una mia vecchia amica, OK, di vecchia data. È Asuka, ed è una tipa fidata.
+
+[FM4_8]
+Forza, basta con i discorsi.
+
+[FM4_9]
+Dovremmo andarcene prima che arrivino altri italiani isterici poco propensi a una discussione amichevole.
+
+[CRED001]
+ROCKSTAR STUDIOS
+
+[CRED002]
+PRODUTTORE
+
+[CRED003]
+LESLIE BENZIES
+
+[CRED004]
+DIREZIONE ARTISTICA
+
+[CRED005]
+AARON GARBUT
+
+[CRED006]
+DIREZIONE TECNICA
+
+[CRED007]
+OBBE VERMEIJ
+
+[CRED008]
+ADAM FOWLER
+
+[CRED009]
+DESIGN
+
+[CRED010]
+CRAIG FILSHIE
+
+[CRED011]
+WILLIAM MILLS
+
+[CRED012]
+CHRIS ROTHWELL
+
+[CRED013]
+JAMES WORRALL
+
+[CRED014]
+SCRITTO DA
+
+[CRED015]
+JAMES WORRALL
+
+[CRED016]
+PAUL KUROWSKI
+
+[CRED017]
+DAN HOUSER
+
+[CRED018]
+PERSONAGGI
+
+[CRED019]
+IAN MCQUE
+
+[CRED020]
+ANIMAZIONE E REGIA
+
+[CRED021]
+ALEX HORTON
+
+[CRED022]
+LEE MONTGOMERY
+
+[CRED023]
+DESIGN AUTOMOBILI
+
+[CRED024]
+PAUL KUROWSKI
+
+[CRED025]
+GRAFICI
+
+[CRED026]
+KEIRAN BAILLIE
+
+[CRED027]
+ADAM COCHRANE
+
+[CRED028]
+GARY MCADAM
+
+[CRED029]
+MICHAEL PIRSO
+
+[CRED030]
+ANDREW SOOSAY
+
+[CRED031]
+ALISDAIR WOOD
+
+[CRED032]
+CODIFICATORI
+
+[CRED033]
+ALAN CAMPBELL
+
+[CRED034]
+MARK HANLON
+
+[CRED035]
+ANDRZEJ MADAJCZYK
+
+[CRED036]
+ALEXANDER ROGER
+
+[CRED037]
+GRAEME WILLIAMSON
+
+[CRED038]
+MUSICHE
+
+[CRED039]
+CRAIG CONNER
+
+[CRED040]
+STUART ROSS
+
+[CRED041]
+DESIGN AUDIO E MASTERIZZAZIONE
+
+[CRED042]
+ALLAN WALKER
+
+[CRED043]
+PROGRAMMAZIONE AUDIO
+
+[CRED044]
+RAYMOND USHER
+
+[CRED045]
+DIRETTORE TESTING
+
+[CRED046]
+CRAIG ARBUTHNOTT
+
+[CRED047]
+TESTER PRINCIPALI
+
+[CRED048]
+ANDY DUTHIE
+
+[CRED049]
+JOHN HAIME
+
+[CRED050]
+NEIL CORBETT
+
+[CRD050A]
+TESTER
+
+[CRED051]
+GRAEME JENNINGS
+
+[CRED052]
+DAVID MURDOCH
+
+[CRED053]
+DAVID BEDDOES
+
+[CRED054]
+EDWIN SMITH
+
+[CRED055]
+MARK FLETT
+
+[CRED056]
+MICHAEL SUTHERLAND
+
+[CRED057]
+SUPPORTO TECNICO
+
+[CRED058]
+LORRAINE ROY
+
+[CRED059]
+CHRISTINE CHALMERS
+
+[CRED060]
+ROCKSTAR
+
+[CRED061]
+PRODUTTORE ESECUTIVO
+
+[CRED062]
+SAM HOUSER
+
+[CRED063]
+PRODUTTORE
+
+[CRED064]
+DAN HOUSER
+
+[CRED065]
+DIRETTORE DI SVILUPPO
+
+[CRED066]
+JAMIE KING
+
+[CRED067]
+PRODUTTORE TECNICO
+
+[CRED068]
+GARY J. FOREMAN
+
+[CRED069]
+PRODUTTORE ASSOCIATO
+
+[CRED070]
+JEREMY POPE
+
+[CRED071]
+SUPERVISORE MUSICHE
+
+[CRED072]
+TERRY DONOVAN
+
+[CRED073]
+ROCKSTAR PRODUCTION TEAM
+
+[CRED074]
+TERRY DONOVAN
+
+[CRED075]
+JENNIFER KOLBE
+
+[CRED076]
+JENEFER GROSS
+
+[CRED077]
+LAURA PATERSON
+
+[CRED078]
+JEFF CASTANEDA
+
+[CRED079]
+CHRIS CARRO
+
+[CRED080]
+ADAM TEDMAN
+
+[CRED081]
+JUNG KWAK
+
+[CRED082]
+BRIAN WOOD
+
+[CRED083]
+PAUL YEATES
+
+[CRED084]
+STANTON SARJEANT
+
+[CRED085]
+VICEPRESIDENTE MARKETING
+
+[CRED086]
+TERRY DONOVAN
+
+[CRED087]
+COORDINATORE TECNICO
+
+[CRED088]
+BRANDON ROSE
+
+[CRED089]
+RESPONSABILE CONTROLLO QUALITÀ
+
+[CRED090]
+JEFF ROSA
+
+[CRED091]
+LEAD ANALYST
+
+[CRED092]
+ADAM DAVIDSON
+
+[CRED093]
+ANALISTA DEL GIOCO
+
+[CRED094]
+RICHARD HUIE
+
+[CRED095]
+SQUADRA TESTING
+
+[CRED096]
+LANCE WILLIAMS
+
+[CRED097]
+JOE GREENE
+
+[CRED098]
+BRIAN PLANER
+
+[CRED099]
+OSWALD GREENE
+
+[CRED100]
+PIANTA DI LIBERTY
+
+[CRED101]
+JAMES WORRALL
+
+[CRED102]
+DAN HOUSER
+
+[CRED103]
+ADAM TEDMAN
+
+[CRED104]
+PAUL YEATES
+
+[CRED105]
+JENEFER GROSS
+
+[CRED106]
+LAURA PATERSON
+
+[CRED107]
+SEQUENZE ANIMATE
+
+[CRED108]
+COPIONE SCRITTO DA DAN HOUSER E JAMES WORRALL
+
+[CRED109]
+REGISTRAZIONE AUDIO DIRETTA DA DAN HOUSER
+
+[CRED110]
+AUDIO PRODOTTO DA RENAUD SEBBANE
+
+[CRED111]
+CASTING
+
+[CRED112]
+FRANK VINCENT NEL RUOLO DI SALVATORE LEONE
+
+[CRED113]
+JOE PANTOLIANO NEL RUOLO DI LUIGI GOTERELLI
+
+[CRED114]
+MICHAEL MADSEN NEL RUOLO DI TONI CIPRIANI
+
+[CRED115]
+MICHAEL RAPAPORT NEL RUOLO DI JOEY LEONE
+
+[CRED116]
+DEBBI MAZAR NEL RUOLO DI MARIA
+
+[CRED117]
+KYLE MACLACHLAN NEL RUOLO DI DONALD LOVE
+
+[CRED118]
+ROBERT LOGGIA NEL RUOLO DI RAY MACHOWSKI
+
+[CRED119]
+GURU NEL RUOLO DI 8-BALL
+
+[CRED120]
+SONDRA JAMES NEL RUOLO DI MOMMA
+
+[CRED121]
+LIANA PAI NEL RUOLO DI ASUKA
+
+[CRED122]
+LES MAU NEL RUOLO DI KENJI
+
+[CRED123]
+CYNTHIA FARRELL NEL RUOLO DI CATALINA
+
+[CRED124]
+AL ESPINOSA NEL RUOLO DI MIGUEL
+
+[CRED125]
+CHRIS PHILLIPS NEL RUOLO DI EL BURRO
+
+[CRED126]
+HUNTER PLATIN NEL RUOLO DI CHICO
+
+[CRED127]
+WALTER MUDU NEL RUOLO DI D-ICE
+
+[CRED128]
+CURTIS MCCLARIN NEL RUOLO DI CURTLY
+
+[CRED129]
+BILL FIORE NEL RUOLO DI DARKEL
+
+[CRED130]
+CHRIS PHILLIPS NEL RUOLO DI MARTY CHONKS
+
+[CRED131]
+HUNTER PLATIN NEL RUOLO DI RICCIOLINO BOB
+
+[CRED132]
+WALTER MUDU NEL RUOLO DI KING COURTNEY
+
+[CRED133]
+HUNTER PLATIN NEL RUOLO DI ONE-ARMED PHIL
+
+[CRED134]
+KIM GURNEY NEL RUOLO DI MISTY
+
+[CRED135]
+MOTION CAPTURE
+
+[CRED136]
+ANIMATO DA
+
+[CRD136A]
+ALEX HORTON
+
+[CRED137]
+DIRETTO DA
+
+[CRD137A]
+NAVID KHONSARI
+
+[CRED138]
+PRODOTTO DA
+
+[CRD138A]
+JAMIE KING
+
+[CRD138B]
+RENAUD SEBBANE
+
+[CRED139]
+REGISTRATO PRESSO GLI STUDI MODERN UPRISING, BROOKLYN
+
+[CRED140]
+ATTORI
+
+[CRD140A]
+RENAUD SEBBANE
+
+[CRD140B]
+GISELLE JONES
+
+[CRD140C]
+STEPHEN DANIELS
+
+[CRD140D]
+ROBERT STIO
+
+[CRD140E]
+JENNY GROSS
+
+[CRED141]
+DIALOGO DEI PEDONI
+
+[CRED142]
+SCRITTO DA DAN HOUSER, NAVID KHONSARI & JAMES WORRALL
+
+[CRED143]
+DIRETTO DA CRAIG CONNER, DAN HOUSER E LAZLOW
+
+[CRED144]
+PRODOTTO DA RENAUD SEBBANE
+
+[CRED145]
+CAST
+
+[CRED146]
+HUNTER PLATIN
+
+[CRED147]
+DAN HOUSER
+
+[CRED148]
+RENAUD SEBBANE
+
+[CRED149]
+MARIA CHAMBERS
+
+[CRED150]
+JEFF STANTON
+
+[CRED151]
+RYAN CROY
+
+[CRED152]
+DEENA BERMAN
+
+[CRED153]
+MARIA CHAMBERS
+
+[CRED154]
+ALICE B. SALTZMAN
+
+[CRED155]
+ALEX ANTHONY SIOUKAS
+
+[CRED156]
+SEAN R. LYNCH
+
+[CRED157]
+AMY SALZMAN
+
+[CRED158]
+COLIN MCSHANE
+
+[CRED159]
+COREY WADE
+
+[CRED160]
+GERALD COSGROVE
+
+[CRED161]
+STEPHANIE ROY
+
+[CRED162]
+DORIS WOO
+
+[CRED163]
+JOSEPH GREENE
+
+[CRED164]
+LAZLOW JONES
+
+[CRED165]
+HSIANG LIN
+
+[CRED166]
+STEVE MICHAEL ROBERT
+
+[CRED167]
+MATHEW MURRAY
+
+[CRED168]
+RICHARD HUIE
+
+[CRED169]
+GARVIN ATWELL
+
+[CRED170]
+STEVE KNEZEVICH
+
+[CRED171]
+YUKIMURA SATO
+
+[CRED172]
+FRANK CHAVEZ
+
+[CRED173]
+LIEZL JACINTO
+
+[CRED174]
+CANAAN MCKOY
+
+[CRED175]
+ADAM DAVIDSON
+
+[CRED176]
+LANCE WILLIAMS
+
+[CRED177]
+NEIL MCCAFFREY
+
+[CRED178]
+LAURA PATERSON
+
+[CRED179]
+REY CONCEPCION
+
+[CRED180]
+CHARLES HEROLD
+
+[CRED181]
+ANDREW GREENWALD
+
+[CRED182]
+JAMES MIELKE
+
+[CRED183]
+PETER SUCIU
+
+[CRED184]
+ALEX ODULIO
+
+[CRED185]
+DON NKRUMAH
+
+[CRED186]
+KENDALL PITTMAN
+
+[CRED187]
+SAL SUAZO
+
+[CRED188]
+EREK MATEO
+
+[CRED189]
+CHRIS DIFATE
+
+[CRED190]
+LEILA MILTON
+
+[CRED191]
+DARREN ZOLTOWSKI
+
+[CRED192]
+VIRGINIA SMITH
+
+[CRED193]
+KEVIN CASSIN
+
+[CRED194]
+JASON SHIGEMORI
+
+[CRED195]
+KELLY KINSELLA
+
+[CRED196]
+MOLLIE STICKNEY
+
+[CRED197]
+STANTON SARJEANT
+
+[CRED198]
+LAURA WALSH
+
+[CRED199]
+MARK GARONE
+
+[CRED200]
+JOANNA SLY
+
+[CRED201]
+ELIZABETH HOWELL
+
+[CRED202]
+ANA HERCULES
+
+[CRED203]
+SHIRLEY IRICK
+
+[CRED204]
+KASHONA FIELDS
+
+[CRED205]
+JOEL M. LILJE
+
+[CRED206]
+JOHN DIBENEDETTO
+
+[CRED207]
+NANCY GILES
+
+[CRED208]
+RYAN CROY
+
+[CRED209]
+JENNIFER KOLBE
+
+[CRED210]
+LIAM BURKE
+
+[CRED211]
+SIGRID PREISSL
+
+[CRED212]
+ANITA FITZSIMONS
+
+[CRED213]
+PHILIPPA RASELLI
+
+[CRED214]
+WIL QUESNEL
+
+[CRED215]
+FALKO BURKERT
+
+[CRED216]
+SARA SEWELL
+
+[CRED217]
+STAZIONI RADIO E MUSICA
+
+[CRED218]
+PRODUTTORI PER ROCKSTAR UK
+
+[CRD218A]
+CRAIG CONNER
+
+[CRD218B]
+STUART ROSS
+
+[CRED219]
+COORDINATORE COLONNA SONORA
+
+[CRED220]
+TERRY DONOVAN
+
+[CRED221]
+PRODUTTORE PER ROCKSTAR GAMES
+
+[CRED222]
+DAN HOUSER
+
+[CRED223]
+POST-PRODOTTA DA
+
+[CRED224]
+CRAIG CONNER
+
+[CRED225]
+ALLAN WALKER
+
+[CRED226]
+LAZLOW
+
+[CRED227]
+DJ BANTER E IMAGING SCRITTE DA
+
+[CRED228]
+DAN HOUSER
+
+[CRED229]
+LAZLOW
+
+[CRED230]
+RINGRAZIAMENTI SPECIALI A
+
+[CRED231]
+ADAM TEDMAN
+
+[CRED232]
+ALEX MASON
+
+[CRED233]
+JUDY HENDERSON CASTING
+
+[CRED234]
+HAMISH BROWN
+
+[CRED235]
+CHRISSY HOBAN
+
+[CRED236]
+INNES RICARD
+
+[CRED237]
+LILION BROZSKA
+
+[CRED238]
+BOB HILLARY
+
+[CRED239]
+EMILY ANDERSON
+
+[CRED240]
+RICHIE HENDERSON
+
+[CRED241]
+CHRSTIAN CANTAMESSA
+
+[CRED242]
+JERONIMO BARRERA
+
+[CRED243]
+ALEXANDER ILLES
+
+[CRED244]
+BARANE CHAN
+
+[CRED245]
+DUNCAN SHIELDS
+
+[CRED246]
+BARANE CHAN
+
+[CRED247]
+DEREK PAYNE
+
+[CRED248]
+KEVIN WONG
+
+[CRED249]
+ROSS ELLIOTT
+
+[CRED250]
+ROSS BEAZLEY
+
+[CRED251]
+ALEX BAZLINTON
+
+[CRED252]
+DAVE WATSON
+
+[CRED253]
+MALCOLM SMITH
+
+[CRED255]
+ANDREW SEMPLE
+
+[CRED256]
+ARTIST
+
+[CRED257]
+STUART PETRI
+
+[CRED258]
+JERONIMO BARRERA
+
+[CRED259]
+CARLY SLATER
+
+[CRED260]
+GREG LAU
+
+[CRED261]
+STEVE KNEZEVICH
+
+[CRED262]
+DEVIN WINTERBOTTOM
+
+[CRED263]
+JAMEEL VEGA
+
+[CRED264]
+LEE CUMMINGS
+
+[CRED265]
+DEVIN BENNET
+
+[CRED266]
+ELIZABETH SATTERWHITE
+
+[CRED267]
+AARON RIGBY
+
+[CRED268]
+STEVE K.
+
+[CRED269]
+GREG LAU
+
+[CRED270]
+MIKE HONG
+
+[CINCAM]
+Camera mobile
+
+[KM1_13]
+Entra in auto dentro il garage!
+
+[KM3_14]
+~r~Sei stato scoperto, l'affare è saltato!
+
+[EBAL_H]
+Aspetta qui mentre entro a parlare con Luigi.
+
+[EBAL_M]
+Ricorda, niente casini con le mie ragazze!
+
+[LM2_F]
+Poi prendi la sua macchina, riverniciala.
+
+[LM2_D]
+tieni, prendi.
+
+[LM1_9]
+Ciao, sono Misty.
+
+[LM4_A]
+I papponi dei Diablo hanno messo a battere le loro mignotte nella mia zona.
+
+[FM2_B]
+C'è di mezzo una spia.
+
+[FM2_C]
+Non è ne un pusher ne un pappone, quindi dev'essere una spia.
+
+[FM3_CC]
+~w~Fratello, torna quando avrai i soldi.
+
+[LOVE5_5]
+~r~Non sei riuscito a proteggere il camion!
+
+[RM6_6]
+~r~Ray è morto!
+
+[RM6_7]
+~r~Ray ha perso il volo.
+
+[RM6_8]
+~g~Ti sei dimenticato Ray, torna a prenderlo.
+
+[FM1_10]
+~g~Ti sei dimenticato Maria, torna a prenderla.
+
+[LOVE4_9]
+~r~L'aereo è stato distrutto!
+
+[LOV4_10]
+~r~Il solo indizio che indicasse dov'è finito il pacco è stato distrutto!
+
+[KM2_D]
+Non occorre dire che dobbiamo donargli le auto, per ripagare il debito che gli è dovuto.
+
+[KM4_B]
+Le imprese che godono della nostra protezione oggi salderanno i conti.
+
+[KM2_E]
+Devi procurarti le auto nella lista e consegnarle nel garage dietro il parcheggio a Newport.
+
+[FM3_8I]
+~w~Scegli una postazione vantaggiosa, poi io entrerò dopo che hai sparato il primo colpo.
+
+[LOVE1_B]
+L'esperienza mi ha insegnato che un uomo come te sa essere molto leale se ben pagato,
+
+[LOVE1_H]
+ma gruppi di uomini diventano avidi.
+
+[LOVE1_C]
+Un personaggio chiave, un vecchietto orientale che conosco,
+
+[LOVE1_I]
+è ostaggio di alcuni sud-americani in Aspatria.
+
+[MEA4_D]
+Ho preso accordi per vederlo...
+
+[MEA4_B4]
+Ti manda Marty, eh? OK, mostrerò a quello schifoso il significato della parola affari.
+
+[MEA4_B5]
+Carl, ciao! Mi, uh, mi serve più tempo per pagarti.
+
+[MEA1_B4]
+Ah, ti manda il signor Chonk, vero? Andiamo a fargli un visita.
+
+[HM5_6]
+Andiamo a spaccare qualche cranio...
+
+[LOVE1_5]
+~g~Non perdere altro tempo, procurati un'auto dei Colombiani e salva il socio di Love.
+
+[AS1_D]
+~w~Agisci da esca e fatti inseguire dai plotoni d'esecuzione fino a Pike Creek
+
+[AS1_E]
+~w~dove i miei uomini li aspetteranno.
+
+[AS2_C]
+~w~Il Cartello ha un negozio di copertura, la compagnia Kappa Coffee House.
+
+[AS2_E]
+~w~Non abbiamo scelta, dobbiamo mettere questi spacciatori ambulanti fuori combattimento.
+
+[AS2_F]
+~w~Riducili in poltiglia!!
+
+[AS2_A1]
+~w~Miguel ha di certo un po' di quella famosa prestanza latina.
+
+[AS2_A2]
+~w~Io non ce la faccio più.
+
+[SIREN_3]
+Per attivare la sirena di questo veicolo premi il ~h~tasto ~k~~VEHICLE_HORN~~w~.
+
+[SIREN_4]
+Per attivare la sirena di questo veicolo premi il ~h~tasto ~k~~VEHICLE_HORN~~w~.
+
+[AS3_C]
+~w~Eeeeyooo! Cos'è quella roba gialla e collosa?
+
+[AS3_C1]
+~w~Oh, ciao pupa.
+
+[AS3_F]
+~w~Ha un talento naturale questa ragazza.
+
+[AS3_F1]
+~w~È riuscita a strappare questa perla al nostro ospite.
+
+[AS3_G]
+~w~C'è un aereo in arrivo all'aeroporto internazionale Francis in 2 ore.
+
+[AS3_G1]
+~w~È pieno del veleno di Catalina.
+
+[AS3_H]
+~w~Puoi evitare la sicurezza dell'aeroporto andando in barca vicino alle boe di segnalazione della pista di atterraggio
+
+[AS3_H1]
+e abbattendo l'aereo quando si avvicina.
+
+[AS3_I]
+~w~Raccogli il carico dalle macerie!
+
+[AS3_J]
+~w~Oh, adesso fa attenzione, OK baby?
+
+[AS3_K]
+~w~Adesso prova l'olio di chili...
+
+[RM2_F1]
+Quei Colombiani dovrebbero essere qui a momenti!
+
+[RM2_K]
+Maledizione, sono arrivati!!! CARICA LE ARMI!!!
+
+[LOVE2_7]
+~g~Adesso abbandona l'auto!
+
+[LOVE2_8]
+~g~Ora allontanati da Newport!
+
+[AM1_F]
+Salvatore Leone lascerà Luigi's all'incirca alle ~1~:~1~.
+
+[LOVE5_C]
+Voglio che tu lo segua che ti accerti che lui e il mio pacco giungano a Pine Creex illesi.
+
+[FESZ_SR]
+Salvataggio fallito! Controlla la memory card (PS2) nell'ingresso MEMORY CARD 1 e riprova.
+
+[FESZ_FO]
+Vuoi formattare la memory card (PS2) nell'ingresso MEMORY CARD 1?
+
+[FELZ_FO]
+La memory card (PS2) nell'ingresso MEMORY CARD 1 non è formattata.
+
+[FES_NOC]
+Nessuna memory card (PS2) nell'ingresso MEMORY CARD 1.
+
+[FES_LOE]
+Caricamento fallito! Controlla la memory card (PS2) nell'ingresso MEMORY CARD 1 e riprova.
+
+[FES_DEE]
+Eliminazione fallita! Controlla la memory card (PS2) nell'ingresso MEMORY CARD 1 e riprova.
+
+[FORSUC]
+Formattazione della memory card (PS2) nell'ingresso MEMORY CARD 1 completata.
+
+[ERFOUN]
+Formattazione della memory card (PS2) nell'ingresso MEMORY CARD 1 fallita.
+
+[ERMCNP]
+Nessuna memory card (PS2) nell'ingresso MEMORY CARD 1.
+
+[SVMEM1]
+Salva sulla memory card (PS2) nell'ingresso MEMORY CARD 1.
+
+[FORSLO]
+Formatta la memory card (PS2) nell'ingresso MEMORY CARD 1.
+
+[SLONFM]
+Errore di formattazione della memory card (PS2) nell'ingresso MEMORY CARD 1.
+
+[SLONDR]
+Spazio insufficiente. Inserire una memory card (PS2) con almeno 500KB di spazio libero nell'ingresso MEMORY CARD 1.
+
+[SLNSP]
+Spazio insufficiente. Inserire una memory card (PS2) con almeno 200KB di spazio libero nell'ingresso MEMORY CARD 1.
+
+[FEFD_WR]
+Formattazione della memory card (PS2) nell'ingresso MEMORY CARD 1. Non rimuovere la memory card (PS2), riavviare o spegnere la console.
+
+[FES_ISF]
+NON PRESENTE
+
+[FES_SAG]
+PRESENTE
+
+[SLONNO]
+Nessuna memory card (PS2) nell'ingresso MEMORY CARD 1.
+
+[SLONNF]
+Memory card (PS2) nell'ingresso MEMORY CARD 1 non formattata.
+
+[FESZ_FM]
+Memory card (PS2) nell'ingresso MEMORY CARD 1 non formattata. Vuoi formattare la memory card (PS2) nell'ingresso MEMORY CARD 1?
+
+[FESZ_FF]
+Formattazione fallita! Controlla la memory card (PS2) nell'ingresso MEMORY CARD 1 e riprova.
+
+[MCDNSP]
+Spazio insufficiente sulla memory card (PS2) nell'ingresso MEMORY CARD 1. Sono necessari almeno 500KB di spazio libero. Si desidera procedere? (SÌ o NO)
+
+[MCGNSP]
+Spazio insufficiente sulla memory card (PS2) nell'ingresso MEMORY CARD 1. Sono necessari almeno 200KB di spazio libero. Si desidera procedere? (SÌ o NO)
+
+[FESZ_WR]
+Salvataggio dati. Non rimuovere la memory card (PS2) dall'ingresso MEMORY CARD 1, riavviare o spegnere la console.
+
+[FESZ_OW]
+Sovrascrittura dati. Non rimuovere la memory card (PS2) dall'ingresso MEMORY CARD 1, riavviare o spegnere la console.
+
+[FELD_WR]
+Caricamento dati. Non rimuovere la memory card (PS2) dall'ingresso MEMORY CARD 1, riavviare o spegnere la console.
+
+[FEDL_WR]
+Eliminazione dati. Non rimuovere la memory card (PS2) dall'ingresso MEMORY CARD 1, riavviare o spegnere la console.
+
+[LM2_C]
+Luigi dice di, di darti questo, quindi...
+
+[LM3_G]
+Joey non è tipo da aspettare: ricorda, questa è la tua grande occasione...
+
+[LM5_E]
+Portane più che puoi prima che gli sbirri si bevano tutto lo stipendio.
+
+[JM5_C]
+OK, c'è un'auto con ripieno di cadavere al bar vicino Callahan Point.
+
+[RM2_B]
+Abbiamo visto i casini in Nicaragua, ai tempi in cui la nazione aveva ancora un senso.
+
+[RM2_C]
+Qualche bastardo del Cartello l'ha maltrattato ieri e ha detto che ritornerà oggi per la sua merce.
+
+[RM2_D1]
+Andrei io, ma la mia vecchia sciatica si fa sentire -cough cough- quindi, uhh, in bocca al lupo.
+
+[CATINF1]
+~g~Prendi Catalina!
+
+[CATINF2]
+~g~Segui l'elicottero per trovare Catalina.
+
+[BOATIN1]
+Salta su una barca e premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per entrare.
+
+[BOATIN2]
+Se sei vicino a una barca, puoi premere il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per tirarla verso di te.
+
+[BOATIN3]
+Salta su una barca e premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per entrare.
+
+[BOATIN4]
+Se sei vicino a una barca, puoi premere il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per tirarla verso di te.
+
+[JM6]
+'LA PARTENZA'
+
+[FM1]
+L'AUTISTA
+
+[JM1]
+'L'ULTIMA CENA DI MIKE 'LABBRA''
+
+[FM21]
+'BOMBARDA LA BASE: ATTO PRIMO'
+
+[FM3]
+'BOMBARDA LA BASE: ATTO SECONDO'
+
+[AM1]
+'SAYONARA SALVATORE'
+
+[AM2]
+'SOTTO SORVEGLIANZA'
+
+[KM2]
+'GRAND THEFT AUTO'
+
+[AS3]
+'S.A.M.'
+
+[RM2]
+'A CORTO D'ARMI'
+
+[LOVE6]
+'TRANELLO'
+
+[LOVE1]
+'LIBERATORE'
+
+[RC1]
+'DISTRUZIONE DEI DIABLO'
+
+[RC2]
+'MASSACRO MAFIOSO'
+
+[RC3]
+'CALAMITÀ AL CASINÒ'
+
+[RC4]
+'LA FURIA DI RUMPO'
+
+[RM2_E1]
+Non posso credere che quei bastardi musi gialli se ne siano andati lasciandomi di nuovo senza copertura!
+
+[GREN_1]
+Quanto più a lungo tieni premuto il ~h~tasto ~k~~PED_FIREWEAPON~~w~, tanto più lontano lancerai la granata.
+
+[GREN_2]
+Quanto più a lungo tieni premuto il ~h~tasto ~k~~PED_FIREWEAPON~~w~, tanto più lontano lancerai la granata.
+
+[GREN_3]
+Quanto più a lungo tieni premuto il ~h~tasto ~k~~PED_FIREWEAPON~~w~, tanto più lontano lancerai la granata.
+
+[LOVE4_G]
+Le mie proprietà ti aspettano all'interno dell'aereo nell'hangar doganale.
+
+[KABOOM]
+KABOOOM!
+
+[SPLAT]
+SPIACCICATO!
+
+[PANCAK]
+SCHIACCIATO!
+
+[SOAKED]
+ANNEGATO!
+
+[HEAD]
+Head Radio
+
+[DBL_CLF]
+Double Clef FM
+
+[FLASHB]
+Flashback FM
+
+[RISE]
+Rise FM
+
+[LIPS]
+Lips 106
+
+[CHAT]
+Chatterbox FM
+
+[K_JAH]
+K-Jah Radio
+
+[GAM_FM]
+Game Radio FM
+
+[MSX_FM]
+MSX FM
+
+[TUBE1]
+Quando aprirà la metropolitana potrai prendere un treno verso Staunton Island.
+
+[TUBE2]
+Quando aprirà Shoreside Vale potrai uscire dallo Shoreside terminal verso l'aeroporto internazionale Francis.
+
+[TUBE_2]
+Per salire sulla metropolitana, premi il ~h~tasto 'entra nel veicolo'~w~.
+
+[LEGAL]
+~g~Elimina la minaccia criminale!
+
+[GA_2]
+Motore nuovo e carrozzeria riverniciata. Gli sbirri non ti riconosceranno!
+
+[LM1_8A]
+Per guadagnare qualche soldo extra, perché non 'prendere in prestito' un taxi...
+
+[TAXIH1]
+Fermati vicino a un pedone evidenziato per farlo salire a bordo e portarlo a destinazione prima che scada il tempo.
+
+[LM5_7]
+~g~Se ci sono meno di quattro ragazze alla ~p~festa degli sbirri~g~, Luigi sarà nero!
+
+[KM2_3]
+~g~Ricorda, le ~r~macchine~g~ devono essere in condizioni eccellenti per essere accolte nel ~p~garage~g~.
+
+[KM5_2]
+~g~Uno Yardie è in giro per strada.
+
+[BETRA_A]
+Scusa baby.
+
+[BETRA_B]
+Sono una ragazza ambiziosa e tu,
+
+[BETRA_C]
+sei una mezza calzetta.
+
+[JAILB_C]
+Nessun dettaglio è stato fornito riguardo i prigionieri che venivano trasferiti dalla scorta,
+
+[JAILB_E]
+La scorta aveva lasciato la centrale di polizia questa mattina presto...
+
+[JAILB_F]
+per un trasferimento ordinario verso il penitenziario di Liberty.
+
+[JAILB_G]
+L'attacco è avvenuto sul ponte Callahan,
+
+[JAILB_I]
+Alcuni dei detenuti sembrerebbero essere deceduti a seguito dell'esplosione...
+
+[JAILB_P]
+questo disastro lascia Portland isolata dal resto della città.
+
+[JAILB_Q]
+Forza!
+
+[JAILB_R]
+Signor stronzo!
+
+[JAILB_S]
+Non è un problema ucciderti.
+
+[JAILB_T]
+Te ne pentirai.
+
+[JAILB_U]
+Va bene, va bene. Sparisci.
+
+[HELP15]
+Quando sei a piedi, premi il ~h~tasto ~k~~PED_LOOKBEHIND~~w~ per ~h~guardare indietro~w~.
+
+[FEC_LB3]
+Guarda indietro
+
+[FEC_R3]
+(tasto R3)
+
+[FES_AFO]
+Questa memory card (PS2) è già formattata.
+
+[FEA_UP]
+;
+
+[FEA_DO]
+=
+
+[FEA_LE]
+<
+
+[FEA_RI]
+>
+
+[FEDSAS3]
+- CAMBIA SELEZIONE
+
+[FEDSAS4]
+;=<> - CAMBIA SELEZIONE
+
+[SPRAY_4] { re3 change }
+Usa il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per sparare col cannone ad acqua.
+
+[SPRAY_1] { re3 change }
+Usa il ~h~tasto ~k~~VEHICLE_FIREWEAPON~~w~ per sparare col cannone ad acqua.
+
+[LITTLE]
+LITTLE T
+
+[NICK]
+NICK LOVE
+
+[AM1_10]
+Salvatore uscirà da Luigi's attorno alle 0~1~:~1~.
+
+[JAILB_V]
+La città di Liberty è sotto shock.
+
+[JAILB_A]
+Mentre la polizia e i servizi di emergenza affrontano le conseguenze...
+
+[JAILB_B]
+di un devastante attacco alla scorta avvenuto questa mattina.
+
+[JAILB_W]
+Rivelazioni sulla professionalità dell'attacco hanno sconvolto le forze dell'ordine,
+
+[JAILB_K]
+Inoltre, l'identificazione dei detenuti scomparsi è stata ulteriormente ostacolata...
+
+[JAILB_L]
+da un attacco informatico al computer principale della centrale di Polizia.
+
+[JAILB_M]
+Il Sindaco O'Donovan ha dichiarato che la polizia considera l'attentato...
+
+[JAILB_N]
+*
+
+[JAILB_O]
+Considerato il ritardo nella costruzione del sottopassaggio Porter,
+
+[JAILB_X]
+In un'affermazione resa nota ieri,
+
+[FEDS_SE]
+Tasto / - SELEZIONA
+
+[FEDS_SB]
+Tasto / - SELEZIONA Tasto " - INDIETRO
+
+[TM4_A]
+~w~Oh, sei te. TONI non è qua.
+
+[TM4_A2]
+~w~Ma ha lasciato una delle sue dolci lettere per te.
+
+[DIAB2_A]
+Ho iniziato a lavorare nel business dell'intrattenimento solo grazie al voluminoso contenuto dei miei pantaloni di pelle!
+
+[LM5_9]
+RAGAZZE:
+
+[PERPIC]
+Pacchetti speciali recuperati
+
+[CO_ONE]
+Pacchetto speciale ~1~ su ~1~
+
+[LOVE3_3]
+~g~L'aeroplano ha fatto cadere ~1~ dei 6 pacchi.
+
+[FARE11]
+~g~Destinazione: ~w~'il cantiere costruzioni'~g~ a Fort Staunton.
+
+[GA_21]
+Non puoi parcheggiare altri veicoli in questo garage.
+
+[CHEAT1]
+Trucco attivato
+
+[CHEAT2]
+Trucco armi
+
+[CHEAT3]
+Trucco salute
+
+[CHEAT4]
+Trucco armatura
+
+[CHEAT5]
+Trucco livello di sospetto
+
+[CHEAT6]
+Trucco soldi
+
+[CHEAT7]
+Trucco tempo atmosferico
+
+[AS1_H]
+~r~Hai fallito nel far cadere la squadra della morte nella trappola della Yakuza!!!
+
+[FEDS_BA]
+Tasto " - INDIETRO
+
+[RAMP_A]
+TUTTE LE VIOLENZE COMPLETATE!
+
+[USJ_ALL]
+TUTTE LE ACROBAZIE UNICHE COMPLETATE
+
+[FARE23]
+~g~Destinazione: ~w~'Garage importazioni-esportazioni' ~g~nel distretto della diga Cochrane.
+
+[L_TRN_1]
+Puoi prendere il treno sopraelevato a Portland. Premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per ~h~entrare~w~ o ~h~uscire~w~ da un vagone.
+
+[L_TRN_2]
+Puoi prendere il treno sopraelevato a Portland. Premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per ~h~entrare~w~ o ~h~uscire~w~ da un vagone.
+
+[S_TRN_1]
+Puoi prendere la metropolitana attraverso Liberty. Premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per ~h~entrare~w~ o ~h~uscire~w~ da un vagone.
+
+[S_TRN_2]
+Puoi prendere la metropolitana attraverso Liberty. Premi il ~h~tasto ~k~~VEHICLE_ENTER_EXIT~~w~ per ~h~entrare~w~ o ~h~uscire~w~ da un vagone.
+
+[AS1_C]
+~w~Ha tre squadre della morte in giro per Liberty il cui unico scopo è beccarti.
+
+[AS1_G]
+~r~Tutti i membri della Yakuza sono morti!!!
+
+[JAN]
+Gen
+
+[FEB]
+Feb
+
+[MAR]
+Mar
+
+[APR]
+Apr
+
+[MAY]
+Mag
+
+[JUN]
+Giu
+
+[JUL]
+Lug
+
+[AUG]
+Ago
+
+[SEP]
+Set
+
+[OCT]
+Ott
+
+[NOV]
+Nov
+
+[DEC]
+Dic
+
+[DEFDT]
+Nessun salvataggio valido
+
+[BUGGY]
+MAGGIOLINI RIMASTI:
+
+[BONUS]
+~g~BONUS $~1~$
+
+[HORN1]
+Premi il ~h~tasto L3~w~ per suonare il ~h~clacson~w~.
+
+[HORN2]
+Premi il ~h~tasto L1~w~ per suonare il ~h~clacson~w~.
+
+[HORN3]
+Premi il ~h~tasto R1~w~ per suonare il ~h~clacson~w~.
+
+[LM3_1A]
+Premi il ~h~tasto ~k~~VEHICLE_HORN~~w~ per suonare il ~h~clacson~w~ e avvertire Misty che sei arrivato.
+
+[LM3_1B]
+Premi il ~h~tasto ~k~~VEHICLE_HORN~~w~ per suonare il ~h~clacson~w~ e avvertire Misty che sei arrivato.
+
+[LM3_1C]
+Premi il ~h~tasto ~k~~VEHICLE_HORN~~w~ per suonare il ~h~clacson~w~ e avvertire Misty che sei arrivato.
+
+[RADIO_A]
+Premi il ~h~tasto ~k~~VEHICLE_CHANGE_RADIO_STATION~~w~ per passare in rassegna le ~h~stazioni radio~w~.
+
+[RADIO_B]
+Premi il ~h~tasto ~k~~VEHICLE_CHANGE_RADIO_STATION~~w~ per passare in rassegna le ~h~stazioni radio~w~.
+
+[RADIO_C]
+Premi il ~h~tasto ~k~~VEHICLE_CHANGE_RADIO_STATION~~w~ per passare in rassegna le ~h~stazioni radio~w~.
+
+[RADIO_D]
+Premi il ~h~tasto ~k~~VEHICLE_CHANGE_RADIO_STATION~~w~ per passare in rassegna le ~h~stazioni radio~w~.
+
+[FEC_EXV]
+Entra o esci dal veicolo
+
+[TAXI_M]
+'TAXISTA'
+
+[COP_M]
+'VIGILANTE'
+
+[FIRE_M]
+'POMPIERE'
+
+[AMBUL_M]
+'PARAMEDICO'
+
+[HJ_IS]
+BONUS ACROBAZIA FOLLE: ~1~$
+
+[HJ_PIS]
+BONUS ACROBAZIA FOLLE PERFETTA: $~1~
+
+[HJ_DIS]
+BONUS DOPPIA ACROBAZIA FOLLE: $~1~
+
+[HJ_PDIS]
+BONUS DOPPIA ACROBAZIA FOLLE PERFETTA: $~1~
+
+[HJ_TIS]
+BONUS TRIPLA ACROBAZIA FOLLE: $~1~
+
+[HJ_PTIS]
+BONUS TRIPLA ACROBAZIA FOLLE PERFETTA: $~1~
+
+[HJ_QIS]
+BONUS QUADRUPLA ACROBAZIA FOLLE: $~1~
+
+[HJ_PQIS]
+BONUS QUADRUPLA ACROBAZIA FOLLE PERFETTA: $~1~
+
+[AM1_K]
+Salvatore Leone uscirà da Luigi's fra circa tre ore. (0~1~:~1~)
+
+[IMPEXPP]
+Garage importazioni-esportazioni, porto di Portland. Abbiamo richieste per vari mezzi: consulta la bacheca per le saperne di più.
+
+[VANHSTP]
+Hai scassinato altre Securicar? Portale al nostro garage al porto di Portland.
+
+[EMVHPUP]
+Ottimi prezzi per veicoli di soccorso nuovi o usati. Portali vicino alla gru a nord est del porto di Portland.
+
+[STANDS]
+CHIOSCHI DISTRUTTI:
+
+[STASH]
+~g~Nascondi lo SPANK nel ~p~cantiere edile~g~!
+
+[MCSTNS]
+Nessuna memory card (PS2) nell'ingresso MEMORY CARD 1. Vuoi procedere comunque? (SÌ o NO)
+
+[LOVE3_5]
+~g~L'aeroplano è a tiro.
+
+[LOVE3_6]
+~r~La polizia è arrivata ai pacchi per prima!
+
+[SIREN_1]
+Per accendere le sirene di questo veicolo, premi il ~h~tasto ~k~~VEHICLE_HORN~~w~.
+
+[SIREN_2]
+Per accendere le sirene di questo veicolo, premi il ~h~tasto ~k~~VEHICLE_HORN~~w~.
+
+[FM3_8C]
+~w~Avrò bisogno di 100.000$ per coprire le spese,
+
+[MCLOAD]
+Caricamento dati. Non rimuovere la memory card (PS2) dall'ingresso MEMORY CARD 1, riavviare o spegnere la console.
+
+[FES_GME]
+Errore di lettura della memory card (PS2) nell'ingresso MEMORY CARD 1! Controlla la memory card (PS2) e riprova.
+
+[FESZ_QF]
+Sei sicuro di voler formattare la memory card (PS2) nell'ingresso MEMORY CARD 1?
+
+[FESZ_LS]
+Caricamento riuscito.
+
+[RM3_5]
+~g~Hai raccolto ~1~ su 6 prove.
+
+[LOVE3_2]
+~g~Hai tutti i pacchi! Riportali subito a Donald Love.
+
+[LOVE4_4]
+~g~Riporta il pacco a Donald Love.
+
+[FEDS_AM]
+<>-CAMBIA MENU
+
+[FEB_SAV]
+Carica
+
+[FEP_SAV]
+CARICA PARTITA
+
+[AS2_12A]
+~g~Dopo aver distrutto il primo chiosco, avrai 8 minuti prima che il Cartello informi i propri spacciatori!
+
+[AS3_1A]
+~g~Adesso raggiungi la ~b~boa segnalatrice~g~!
+
+[NOCONT]
+Ricollega il controller analogico (DUALSHOCK#) o controller analogico (DUALSHOCK#2) all'ingresso controller 1 per continuare.
+
+[BET_JB]
+TRADITO DALLA SUA AMANTE CATALANA E ABBANDONATO MEZZO MORTO. GIUDICATO COLPEVOLE, INIZIA LA SUA AVVENTURA NEL PENITENZIARIO DELLA CITTÀ DI LIBERTY. HA UN SOLO PENSIERO FISSO NELLA TESTA... LA VENDETTA!
+
+[END_A]
+I residenti in Cedar Grove si sono finalmente ripresi
+
+[END_B]
+dallo spavento per i violenti scontri
+
+[END_C]
+avvenuti ieri nell'area.
+
+[END_D]
+Un abitante della zona, Clive Denver, ha dichiarato alla polizia
+
+[END_E]
+di aver visto un uomo armato che sia allontanava dalla scena del crimine con una donna dai capelli neri.
+
+[END_F]
+Oh, lo sai, vedrai che ci divertiremo, perché lo sai, cioè,
+
+[END_G]
+io ti amo, io... io ti amo davvero perché sei un vero uomo
+
+[END_H]
+ed è ciò di cui ho bisogno.
+
+[END_I]
+Comunque, cosa stavo dicendo?
+
+[END_J]
+Oh, lo sai, me lo sono dimenticato. Sai com'è che succede, vero?
+
+[END_K]
+Il suono delle esplosioni ha fatto tremare le case mentre la gente correva al riparo.
+
+[END_L]
+Molti cittadini sono rimasti feriti per il panico mentre venivano sparati colpi
+
+[END_M]
+tra le forze terrestri e l'elicottero che sorvolava la diga.
+
+[END_N]
+Sì, c'è proprio una bella vista da qui in giardino.
+
+[END_O]
+Quando hanno fatto saltare l'elicottero
+
+[END_P]
+è stato meglio dei fuochi d'artificio del 4 luglio.
+
+[END_Q]
+Il numero di cadaveri recuperati ha già superato la ventina,
+
+[END_R]
+ma la polizia continua a trovare nuovi corpi.
+
+[END_S]
+Non sono state smentite le voci secondo cui
+
+[END_T]
+i morti appartenessero al Cartello Colombiano,
+
+[END_U]
+ciò nonostante, non ci sono indizi sulle ragioni di questa strage.
+
+[END_V]
+Mi sono rotta un'unghia e i miei capelli sono un disastro. Ma ci puoi credere?
+
+[END_W]
+Mi è costato 50 dollari...
+
+[PAPER1]
+CRIMINALE FERITO DALLA FIDANZATA COMPLICE. LA CORTE GIUDICA IL RAPINATORE COLPEVOLE CON VERDETTO UNANIME.
+
+[PAPER2]
+DIECI ANNI PER L'AMORE!
+
+[JAILB_J]
+che è seguita all'attacco iniziale.
+
+[JAILB_D]
+E nessun gruppo ha rivendicato l'attentato.
+
+[JAILB_H]
+lasciando pochi testimoni e il ponte stesso seriamente danneggiato.
+
+[FEB_CPC]
+Configurazione comandi
+
+[FEC_PED]
+Comandi a piedi
+
+[FEC_VEH]
+Comandi in un veicolo
+
+[FEC_FPR]
+Comandi in prima persona
+
+[FEC_CMM]
+Comandi comuni
+
+[FEC_PWL]
+Cammina a sinistra
+
+[FEC_PWR]
+Cammina a destra
+
+[FEC_PWF]
+Cammina in avanti
+
+[FEC_PWT]
+Cammina verso la telecamera
+
+[FEC_PLB]
+Guardati indietro
+
+[FEC_PFR]
+Spara con l'arma
+
+[FEC_CLE]
+Arma precedente
+
+[FEC_CRI]
+Arma successiva
+
+[FEC_LKT]
+Aggancia bersaglio
+
+[FEC_PJP]
+Salto Ped
+
+[FEC_PSP]
+Scatto Ped
+
+[FEC_PSH]
+Sparo Ped
+
+[FEC_TLF]
+Bersaglio successivo a sinistra
+
+[FEC_TRG]
+Bersaglio successivo a destra
+
+[FEC_CCM]
+Centra visuale dietro al giocatore
+
+[FEC_SZI]
+Ingrandimento fucile di precisione
+
+[FEC_SZO]
+Riduzione fucile di precisione
+
+[FEC_LKL]
+Sguardo a sinistra
+
+[FEC_LRT]
+Sguardo a destra
+
+[FEC_LUP]
+Sguardo verso l'alto
+
+[FEC_LDN]
+Sguardo verso il basso
+
+[FEC_LBH]
+Guarda dietro al veicolo
+
+[FEC_LLF]
+Guarda a sinistra del veicolo
+
+[FEC_LRG]
+Guarda a destra del veicolo
+
+[FEC_HRN]
+Clacson
+
+[FEC_HBR]
+Freno a mano
+
+[FEC_ACL]
+Acceleratore
+
+[FEC_BRK]
+Freno
+
+[FEC_TSM]
+Attiva/Disattiva sottomissioni
+
+[FEC_CRD]
+Cambia stazione radio
+
+[FEC_ENT]
+Entra/Esci da un veicolo
+
+[FEC_WPN]
+Spara con l'arma
+
+[FEC_PAS]
+Pausa
+
+[FEC_FPO]
+Attiva/Disattiva visuale di puntamento
+
+[FEC_SMS]
+Mostra/Nascondi puntatore del mouse
+
+[FEC_CMS]
+Cambia la modalità di visuale in qualsiasi situazione
+
+[FEC_TSS]
+Salva un'immagine di gioco
+
+[FEN_NET]
+Rete
+
+[FEN_CON]
+Connessione
+
+[FEN_GAM]
+Trova partite
+
+[FEN_TYP]
+Modalità
+
+[FEN_TY0]
+Deathmatch
+
+[FEN_TY1]
+Deathmatch stealth
+
+[FEN_TY2]
+Deathmatch a squadre
+
+[FEN_TY3]
+Deathmatch stealth a squadre
+
+[FEN_TY4]
+Accumula denaro
+
+[FEN_TY5]
+Cattura la bandiera
+
+[FEN_TY6]
+Rat Race
+
+[FEN_TY7]
+Dominazione
+
+[FEN_NAM]
+Nome:
+
+[FEN_GNA]
+Nome partita:
+
+[FEM_MAP]
+Seleziona mappa
+
+[FEN_PLS]
+Impostazioni giocatore
+
+[FEN_PLC]
+Colore giocatore
+
+[FEM_MA0]
+Città di Liberty
+
+[FEM_MA1]
+Luci rosse
+
+[FEM_MA2]
+Chinatown
+
+[FEM_MA3]
+La torre
+
+[FEM_MA4]
+Le fogne
+
+[FEM_MA5]
+Area industriale
+
+[FEM_MA6]
+Porto
+
+[FEM_MA7]
+Staunton
+
+[FEC_EMS]
+Un tasto può essere assegnato a un solo comando!
+
+[FEC_DBG]
+Menu debug
+
+[FEC_TGD]
+Pad game/Debug
+
+[FEC_TDO]
+Disabilita visuale debug
+
+[FEC_IVH]
+Inverti mouse orizzontalmente
+
+[FEC_MSL]
+PULSANTE SX
+
+[FEC_MSM]
+PULSANTE CEN
+
+[FEC_MSR]
+PULSANTE DX
+
+[FEC_QUE]
+???
+
+[FEC_TWO]
+Un massimo di due tasti per comando.
+
+[FEC_UMS]
+Un pulsante del mouse può essere assegnato a un solo comando!
+
+[FEC_OMS]
+Solo un pulsante del mouse.
+
+[FEC_UJS]
+Un pulsante del joystick può essere usato per un solo comando!
+
+[FEC_OJS]
+Solo un pulsante del joystick.
+
+[FEC_PTL]
+Usa Aggancia bersaglio con Arma precedente
+
+[FEC_PTR]
+Usa Aggancia bersaglio con Arma successiva
+
+[FEC_LBC]
+Usa Guarda a sinistra con Guarda a destra
+
+[FEC_JBO]
+JOY ~1~
+
+[NO_PAUZ]
+Pausa non disponibile in modalità multigiocatore. Premi ancora per uscire.
+
+[FEM_SL1]
+Blocco 1 libero
+
+[FEM_SL2]
+Blocco 2 libero
+
+[FEM_SL3]
+Blocco 3 libero
+
+[FEM_SL4]
+Blocco 4 libero
+
+[FEM_SL5]
+Blocco 5 libero
+
+[FEM_SL6]
+Blocco 6 libero
+
+[FEM_SL7]
+Blocco 7 libero
+
+[FEM_SL8]
+Blocco 8 libero
+
+[FEM_MM]
+MENU PRINCIPALE
+
+[FEM_SNG]
+Nuova partita
+
+[FEM_QTW]
+Esci
+
+[FEQ_SRE]
+Sei sicuro di voler uscire? Tutti i progressi dall'ultimo salvataggio verranno persi. Vuoi procedere?
+
+[FEQ_SRW]
+Sei sicuro di voler uscire dal gioco?
+
+[FEG_SRV]
+SERVER
+
+[FEG_MAP]
+MAPPA
+
+[FEG_PLY]
+GIOCATORI
+
+[FEG_TYP]
+MODALITÀ
+
+[FEG_PNG]
+PING
+
+[FET_FG]
+TROVA PARTITA
+
+[FET_SP]
+GIOCATORE SINGOLO
+
+[FET_MP]
+MULTIGIOCATORE
+
+[FET_HG]
+OSPITA PARTITA
+
+[FET_PS]
+IMPOSTAZIONI GIOCATORE
+
+[FET_CON]
+CONNESSIONE
+
+[FET_AUD]
+IMPOSTAZIONI AUDIO
+
+[FET_DIS]
+IMPOSTAZIONI VIDEO
+
+[FET_LAN]
+IMPOSTAZIONI LINGUA
+
+[FET_LG]
+CARICA PARTITA
+
+[FET_DG]
+ELIMINA PARTITA
+
+[FET_NG]
+NUOVA PARTITA
+
+[FET_SG]
+SALVA PARTITA
+
+[FET_MAP]
+SELEZIONA MAPPA
+
+[FET_GT]
+MODALITÀ DI GIOCO
+
+[FET_CTL]
+IMPOSTAZIONI DEI COMANDI
+
+[FET_OPT]
+OPZIONI
+
+[FET_QG]
+ESCI DAL GIOCO
+
+[FET_STA]
+STATISTICHE
+
+[FET_BRE]
+MISSIONI
+
+[FEC_WAR]
+Attenzione
+
+[FEC_OKK]
+OK
+
+[FED_CON]
+Conferma eliminazione file
+
+[FES_SSC]
+Partita salvata con successo
+
+[DEL_FNM]
+File eliminato con successo.
+
+[PCLOAD]
+Caricamento dati in corso
+
+[PCRESRT]
+Riavvio di Grand Theft Auto III
+
+[FEC_DLF]
+Eliminazione fallita.
+
+[FEC_SVU]
+Salvataggio fallito.
+
+[FEC_LUN]
+Caricamento fallito. File corrotto: è necessario eliminarlo.
+
+[FEN_PLA]
+Numero di giocatori:
+
+[FET_NON]
+NESSUNA PARTITA DISPONIBILE
+
+[FET_SFG]
+RICERCA DI PARTITE...
+
+[FET_SRT]
+CLASSIFICAZIONE PARTITE...
+
+[FEF_LAN]
+LAN
+
+[FEF_INT]
+INTERNET
+
+[FET_REF]
+Aggiorna
+
+[FET_FIL]
+Filtra
+
+[FET_JG]
+Partecipa
+
+[FEC_NTW]
+Talk To Network
+
+[FEC_ESR]
+Il tasto ESC è riservato
+
+[FEC_GSL]
+Show head bob:
+
+[FIL_FLT]
+FILTRA ELENCO PARTITE
+
+[FET_SAN]
+NUOVA PARTITA
+
+[FIL_MAP]
+Mappa:
+
+[FIL_SRV]
+Server:
+
+[FIL_TYP]
+Modalità:
+
+[FIL_SPC]
+Partite non piene?
+
+[FIL_PNG]
+Ping:
+
+[FEN_UKH]
+Host sconosciuto
+
+[FEN_UKM]
+Mappa non trovata
+
+[FEN_UKT]
+Modalità non trovata
+
+[FEN_NCI]
+NON CONNESSO A INTERNET
+
+[FET_PAU]
+MENU PAUSA
+
+[FET_SGA]
+AVVIA PARTITA
+
+[FEC_SGJ]
+Imposta joystick
+
+[FEC_PAD]
+Gamepad
+
+[FEC_JOY]
+Joystick
+
+[FEC_WHL]
+Volante
+
+[FEC_CNT]
+Periferica di controllo:
+
+[FET_APL]
+APPLICA
+
+[FES_CSA]
+Seleziona una skin dalla seguente lista:
+
+[FES_SKN]
+NOME SKIN
+
+[FES_DAT]
+DATA
+
+[FES_NON]
+NESSUNA SKIN DISPONIBILE
+
+[FEA_FM9]
+RIPRODUTTORE MP3
+
+[FESZ_QZ]
+Sei sicuro di voler salvare la partita?
+
+[FES_CGA]
+Blocchi di gioco disponibili:
+
+[FES_SCG]
+Vuoi salvare la partita attuale?
+
+[FES_LCG]
+Vuoi caricare e continuare la partita?
+
+[FEC_FIR]
+Fuoco
+
+[FEC_NWE]
+Arma successiva
+
+[FEC_PWE]
+Arma precedente
+
+[FEC_FOR]
+Avanti
+
+[FEC_BAC]
+Indietro
+
+[FEC_LEF]
+Sinistra
+
+[FEC_RIG]
+Destra
+
+[FEC_ZIN]
+Ingrandimento
+
+[FEC_ZOT]
+Riduzione
+
+[FEC_EEX]
+Entra/Esci
+
+[FEC_RAD]
+Radio
+
+[FEC_SUB]
+Sottomissioni
+
+[FEC_CMR]
+Cambia visuale
+
+[FEC_JMP]
+Salto
+
+[FEC_SPN]
+Scatto
+
+[FEC_HND]
+Freno a mano
+
+[FEC_TUL]
+Torretta a sx
+
+[FEC_TUR]
+Torretta a dx
+
+[FEC_LOL]
+Guarda a sinistra
+
+[FEC_LOR]
+Guarda a destra
+
+[FEC_NTR]
+Bersaglio successivo
+
+[FEC_PTT]
+Bersaglio precedente
+
+[FEC_LBA]
+Guarda indietro
+
+[FEC_CEN]
+Centra visuale
+
+[FEC_UND]
+(NO)
+
+[FET_CFT]
+A PIEDI
+
+[FET_CCR]
+IN MACCHINA
+
+[CVT_MSG]
+Conversione texture per prestazioni ottimali con la tua scheda video
+
+[FET_CAC]
+AZIONE
+
+[FEC_IBT]
+-
+
+[FEC_SPC]
+BARRA
+
+[FEC_MXO]
+P1MX
+
+[FEC_MXT]
+P2MX
+
+[FEC_UNB]
+NESSUNO
+
+[FET_CME]
+METODO DI CONTROLLO
+
+[FET_RDK]
+RIDEFINISCI COMANDI
+
+[FET_AMS]
+IMPOSTAZIONI MOUSE
+
+[FET_STI]
+CONFIGURAZIONE PREDEFINITA
+
+[FET_CTI]
+CONFIGURAZIONE CLASSICA
+
+[FET_MTI]
+CONFIGURAZIONE COL MOUSE
+
+[FET_DAM]
+MODELLAZIONE ACUSTICA DINAMICA
+
+[FEC_TFL]
+Torretta a sinistra
+
+[FEC_TFR]
+Torretta a destra
+
+[FEC_TFU]
+Torretta /Aereo su
+
+[FEC_TFD]
+Torretta /Aereo giù
+
+[FEC_MWF]
+VOLANTE SU
+
+[FEC_MWB]
+VOLANTE GIÙ
+
+[FEC_ORR]
+o
+
+[FEC_NUS]
+NON USATO
+
+[FEC_LUD]
+Sguardo su
+
+[FEC_LDU]
+Sguardo giù
+
+[FEC_CMP]
+COMBO: SGUARDO S+D
+
+[FEC_NTT]
+Nessun testo assegnato a questo tasto
+
+[FEC_FNC]
+F~1~
+
+[FEC_IRT]
+INS
+
+[FEC_DLL]
+CANC
+
+[FEC_HME]
+HOME
+
+[FEC_END]
+FINE
+
+[FEC_PGU]
+PAG SU
+
+[FEC_PGD]
+PAG GIÙ
+
+[FEC_UPA]
+SU
+
+[FEC_DWA]
+GIÙ
+
+[FEC_LFA]
+SINISTRA
+
+[FEC_RFA]
+DESTRA
+
+[FEC_NUM]
+NUM
+
+[FEC_NMN]
+NUM~1~
+
+[FEC_FWS]
+NUM /
+
+[FEC_PLS]
+NUM +
+
+[FEC_MIN]
+NUM -
+
+[FEC_DOT]
+NUM .
+
+[FEC_NLK]
+BLOC NUM
+
+[FEC_ETR]
+INVIO
+
+[FEC_SLK]
+BLOC SCORR
+
+[FEC_PSB]
+PAUSA
+
+[FEC_BSP]
+INDIETRO
+
+[FEC_TAB]
+TAB
+
+[FEC_CLK]
+BLOC MAIUSC
+
+[FEC_RTN]
+RET
+
+[FEC_LSF]
+MAIUSC SX
+
+[FEC_RSF]
+MAIUSC DX
+
+[FEC_LCT]
+CTRL SX
+
+[FEC_RCT]
+CTRL DX
+
+[FEC_LAL]
+ALT SX
+
+[FEC_RAL]
+ALT DX
+
+[FEC_LWD]
+WIN SX
+
+[FEC_RWD]
+WIN DX
+
+[FEC_WRC]
+CLIC WIN
+
+[WIN_TTL]
+Grand Theft Auto III
+
+[WIN_95]
+Grand Theft Auto III non è supportato da Windows 95
+
+[WIN_DX]
+Grand Theft Auto III richiede DirectX versione 8.1 o superiore
+
+[WIN_VDM]
+Grand Theft Auto III richiede almeno 12 MB di memoria video disponibile
+
+[DIAB3_G]
+Arriba!
+
+[FEM_RES]
+RIPRENDI PARTITA
+
+[FES_SNG]
+NUOVA PARTITA
+
+[FEM_SP]
+GIOCATORE SINGOLO
+
+[FEM_MP]
+MULTIGIOCATORE
+
+[FEM_QT]
+ESCI DAL GIOCO
+
+[FES_SG]
+NUOVA PARTITA
+
+[FES_LG]
+CARICA PARTITA
+
+[FEM_HST]
+OSPITA PARTITA
+
+[FEM_OPT]
+OPZIONI
+
+[FEM_DBG]
+DEBUG
+
+[FET_PSU]
+IMPOSTAZIONI GIOCATORE
+
+[FET_DEF]
+RIPRISTINA PREDEFINITI
+
+[FED_BRI]
+LUMINOSITÀ
+
+[FED_TRA]
+TRACCE
+
+[FEM_LOD]
+DISTANZA VISUALE
+
+[FEM_VSC]
+SINCRONIA FRAME
+
+[FEM_FRM]
+LIMITATORE FRAME
+
+[FED_RES]
+RISOLUZIONE
+
+[FED_WIS]
+SCHERMO 16:9
+
+[FEDS_TB]
+INDIETRO
+
+[FEA_MUS]
+VOLUME MUSICA
+
+[FEA_SFX]
+VOLUME EFFETTI
+
+[FEA_RSS]
+STAZIONE RADIO
+
+[FEL_ENG]
+INGLESE
+
+[FEL_FRE]
+FRANCESE
+
+[FEL_GER]
+TEDESCO
+
+[FEL_ITA]
+ITALIANO
+
+[FEL_SPA]
+SPAGNOLO
+
+[FEA_3DH]
+HARDWARE AUDIO
+
+[FEA_SPK]
+CONFIGURAZIONE ALTOPARLANTI
+
+[FEA_2SP]
+DUE CASSE
+
+[FEA_4SP]
+PIÙ DI DUE CASSE
+
+[FEA_EAR]
+CUFFIE
+
+[FEA_NAH]
+NESSUN HARDWARE AUDIO
+
+[FET_SNG]
+NUOVA PARTITA
+
+[FEN_STA]
+AVVIA LA PARTITA
+
+[GMLOAD]
+CARICA PARTITA
+
+[GMSAVE]
+SALVA PARTITA
+
+[FES_DGA]
+ELIMINA PARTITA
+
+[FEM_NON]
+NESSUNO
+
+[FEC_IVV]
+INVERTI MOUSE VERTICALMENTE
+
+[FEC_MSH]
+SENSIBILITÀ MOUSE
+
+[FET_CCN]
+COMANDI: CLASSICO
+
+[FET_SCN]
+COMANDI: PREDEFINITO
+
+[FES_SET]
+USA SKIN
+
+[GHOST]
+Fantasma
+
+[WIN_RSZ]
+Impossibile impostare la nuova risoluzione
+
+[FET_APP]
+PULSANTE SX, INVIO PER APPLICARE LE NUOVE IMPOSTAZIONI
+
+[FET_HRD]
+IMPOSTAZIONI PREDEFINITE RIPRISTINATE
+
+[FET_MST]
+STERZO VIA MOUSE
+
+[FEC_STR]
+NUM ASTERISCO
+
+[FET_MIG]
+SINISTRA, DESTRA, ROTELLA PER MODIFICARE
+
+[FET_CIG]
+INDIETRO PER AZZERARE - PULSANTE SX, INVIO PER MODIFICARE
+
+[FET_RIG]
+SELEZIONA UN NUOVO COMANDO PER QUESTA AZIONE O PREMI ESC PER ANNULLARE
+
+[FET_EIG]
+IMPOSSIBILE ASSEGNARE UN COMANDO A QUESTA AZIONE
+
+[NO_PCCD]
+Inserisci il disco 2 di Grand Theft Auto III nel lettore o premi ESC per annullare
+
+[CVT_ERR]
+Spazio su disco esaurito; è necessario liberare dello spazio prima di poter procedere. Premi ESC per annullare.
+
+[FED_SUB]
+SOTTOTITOLI
+
+[FET_DSN]
+Skin predefinita.bmp
+
+[JM3]
+'RAPINA AL FURGONE'
+
+[EBAL]
+'GIVE ME LIBERTY'
+
+[LM4]
+'ARMI PRONTE ALL'AZIONE'
+
+[ATUTOR2]
+~g~Porta i pazienti all'ospedale! Qualsiasi scossone ridurrà le probabilità che arrivino vivi.
+
+[REPLAY]
+REPLAY
+
+[FEC_SFT]
+MAIUSC
+
+[CRED254]
+RESPONSABILE STUDIO
+
+[CVT_CRT]
+Impossibile convertire le texture per la scheda video. Deve collegarti come Amministratore per poterlo fare. Premi ESC per uscire.
+
+[FEM_ON]
+ON
+
+[FEM_OFF]
+OFF
+
+[FEM_YES]
+SÌ
+
+[FEM_NO]
+NO
+
+[FES_WAR]
+Salvataggio, attendere...
+
+[FED_DLW]
+Eliminazione, attendere...
+
+[FED_LDW]
+Caricamento, attendere...
+
+[FEC_SLC]
+Slot non valido
+
+[FED_LFL]
+Caricamento posizione salvata fallito. Il gioco verrà riavviato.
+
+[FET_RSO]
+RIPRISTINATE IMPOSTAZIONI ORIGINALI
+
+[FET_RSC]
+HARDWARE NON DISPONIBILE - RIPRISTINATE IMPOSTAZIONI ORIGINALI
+
+{ re3 updates }
+{ new languages }
+[FEL_JAP]
+GIAPPONESE
+
+[FEL_POL]
+POLACCO
+
+[FEL_RUS]
+RUSSO
+
+{ new display menus }
+[FET_GFX]
+IMPOSTAZIONI GRAFICA
+
+[FED_MIP]
+MIP MAPPING
+
+[FED_AAS]
+ANTI ALIASING
+
+[FED_FIL]
+TEXTURE FILTERING
+
+[FED_BIL]
+BILINEAR
+
+[FED_TRL]
+TRILINEAR
+
+[FED_WND]
+WINDOWED
+
+[FED_FLS]
+FULLSCREEN
+
+[FEM_CSB]
+CUTSCENE BORDERS
+
+[FEM_SCF]
+SCREEN FORMAT
+
+[FEM_ISL]
+MAP MEMORY USAGE
+
+[FEM_LOW]
+LOW
+
+[FEM_MED]
+MEDIUM
+
+[FEM_HIG]
+HIGH
+
+[FEM_2PR]
+PS2 ALPHA TEST
+
+[FEC_FRC]
+FREE CAM
+
+{ Linux joy detection }
+[FEC_JOD]
+DETECT JOYSTICK
+
+[FEC_JPR]
+Press any key on the joystick of your choice that you want to use on the game, and it will be selected.
+
+[FEC_JDE]
+Detected joystick
+
+{ mission restart }
+[FET_RMS]
+RIGIOCA MISSIONE
+
+[FESZ_RM]
+RIGIOCA?
+
+{ more graphics }
+[FED_VPL]
+VEHICLE PIPELINE
+
+[FED_PRM]
+PED RIM LIGHT
+
+[FED_RGL]
+ROAD GLOSS
+
+[FED_CLF]
+COLOUR FILTER
+
+[FED_WLM]
+WORLD LIGHTMAPS
+
+[FED_MBL]
+MOTION BLUR
+
+[FEM_SIM]
+SIMPLE
+
+[FEM_NRM]
+NORMAL
+
+[FEM_MOB]
+MOBILE
+
+[FED_MFX]
+MATFX
+
+[FED_NEO]
+NEO
+
+[FEM_PS2]
+PS2
+
+[FEM_XBX]
+XBOX
+
+[FEM_AUT] { aspect ratio related }
+AUTO
+
+{ controls }
+[FEC_IVP]
+INVERT PAD VERTICALLY
+
+{ map }
+[FEM_TWP]
+Toggle Waypoint
+
+[FEA_FMN]
+RADIO SPENTA
+
+[FEC_DS2]
+DUALSHOCK 2
+
+[FEC_DS3]
+DUALSHOCK 3
+
+[FEC_DS4]
+DUALSHOCK 4
+
+[FEC_360]
+XBOX 360 CONTROLLER
+
+[FEC_ONE]
+XBOX ONE CONTROLLER
+
+[FEC_TYP]
+GAMEPAD TYPE
+
+[FEC_CCF]
+CONFIGURAZIONE
+
+[FEC_CF1]
+CONFIGURAZIONE 1
+
+[FEC_CF2]
+CONFIGURAZIONE 2
+
+[FEC_CF3]
+CONFIGURAZIONE 3
+
+[FEC_CF4]
+CONFIGURAZIONE 4
+
+[FEC_CDP]
+SCHERMATA CONTROLLER
+
+[FEC_ONF]
+A PIEDI
+
+[FEC_INC]
+IN MACCHINA
+
+[FEC_VIB]
+VIBRAZIONE
+
+[FET_AGS]
+GAMEPAD SETTINGS
+
+[DUMMY]
+THIS LABEL NEEDS TO BE HERE !!!
+AS THE LAST LABEL DOES NOT GET COMPILED

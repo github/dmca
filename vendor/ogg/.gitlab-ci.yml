@@ -1,0 +1,26 @@
+default:
+  tags:
+    - docker
+  # Image from https://hub.docker.com/_/gcc/ based on Debian.
+  image: gcc:9
+
+autoconf:
+  stage: build
+  before_script:
+    - apt-get update &&
+      apt-get install -y zip cmake
+  script:
+    - ./autogen.sh
+    - ./configure
+    - make
+    - make distcheck
+
+cmake:
+  stage: build
+  before_script:
+    - apt-get update &&
+      apt-get install -y cmake ninja-build
+  script:
+    - mkdir build
+    - cmake -S . -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Release
+    - cmake --build build

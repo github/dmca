@@ -1,0 +1,12 @@
+[settings]
+os=Playstation2
+arch=mips
+compiler=gcc
+compiler.version=3.2
+compiler.libcxx=libstdc++
+build_type=Release
+[options]
+librw:platform=ps2
+[build_requires]
+ps2dev-ps2toolchain/unknown@madebr/testing
+[env]
