@@ -1,6 +1,6 @@
 #### What is this?
 
-Inspired by [Lumen](https://lumendatabase.org/topics/1) (*formerly Chilling Effects*) and [Google](https://cloud.google.com/storage/docs/dmca), this repo contains the text of DMCA takedown notices and counter-notices we've received here at GitHub. We publish them as they are received, with only personally identifiable information redacted.
+Inspired by [Lumen](https://lumendatabase.org/topics/1) (*formerly Chilling Effects*) and [Google](https://cloud.google.com/storage/docs/dmca), this repo contains the text of DMCA takedown notices and counter-notices we've received here at GitHub. We publish them as they are received, redacting only private information, as well as URLs reported but that we determined were not actionable under the DMCA.
 
 
 #### Why is this?
@@ -14,6 +14,43 @@ It only means that we received the notice on the indicated date. It does ***not*
 
 For more details, see our [DMCA policy](https://help.github.com/articles/dmca-takedown-policy/).
 
+#### Anatomy of a takedown notice
+
+In the spirit of transparency, we post each takedown notice that we process without making any changes to the text, except for redacting private information and URLs that were not actionable, and adding a few annotations to help you better understand how we processed the notice. Here are the annotations you might see and what they mean.
+1. **We gave repository owners a chance to make changes before we processed the notice.** 
+
+When you see this at the top of a notice (starting in March 2021)
+>Before disabling any content in relation to this takedown notice, GitHub
+>- contacted the owners of some or all of the affected repositories to give them an opportunity to make changes that could have prevented the need to disable the content 
+>- provided information on how to [submit a DMCA Counter Notice](https://docs.github.com/en/articles/guide-to-submitting-a-dmca-counter-notice). 
+
+it means that either the notice did not allege that the entire contents of a repository infringe, or the copyright holder identified other changes that could be made to the content to resolve the alleged infringement. As we note in our [DMCA Takedown Policy](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#a-how-does-this-actually-work), in those cases, because GitHub cannot disable access to specific files within a repository, we will contact the user who created the repository and give them approximately 1 business day to delete or modify the content specified in the notice. 
+
+If the repository owner makes the necessary changes, then GitHub will not disable the content. In some cases, that means the repositories are currently available despite being listed in the notice. In other cases, a repository might be unavailable because the repository owner decided to delete it.
+
+Note, none of this is new policy - what's new as of March 2021 is that we are now adding this annotation in any posted notice we process this way. 
+
+2. **We only processed the takedown notice with respect to some of the reported URLs.** 
+>[invalid]
+
+or
+>[private]
+
+In many cases a notice alleges copyright infringement in multiple repositories or files. When we determine that only some of the repositories or files are infringing, including where reported content was not available at the time we reviewed the notice, we replace the other URLs with `[invalid]`. Before March 2021, we had replaced those URLs with `[private]`, which we continue to use to note redaction of private information.
+
+3. **The notice reported a repository that's being actively forked.** 
+
+As of March 2021, you may see this note where a takedown notice reports an allegedly infringing repository that was being actively forked at the time it was reported
+>[Note: Because the parent repository was actively being forked when this DMCA takedown notice was received, and the submitter had identified all known forks at the time they submitted the takedown notice, GitHub processed the takedown notice against the entire fork network of [x] forks.]
+
+As we explain in our [DMCA Takedown Policy](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork), in those rare cases when a notice alleges copyright infringement in a full repository that is actively being forked, we would process a valid claim against all forks in that network at the time we process the notice, if the notice identified all existing forks of that repository as allegedly infringing. We would do this given the likelihood that all newly created forks would contain the same content as those existing at the time the notice was submitted. 
+
+4. **The notice reported a repository with more than 100 forks.**
+
+As of March 2021, if you see this statement in a notice
+>Based on the representative number of forks I have reviewed, I believe that all or most of the forks are infringing to the same extent as the parent repository.
+
+it means the reported network that contains the allegedly infringing content was larger than one hundred (100) repositories and thus would have been difficult to review in its entirety. As a result, we disabled the entire network because the submitter reviewed a representative sample of the forks in the network such that they were fairly certain the entirety of the network was infringing and included that sworn statement as part of their takedown notice. In these cases, we note in the takedown notice the total number of forks we disabled at the time of processing.
 
 #### Contributing
 
