@@ -1,0 +1,20 @@
+environment:
+  matrix:
+    - GENERATOR: Visual Studio 14 2015 Win64
+    - GENERATOR: Visual Studio 14 2015
+    - GENERATOR: Visual Studio 12 2013 Win64
+    - GENERATOR: Visual Studio 12 2013
+
+before_build:
+  - ps: |
+      mkdir build
+      cd build
+      cmake -G "$env:GENERATOR" ..
+
+build_script:
+  - ps: |
+      cmake --build . --config Debug
+
+test_script:
+  - ps: |
+      ctest --output-on-failure --interactive-debug-mode 0 -C Debug

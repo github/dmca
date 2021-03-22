@@ -1,0 +1,3 @@
+@interface AVItem : NSObject
+
+@end

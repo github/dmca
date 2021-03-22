@@ -1,0 +1,26 @@
+# Xcode 9.1 on macOS 10.12
+os: osx
+osx_image: xcode9.1
+language: objective-c
+sudo: false
+
+env:
+  global:
+    # $THEOS is absolutely needed for theos to even be found
+    - THEOS=$PWD
+
+before_install:
+  # set up theos
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then ./extras/ci/macos-setup.sh; fi
+
+script:
+  # launch the test script
+  - ./extras/ci/test-github-projects.sh
+
+deploy:
+  - provider: npm
+    email: adam@hbang.ws
+    api_key:
+      secure: YjSkpUQMVAJeT+V3J2Ew84Jw9+cZKsv3CG4acPcShEHUbnb/9YEp1sscnejlJYwEdXayqNYTd7LNelOnQYl7TVC2jcYpMtC744j8R4PbewZOGM2fviDi8R0HEcJStTvsq6MQFphl54aEpqOFfZLE2UrY/BirfDFwJXbJUWp0ypY=
+    on:
+      tags: true

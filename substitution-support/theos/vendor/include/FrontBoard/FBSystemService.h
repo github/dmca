@@ -1,0 +1,3 @@
+@interface FBSystemService : NSObject
+
+@end

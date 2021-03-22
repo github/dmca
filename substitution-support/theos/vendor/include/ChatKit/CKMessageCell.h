@@ -1,0 +1,3 @@
+@interface CKMessageCell : UITableViewCell
+
+@end

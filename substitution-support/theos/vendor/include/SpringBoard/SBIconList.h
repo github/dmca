@@ -1,0 +1,3 @@
+@interface SBIconList : UIView
+
+@end

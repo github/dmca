@@ -1,0 +1,45 @@
+typedef NS_ENUM(NSUInteger, SBWallpaperVariant) {
+	SBWallpaperVariantStaticWallpaper
+};
+
+typedef NS_ENUM(NSUInteger, SBWallpaperStyle) {
+	SBWallpaperStyleNormal,
+	SBWallpaperStyleHidden,
+	SBWallpaperStyleBlack,
+	SBWallpaperStyleBlur,
+	SBWallpaperStyleUltraLightBlurOnly,
+	SBWallpaperStyleSemiLightBlurOnly,
+	SBWallpaperStyleFlatSemiLightBlurOnly,
+	SBWallpaperStyleLightBlurOnly,
+	SBWallpaperStyleDarkBlurOnly,
+	SBWallpaperStyleUltraLightTintedBlur,
+	SBWallpaperStyleSemiLightTintedBlur,
+	SBWallpaperStyleFlatSemiLightTintedBlur,
+	SBWallpaperStyleLightTintedBlur,
+	SBWallpaperStyleDarkTintedBlur,
+	SBWallpaperStyleUltraLightTintOnly,
+	SBWallpaperStyleSemiLightTintOnly,
+	SBWallpaperStyleFlatSemiLightTintOnly,
+	SBWallpaperStyleLightTintOnly,
+	SBWallpaperStyleDarkTintOnly,
+	SBWallpaperStyleBackgroundLightBlurOnly,
+	SBWallpaperStyleBackgroundLightTintedBlur,
+	SBWallpaperStyleBackgroundLightTintOnly,
+	SBWallpaperStyleForegroundLightBlurOnly,
+	SBWallpaperStyleForegroundLightTintedBlur,
+	SBWallpaperStyleForegroundLightTintOnly,
+	SBWallpaperStyleSwitcherBackgroundLightBlurOnlt,
+	SBWallpaperStyleSwitcherBackgroundLightTintedBlur,
+	SBWallpaperStyleSwitcherBackgroundLightTintOnly,
+	SBWallpaperStyleSwitcherForegroundLightBlurOnly,
+	SBWallpaperStyleSwitcherForegroundLightTintedBlur,
+	SBWallpaperStyleSwitcherForegroundLightTintOnly,
+};
+
+@interface SBWallpaperEffectView : UIView
+
+- (instancetype)initWithWallpaperVariant:(SBWallpaperVariant)wallpaperVariant;
+
+@property SBWallpaperStyle wallpaperStyle;
+
+@end

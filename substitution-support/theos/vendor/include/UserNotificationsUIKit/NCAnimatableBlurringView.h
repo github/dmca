@@ -1,0 +1,3 @@
+@interface NCAnimatableBlurringView : UIView
+
+@end

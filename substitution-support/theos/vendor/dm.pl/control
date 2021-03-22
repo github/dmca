@@ -1,0 +1,11 @@
+Package: dm.pl
+Name: Deb Maker (dm.pl)
+Depends: perl (>= 5.26), gzip, bzip2, xz-utils | lzma
+Architecture: all
+Description: not dpkg-deb, nor a plane, nor a bird.
+Maintainer: Theos Developers <support@hbang.ws>
+Author: Theos Developers <support@hbang.ws>
+Section: Packaging
+Tag: role::hacker
+Depiction: https://repo.chariz.io/package/dm.pl/
+Version: 1.2

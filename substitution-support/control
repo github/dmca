@@ -1,0 +1,12 @@
+Package: science.xnu.substituted
+Architecture: iphoneos-arm
+Name: Substitute Support Package
+Author: pwn20wnd <pwn20wndstuff@gmail.com>
+Priority: optional
+Version: 0.1~b5
+Description: Substitute Support
+Maintainer: pwn20wnd <pwn20wndstuff@gmail.com>
+Depends: firmware (>= 11.0), com.ex.substitute (>= 0.1.4)
+Conflicts: science.xnu.substitute
+Replaces: science.xnu.substitute
+Section: System

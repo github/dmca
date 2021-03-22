@@ -1,0 +1,3 @@
+@interface CNPredicate : NSPredicate
+
+@end

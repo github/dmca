@@ -1,0 +1,3 @@
+@interface VotableElement : NSObject
+
+@end

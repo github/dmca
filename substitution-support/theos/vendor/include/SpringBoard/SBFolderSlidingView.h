@@ -1,0 +1,3 @@
+@interface SBFolderSlidingView : UIView
+
+@end

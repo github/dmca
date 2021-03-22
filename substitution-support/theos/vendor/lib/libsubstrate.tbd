@@ -1,0 +1,12 @@
+---
+archs:           [ armv7, armv7s, arm64, i386, x86_64 ]
+platform:        ios
+install-name:    /Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate
+current-version: 0.0.0
+compatibility-version: 0.0.0
+exports:
+  - archs:            [ armv7, armv7s, arm64, i386, x86_64 ]
+    symbols:          [ _MSDebug,
+                        _MSFindSymbol, _MSGetImageByName,
+                        _MSHookFunction, _MSHookMessageEx ]
+...

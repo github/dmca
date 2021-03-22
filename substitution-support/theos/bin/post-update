@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+# Ensure $THEOS is set and is a directory.
+if [[ -z "$THEOS" || ! -d "$THEOS" ]]; then
+	echo "\$THEOS must be set to the location of Theos to use $(basename $0)." >&2
+	exit 1
+fi
+
+cd "$THEOS"
+
+printf "\n\e[0;36m==> \e[1;36mNotice:\e[m %s\n" \
+	"Visit https://github.com/theos/theos/releases to see the changelog."

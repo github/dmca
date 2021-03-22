@@ -1,0 +1,3 @@
+@interface SBStatusBarController : NSObject
+
+@end

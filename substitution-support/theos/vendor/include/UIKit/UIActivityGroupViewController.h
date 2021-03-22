@@ -1,0 +1,3 @@
+@interface UIActivityGroupViewController : UICollectionViewController
+
+@end

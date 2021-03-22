@@ -1,0 +1,31 @@
+{
+  "name": "theos",
+  "version": "2.5.0",
+  "description": "A cross-platform build system for creating iOS, macOS, Linux, and Windows programs.",
+  "author": "Theos",
+  "license": "GPL-3.0",
+  "homepage": "https://theos.github.io/",
+  "bugs": "https://github.com/theos/theos/issues",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theos/theos.git"
+  },
+
+  "keywords": [
+    "build",
+    "ios",
+    "iphone",
+    "mac",
+    "jailbreak",
+    "objc"
+  ],
+
+  "bin": {
+    "logos": "./bin/logos.pl",
+    "logify": "./bin/logify.pl",
+    "nic": "./bin/nic.pl",
+    "nicify": "./bin/nicify.pl",
+    "denicify": "./bin/denicify.pl"
+  }
+}

@@ -1,0 +1,3 @@
+@interface IMItemsController : NSObject
+
+@end

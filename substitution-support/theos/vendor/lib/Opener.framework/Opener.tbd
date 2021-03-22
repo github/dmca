@@ -1,0 +1,12 @@
+---
+archs:                 [ armv7, arm64 ]
+platform:              ios
+install-name:          /Library/Frameworks/Opener.framework/Opener
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:              [ armv7, arm64 ]
+    symbols:            [ _isOverriding ]
+    objc-classes:       [ _HBLOHandler, _HBLOHandlerController, _HBLOPreferences, _HBLibOpener ]
+...

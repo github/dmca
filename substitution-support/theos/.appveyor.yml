@@ -1,0 +1,31 @@
+# windows server 2012 R2 (ie, windows 8.1). unfortunately the 2017 image does not include cygwin
+# out of the box – we could install it, but the job would take a bit longer
+image: Visual Studio 2015
+
+# we do support 32-bit, but i’d rather test on just 64-bit
+platform: x64
+
+environment:
+  global:
+    # vars specific to cygwin
+    CYG_ROOT: C:\cygwin64
+    CYG_CACHE: C:\cygwin\var\cache\setup
+    CYG_MIRROR: http://cygwin.mirror.constant.com/
+
+    # $THEOS is absolutely needed for theos to even be found
+    THEOS: '%APPVEYOR_BUILD_FOLDER%'
+
+    # configure our %PATH% (note, semicolons)
+    PATH: '%THEOS%\bin;%CYG_ROOT%\bin;%PATH%'
+
+install:
+  # update cygwin
+  # disabled for now, increases the job duration and not really worth it
+  # - cmd: '%THEOS%\extras\ci\cygwin-install.cmd'
+
+  # set up theos
+  - cmd: 'bash -c $THEOS/extras/ci/cygwin-setup.sh'
+
+build_script:
+  # launch the test script
+  - cmd: 'bash -c $THEOS/extras/ci/test-github-projects.sh'

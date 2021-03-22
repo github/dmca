@@ -1,0 +1,3 @@
+@protocol BSXPCCoding
+
+@end

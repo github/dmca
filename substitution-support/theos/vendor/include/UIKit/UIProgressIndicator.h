@@ -1,0 +1,3 @@
+@interface UIProgressIndicator : UIActivityIndicatorView
+
+@end

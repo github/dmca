@@ -1,0 +1,3 @@
+@interface MPVideoView : UIView
+
+@end

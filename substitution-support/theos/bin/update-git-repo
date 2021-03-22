@@ -1,0 +1,36 @@
+#!/bin/bash
+set -e
+
+has() {
+	type "$1" >/dev/null 2>&1
+}
+
+# Ensure $THEOS is set and is a directory.
+if [[ -z "$THEOS" || ! -d "$THEOS" ]]; then
+	echo "\$THEOS must be set to the location of Theos to use $(basename $0)." >&2
+	exit 1
+fi
+
+# Ensure $THEOS is a Git repo.
+if [[ ! -d "$THEOS/.git" ]]; then
+	echo "$THEOS is not a Git repository. Theos relies on Git to update itself. For more information, refer to https://github.com/theos/theos/wiki/Installation#updating." >&2
+	exit 2
+fi
+
+# Ensure the user has Git.
+if ! has git; then
+	echo "Git is not installed. Theos relies on Git to update itself. For more information, refer to https://github.com/theos/theos/wiki/Installation." >&2
+	exit 2
+fi
+
+cd "$THEOS"
+
+# Set conflig flag so multiple git fetch jobs run simultaneously.
+git config submodule.fetchJobs 4
+
+# Update Theos itself, then submodules.
+git pull --all --rebase=false
+git submodule update --init --recursive
+
+# The Theos update may need to do some extra stuff, so run the post-update script here.
+exec bin/post-update

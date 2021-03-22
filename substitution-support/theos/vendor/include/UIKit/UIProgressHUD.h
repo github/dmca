@@ -1,0 +1,3 @@
+@interface UIProgressHUD : UIView
+
+@end

@@ -1,0 +1,11 @@
+Package: com.rpetrich.rocketbootstrap.tests
+Depends: com.rpetrich.rocketbootstrap
+Name: RocketBootstrap Tests
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Tests for RocketBootstrap
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich

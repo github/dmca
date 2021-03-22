@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/librocketbootstrap.dylib
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _rocketbootstrap_xpc_connection_copy_application_identifier, _rocketbootstrap_xpc_connection_create ]
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _rocketbootstrap_cfmessageportcreateremote, _rocketbootstrap_cfmessageportexposelocal,
+                          _rocketbootstrap_distributedmessagingcenter_apply, _rocketbootstrap_look_up,
+                          _rocketbootstrap_register, _rocketbootstrap_unlock ]
+...

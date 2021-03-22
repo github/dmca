@@ -1,0 +1,29 @@
+{
+  "name": "@theosdev/nic",
+  "version": "1.0.0",
+  "description": "Logos is a Perl regex-based preprocessor that simplifies the boilerplate code needed to create hooks for Objective-C methods and C functions with an elegant Objective-C-like syntax.",
+  "author": "Theos",
+  "license": "GPL-3.0",
+  "homepage": "https://theos.github.io/",
+  "bugs": "https://github.com/theos/nic/issues",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theos/nic.git"
+  },
+
+  "keywords": [
+    "language",
+    "ios",
+    "iphone",
+    "mac",
+    "jailbreak",
+    "objc"
+  ],
+
+  "bin": {
+    "nic": "bin/nic.pl",
+    "nicify": "bin/nicify.pl",
+    "denicify": "bin/denicify.pl"
+  }
+}

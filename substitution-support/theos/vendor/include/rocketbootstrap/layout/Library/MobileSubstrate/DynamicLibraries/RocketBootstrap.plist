@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Filter</key>
+	<dict>
+		<key>Executables</key>
+		<array>
+			<string>ReportCrash</string>
+		</array>
+		<key>CoreFoundationVersion</key>
+		<array>
+			<real>800</real>
+		</array>
+	</dict>
+</dict>
+</plist>

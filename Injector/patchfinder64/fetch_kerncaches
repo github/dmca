@@ -1,0 +1,68 @@
+#!/usr/bin/python
+
+try:
+    import urllib2 as urlreq # Python 2.x
+except:
+    import urllib.request as urlreq # Python 3.x
+
+import json, io, struct, os, shutil, re, subprocess
+from socket import ntohl
+
+intended_firmwares = ["11.0", "11.0.3", "11.1", "11.1.2", "11.2", "11.2.6", "11.3.1", "11.4.1", "12.0", "12.0.1", "12.1", "12.1.1", "12.1.2"]
+
+# https://techoverflow.net/2018/01/16/downloading-reading-a-zip-file-in-memory-using-python/
+def download_kernelcache(url, filename):
+    cmd = "partialzip -o {} {} 2>/dev/null".format(url, filename)
+
+    if os.system(cmd) == 0:
+        return True;
+
+    return False;
+
+def list_kernelcaches(url):
+    list_output = subprocess.check_output(['partialzip', '-l', url])
+    cache = re.compile("kernelcache.release.*$", re.M);
+    return cache.findall(list_output);
+    
+
+if not os.path.isdir("kernel_caches/"):
+    os.mkdir("kernel_caches/")
+
+if not os.path.isdir("kpps/"):
+    os.mkdir("kpps/")
+
+for firmware in intended_firmwares:
+    ipsw_list_raw = urlreq.urlopen(urlreq.Request("https://api.ipsw.me/v4/ipsw/{}?type=ipsw".format(firmware))).read()
+    ipsw_list = json.loads(ipsw_list_raw)
+
+    ipsws = {};
+    for ipsw in ipsw_list:
+        ipsws[ipsw["url"]] = ipsw["buildid"]
+
+    for url in ipsws.keys(): 
+        caches = list_kernelcaches(url)
+        buildid = ipsws[url]
+        if not os.path.isdir("kernel_caches/{}_{}".format(firmware, buildid)):
+            os.mkdir("kernel_caches/{}_{}".format(firmware, buildid))
+        if not os.path.isdir("kpps/{}_{}".format(firmware, buildid)):
+            os.mkdir("kpps/{}_{}".format(firmware, buildid))
+        for cache in caches:
+            ipsw = os.path.basename(url)
+            target = "kernel_caches/{}_{}/{}".format(firmware, buildid, cache);
+            if os.path.isfile(target):
+                print "iOS {}_{}: {} ALREADY EXISTS".format(firmware, buildid, cache)
+                continue
+
+            print "target:" + target;
+
+            print("iOS {}_{}: {} DOWNLOADING".format(firmware, buildid, cache))
+            if download_kernelcache(url, cache):
+                if os.system("kerneldec/kerneldec -i {} -o {} -k kpps/{}_{}/{}.kpp".format(cache, target, firmware, buildid, cache)) == 0:
+                    print("iOS {}_{}: {} OK".format(firmware, buildid, cache))
+                    os.remove(cache)
+                else:
+                    print("iOS {}_{}: {} FAILED".format(firmware, buildid, cache))
+        print("ipsw {}: DONE".format(ipsw))
+    
+    print("iOS {}: DONE".format(firmware))
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/rocketd</string>
+	</array>
+	<key>OnDemand</key>
+	<true/>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.rpetrich.rocketbootstrapd</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.rpetrich.rocketbootstrapd</string>
+	<key>JetsamProperties</key>
+	<dict>
+		<key>JetsamPriority</key>
+		<integer>18</integer>
+	</dict>
+</dict>
+</plist>

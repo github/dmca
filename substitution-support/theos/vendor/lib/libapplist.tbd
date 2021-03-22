@@ -1,0 +1,17 @@
+---
+archs:                 [ armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          /usr/lib/libapplist.dylib
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:              [ armv7, armv7s, arm64 ]
+    symbols:            [ _ALDisplayIdentifierKey, _ALIconLoadedNotification, _ALIconSizeKey, _ALItemDescriptorDetailTextKey,
+                          _ALItemDescriptorImageKey, _ALItemDescriptorTextKey, _ALSectionDescriptorCellClassNameKey,
+                          _ALSectionDescriptorFooterTitleKey, _ALSectionDescriptorIconSizeKey, _ALSectionDescriptorItemsKey,
+                          _ALSectionDescriptorPredicateKey, _ALSectionDescriptorSuppressHiddenAppsKey,
+                          _ALSectionDescriptorTitleKey, _ALSectionDescriptorVisibilityPredicateKey ]
+    objc-classes:       [ _ALApplicationList, _ALApplicationLoadingTableViewCell, _ALApplicationTableDataSource, _ALCheckCell,
+                          _ALDisclosureIndicatedCell, _ALSwitchCell, _ALValueCell ]
+...

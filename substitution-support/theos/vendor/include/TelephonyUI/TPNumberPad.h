@@ -1,0 +1,3 @@
+@interface TPNumberPad : UIControl
+
+@end

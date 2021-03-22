@@ -1,0 +1,15 @@
+---
+archs:                 [ armv7, arm64 ]
+platform:              ios
+install-name:          /Library/Frameworks/Cephei.framework/Cephei
+current-version:       0
+compatibility-version: 0
+objc-constraint:       retain_release
+exports:
+  - archs:              [ armv7, arm64 ]
+    symbols:            [ _HBOutputForShellCommand, _HBOutputForShellCommandWithReturnCode, _HBPreferencesDidChangeNotification,
+                          _HBPreferencesNotMobileException, _KnownIdentifiers, __CFPreferencesCopyKeyListWithContainer,
+                          __CFPreferencesCopyMultipleWithContainer, __CFPreferencesCopyValueWithContainer,
+                          __CFPreferencesSetValueWithContainer, __CFPreferencesSynchronizeWithContainer, _globalBundle ]
+    objc-classes:       [ _HBPreferences, _HBPreferencesCore, _HBPreferencesIPC, _HBRespringController ]
+...

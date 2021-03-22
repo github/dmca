@@ -1,0 +1,3 @@
+@protocol BSDescriptionProviding
+
+@end

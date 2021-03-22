@@ -1,0 +1,12 @@
+Package: trustinjector
+Name: Trust Cache Injector
+Version: 0.4~b5
+Architecture: iphoneos-arm
+Description: Inject files to kernel trust cache
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Author: Sam Bingner <maintainer@sbdhi.com>
+Provides: trustinjector, science.xnu.injector
+Conflicts: science.xnu.injector
+Replaces: science.xnu.injector
+Section: System
+Tag: role::hacker

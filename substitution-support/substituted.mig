@@ -1,0 +1,16 @@
+// mig -sheader substitute_daemonServer.h -header substitute_daemonUser.h substituted.mig
+
+subsystem substitute_daemon 31337;
+
+#include <mach/std_types.defs>
+#include <mach/mach_types.defs>
+import "substituted-types.h";
+
+type pid_t = MACH_MSG_TYPE_INTEGER_32;
+type bool = MACH_MSG_TYPE_INTEGER_8;
+type cdhash_t = array[20] of MACH_MSG_TYPE_INTEGER_8;
+
+routine substitute_setup_process(serverPort : mach_port_t; in target_pid : pid_t; in set_exec : bool; in should_resume : bool; ServerAuditToken audit : audit_token_t);
+routine substitute_setup_self(serverPort : mach_port_t; ServerAuditToken audit : audit_token_t);
+routine substitute_copy_extensions(serverPort : mach_port_t; in task : vm_task_entry_t; out stringAddress : mach_vm_address_t; out stringSize : mach_vm_size_t; ServerAuditToken audit : audit_token_t);
+routine substitute_preflight(serverPort : mach_port_t; in task : vm_task_entry_t; in pathAddress : mach_vm_address_t; in pathSize : mach_vm_size_t; ServerAuditToken audit : audit_token_t);

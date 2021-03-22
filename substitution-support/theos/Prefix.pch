@@ -1,0 +1,26 @@
+#ifdef DEBUG
+	#define __DEBUG__
+#endif
+
+#ifdef __OBJC__
+	// This block shouldn’t really be in this prefix header, but we can’t remove it without breaking
+	// pretty much everyone’s projects. THEOS_LEAN_AND_MEAN allows for this block to be skipped on a
+	// per-project or per-developer basis. This file is not imported at all when using Swift.
+	#ifndef THEOS_LEAN_AND_MEAN
+		#import <_Prefix/BackwardsCompat.h>
+		#import <Foundation/Foundation.h>
+
+		#ifdef TARGET_OS_SIMULATOR
+			#define _THEOS_IS_SIMULATOR TARGET_OS_SIMULATOR
+		#else
+			#define _THEOS_IS_SIMULATOR TARGET_IPHONE_SIMULATOR
+		#endif
+
+		#if TARGET_IPHONE || _THEOS_IS_SIMULATOR
+			#import <UIKit/UIKit.h>
+			#import <_Prefix/IOSMacros.h>
+		#endif
+
+		#import <HBLog.h>
+	#endif
+#endif

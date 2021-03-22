@@ -1,0 +1,3 @@
+@interface SBLockScreenViewController : UIViewController
+
+@end

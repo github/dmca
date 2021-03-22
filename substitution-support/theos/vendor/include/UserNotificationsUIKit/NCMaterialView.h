@@ -1,0 +1,3 @@
+@interface NCMaterialView : UIView
+
+@end

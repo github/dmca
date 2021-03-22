@@ -1,0 +1,3 @@
+@interface SBStatusBarOperatorNameView : NSObject
+
+@end

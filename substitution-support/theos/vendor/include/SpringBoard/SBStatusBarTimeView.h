@@ -1,0 +1,3 @@
+@interface SBStatusBarTimeView : NSObject
+
+@end
