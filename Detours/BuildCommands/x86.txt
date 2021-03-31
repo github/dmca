@@ -1,0 +1,3 @@
+SET DETOURS_TARGET_PROCESSOR=X86
+“%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat” x86
+NMAKE halfclean

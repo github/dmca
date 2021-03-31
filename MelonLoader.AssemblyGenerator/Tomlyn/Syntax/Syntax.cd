@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tomlyn.Syntax.SyntaxNodeBase" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Syntax\SyntaxNodeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.SyntaxNode" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAEAAEAAAAAAAAAIAAQAAgAAACAgAAAAA=</HashCode>
+      <FileName>Syntax\SyntaxNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="LeadingTrivia" />
+      <Property Name="TrailingTrivia" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Tomlyn.Syntax.SyntaxTrivia" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Syntax\SyntaxTrivia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.ArrayItemSyntax" Collapsed="true">
+    <Position X="1.5" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="Tomlyn.Syntax.SyntaxNode" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="2.191" />
+        <Point X="8.75" Y="2.552" />
+        <Point X="2.25" Y="2.552" />
+        <Point X="2.25" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ANAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAgAAAAAEA=</HashCode>
+      <FileName>Syntax\ArrayItemSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.DocumentSyntax" Collapsed="true">
+    <Position X="13.5" Y="3" Width="1.5" />
+    <AssociationLine Name="Tables" Type="Tomlyn.Syntax.TableSyntaxBase">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.179" Y="0.018" Height="0.182" Width="0.732" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAACAAIAAAAAQAAAAIAAQAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\DocumentSyntax.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="KeyValues" />
+      <Property Name="Tables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Tomlyn.Syntax.InlineTableItemSyntax" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAACAAAAAAAAAAAAAIAAQAAAAAAAAAAAAUA=</HashCode>
+      <FileName>Syntax\InlineTableItemSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.SyntaxToken" Collapsed="true">
+    <Position X="18" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAACAAAAgA=</HashCode>
+      <FileName>Syntax\SyntaxToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.ValueSyntax" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\ValueSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.BareKeyOrStringValueSyntax" Collapsed="true">
+    <Position X="11" Y="9" Width="2" />
+    <InheritanceLine Type="Tomlyn.Syntax.ValueSyntax" ManuallyRouted="true">
+      <Path>
+        <Point X="7.406" Y="3.691" />
+        <Point X="7.406" Y="8.354" />
+        <Point X="9.042" Y="8.354" Type="JumpStart" />
+        <Point X="9.208" Y="8.354" Type="JumpEnd" />
+        <Point X="12" Y="8.354" />
+        <Point X="12" Y="9" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\BareKeyOrStringValueSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.BooleanValueSyntax" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAACAAAAAAAAAAAAIAAQAAAAAAgAAABAAA=</HashCode>
+      <FileName>Syntax\BooleanValueSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.DateTimeValueSyntax" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAAAAAAAAAAAAAAAIAAQAAAAAAgAAABAAA=</HashCode>
+      <FileName>Syntax\DateTimeValueSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.DottedKeyItemSyntax" Collapsed="true">
+    <Position X="8" Y="9" Width="1.75" />
+    <InheritanceLine Type="Tomlyn.Syntax.ValueSyntax" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="3.691" />
+        <Point X="7" Y="8.354" />
+        <Point X="8.875" Y="8.354" />
+        <Point X="8.875" Y="9" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAAACIAAAACIAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\DottedKeyItemSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.FloatValueSyntax" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAAAAAAAAAAAAIAAQAAAAAAgAAABAAA=</HashCode>
+      <FileName>Syntax\FloatValueSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.IntegerValueSyntax" Collapsed="true">
+    <Position X="4" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAAAAAAAAAAAAIAAQAAAAAAgAAABAAA=</HashCode>
+      <FileName>Syntax\IntegerValueSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.KeySyntax" Collapsed="true">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="Tomlyn.Syntax.ValueSyntax" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="3.691" />
+        <Point X="7" Y="7.096" />
+        <Point X="7.323" Y="7.096" Type="JumpStart" />
+        <Point X="7.49" Y="7.096" Type="JumpEnd" />
+        <Point X="8.321" Y="7.096" />
+        <Point X="8.321" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="DotKeys" Type="Tomlyn.Syntax.DottedKeyItemSyntax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.125" Y="7.941" />
+        <Point X="9.125" Y="8.065" />
+        <Point X="9.125" Y="8.065" />
+        <Point X="9.125" Y="9" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.883" Y="0.102" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Key" Type="Tomlyn.Syntax.BareKeyOrStringValueSyntax" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.5" Y="7.596" />
+        <Point X="12.438" Y="7.596" />
+        <Point X="12.438" Y="9" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.572" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAAACAAAAAAIAAQAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\KeySyntax.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Key" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="DotKeys" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Tomlyn.Syntax.BareKeySyntax" Collapsed="true">
+    <Position X="10.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAQAAACAAAAAAIAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\BareKeySyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.StringValueSyntax" Collapsed="true">
+    <Position X="12.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAAAAAAAAAAAAIAAQAAAAAAgAAABAAA=</HashCode>
+      <FileName>Syntax\StringValueSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.InvalidSyntaxToken" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\InvalidSyntaxToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.KeyValueSyntax" Collapsed="true">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Tomlyn.Syntax.SyntaxNode" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="2.191" />
+        <Point X="8.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Key" Type="Tomlyn.Syntax.KeySyntax" FixedToPoint="true">
+      <Path>
+        <Point X="9.125" Y="5.941" />
+        <Point X="9.125" Y="7.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.584" Y="0.143" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Value" Type="Tomlyn.Syntax.ValueSyntax" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.214" Y="5.25" />
+        <Point X="8.214" Y="3.346" />
+        <Point X="7.75" Y="3.346" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AJACAAAAAAAEAAQAAgCAAAAAAIAAQAAAAAAgAAAAAIA=</HashCode>
+      <FileName>Syntax\KeyValueSyntax.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Key" />
+      <Property Name="Value" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tomlyn.Syntax.TableSyntaxBase" Collapsed="true">
+    <Position X="11" Y="3" Width="1.5" />
+    <AssociationLine Name="Items" Type="Tomlyn.Syntax.KeyValueSyntax" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="3.313" />
+        <Point X="9.339" Y="3.313" />
+        <Point X="9.339" Y="5.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.69" Y="0.214" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgACIBAAAAAACAAAABAAAAQAAMABQAAAQAAAAAAAAIA=</HashCode>
+      <FileName>Syntax\TableSyntaxBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Tomlyn.Syntax.TableArraySyntax" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\TableArraySyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.TableSyntax" Collapsed="true">
+    <Position X="12" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\TableSyntax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.SyntaxList" Collapsed="true">
+    <Position X="15.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAEAAAAAIAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\SyntaxList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tomlyn.Syntax.SyntaxList&lt;TSyntaxNode&gt;" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAAAAAAAAAAAIAAQAAEAABBAAAAAAA=</HashCode>
+      <FileName>Syntax\SyntaxList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Tomlyn.Syntax.InlineTableSyntax" Collapsed="true">
+    <Position X="4" Y="9.25" Width="1.5" />
+    <InheritanceLine Type="Tomlyn.Syntax.ValueSyntax" ManuallyRouted="true">
+      <Path>
+        <Point X="7" Y="3.691" />
+        <Point X="7" Y="9.111" />
+        <Point X="4.75" Y="9.111" />
+        <Point X="4.75" Y="9.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAAAACAAAAAIAAAgAAIAAQAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Syntax\InlineTableSyntax.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Tomlyn.Syntax.ArraySyntax" Collapsed="true">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAAACAAAABAAAAAAAIABQAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\ArraySyntax.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,5 @@
+   MelonLoader
+   Copyright 2020 - 2021 Lava Gang
+   
+   This product contains software (https://github.com/LavaGang/MelonLoader) developed
+   by Lava Gang, licensed under the Apache-2.0 license.
