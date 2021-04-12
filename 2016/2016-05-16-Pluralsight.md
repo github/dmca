@@ -25,8 +25,6 @@ https://github.com/monczszilard/PluralSightDownloader-1
 
 https://github.com/jaydenis/PluralSightDownloader
 
-https://github.com/ganesanarun/PluralSightDownloader
-
 https://github.com/dogramacigokhan/PluralSightDownloader
 
 https://github.com/caminante99/PluralSightDownloader
