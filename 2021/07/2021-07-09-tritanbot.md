@@ -40,8 +40,8 @@ No.
 
 **So that we can get back to you, please provide either your telephone number or physical address.**
 
-[407-669-2164]
+[Private Phone] - [dylan@tritan.gg]
 
 **Please type your full legal name below to sign this request.**
 
-[Dylan Burke]
+[Private]
