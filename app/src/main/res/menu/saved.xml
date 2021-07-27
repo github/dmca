@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/downloadAction"
+        android:icon="@drawable/ic_download"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/favouriteAction"
+        android:icon="@drawable/ic_not_liked"
+        app:showAsAction="always|collapseActionView" />
+</menu>

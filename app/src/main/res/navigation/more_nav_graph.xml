@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/more_nav_graph"
+    app:startDestination="@id/morePreferencesFragment">
+
+    <include app:graph="@navigation/profile_nav_graph" />
+    <include app:graph="@navigation/hashtag_nav_graph" />
+    <include app:graph="@navigation/location_nav_graph" />
+    <include app:graph="@navigation/comments_nav_graph" />
+    <include app:graph="@navigation/likes_nav_graph" />
+    <include app:graph="@navigation/notification_viewer_nav_graph" />
+    <include app:graph="@navigation/story_list_nav_graph" />
+    <include app:graph="@navigation/discover_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="true" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_hashTagFragment"
+        app:destination="@id/hashtag_nav_graph">
+        <argument
+            android:name="hashtag"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_locationFragment"
+        app:destination="@id/location_nav_graph">
+        <argument
+            android:name="locationId"
+            app:argType="long" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_storyListViewerFragment"
+        app:destination="@id/story_list_nav_graph">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_notificationsViewerFragment"
+        app:destination="@id/notification_viewer_nav_graph">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="targetId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_post_view"
+        app:destination="@id/postViewFragment">
+        <argument
+            android:name="media"
+            app:argType="awais.instagrabber.repositories.responses.Media"
+            app:nullable="false" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </action>
+
+    <fragment
+        android:id="@+id/morePreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.MorePreferencesFragment"
+        android:label="@string/more">
+        <action
+            android:id="@+id/action_morePreferencesFragment_to_settingsPreferencesFragment"
+            app:destination="@id/settingsPreferencesFragment" />
+        <action
+            android:id="@+id/action_morePreferencesFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_morePreferencesFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_morePreferencesFragment_to_backupPreferencesFragment"
+            app:destination="@id/backupPreferencesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.SettingsPreferencesFragment"
+        android:label="@string/action_settings">
+        <action
+            android:id="@+id/action_settings_to_theme"
+            app:destination="@id/themePreferencesFragment" />
+        <action
+            android:id="@+id/action_settings_to_locale"
+            app:destination="@id/localePreferencesFragment" />
+        <action
+            android:id="@+id/action_settings_to_general"
+            app:destination="@id/generalPreferencesFragment" />
+        <action
+            android:id="@+id/action_settings_to_downloads"
+            app:destination="@id/downloadsPreferencesFragment" />
+        <action
+            android:id="@+id/action_settings_to_dm"
+            app:destination="@id/DMPreferencesFragment" />
+        <action
+            android:id="@+id/action_settings_to_stories"
+            app:destination="@id/storiesPreferencesFragment" />
+        <action
+            android:id="@+id/action_settings_to_notifications"
+            app:destination="@id/notificationsPreferencesFragment" />
+        <action
+            android:id="@+id/action_settings_to_post"
+            app:destination="@id/postPreferencesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="awais.instagrabber.fragments.settings.AboutFragment"
+        android:label="@string/action_about" />
+    <fragment
+        android:id="@+id/themePreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.ThemePreferencesFragment"
+        android:label="@string/theme_settings" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="awais.instagrabber.fragments.FavoritesFragment"
+        android:label="@string/title_favorites" />
+    <fragment
+        android:id="@+id/backupPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.BackupPreferencesFragment"
+        android:label="@string/backup_and_restore" />
+    <fragment
+        android:id="@+id/localePreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.LocalePreferencesFragment"
+        android:label="@string/pref_category_locale" />
+    <fragment
+        android:id="@+id/generalPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.GeneralPreferencesFragment"
+        android:label="@string/pref_category_general" />
+    <fragment
+        android:id="@+id/downloadsPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.DownloadsPreferencesFragment"
+        android:label="@string/pref_category_downloads" />
+    <fragment
+        android:id="@+id/DMPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.DMPreferencesFragment"
+        android:label="@string/pref_category_dm" />
+    <fragment
+        android:id="@+id/storiesPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.StoriesPreferencesFragment"
+        android:label="@string/pref_category_stories" />
+    <fragment
+        android:id="@+id/notificationsPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.NotificationsPreferencesFragment"
+        android:label="@string/pref_category_notifications" />
+    <fragment
+        android:id="@+id/postPreferencesFragment"
+        android:name="awais.instagrabber.fragments.settings.PostPreferencesFragment"
+        android:label="@string/pref_category_post" />
+    <fragment
+        android:id="@+id/postViewFragment"
+        android:name="awais.instagrabber.fragments.PostViewV2Fragment"
+        android:label="Post" />
+</navigation>

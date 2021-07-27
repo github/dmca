@@ -1,0 +1,4 @@
+* You can now view public stories and highlights WITHOUT logging in, but only if you enable it in Settings
+* Originally, viewing HD avatars without logging in automatically uses Instadp, now you have to enable it in Settings as well
+  * Consent is important! A button now tells you
+* Highlights now support showing sticker infos

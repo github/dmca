@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?toolbarColor"
+    android:padding="@dimen/profile_info_container_bottom_space">
+
+    <awais.instagrabber.customviews.CircularImageView
+        android:id="@+id/mainHashtagImage"
+        android:layout_width="@dimen/profile_picture_size"
+        android:layout_height="@dimen/profile_picture_size"
+        android:background="?selectableItemBackgroundBorderless"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/mainTagPostCount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@mipmap/ic_launcher" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/mainTagPostCount"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintBottom_toTopOf="@id/fav_chip"
+        app:layout_constraintStart_toEndOf="@id/mainHashtagImage"
+        app:layout_constraintTop_toTopOf="@id/mainHashtagImage"
+        tools:text="35 Posts" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnFollowTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/follow"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_person_add_24"
+        app:chipIconTint="@color/deep_purple_800"
+        app:layout_constraintBottom_toBottomOf="@id/mainHashtagImage"
+        app:layout_constraintStart_toEndOf="@id/mainHashtagImage"
+        app:layout_constraintTop_toBottomOf="@id/mainTagPostCount"
+        app:rippleColor="@color/purple_200" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/fav_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/add_to_favorites"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_star_plus_24"
+        app:chipIconTint="@color/yellow_800"
+        app:layout_constraintBottom_toBottomOf="@id/mainHashtagImage"
+        app:layout_constraintStart_toEndOf="@id/btnFollowTag"
+        app:layout_constraintTop_toBottomOf="@id/mainTagPostCount"
+        app:rippleColor="@color/yellow_400" />
+</androidx.constraintlayout.widget.ConstraintLayout>

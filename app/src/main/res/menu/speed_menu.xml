@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pt_two_five_x"
+        android:title="@string/pt_two_five_x" />
+
+    <item
+        android:id="@+id/pt_five_x"
+        android:title="@string/pt_five_x" />
+    <item
+        android:id="@+id/pt_seven_five_x"
+        android:title="@string/pt_seven_five_x" />
+    <item
+        android:id="@+id/one_x"
+        android:title="@string/one_x" />
+
+    <item
+        android:id="@+id/one_pt_two_five_x"
+        android:title="@string/one_pt_two_five_x" />
+
+    <item
+        android:id="@+id/one_pt_five_x"
+        android:title="@string/one_pt_five_x" />
+    <item
+        android:id="@+id/two_x"
+        android:title="@string/two_x" />
+</menu>

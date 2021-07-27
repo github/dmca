@@ -1,0 +1,6 @@
+* InstaGrabber will check activity/notifications every minute, when the app is on and when you're logged in
+* Changes to DM interfaces
+* You can now unsend messages
+* Adding favourite button on profile views
+* Enforcing a limit of 100 posts per download
+* Fix updater

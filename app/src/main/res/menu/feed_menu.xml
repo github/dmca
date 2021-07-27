@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/storyList"
+        android:icon="@drawable/ic_story_list"
+        android:title="@string/feed_stories"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/layout"
+        android:title="@string/layout"
+        app:showAsAction="never" />
+</menu>

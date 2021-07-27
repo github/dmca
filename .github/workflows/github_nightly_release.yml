@@ -1,0 +1,70 @@
+name: Github nightly
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '27 10 * * *' # Everyday at 10:27:00
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    
+    - name: set up JDK 1.8
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'zulu'
+        java-version: '8'
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    
+    - name: Build Github unsigned apk
+      run: ./gradlew assembleGithubRelease --stacktrace --project-prop pre --project-prop split
+      
+    - name: Sign APK
+      uses: ammargitham/sign-android-release@v1.1.1
+      # ID used to access action output
+      id: sign_app
+      with:
+        releaseDirectory: app/build/outputs/apk/github/release
+        signingKeyBase64: ${{ secrets.SIGNING_KEY }}
+        alias: ${{ secrets.ALIAS }}
+        keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
+        keyPassword: ${{ secrets.KEY_PASSWORD }}
+    
+    - name: Get current date and time
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y%m%d_%H%M%S')"
+    
+    # Create artifact    
+    - name: Create apk artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: barinsta_nightly_${{ steps.date.outputs.date }}
+        # path: ${{steps.sign_app.outputs.signedReleaseFile}}
+        path: app/build/outputs/apk/github/release/*-signed.apk
+        
+    # Send success notification
+    - name: Send success Telegram notification
+      if: ${{ success() }}
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_BUILDS_CHANNEL_TO }}
+        token: ${{ secrets.TELEGRAM_BUILDS_BOT_TOKEN }}
+        message: "${{ github.workflow }} ${{ github.job }} #${{ github.run_number }} completed successfully.\nhttps://github.com/${{github.repository}}/actions/runs/${{github.run_id}}"
+        # document: ${{steps.sign_app.outputs.signedReleaseFile}}
+        document: app/build/outputs/apk/github/release/*-signed.apk
+    
+    # Send failure notification
+    - name: Send failure Telegram notification
+      if: ${{ failure() }}
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_BUILDS_CHANNEL_TO }}
+        token: ${{ secrets.TELEGRAM_BUILDS_BOT_TOKEN }}
+        message: "${{ github.workflow }} ${{ github.job }} #${{ github.run_number }} failed.\nhttps://github.com/${{github.repository}}/actions/runs/${{github.run_id}}"

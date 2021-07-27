@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:baselineAligned="false"
+    android:padding="8dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ivProfilePic"
+        android:layout_width="@dimen/notification_image_size"
+        android:layout_height="@dimen/notification_image_size"
+        android:visibility="visible"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@id/barrier"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:roundAsCircle="true"
+        tools:placeholderImage="@mipmap/ic_launcher" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="ivProfilePic" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvComment"
+        app:layout_constraintEnd_toStartOf="@id/ivPreviewPic"
+        app:layout_constraintStart_toStartOf="@id/barrier"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="username" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/isVerified"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/tvComment"
+        app:layout_constraintEnd_toStartOf="@id/ivPreviewPic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/verified"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:linksClickable="false"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@id/tvSubComment"
+        app:layout_constraintEnd_toStartOf="@id/ivPreviewPic"
+        app:layout_constraintStart_toStartOf="@id/tvUsername"
+        app:layout_constraintTop_toBottomOf="@id/tvUsername"
+        tools:text="comment comment comment comment comment comment comment comment comment comment comment comment comment " />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSubComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autoLink="web|email"
+        android:ellipsize="end"
+        android:linksClickable="false"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toStartOf="@id/preview_barrier"
+        app:layout_constraintStart_toStartOf="@id/tvUsername"
+        app:layout_constraintTop_toBottomOf="@id/tvComment"
+        tools:text="sub-comment long long long long long long long long long long" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/preview_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="start"
+        app:constraint_referenced_ids="ivPreviewPic" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ivPreviewPic"
+        android:layout_width="@dimen/notification_image_size"
+        android:layout_height="@dimen/notification_image_size"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/preview_barrier"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:placeholderImage="@mipmap/ic_launcher"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="end"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="16dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ivPreviewPic"
+        app:layout_constraintStart_toEndOf="@id/ivProfilePic"
+        app:layout_constraintTop_toBottomOf="@id/tvSubComment"
+        tools:text="some long long long long long date" />
+</androidx.constraintlayout.widget.ConstraintLayout>

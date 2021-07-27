@@ -1,0 +1,15 @@
+## Features
+* We're now (officially) Barinsta! New name, new icon!
+* Total revamp of UI. Specifically, the profile/hashtag/location, feed, and discover tabs have been redone. Explore our new look!
+* You can now pick a feed layout and a theme!
+* You can now DM a user from their profile page!
+
+## Improvements
+* You can now skip to another user in story feed by clicking the skip buttons
+* URLs and emails in descrptions are now tappable
+* Downloaded file names now use shortcode instead of post ID
+* Support `FELIX_SHARE` DM message type
+
+## Fixes
+* Fix file corruption bug
+* Fix video autoplay & auto-mute issues

@@ -1,0 +1,9 @@
+* Proper login support for those under Android 8
+* You are alerted before unfollowing a private account
+* Update checker can now be toggled
+* "Swipe up" story sticker type is now supported
+* Unread DM are now indicated
+* You can now mark DMs as seen, either automatically (settings) or manually
+* You can now kick DM members
+* "Clip" message type (basically sharing reels) is now supported
+* Bug fixes, see GitHub

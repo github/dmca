@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconColors">
+        <ignore path="src/main/res/drawable-night/download.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/adm.png" />
+        <ignore path="src/main/res/drawable/check.png" />
+        <ignore path="src/main/res/drawable/collapse.png" />
+        <ignore path="src/main/res/drawable/comments.png" />
+        <ignore path="src/main/res/drawable/download.png" />
+        <ignore path="src/main/res/drawable/expand.png" />
+        <ignore path="src/main/res/drawable/lock.png" />
+        <ignore path="src/main/res/drawable/lw.png" />
+        <ignore path="src/main/res/drawable/ms.png" />
+        <ignore path="src/main/res/drawable/mute.png" />
+        <ignore path="src/main/res/drawable/qdb.png" />
+        <ignore path="src/main/res/drawable/rev.png" />
+        <ignore path="src/main/res/drawable/revl.png" />
+        <ignore path="src/main/res/drawable/settings.png" />
+        <ignore path="src/main/res/drawable/slider.png" />
+        <ignore path="src/main/res/drawable/tesv.png" />
+        <ignore path="src/main/res/drawable/vdz.png" />
+        <ignore path="src/main/res/drawable/verified.png" />
+        <ignore path="src/main/res/drawable/video.png" />
+        <ignore path="src/main/res/drawable/video_views.png" />
+        <ignore path="src/main/res/drawable/vol.png" />
+    </issue>
+</lint>

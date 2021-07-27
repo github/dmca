@@ -1,0 +1,7 @@
+* You can now (un)follow/restrict/block people
+  * For this reason, "Open in Instagram" for following/follower list is removed
+* Link in bio is now under bio text (like the actual Instagram app)
+* Accounts with no posts will be indicated instead of having infinite refresh
+* When searching, all other buttons will be hidden to expand suggestion width
+* Remove AWAiS advertisement
+* Implement LGTM advice to improve stability

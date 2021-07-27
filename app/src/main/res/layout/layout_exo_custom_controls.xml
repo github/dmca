@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/exo_black_opacity_60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/top_barrier" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/top_barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierDirection="top" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exo_rew_with_amount"
+        style="@style/Widget.App.MaterialButton.IconOnly.BorderlessRipple"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:icon="@drawable/ic_replay_5_24_states"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/progress_barrier"
+        app:layout_constraintEnd_toStartOf="@id/exo_play_pause"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_barrier"
+        tools:enabled="false"
+        tools:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/exo_play_pause"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_grey_ripple"
+        android:contentDescription="@string/exo_controls_play_description"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/exo_styled_controls_play"
+        app:layout_constraintBottom_toTopOf="@id/progress_barrier"
+        app:layout_constraintEnd_toStartOf="@id/exo_ffwd_with_amount"
+        app:layout_constraintStart_toEndOf="@id/exo_rew_with_amount"
+        app:layout_constraintTop_toBottomOf="@id/top_barrier"
+        tools:enabled="false"
+        tools:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exo_ffwd_with_amount"
+        style="@style/Widget.App.MaterialButton.IconOnly.BorderlessRipple"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_forward_5_24_states"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/progress_barrier"
+        app:layout_constraintEnd_toStartOf="@id/mute"
+        app:layout_constraintStart_toEndOf="@id/exo_play_pause"
+        app:layout_constraintTop_toBottomOf="@id/top_barrier"
+        tools:enabled="false"
+        tools:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mute"
+        style="@style/Widget.App.MaterialButton.IconOnly.BorderlessRipple"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_volume_off_24_states"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/progress_barrier"
+        app:layout_constraintEnd_toStartOf="@id/exo_settings"
+        app:layout_constraintStart_toEndOf="@id/exo_ffwd_with_amount"
+        app:layout_constraintTop_toBottomOf="@id/top_barrier"
+        tools:enabled="false"
+        tools:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exo_settings"
+        style="@style/Widget.App.MaterialButton.IconOnly.BorderlessRipple"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/exo_ic_settings"
+        app:iconSize="24dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/progress_barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/mute"
+        app:layout_constraintTop_toBottomOf="@id/top_barrier"
+        tools:enabled="false"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/progress_barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierDirection="top" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/exo_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/exo_progress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progress_barrier"
+        tools:text="0:00"
+        tools:visibility="gone" />
+
+    <com.google.android.exoplayer2.ui.DefaultTimeBar
+        android:id="@+id/exo_progress"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/exo_duration"
+        app:layout_constraintStart_toEndOf="@id/exo_position"
+        app:layout_constraintTop_toBottomOf="@id/progress_barrier"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/exo_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/exo_progress"
+        app:layout_constraintTop_toBottomOf="@id/progress_barrier"
+        tools:text="0:00"
+        tools:visibility="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

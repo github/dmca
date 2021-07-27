@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <style name="AppTheme.LaunchTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/launch_dark</item>
+    </style>
+    -->
+
+    <style name="AppTheme.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog" />
+
+    <style name="PlayButtonCard" parent="CardView.Light" />
+</resources>

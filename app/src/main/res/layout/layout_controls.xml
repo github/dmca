@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/controller"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/exo_pause"
+        android:layout_width="71dp"
+        android:layout_height="64dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/exo_controls_pause_description"
+        android:src="@drawable/exo_icon_pause" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/exo_play"
+        android:layout_width="71dp"
+        android:layout_height="64dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/exo_controls_play_description"
+        android:src="@drawable/exo_icon_play" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+* You can now respond to question boxes in stories
+* You can now check out story mentions (except non-Spotify music stickers, but you can hear them by playing the story)
+    * Above 2 does not apply to highlights
+* You can now click on locations from feed
+* Fixed a bug where you cannot access your own follower/following list when you are private and have no posts

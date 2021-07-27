@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_info_container_bottom_space">8dp</dimen>
+    <dimen name="private_page_margins">30dp</dimen>
+    <dimen name="private_page_size">90dp</dimen>
+
+    <dimen name="profile_picture_size">90dp</dimen>
+    <dimen name="profile_chip_size">40dp</dimen>
+    <dimen name="image_size_40">40dp</dimen>
+
+    <dimen name="profile_pic_size_tiny">24dp</dimen>
+    <dimen name="profile_pic_size_smaller">32dp</dimen>
+    <dimen name="profile_pic_size_small">40dp</dimen>
+    <dimen name="profile_pic_size_regular">48dp</dimen>
+    <dimen name="profile_pic_size_large">90dp</dimen>
+
+    <dimen name="slider_item_size">80dp</dimen>
+    <dimen name="highlight_size">70dp</dimen>
+
+    <dimen name="story_item_height">80dp</dimen>
+    <dimen name="story_item_width">45dp</dimen>
+
+    <dimen name="simple_item_picture_size">80dp</dimen>
+
+    <dimen name="notification_image_size">56dp</dimen>
+
+    <dimen name="dm_inbox_avatar_size">40dp</dimen>
+    <dimen name="dm_inbox_avatar_size_small">30dp</dimen>
+    <dimen name="dm_inbox_avatar_size_tiny">25dp</dimen>
+    <dimen name="dm_media_img_max_height">450dp</dimen>
+    <dimen name="dm_link_image_size">150dp</dimen>
+    <dimen name="dm_message_card_radius">16dp</dimen>
+    <dimen name="dm_message_card_radius_small">8dp</dimen>
+    <dimen name="dm_message_item_margin">80dp</dimen>
+    <dimen name="dm_message_item_avatar_size">48dp</dimen>
+    <dimen name="dm_message_info_padding_small">4dp</dimen>
+    <dimen name="dm_reaction_adjust_margin">24dp</dimen>
+    <dimen name="dm_reaction_translation_y_type_1">6dp</dimen>
+    <dimen name="dm_reaction_translation_y_type_2">-12dp</dimen>
+
+    <dimen name="feed_item_bottom_icon_size">32dp</dimen>
+    <dimen name="keyboard_height">200dp</dimen>
+
+    <dimen name="reaction_picker_emoji_size">40dp</dimen>
+    <dimen name="reaction_picker_emoji_margin">8dp</dimen>
+    <dimen name="reaction_picker_option_height">48dp</dimen>
+    <dimen name="reaction_picker_add_padding_adjustment">4dp</dimen>
+    <dimen name="dm_item_context_min_width">200dp</dimen>
+
+    <dimen name="horizontal_divider_height">1dp</dimen>
+</resources>

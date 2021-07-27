@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comments_nav_graph"
+    app:startDestination="@id/commentsViewerFragment">
+
+    <!--<include app:graph="@navigation/hashtag_nav_graph" />-->
+
+    <action
+        android:id="@+id/action_global_hashTagFragment"
+        app:destination="@id/hashtag_nav_graph">
+        <argument
+            android:name="hashtag"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <!--<include app:graph="@navigation/profile_nav_graph" />-->
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="true" />
+    </action>
+
+    <dialog
+        android:id="@+id/commentsViewerFragment"
+        android:name="awais.instagrabber.fragments.comments.CommentsViewerFragment"
+        android:label="Comments"
+        tools:layout="@layout/fragment_comments">
+        <argument
+            android:name="shortCode"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postUserId"
+            app:argType="long" />
+    </dialog>
+
+    <action
+        android:id="@+id/action_global_commentsViewerFragment"
+        app:destination="@id/commentsViewerFragment">
+        <argument
+            android:name="shortCode"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postUserId"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/likes_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_likesViewerFragment"
+        app:destination="@id/likes_nav_graph">
+    <argument
+        android:name="postId"
+        app:argType="string"
+        app:nullable="false" />
+    <argument
+        android:name="isComment"
+        app:argType="boolean"
+        app:nullable="false" />
+    </action>
+</navigation>

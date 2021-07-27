@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="?attr/dmIncomingBgColor" />
+    <corners
+        android:radius="@dimen/dm_message_card_radius"
+        android:topLeftRadius="@dimen/dm_message_card_radius_small" />
+</shape>

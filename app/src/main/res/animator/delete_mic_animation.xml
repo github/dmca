@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:ordering="sequentially">
+
+    <set
+        android:ordering="together"
+        android:repeatMode="reverse">
+
+        <objectAnimator
+            android:duration="500"
+            android:propertyName="translationY"
+            android:repeatMode="reverse"
+            android:valueFrom="0"
+            android:valueTo="-400"
+            android:valueType="floatType" />
+
+        <set
+            android:duration="500"
+            android:ordering="together">
+            <objectAnimator
+
+                android:propertyName="scaleX"
+                android:valueFrom="1.0"
+                android:valueTo="2.0"
+                android:valueType="floatType" />
+
+            <objectAnimator
+                android:propertyName="scaleY"
+                android:valueFrom="1.0"
+                android:valueTo="2.0"
+                android:valueType="floatType" />
+        </set>
+
+        <objectAnimator
+            android:duration="400"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="360"
+            android:valueType="floatType" />
+    </set>
+
+    <set
+        android:duration="500"
+        android:ordering="together">
+
+        <objectAnimator
+            android:propertyName="translationY"
+            android:valueFrom="-400"
+            android:valueTo="0"
+            android:valueType="floatType" />
+
+        <set android:ordering="together">
+            <objectAnimator
+                android:propertyName="scaleX"
+                android:valueFrom="2.0"
+                android:valueTo="0.7"
+                android:valueType="floatType" />
+            <objectAnimator
+                android:propertyName="scaleY"
+                android:valueFrom="2.0"
+                android:valueTo="0.7"
+                android:valueType="floatType" />
+        </set>
+    </set>
+</set>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hashtag_nav_graph"
+    app:startDestination="@id/hashTagFragment">
+
+    <include app:graph="@navigation/comments_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_commentsViewerFragment"
+        app:destination="@id/comments_nav_graph">
+        <argument
+            android:name="shortCode"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postUserId"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/likes_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_likesViewerFragment"
+        app:destination="@id/likes_nav_graph">
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="isComment"
+            app:argType="boolean"
+            app:nullable="false" />
+    </action>
+
+    <include app:graph="@navigation/saved_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_savedCollectionsFragment"
+        app:destination="@id/saved_nav_graph">
+        <argument
+            android:name="isSaving"
+            app:argType="boolean" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="true" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_locationFragment"
+        app:destination="@id/location_nav_graph">
+        <argument
+            android:name="locationId"
+            app:argType="long" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_search"
+        app:destination="@id/searchFragment" />
+
+    <action
+        android:id="@+id/action_global_post_view"
+        app:destination="@id/postViewFragment">
+        <argument
+            android:name="media"
+            app:argType="awais.instagrabber.repositories.responses.Media"
+            app:nullable="false" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </action>
+
+    <fragment
+        android:id="@+id/hashTagFragment"
+        android:name="awais.instagrabber.fragments.HashTagFragment"
+        android:label=""
+        tools:layout="@layout/fragment_hashtag">
+        <argument
+            android:name="hashtag"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_hashtagFragment_to_storyViewerFragment"
+            app:destination="@id/storyViewerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyViewerFragment"
+        android:name="awais.instagrabber.fragments.StoryViewerFragment"
+        android:label="StoryViewerFragment"
+        tools:layout="@layout/fragment_story_viewer">
+        <argument
+            android:name="options"
+            app:argType="awais.instagrabber.repositories.requests.StoryViewerOptions" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="awais.instagrabber.fragments.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" />
+    <action
+        android:id="@+id/action_global_hashTagFragment"
+        app:destination="@id/hashTagFragment">
+        <argument
+            android:name="hashtag"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+    <fragment
+        android:id="@+id/postViewFragment"
+        android:name="awais.instagrabber.fragments.PostViewV2Fragment"
+        android:label="Post"
+        tools:layout="@layout/dialog_post_view" />
+</navigation>

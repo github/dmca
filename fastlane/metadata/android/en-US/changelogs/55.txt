@@ -1,0 +1,14 @@
+Merry Christmas and Happy Holidays!
+
+* You can now see who liked a post (logged-in users only, long-click the like button)
+* You can now translate comments, captions, and bios (logged-in users only, through Instagram's API)
+  * Bio/Comment: Click bio once, then click "translate"
+  * Caption: Scroll down, then click "translate"
+* You can now respond to slider stickers on stories
+* Add Dutch and Hindi translations
+
+* Feed now uses the app endpoint, which allows you to see posts from followed hashtags
+* New profile details layout
+* Viewing comments and following/followers should be faster and more stable
+* The APK is now smaller (~10 MB → 6.3 MB)
+* Various bug fixes

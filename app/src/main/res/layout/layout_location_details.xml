@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="?toolbarColor"
+    android:padding="8dp">
+
+    <awais.instagrabber.customviews.CircularImageView
+        android:id="@+id/mainLocationImage"
+        android:layout_width="@dimen/profile_picture_size"
+        android:layout_height="@dimen/profile_picture_size"
+        android:background="?selectableItemBackgroundBorderless"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@id/btnMap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@mipmap/ic_launcher" />
+
+    <!--    <androidx.appcompat.widget.AppCompatTextView-->
+    <!--        android:id="@+id/mainLocPostCount"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:maxLines="1"-->
+    <!--        android:paddingStart="12dp"-->
+    <!--        android:paddingEnd="12dp"-->
+    <!--        android:textAppearance="@style/TextAppearance.AppCompat"-->
+    <!--        app:layout_constraintBottom_toTopOf="@id/btnMap"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@id/mainLocationImage"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        tools:text="35 Posts" />-->
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/map"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_map_24"
+        app:chipIconTint="@color/green_500"
+        app:layout_constraintStart_toEndOf="@id/mainLocationImage"
+        app:layout_constraintTop_toTopOf="@id/mainLocationImage"
+        app:rippleColor="@color/grey_500"
+        tools:visibility="visible" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/fav_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/add_to_favorites"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_star_plus_24"
+        app:chipIconTint="@color/yellow_800"
+        app:layout_constraintBottom_toBottomOf="@id/mainLocationImage"
+        app:layout_constraintStart_toEndOf="@id/mainLocationImage"
+        app:layout_constraintTop_toBottomOf="@id/btnMap"
+        app:rippleColor="@color/yellow_400" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/locationFullName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/locationBiography"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainLocationImage"
+        tools:text="OUR HOUSE" />
+
+    <awais.instagrabber.customviews.RamboTextViewV2
+        android:id="@+id/locationBiography"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/locationFullName"
+        tools:text="IN THE MIDDLE OF OUR STREET" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

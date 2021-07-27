@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story_list_nav_graph"
+    app:startDestination="@id/storyListViewerFragment">
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="true" />
+    </action>
+
+    <fragment
+        android:id="@+id/storyListViewerFragment"
+        android:name="awais.instagrabber.fragments.StoryListViewerFragment"
+        android:label="Stories"
+        tools:layout="@layout/fragment_story_list_viewer">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_storyListFragment_to_storyViewerFragment"
+            app:destination="@id/storyViewerFragment" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_storyListViewerFragment"
+        app:destination="@id/storyListViewerFragment">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <fragment
+        android:id="@+id/storyViewerFragment"
+        android:name="awais.instagrabber.fragments.StoryViewerFragment"
+        android:label="StoryViewerFragment"
+        tools:layout="@layout/fragment_story_viewer">
+        <argument
+            android:name="options"
+            app:argType="awais.instagrabber.repositories.requests.StoryViewerOptions" />
+    </fragment>
+</navigation>

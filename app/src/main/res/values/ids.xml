@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="reply" type="id" />
+    <item name="unsend" type="id" />
+    <item name="forward" type="id" />
+    <item name="detail" type="id" />
+    <item name="copy" type="id" />
+</resources>

@@ -1,0 +1,6 @@
+* Added AMOLED dark mode (#45, Thanks @ammargitham)
+* Various bug fixes, including
+  * #39 (Updater shows the next version instead of the latest version)
+  * Downloading stories still uses @... folder
+  * Story highlights not being shown
+  * Discover view being shown to non-logged-in users

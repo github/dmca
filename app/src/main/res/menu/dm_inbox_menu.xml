@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pending_requests"
+        android:icon="@drawable/ic_account_clock_24"
+        android:title="@string/pending_requests"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

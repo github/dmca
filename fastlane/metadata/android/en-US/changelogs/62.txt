@@ -1,0 +1,3 @@
+Option to play video in background, favorites tab for anonymous users, and bug fixes.
+
+For details see https://github.com/austinhuang0131/barinsta/releases/tag/v19.2.1

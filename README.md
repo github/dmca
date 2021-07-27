@@ -1,79 +1,152 @@
-#### What is this?
+### THERE ARE CURRENTLY NO OFFICIAL GOOGLE PLAY RELEASES. PLEASE REPORT ANY OCCURRENCES TO US.
 
-Inspired by [Lumen](https://lumendatabase.org/topics/1) (*formerly Chilling Effects*) and [Google](https://cloud.google.com/storage/docs/dmca), this repo contains the text of DMCA takedown notices and counter-notices we've received here at GitHub. We publish them as they are received, redacting only private information, as well as URLs reported but that we determined were not actionable under the DMCA.
+<img src="./app/src/main/ic_launcher-round.png" alt="Barinsta logo" align="right" width="20%"/>
 
+# Barinsta
 
-#### Why is this?
+[![Awesome Humane Tech](https://raw.githubusercontent.com/humanetech-community/awesome-humane-tech/main/humane-tech-badge.svg?sanitize=true)](https://github.com/humanetech-community/awesome-humane-tech)
+[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/austinhuang0131/instagrabber.svg?style=social&label=Star)](https://GitHub.com/austinhuang0131/barinsta/stargazers/)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-In short, we believe that transparency on a specific and ongoing level is essential to good governance. Chilling Effects/Lumen explained it well in 2014 ([archive.org mirror; not present on their current site](https://web.archive.org/web/20140101160724/http://chillingeffects.org/#donato-if:~:text=We%20are%20excited%20about%20the%20new,its%20misuse%20to%20%22chill%22%20legitimate%20activity.)): "We are excited about the new opportunities the Internet offers individuals to express their views . . . but concerned that not everyone feels the same way. Study to date suggests that cease and desist letters often silence Internet users, whether or not their claims have legal merit." (About, ChillingEffects.org, Sept. 2014, licensed under [CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/us/)). Similarly, we post takedown notices here to document their potential to "chill" speech.
+Instagram client; previously known as InstaGrabber.
 
+For documentation, visit [Barinsta.AustinHuang.me](https://barinsta.austinhuang.me).
 
-#### What does it mean if there's a notice posted here?
+## Download
 
-It only means that we received the notice on the indicated date. It does ***not*** mean that the content was unlawful or wrong. It does ***not*** mean that the user identified in the notice has done anything wrong. We don't make or imply any judgment about the merit of the claims they make. We post these notices and requests only for informational purposes.
+**By installing, you indicate your acceptance of [Terms of Service](https://barinsta.austinhuang.me/en/latest/tos/) and [Privacy Policy](https://barinsta.austinhuang.me/en/latest/privacy/).**
 
-For more details, see our [DMCA policy](https://help.github.com/articles/dmca-takedown-policy/).
+<a href="https://f-droid.org/en/packages/me.austinhuang.instagrabber/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="75"></a>
+<a href="https://github.com/austinhuang0131/barinsta/releases/latest"><img src="https://raw.githubusercontent.com/andOTP/andOTP/master/assets/badges/get-it-on-github.png" height="75"></a>
 
-#### Anatomy of a takedown notice
+Version status: ![F-Droid](https://img.shields.io/f-droid/v/me.austinhuang.instagrabber.svg) vs. ![GitHub](https://img.shields.io/github/release/austinhuang0131/barinsta.svg?logo=github)
 
-In the spirit of transparency, we post each takedown notice that we process without making any changes to the text, except for redacting private information and URLs that were not actionable, and adding a few annotations to help you better understand how we processed the notice. Here are the annotations you might see and what they mean.
-1. **We gave repository owners a chance to make changes before we processed the notice.** 
+## Screenshots
 
-When you see this at the top of a notice (starting in March 2021)
->Before disabling any content in relation to this takedown notice, GitHub
->- contacted the owners of some or all of the affected repositories to give them an opportunity to make changes that could have prevented the need to disable the content 
->- provided information on how to [submit a DMCA Counter Notice](https://docs.github.com/en/articles/guide-to-submitting-a-dmca-counter-notice). 
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png"><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" alt="Profile" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" alt="Post" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png"><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" alt="Comments" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" alt="Story" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png"><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg" alt="Hashtag" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg" alt="Discover Topics" width="15%"/></a>
 
-it means that either the notice did not allege that the entire contents of a repository infringe, or the copyright holder identified other changes that could be made to the content to resolve the alleged infringement. As we note in our [DMCA Takedown Policy](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#a-how-does-this-actually-work), in those cases, because GitHub cannot disable access to specific files within a repository, we will contact the user who created the repository and give them approximately 1 business day to delete or modify the content specified in the notice. 
+## We need maintainers!
 
-If the repository owner makes the necessary changes, then GitHub will not disable the content. In some cases, that means the repositories are currently available despite being listed in the notice. In other cases, a repository might be unavailable because the repository owner decided to delete it.
+To speed up development, we need more hands on deck. If you are proficient in Java and Android development, and are willing to perform such a public service, please [contact us](https://t.me/austinhuang).
 
-Note, none of this is new policy - what's new as of March 2021 is that we are now adding this annotation in any posted notice we process this way. 
+## Contact us
 
-2. **We only processed the takedown notice with respect to some of the reported URLs.** 
->[invalid]
+* Use [GitHub issues](https://github.com/austinhuang0131/instagrabber/issues) when possible.
+* Email: [Barinsta@AustinHuang.me](mailto:barinsta@austinhuang.me?body=Please%20note%20that%20your%20email%20address%20and%20the%20entire%20content%20will%20be%20published%20onto%20GitHub%20issues.%20If%20you%20do%20not%20wish%20to%20do%20that%2C%20use%20other%20contact%20methods%20instead.) (Synced to GitHub issues)
+* Reddit: [![r/Barinsta](https://img.shields.io/reddit/subreddit-subscribers/Barinsta?style=social)](https://reddit.com/r/barinsta)
+* Chat (Bridged to each other): [![Matrix](https://img.shields.io/badge/Matrix-%23Barinsta:matrix.org-000000?logo=matrix)](https://matrix.to/#/#barinsta:matrix.org) [![Telegram](https://img.shields.io/badge/Telegram-@Barinsta__App-2CA5E0?logo=telegram)](https://t.me/barinsta_app) [![Discord](https://img.shields.io/badge/Discord-YtEDzN2-7289da?logo=discord&logoColor=white)](https://discord.gg/YtEDzN2)
 
-or
->[private]
+## Contributors
 
-In many cases a notice alleges copyright infringement in multiple repositories or files. When we determine that only some of the repositories or files are infringing, including where reported content was not available at the time we reviewed the notice, we replace the other URLs with `[invalid]`. Before March 2021, we had replaced those URLs with `[private]`, which we continue to use to note redaction of private information.
+Prominent contributors are listed here in the [all-contributors](https://allcontributors.org/) specifications, see [emoji key](https://allcontributors.org/docs/en/emoji-key). [Want to contribute to Barinsta?](https://github.com/austinhuang0131/barinsta/blob/master/.github/CONTRIBUTING.md)
 
-3. **The notice reported a repository that's being actively forked.** 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://austinhuang.me"><img src="https://avatars1.githubusercontent.com/u/16656689?s=100" width="100px;" alt=""/><br /><sub><b>Austin Huang</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=austinhuang0131" title="Code">💻</a> <a href="https://github.com/austinhuang0131/barinsta/commits?author=austinhuang0131" title="Documentation">📖</a> <a href="#question-austinhuang0131" title="Answering Questions">💬</a> <a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a> <a href="#ideas-austinhuang0131" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/ammargitham"><img src="https://avatars0.githubusercontent.com/u/8017365?s=100" width="100px;" alt=""/><br /><sub><b>Ammar Githam</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=ammargitham" title="Code">💻</a> <a href="#design-ammargitham" title="Design">🎨</a> <a href="#ideas-ammargitham" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-ammargitham" title="Maintenance">🚧</a> <a href="#question-ammargitham" title="Answering Questions">💬</a></td>
+    <td align="center"><a href="https://github.com/zerrium"><img src="https://avatars.githubusercontent.com/u/58355441?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zerrium</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=zerrium" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/junhuicoding"><img src="https://avatars.githubusercontent.com/u/54289027?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chua Jun Hui</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=junhuicoding" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/andersonvom"><img src="https://avatars3.githubusercontent.com/u/69922?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anderson Mesquita</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=andersonvom" title="Code">💻</a> <a href="https://github.com/austinhuang0131/barinsta/issues?q=author%3Aandersonvom" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://vojtechh.eu/"><img src="https://avatars.githubusercontent.com/u/12630566?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vojtěch Hořánek</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=vojta-horanek" title="Code">💻</a> <a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/MeLlamoPablo"><img src="https://avatars.githubusercontent.com/u/11708035?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pablo Rodríguez</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=MeLlamoPablo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/stamatiap"><img src="https://avatars.githubusercontent.com/u/57223967?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stamatia Papageorgiou</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=stamatiap" title="Code">💻</a> <a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/The-EDev"><img src="https://avatars.githubusercontent.com/u/60552923?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Farook Al-Sammarraie</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=The-EDev" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Zopieux"><img src="https://avatars.githubusercontent.com/u/81353?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexandre Macabies</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/commits?author=Zopieux" title="Code">💻</a></td>
+    <td align="center"><a href="https://snajdovski.github.io"><img src="https://avatars2.githubusercontent.com/u/42580385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan Najdovski</b></sub></a><br /><a href="#design-snajdovski" title="Design">🎨</a> <a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/CrazyMarvin"><img src="https://avatars3.githubusercontent.com/u/15004217?v=4?s=100" width="100px;" alt=""/><br /><sub><b>CrazyMarvin</b></sub></a><br /><a href="#financial-CrazyMarvin" title="Financial">💵</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://kevinthomas.dev"><img src="https://avatars2.githubusercontent.com/u/15370181?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Thomas</b></sub></a><br /><a href="#financial-KevinNThomas" title="Financial">💵</a></td>
+    <td align="center"><a href="https://github.com/Shadowspear123"><img src="https://avatars1.githubusercontent.com/u/50462281?s=100" width="100px;" alt=""/><br /><sub><b>Shadowspear123</b></sub></a><br /><a href="#blog-Shadowspear123" title="Blogposts">📝</a> <a href="https://github.com/austinhuang0131/barinsta/issues?q=author%3AShadowspear123" title="Bug reports">🐛</a> <a href="#ideas-Shadowspear123" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-Shadowspear123" title="Answering Questions">💬</a></td>
+    <td align="center"><a href="https://github.com/RickyM7"><img src="https://avatars3.githubusercontent.com/u/24703825?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ricardo</b></sub></a><br /><a href="https://github.com/austinhuang0131/barinsta/issues?q=author%3ARickyM7" title="Bug reports">🐛</a> <a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Akrai"><img src="https://avatars1.githubusercontent.com/u/5624597?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akrai</b></sub></a><br /><a href="#ideas-Akrai" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/avtkal"><img src="https://avatars.githubusercontent.com/u/63205014?v=4?s=100" width="100px;" alt=""/><br /><sub><b>avtkal</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/cizordj"><img src="https://avatars2.githubusercontent.com/u/32869222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cézar Augusto</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/dimitrist19"><img src="https://avatars.githubusercontent.com/u/56406468?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dimitris T</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/farzadx"><img src="https://avatars2.githubusercontent.com/u/70059397?v=4?s=100" width="100px;" alt=""/><br /><sub><b>farzadx</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/faydin"><img src="https://avatars2.githubusercontent.com/u/22706676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fatih Aydın</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/fouze555"><img src="https://avatars3.githubusercontent.com/u/71935341?v=4?s=100" width="100px;" alt=""/><br /><sub><b>fouze555</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Galang23"><img src="https://avatars3.githubusercontent.com/u/13700948?s=100" width="100px;" alt=""/><br /><sub><b>Galang23</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/initdebugs"><img src="https://avatars0.githubusercontent.com/u/75781464?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Initdebugs</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://janek.xyz/"><img src="https://avatars3.githubusercontent.com/u/8365659?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jakub Janek</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/GenosseFlosse"><img src="https://avatars.githubusercontent.com/u/59205524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>GenosseFlosse</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://becauseofprog.fr/"><img src="https://avatars3.githubusercontent.com/u/24623168?s=100" width="100px;" alt=""/><br /><sub><b>kernoeb</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/MoaufmKlo"><img src="https://avatars1.githubusercontent.com/u/45636897?s=100" width="100px;" alt=""/><br /><sub><b>MoaufmKlo</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/nalinalini"><img src="https://avatars0.githubusercontent.com/u/65640431?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nalinalini</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/peterge1998"><img src="https://avatars2.githubusercontent.com/u/47355238?s=100" width="100px;" alt=""/><br /><sub><b>peterge1998</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/PierreM0"><img src="https://avatars3.githubusercontent.com/u/71077853?v=4?s=100" width="100px;" alt=""/><br /><sub><b>PierreM0</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Pyrobauve"><img src="https://avatars.githubusercontent.com/u/48654473?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pyrobauve</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/RAMAR-RAR"><img src="https://avatars3.githubusercontent.com/u/47423745?s=100" width="100px;" alt=""/><br /><sub><b>RAMAR-RAR</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/rohang02"><img src="https://avatars3.githubusercontent.com/u/47921164?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rohang02</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/retiolus"><img src="https://avatars1.githubusercontent.com/u/65604466?v=4?s=100" width="100px;" alt=""/><br /><sub><b>retiolus</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/rikishi0071"><img src="https://avatars3.githubusercontent.com/u/18183855?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rikishi0071</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://gitlab.com/sandboiii"><img src="https://avatars.githubusercontent.com/u/17468894?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexey Peschany</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Sitavi"><img src="https://avatars.githubusercontent.com/u/80586127?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sitavi</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://stillu.cc/"><img src="https://avatars2.githubusercontent.com/u/5843208?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Still Hsu</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Lego8486"><img src="https://avatars1.githubusercontent.com/u/47414485?s=100" width="100px;" alt=""/><br /><sub><b>Ten_Lego</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/wagnim"><img src="https://avatars0.githubusercontent.com/u/30241419?s=100" width="100px;" alt=""/><br /><sub><b>wagnim</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/wokija"><img src="https://avatars.githubusercontent.com/u/14982166?v=4?s=100" width="100px;" alt=""/><br /><sub><b>wokija</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ysakamoto"><img src="https://avatars3.githubusercontent.com/u/1331642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ysakamoto</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/ZDVokoun"><img src="https://avatars.githubusercontent.com/u/76393152?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ZDVokoun</b></sub></a><br /><a href="https://crowdin.com/project/instagrabber" title="Translation">🌍</a></td>
+  </tr>
+</table>
 
-As of March 2021, you may see this note where a takedown notice reports an allegedly infringing repository that was being actively forked at the time it was reported
->[Note: Because the parent repository was actively being forked when this DMCA takedown notice was received, and the submitter had identified all known forks at the time they submitted the takedown notice, GitHub processed the takedown notice against the entire fork network of [x] forks.]
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-As we explain in our [DMCA Takedown Policy](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork), in those rare cases when a notice alleges copyright infringement in a full repository that is actively being forked, we would process a valid claim against all forks in that network at the time we process the notice, if the notice identified all existing forks of that repository as allegedly infringing. We would do this given the likelihood that all newly created forks would contain the same content as those existing at the time the notice was submitted. 
+## License
 
-4. **The notice reported a repository with more than 100 forks.**
+This app's predecessor, InstaGrabber, was originally made by [@AwaisKing](https://github.com/AwaisKing) on [GitLab](https://gitlab.com/AwaisKing/instagrabber).
 
-As of March 2021, if you see this statement in a notice
->Based on the representative number of forks I have reviewed, I believe that all or most of the forks are infringing to the same extent as the parent repository.
+    Barinsta
+    Copyright (C) 2020-2021  Austin Huang <im@austinhuang.me>
+                             Ammar Githam <ammar.githam@outlook.com>
 
-it means the reported network that contains the allegedly infringing content was larger than one hundred (100) repositories and thus would have been difficult to review in its entirety. As a result, we disabled the entire network because the submitter reviewed a representative sample of the forks in the network such that they were fairly certain the entirety of the network was infringing and included that sworn statement as part of their takedown notice. In these cases, we note in the takedown notice the total number of forks we disabled at the time of processing.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-#### Contributing
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-If you are looking to file or dispute a takedown notice by posting to this repository, please STOP :stop_sign: because we do not accept Pull Requests or other contributions to this repository.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-Read on to learn about the available paths forward.
+Logo by [Stefan Najdovski](https://snajdovski.github.io/). Used under license.
 
-If you would just like to comment on a commit to discuss it, that's fine, but again please note that GitHub does not actively monitor comments or other contributions to this repository. So if you want send a comment *to GitHub* for any reason about this repository, please [contact us directly](https://support.github.com/contact).
+[![Snyk Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/austinhuang0131/instagrabber)](https://snyk.io/test/github/austinhuang0131/barinsta)
+[![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/austinhuang0131/instagrabber)](https://lgtm.com/projects/g/austinhuang0131/barinsta)
+[![LGTM Grade](https://img.shields.io/lgtm/grade/java/github/austinhuang0131/instagrabber)](https://lgtm.com/projects/g/austinhuang0131/barinsta)
+[![CodeFactor](https://www.codefactor.io/repository/github/austinhuang0131/barinsta/badge)](https://www.codefactor.io/repository/github/austinhuang0131/barinsta)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e9cfcb7733f8477d92e5c0f30cac137a)](https://www.codacy.com/manual/austinhuang0131/instagrabber)
+[![Crowdin](https://badges.crowdin.net/instagrabber/localized.svg)](https://crowdin.com/project/instagrabber)
 
-Please note that re-posting the exact same content that was the subject of a takedown notice without following the proper process ([outlined below](#responding-to-a-dmca-notice)) is a violation of GitHub’s [DMCA Policy](https://docs.github.com/en/github/site-policy/dmca-takedown-policy) and [Terms of Service](https://docs.github.com/en/github/site-policy/github-acceptable-use-policies). If you commit or post content to this repository that violates our Terms of Service, we will delete that content and may suspend access to your account as well.
-
-
-#### Submitting a DMCA Notice
-
-If you are a copyright owner wishing to submit a takedown notice, read our [DMCA Policy](https://docs.github.com/en/free-pro-team@latest/github/site-policy/dmca-takedown-policy) and [Guide to Submitting a DMCA Takedown Notice](https://docs.github.com/en/free-pro-team@latest/github/site-policy/guide-to-submitting-a-dmca-takedown-notice). You can submit the actual notice using our special [Copyright Claims Contact Form](https://github.com/contact/dmca).
-
-
-#### Responding to a DMCA Notice
-
-If you are the owner of a repository that has been taken down, you have two main options:
-
-  - Do you want to [make changes](https://docs.github.com/en/free-pro-team@latest/github/site-policy/dmca-takedown-policy#c-what-if-i-inadvertently-missed-the-window-to-make-changes) to the repository that would remove the allegedly infringing content? If that is possible in your case, [contact us](https://support.github.com/contact) to let us know that you would like to make the changes.
-
-  - Do you want to formally dispute the action by [submitting a counter notice](https://docs.github.com/en/free-pro-team@latest/github/site-policy/guide-to-submitting-a-dmca-counter-notice)? Maybe the person sending the takedown notice does not hold the copyright or did not realize that you have a license or made some other mistake in their takedown notice. If you believe your content on GitHub was mistakenly disabled by a DMCA takedown request, you have the right to contest the takedown by [submitting a counter notice](https://docs.github.com/en/free-pro-team@latest/github/site-policy/guide-to-submitting-a-dmca-counter-notice). If you do, we will wait 10-14 days and then re-enable your content unless the copyright owner initiates a legal action before then.
-
-If you do not want to make changes or dispute the notice, but still have general concerns about the copyright laws and how they apply in your case, know that GitHub and developers have the opportunity and a voice to advocate for changes in law and public policy to better support software development. We are constantly looking to [advocate for developers](https://github.blog/category/company/policy/), so feel free to [reach out](https://support.github.com/contact) and let us know your concerns. We also encourage you to [learn more about copyright and speak up](https://docs.github.com/en/free-pro-team@latest/github/site-policy/dmca-takedown-policy#learn-more-and-speak-up) by reaching out to the Copyright Office or your local lawmakers to voice your concerns.
+[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com) [![gplv3](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](https://www.gnu.org/licenses/gpl-3.0.html)

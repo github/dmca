@@ -1,0 +1,2 @@
+* You can now respond to quizzes, plus you get to see correct answer beforehand (FYI: I will not support music questions)
+* Fixed feed story fetch approach

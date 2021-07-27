@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notification_viewer_nav_graph"
+    app:startDestination="@id/notificationsViewer">
+
+    <include app:graph="@navigation/profile_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_notificationsViewerFragment"
+        app:destination="@id/notificationsViewer">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="targetId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/comments_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_commentsViewerFragment"
+        app:destination="@id/comments_nav_graph">
+        <argument
+            android:name="shortCode"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postUserId"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/likes_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_likesViewerFragment"
+        app:destination="@id/likes_nav_graph">
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="isComment"
+            app:argType="boolean"
+            app:nullable="false" />
+    </action>
+
+    <include app:graph="@navigation/saved_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_savedCollectionsFragment"
+        app:destination="@id/saved_nav_graph">
+        <argument
+            android:name="isSaving"
+            app:argType="boolean" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_post_view"
+        app:destination="@id/postViewFragment">
+        <argument
+            android:name="media"
+            app:argType="awais.instagrabber.repositories.responses.Media"
+            app:nullable="false" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </action>
+
+    <fragment
+        android:id="@+id/storyViewerFragment"
+        android:name="awais.instagrabber.fragments.StoryViewerFragment"
+        android:label="StoryViewerFragment"
+        tools:layout="@layout/fragment_story_viewer">
+        <argument
+            android:name="options"
+            app:argType="awais.instagrabber.repositories.requests.StoryViewerOptions" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/notificationsViewer"
+        android:name="awais.instagrabber.fragments.NotificationsViewerFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications_viewer">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false"
+            android:defaultValue="notif"/>
+        <argument
+            android:name="targetId"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_notifications_to_story"
+            app:destination="@id/storyViewerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postViewFragment"
+        android:name="awais.instagrabber.fragments.PostViewV2Fragment"
+        android:label="Post"
+        tools:layout="@layout/dialog_post_view" />
+</navigation>

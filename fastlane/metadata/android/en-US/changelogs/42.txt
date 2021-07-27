@@ -1,0 +1,8 @@
+The Answer to the Ultimate Question of Life, the Universe, and Everything is 42.
+
+* Implements #36 and #37, both massively improve the feed stories bar
+* Story viewer will tell you to slow down if you scroll across users too fast (Instead of launching another window)
+* Fixes a bug where emoji messages in DM crash the app
+* Improvements on login/logout
+
+(No new features in this version, sorry.)

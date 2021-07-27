@@ -1,0 +1,3 @@
+New customizable bottom navigation bar, keyword filter, add username to file name, FLAG_SECURE, and more!
+
+For details see https://github.com/austinhuang0131/barinsta/releases/tag/v19.2.0

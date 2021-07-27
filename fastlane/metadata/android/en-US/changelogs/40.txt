@@ -1,0 +1,8 @@
+* You can now send text DMs
+* You can now reply DM to stories
+* DM title and (some) members are now shown on DM screen
+* Seen stories (API) are now displayed transparently
+* Story creation date is now shown on the story screen
+* A new setting allows you to mark stories as seen (Default disabled)
+* Fixed a bug related to the favourite button on profile
+* Fixed a bug where liked/saved status does not carry over across slides

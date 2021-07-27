@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="0dp">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbExportSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/dialog_export_settings" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbExportLogins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_export_accounts" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbExportFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_export_favorites" />
+
+    <include layout="@layout/item_pref_divider" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_password" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_no_max"
+        android:visibility="gone"
+        app:counterEnabled="true"
+        app:counterMaxLength="32"
+        app:endIconMode="password_toggle"
+        tools:visibility="visible">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="no"
+            android:inputType="textPassword"
+            android:maxLength="2200"
+            android:scrollHorizontally="false"
+            tools:text="test" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <include layout="@layout/item_pref_divider" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveTo"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:text="@string/create_backup" />
+</LinearLayout>

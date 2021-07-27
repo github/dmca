@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/translate"
+        android:title="@string/comment_viewer_translate_comment" />
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete" />
+</menu>

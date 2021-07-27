@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_search_nav_graph"
+    app:startDestination="@id/user_search">
+
+    <fragment
+        android:id="@+id/user_search"
+        android:name="awais.instagrabber.fragments.UserSearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_user_search">
+        <argument
+            android:name="multiple"
+            android:defaultValue="false"
+            app:argType="boolean" />
+
+        <argument
+            android:name="title"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="action_label"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="show_groups"
+            android:defaultValue="false"
+            app:argType="boolean" />
+
+        <argument
+            android:name="search_mode"
+            android:defaultValue="USER_SEARCH"
+            app:argType="awais.instagrabber.fragments.UserSearchFragment$SearchMode" />
+
+        <argument
+            android:name="hideUserIds"
+            android:defaultValue="@null"
+            app:argType="long[]"
+            app:nullable="true" />
+
+        <argument
+            android:name="hideThreadIds"
+            android:defaultValue="@null"
+            app:argType="string[]"
+            app:nullable="true" />
+
+
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_user_search"
+        app:destination="@id/user_search" />
+
+    <!--<action-->
+    <!--    android:id="@+id/action_global_user_search"-->
+    <!--    app:destination="@id/user_search_nav_graph">-->
+    <!--    <argument-->
+    <!--        android:name="multiple"-->
+    <!--        app:argType="boolean" />-->
+
+    <!--    <argument-->
+    <!--        android:name="title"-->
+    <!--        app:argType="string"-->
+    <!--        app:nullable="true" />-->
+
+    <!--    <argument-->
+    <!--        android:name="action_label"-->
+    <!--        app:argType="string"-->
+    <!--        app:nullable="true" />-->
+
+    <!--    <argument-->
+    <!--        android:name="hideUserIds"-->
+    <!--        app:argType="long[]" />-->
+    <!--</action>-->
+</navigation>

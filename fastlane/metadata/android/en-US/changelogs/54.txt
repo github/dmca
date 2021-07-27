@@ -1,0 +1,2 @@
+* Bug fixes.
+* Catalan & Russian translations.

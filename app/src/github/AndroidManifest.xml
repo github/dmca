@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="awais.instagrabber">
+
+    <application>
+        <meta-data
+            android:name="io.sentry.auto-init"
+            android:value="false" />
+    </application>
+
+</manifest>

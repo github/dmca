@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/link_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <awais.instagrabber.customviews.RamboTextViewV2
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dm_message_card_radius"
+        android:paddingTop="@dimen/dm_message_card_radius_small"
+        android:paddingEnd="@dimen/dm_message_card_radius"
+        android:paddingBottom="@dimen/dm_message_card_radius_small"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/white"
+        tools:text="Some message" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm_link_image_size"
+        android:scaleType="centerCrop"
+        tools:background="@mipmap/ic_launcher"
+        tools:layout_width="300dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:paddingStart="@dimen/dm_message_card_radius"
+        android:paddingTop="@dimen/dm_message_card_radius_small"
+        android:paddingEnd="@dimen/dm_message_card_radius"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="@color/white"
+        tools:text="Title of the website" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:paddingStart="@dimen/dm_message_card_radius"
+        android:paddingTop="@dimen/dm_message_card_radius_small"
+        android:paddingEnd="@dimen/dm_message_card_radius"
+        android:textColor="@color/white"
+        tools:text="Some summary of the website" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingStart="@dimen/dm_message_card_radius"
+        android:paddingTop="@dimen/dm_message_card_radius_small"
+        android:paddingEnd="@dimen/dm_message_card_radius"
+        android:paddingBottom="@dimen/dm_message_card_radius_small"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textColor="@color/white"
+        tools:text="test.com" />
+</LinearLayout>

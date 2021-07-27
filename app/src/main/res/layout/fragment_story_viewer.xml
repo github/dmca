@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/story_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/postActions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:auto_show="true"
+            app:controller_layout_id="@layout/layout_controls"
+            app:repeat_toggle_modes="none" />
+
+        <awais.instagrabber.customviews.drawee.ZoomableDraweeView
+            android:id="@+id/imageViewer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/postActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_constraintTop_toBottomOf="@id/story_container"
+        app:layout_constraintBottom_toTopOf="@id/storiesList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#0000">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/viewStoryPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/view_story_post"
+            android:textColor="@color/btn_green_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_green_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/poll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/vote_story_poll"
+            android:textColor="@color/btn_blue_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_blue_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/respond_story"
+            android:textColor="@color/btn_blue_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_blue_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/story_quiz"
+            android:textColor="@color/btn_blue_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_blue_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/story_slider"
+            android:textColor="@color/btn_blue_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_blue_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/swipeUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SAMPLE TEXT"
+            android:textColor="@color/btn_blue_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_blue_background" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/story_mentions"
+            android:textColor="@color/btn_orange_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_orange_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/spotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/spotify"
+            android:textColor="@color/btn_green_text_color"
+            android:visibility="gone"
+            app:backgroundTint="@color/btn_green_background" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackward"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:icon="@drawable/exo_ic_skip_previous"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/storiesList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/storiesList" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/storiesList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/postActions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnForward"
+        app:layout_constraintStart_toEndOf="@id/btnBackward" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnForward"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:icon="@drawable/exo_ic_skip_next"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/storiesList"
+        app:layout_constraintTop_toTopOf="@id/storiesList" />
+</androidx.constraintlayout.widget.ConstraintLayout>

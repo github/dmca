@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?toolbarColor">
+
+    <awais.instagrabber.customviews.CircularImageView
+        android:id="@+id/mainProfileImage"
+        android:layout_width="@dimen/profile_picture_size"
+        android:layout_height="@dimen/profile_picture_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:transitionName="profile_pic"
+        android:visibility="invisible"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/top_barrier"
+        app:layout_constraintEnd_toStartOf="@id/btnFollow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        tools:foreground="@mipmap/ic_launcher"
+        tools:visibility="visible" />
+
+    <!-- for other people -->
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnFollow"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_chip_size"
+        android:layout_marginStart="4dp"
+        android:text="@string/follow"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_person_add_24"
+        app:chipIconTint="@color/deep_purple_200"
+        app:layout_constraintBottom_toTopOf="@id/fav_chip"
+        app:layout_constraintStart_toEndOf="@id/mainProfileImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/purple_200"
+        tools:visibility="visible" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/mainStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_chip_size"
+        android:layout_marginStart="4dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:layout_constraintBottom_toTopOf="@id/fav_chip"
+        app:layout_constraintStart_toEndOf="@id/btnFollow"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="omg what do u expect"
+        tools:visibility="visible" />
+
+    <!-- for user themself -->
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnSaved"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_chip_size"
+        android:layout_marginStart="4dp"
+        android:text="@string/saved"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_class_24"
+        app:chipIconTint="@color/blue_700"
+        app:layout_constraintBottom_toTopOf="@id/fav_chip"
+        app:layout_constraintStart_toEndOf="@id/mainStatus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/blue_A400"
+        tools:visibility="visible" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnLiked"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_chip_size"
+        android:layout_marginStart="4dp"
+        android:text="@string/liked"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_like"
+        app:chipIconTint="@color/red_600"
+        app:layout_constraintBottom_toTopOf="@id/fav_chip"
+        app:layout_constraintStart_toEndOf="@id/btnSaved"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/red_300"
+        tools:visibility="visible" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/fav_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_chip_size"
+        android:layout_marginStart="4dp"
+        android:text="@string/add_to_favorites"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_star_plus_24"
+        app:chipIconTint="@color/yellow_800"
+        app:layout_constraintStart_toEndOf="@id/mainProfileImage"
+        app:layout_constraintTop_toBottomOf="@id/btnFollow"
+        app:rippleColor="@color/yellow_400"
+        tools:visibility="visible" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnTagged"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_chip_size"
+        android:layout_marginStart="4dp"
+        android:text="@string/tagged"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_outline_person_pin_24"
+        app:chipIconTint="@color/deep_orange_800"
+        app:layout_constraintBottom_toTopOf="@+id/top_barrier"
+        app:layout_constraintStart_toEndOf="@id/mainProfileImage"
+        app:layout_constraintTop_toBottomOf="@id/fav_chip"
+        app:rippleColor="@color/deep_orange_400"
+        tools:visibility="visible" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnDM"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_chip_size"
+        android:layout_marginStart="4dp"
+        android:text="@string/dm_person"
+        android:visibility="gone"
+        app:chipBackgroundColor="@null"
+        app:chipIcon="@drawable/ic_round_send_24"
+        app:chipIconTint="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/top_barrier"
+        app:layout_constraintStart_toEndOf="@id/btnTagged"
+        app:layout_constraintTop_toBottomOf="@id/fav_chip"
+        app:rippleColor="@color/green"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/top_barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierDirection="bottom" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/mainFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/mainBiography"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_barrier"
+        tools:text="Austin Huang" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/isVerified"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/mainFullName"
+        app:layout_constraintStart_toEndOf="@id/mainFullName"
+        app:layout_constraintTop_toTopOf="@id/mainFullName"
+        app:srcCompat="@drawable/verified"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/isPrivate"
+        android:layout_width="25dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:tint="@color/red_500"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/mainFullName"
+        app:layout_constraintStart_toEndOf="@id/isVerified"
+        app:layout_constraintTop_toTopOf="@id/mainFullName"
+        app:srcCompat="@drawable/lock"
+        tools:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/fav_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/sl_favourite_24"
+        android:visibility="gone"
+        app:buttonTint="@color/yellow_800"
+        app:layout_constraintBaseline_toBaselineOf="@id/mainFullName"
+        app:layout_constraintBottom_toTopOf="@id/mainBiography"
+        app:layout_constraintStart_toEndOf="@id/isVerified" />
+
+    <ProgressBar
+        android:id="@+id/fav_progress"
+        style="@style/Widget.MaterialComponents.CircularProgressIndicator"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/mainFullName"
+        app:layout_constraintStart_toEndOf="@id/isVerified"
+        app:layout_constraintTop_toTopOf="@id/mainFullName"
+        tools:visibility="gone" />
+
+    <awais.instagrabber.customviews.RamboTextViewV2
+        android:id="@+id/mainBiography"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toTopOf="@id/mainUrl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainFullName"
+        tools:text="One of THE GLORIOUS OWNERS OF THIS APP. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id justo lorem. In malesuada feugiat ornare. Suspendisse et mauris imperdiet, luctus augue eget, tempus eros. Cras vitae molestie ipsum. " />
+
+    <awais.instagrabber.customviews.RamboTextViewV2
+        android:id="@+id/mainUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainBiography"
+        android:ellipsize="marquee"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/profileContext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainBiography"
+        tools:text="https://austinhuang.me/"
+        tools:textColor="@android:color/holo_blue_dark"
+        tools:visibility="visible" />
+
+    <awais.instagrabber.customviews.RamboTextViewV2
+        android:id="@+id/profileContext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainUrl"
+        android:ellipsize="marquee"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/counts_divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainUrl"
+        tools:text="Followed by @instagram, @facebook + 69 more"
+        tools:visibility="visible" />
+
+    <include
+        android:id="@+id/counts_divider"
+        layout="@layout/item_pref_divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/mainPostCount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profileContext"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/mainPostCount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintBottom_toBottomOf="@id/highlights_barrier"
+        app:layout_constraintEnd_toStartOf="@id/mainFollowers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/counts_divider"
+        tools:text="35\nPosts" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/mainFollowers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintBottom_toBottomOf="@id/highlights_barrier"
+        app:layout_constraintEnd_toStartOf="@id/mainFollowing"
+        app:layout_constraintStart_toEndOf="@id/mainPostCount"
+        app:layout_constraintTop_toBottomOf="@id/counts_divider"
+        tools:text="68\nFollowers" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/mainFollowing"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintBottom_toBottomOf="@id/highlights_barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/mainFollowers"
+        app:layout_constraintTop_toBottomOf="@id/counts_divider"
+        tools:text="64\nFollowing" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/highlights_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="mainPostCount, mainFollowers, mainFollowing" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/highlightsList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/highlights_barrier"
+        tools:itemCount="2"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

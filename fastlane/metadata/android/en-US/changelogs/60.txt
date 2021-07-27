@@ -1,0 +1,3 @@
+HD photo downloads, DM revamp, new profile layout, and more!
+
+For details see https://github.com/austinhuang0131/barinsta/releases/tag/v19.1.0

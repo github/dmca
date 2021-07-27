@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="awais.instagrabber">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="false" />
+
+    <application
+        android:name=".InstaGrabberApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Launcher"
+        tools:ignore="UnusedAttribute">
+        <activity
+            android:name=".activities.MainActivity"
+            android:launchMode="singleTop"
+            android:taskAffinity=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <!-- <action android:name="android.intent.action.SEARCH" /> -->
+                <!-- <action android:name="android.intent.action.WEB_SEARCH" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="instagr.am" />
+                <data android:host="www.instagr.am" />
+                <data android:host="instagram.com" />
+                <data android:host="www.instagram.com" />
+                <data android:pathPrefix="/" />
+                <data android:pathPrefix="/p" />
+                <data android:pathPrefix="/explore/tags" />
+                <data android:pathPrefix="/explore/locations" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="awaisomereport.ErrorReporterActivity"
+            android:allowEmbedded="false"
+            android:allowTaskReparenting="false"
+            android:autoRemoveFromRecents="true"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:documentLaunchMode="never"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleTask"
+            android:lockTaskMode="never"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:taskAffinity="awais.instagrabber.errorreport"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" />
+        <activity
+            android:name=".activities.Login"
+            android:label="@string/login"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.Light.White">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CameraActivity"
+            android:label="Camera"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.Light.White">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".utils.ProcessPhoenix"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".services.ActivityCheckerService"
+            android:exported="false" />
+        <service
+            android:name=".services.DeleteImageIntentService"
+            android:exported="false" />
+        <service
+            android:name=".services.DMSyncService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".services.DMSyncAlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <!--<receiver android:name=".services.BootCompletedReceiver" >-->
+        <!--    <intent-filter>-->
+        <!--        <action android:name="android.intent.action.BOOT_COMPLETED" />-->
+        <!--    </intent-filter>-->
+        <!--</receiver>-->
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="fontProviderRequests"
+            android:value="Noto Color Emoji Compat" />
+    </application>
+
+</manifest>

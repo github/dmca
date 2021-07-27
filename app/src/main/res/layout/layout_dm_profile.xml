@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_container"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content">
+
+    <awais.instagrabber.customviews.CircularImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="@dimen/profile_pic_size_regular"
+        android:layout_height="@dimen/profile_pic_size_regular"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toTopOf="@id/barrier"
+        app:layout_constraintEnd_toStartOf="@id/username"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:gravity="bottom"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@id/full_name"
+        app:layout_constraintEnd_toStartOf="@id/isVerified"
+        app:layout_constraintStart_toEndOf="@id/profile_pic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginBottom="8dp"
+        app:layout_goneMarginEnd="8dp"
+        app:layout_goneMarginStart="8dp"
+        tools:text="Long..long... Long..long... Long..long..." />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/isVerified"
+        android:layout_width="32dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@id/username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/username"
+        app:layout_constraintTop_toTopOf="@id/username"
+        app:srcCompat="@drawable/verified"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/full_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/username"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        tools:text="Full name"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierDirection="bottom" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/space_3"
+        app:layout_constraintEnd_toStartOf="@id/space_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrier"
+        app:viewAspectRatio="1" />
+
+    <Space
+        android:id="@+id/space_1"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/preview_2"
+        app:layout_constraintStart_toEndOf="@id/preview_1"
+        app:layout_constraintTop_toTopOf="@id/preview_1" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/preview_1"
+        app:layout_constraintEnd_toStartOf="@id/space_2"
+        app:layout_constraintStart_toEndOf="@id/space_1"
+        app:layout_constraintTop_toTopOf="@id/preview_1"
+        app:viewAspectRatio="1" />
+
+    <Space
+        android:id="@+id/space_2"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/preview_3"
+        app:layout_constraintStart_toEndOf="@id/preview_2"
+        app:layout_constraintTop_toTopOf="@id/preview_1" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/preview_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/space_2"
+        app:layout_constraintTop_toTopOf="@id/preview_1"
+        app:viewAspectRatio="1" />
+
+    <Space
+        android:id="@+id/space_3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toTopOf="@id/preview_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/preview_1" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/space_1"
+        app:layout_constraintStart_toStartOf="@id/preview_1"
+        app:layout_constraintTop_toBottomOf="@id/space_3"
+        app:viewAspectRatio="1" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/space_2"
+        app:layout_constraintStart_toEndOf="@id/space_1"
+        app:layout_constraintTop_toTopOf="@id/preview_4"
+        app:viewAspectRatio="1" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview_6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/space_2"
+        app:layout_constraintTop_toTopOf="@id/preview_4"
+        app:viewAspectRatio="1" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/first_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="preview_1,preview_2,preview_3"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/second_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="space_3, preview_4,preview_5,preview_6"
+        tools:visibility="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

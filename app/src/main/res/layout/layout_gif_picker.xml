@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/input_bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/bg_input"
+        app:layout_constraintBottom_toBottomOf="@id/input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/input" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/search_icon"
+        style="@style/Widget.MaterialComponents.Button.Icon.NoInsets"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="2dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:scrollbars="none"
+        app:icon="@drawable/ic_search_24"
+        app:iconGravity="textStart"
+        app:iconSize="24dp"
+        app:iconTint="@color/grey_700"
+        app:layout_constraintBottom_toBottomOf="@id/input_bg"
+        app:layout_constraintEnd_toStartOf="@id/input"
+        app:layout_constraintStart_toStartOf="@id/input_bg"
+        app:layout_constraintTop_toTopOf="@id/input"
+        app:rippleColor="@color/grey_500"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Button.Circle"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp" />
+
+    <androidx.emoji.widget.EmojiAppCompatEditText
+        android:id="@+id/input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/search_giphy"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey_500"
+        app:layout_constraintBottom_toTopOf="@id/gif_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/search_icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gif_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

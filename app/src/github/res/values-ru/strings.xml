@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_sentry">Включить режим \"часового\"</string>
+    <string name="sentry_summary">\"Часовой\" - это слушатель/обработчик ошибок, который асинхронно отправляет ошибку/событие на Sentry.io</string>
+    <string name="sentry_start_next_launch">\"Часовой\" будет запущен при следующем запуске</string>
+</resources>

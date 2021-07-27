@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/recv_ic_delete"
+    tools:targetApi="lollipop">
+    <target
+        android:name="basket"
+        android:animation="@animator/basket_path" />
+</animated-vector>

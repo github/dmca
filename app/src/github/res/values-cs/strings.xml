@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_sentry">Povolit Sentry</string>
+    <string name="sentry_summary">Sentry je listener/handler, který zaznamenává chyby a asynchronně je posílá na Sentry.io</string>
+    <string name="sentry_start_next_launch">Sentry se spustí při příštím spuštění</string>
+</resources>

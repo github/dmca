@@ -1,0 +1,18 @@
+name: Label duplicates
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  add-labels:
+    runs-on: ubuntu-latest
+    if: contains(github.event.comment.body, 'Duplicate of') == true
+    steps:
+      - name: Add labels
+        uses: actions-cool/issues-helper@v2.2.1
+        with:
+          actions: 'add-labels'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          labels: 'duplicate'

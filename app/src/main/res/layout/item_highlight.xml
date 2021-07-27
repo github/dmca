@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/profile_picture_size"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical">
+
+    <awais.instagrabber.customviews.CircularImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/highlight_size"
+        android:layout_height="@dimen/highlight_size"
+        android:layout_gravity="center_horizontal" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:scrollbars="none"
+        android:singleLine="true"
+        android:textColor="?attr/colorOnPrimarySurface"
+        android:textStyle="bold"
+        tools:text="@string/app_name" />
+</LinearLayout>

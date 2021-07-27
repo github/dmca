@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_nav_graph"
+    app:startDestination="@id/profileFragment">
+
+    <include app:graph="@navigation/comments_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_commentsViewerFragment"
+        app:destination="@id/comments_nav_graph">
+        <argument
+            android:name="shortCode"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postUserId"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/likes_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_likesViewerFragment"
+        app:destination="@id/likes_nav_graph">
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="isComment"
+            app:argType="boolean"
+            app:nullable="false" />
+    </action>
+
+    <include app:graph="@navigation/hashtag_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_hashTagFragment"
+        app:destination="@id/hashtag_nav_graph">
+        <argument
+            android:name="hashtag"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <include app:graph="@navigation/comments_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <include app:graph="@navigation/location_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_locationFragment"
+        app:destination="@id/location_nav_graph">
+        <argument
+            android:name="locationId"
+            app:argType="long" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_notificationsViewerFragment"
+        app:destination="@id/notificationsViewer">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="targetId"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_notifications_to_story"
+            app:destination="@id/storyViewerFragment" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_post_view"
+        app:destination="@id/postViewFragment">
+        <argument
+            android:name="media"
+            app:argType="awais.instagrabber.repositories.responses.Media"
+            app:nullable="false" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </action>
+
+    <fragment
+        android:id="@+id/notificationsViewer"
+        android:name="awais.instagrabber.fragments.NotificationsViewerFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications_viewer">
+        <argument
+            android:name="type"
+            android:defaultValue="notif"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="targetId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <include app:graph="@navigation/saved_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_savedCollectionsFragment"
+        app:destination="@id/saved_nav_graph">
+        <argument
+            android:name="isSaving"
+            app:argType="boolean" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_search"
+        app:destination="@id/searchFragment" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="awais.instagrabber.fragments.main.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+        <argument
+            android:name="username"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_profileFragment_to_savedViewerFragment"
+            app:destination="@id/savedViewerFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_followViewerFragment"
+            app:destination="@id/followViewerFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_storyViewerFragment"
+            app:destination="@id/storyViewerFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_dMThreadFragment"
+            app:destination="@id/directMessagesThreadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedViewerFragment"
+        android:name="awais.instagrabber.fragments.SavedViewerFragment"
+        android:label="Saved"
+        tools:layout="@layout/fragment_saved">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="profileId"
+            app:argType="long" />
+        <argument
+            android:name="type"
+            app:argType="awais.instagrabber.models.enums.PostItemType"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/followViewerFragment"
+        android:name="awais.instagrabber.fragments.FollowViewerFragment"
+        android:label="Followers"
+        tools:layout="@layout/fragment_followers_viewer">
+        <argument
+            android:name="profileId"
+            app:argType="long" />
+        <argument
+            android:name="isFollowersList"
+            app:argType="boolean"
+            app:nullable="false" />
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_followViewerFragment_to_profileFragment"
+            app:destination="@id/profileFragment">
+            <argument
+                android:name="username"
+                android:defaultValue=""
+                app:argType="string"
+                app:nullable="true" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/storyViewerFragment"
+        android:name="awais.instagrabber.fragments.StoryViewerFragment"
+        android:label="StoryViewerFragment"
+        tools:layout="@layout/fragment_story_viewer">
+
+        <argument
+            android:name="options"
+            app:argType="awais.instagrabber.repositories.requests.StoryViewerOptions" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="awais.instagrabber.fragments.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/postViewFragment"
+        android:name="awais.instagrabber.fragments.PostViewV2Fragment"
+        android:label="Post"
+        tools:layout="@layout/dialog_post_view" />
+</navigation>

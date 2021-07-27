@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>Język urządzenia</item>
+        <item translatable="false">English</item>
+        <item translatable="false">Français</item>
+        <item translatable="false">Español</item>
+        <item translatable="false">简体中文</item>
+        <item translatable="false">Bahasa Indonesia</item>
+        <item translatable="false">Italiano</item>
+        <item translatable="false">Deutsch</item>
+        <item translatable="false">Polski</item>
+        <item translatable="false">Türkçe</item>
+        <item translatable="false">Português (Brasil)</item>
+        <item translatable="false">پارسی</item>
+        <item translatable="false">Македонски</item>
+        <item translatable="false">Tiếng Việt</item>
+        <item translatable="false">繁體中文</item>
+        <item translatable="false">Català</item>
+        <item translatable="false">Русский</item>
+        <item translatable="false">हिन्दी</item>
+        <item translatable="false">Nederlands</item>
+        <item translatable="false">Slovenčina</item>
+        <item translatable="false">日本語</item>
+        <item translatable="false">Ελληνικά</item>
+        <item translatable="false">Euskara</item>
+    </string-array>
+    <string-array name="theme_presets">
+        <item>Auto / Ustawienia systemu</item>
+        <item>Auto / Ustawienia oszczędzania baterii</item>
+        <item>Ciemny</item>
+        <item>Jasny</item>
+    </string-array>
+    <string-array name="story_sorts">
+        <item>Domyślne ustawienia</item>
+        <item>Od najnowszych do najstarszych</item>
+        <item>Od najstarszych do najnowszych</item>
+    </string-array>
+    <string-array name="separator_presets">
+        <item>Brak</item>
+        <item>\@</item>
+        <item>o</item>
+        <item>dnia</item>
+        <item>\|</item>
+        <item>-</item>
+    </string-array>
+    <!-- Nav graphs should correspond 1-to-1 with the above nav graph ids -->
+    <!-- Titles should correspond 1-to-1 with the above nav graphs -->
+    <!-- Drawable should correspond 1-to-1 with the above titles -->
+    <!-- fragmentIds should correspond 1-to-1 with the above drawabled -->
+    <!-- these are the start destination of the corresponding nav graphs -->
+    <!--<array name="logged_out_main_nav_graphs">-->
+    <!--    <item>@navigation/profile_nav_graph</item>-->
+    <!--    <item>@navigation/more_nav_graph</item>-->
+    <!--</array>-->
+    <string-array name="dm_auto_refresh_freq_units">
+        <item>s.</item>
+        <item>min.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+* You can now see tagged/"saved" posts. Tagged will work without login.
+* You can now write comments, and reply/like/delete comments through the menu (by clicking the comment)
+    * Liked comments are shown with a pink background.
+* You can now share posts in the post viewer.
+* You can now respond to green/red polls in stories (you also get to see results before voting)
+* You can now open Spotify if a story has linked it (non-playing ones)
+* Geotag viewing/searching support
+* Search field is now empty if you're viewing your own profile while logged in
+* Post like counts are now displayed (The button texts are slightly reduced to accomodate @world_record_egg) (logged in only)
+* Mute buttons are changed to display the current status (i.e. muted icon when muted, sound icon when not muted)
+* Added some new user guidance stuff
+* Fixed bugs related to the "Downloaded" icon
+* Fixed a bug relating to viewing feed stories
+* Fixed a bug where scrolling in full screen causes it to quit full screen

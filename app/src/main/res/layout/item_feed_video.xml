@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videoHolder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/item_feed_top"
+        layout="@layout/item_feed_top" />
+
+    <include
+        android:id="@+id/video_post"
+        layout="@layout/layout_video_player_with_thumbnail" />
+
+    <include
+        android:id="@+id/item_feed_bottom"
+        layout="@layout/item_feed_bottom" />
+</LinearLayout>

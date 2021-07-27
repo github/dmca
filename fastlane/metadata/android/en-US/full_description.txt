@@ -1,0 +1,20 @@
+If you don't upload posts or stories on Instagram, but can't get rid of it because of people and contents, you now have an alternative: Barinsta is a beautiful client that allows you to browse and interact with Instagram, while giving you more options to control your data.
+
+* For those not having an account, you can access public profiles/hashtags/locations (depends on availability)!
+* For those logged in, Barinsta can achieve most viewing and interaction features, with extra features such as downloading posts/stories/avatars, copying texts, comparing followers/following, and more!
+
+Extra merits:
+
+* Prevents irrational decisions: Barinsta removes double-tap and requires you to click into posts to give it a conscious like. It also allows you to easily access posts you've liked through your own profile.
+* Allows customization: Pick your themes and layouts! You could even use grid layout for feed!
+* Allows viewing at your own pace: No need to "hold" a story or scroll endlessly! Zoom whenever you want!
+* Not a mod: Absolutely NO dependency of the actual Instagram app.
+* Free & Open Source Software: With the app's source code open for inspection, no need to worry about sketchy dealings!
+* Protects your privacy from friends: Barinsta allows you to read DMs and stories privately, without telling your friends!
+* Protects your privacy from Instagram: The app only requests what it needs to show you the content and what you opted for in the settings. No communicating with useless endpoints, and only minimal data is sent to Instagram.
+
+*** Please use this app responsibly. ***
+
+For more info, visit https://barinsta.austinhuang.me.
+
+(We're previously known as InstaGrabber.)

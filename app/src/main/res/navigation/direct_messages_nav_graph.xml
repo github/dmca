@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/direct_messages_nav_graph"
+    app:startDestination="@id/directMessagesInboxFragment">
+
+    <include app:graph="@navigation/profile_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph" />
+
+    <include app:graph="@navigation/location_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_locationFragment"
+        app:destination="@id/location_nav_graph">
+        <argument
+            android:name="locationId"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/hashtag_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_hashTagFragment"
+        app:destination="@id/hashtag_nav_graph">
+        <argument
+            android:name="hashtag"
+            app:argType="string"
+            app:nullable="false" />
+    </action>
+
+    <include app:graph="@navigation/notification_viewer_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_notificationsViewerFragment"
+        app:destination="@id/notification_viewer_nav_graph">
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="targetId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/comments_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_commentsViewerFragment"
+        app:destination="@id/comments_nav_graph">
+        <argument
+            android:name="shortCode"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postUserId"
+            app:argType="long" />
+    </action>
+
+    <include app:graph="@navigation/likes_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_likesViewerFragment"
+        app:destination="@id/likes_nav_graph">
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="isComment"
+            app:argType="boolean"
+            app:nullable="false" />
+    </action>
+
+    <include app:graph="@navigation/saved_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_savedCollectionsFragment"
+        app:destination="@id/saved_nav_graph">
+        <argument
+            android:name="isSaving"
+            app:argType="boolean" />
+    </action>
+
+    <include app:graph="@navigation/user_search_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_user_search"
+        app:destination="@id/user_search_nav_graph" />
+
+    <action
+        android:id="@+id/action_global_search"
+        app:destination="@id/searchFragment" />
+
+    <action
+        android:id="@+id/action_global_post_view"
+        app:destination="@id/postViewFragment">
+        <argument
+            android:name="media"
+            app:argType="awais.instagrabber.repositories.responses.Media"
+            app:nullable="false" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </action>
+
+    <fragment
+        android:id="@+id/directMessagesInboxFragment"
+        android:name="awais.instagrabber.fragments.directmessages.DirectMessageInboxFragment"
+        android:label="@string/action_dms"
+        tools:layout="@layout/fragment_direct_messages_inbox">
+        <action
+            android:id="@+id/action_inbox_to_thread"
+            app:destination="@id/directMessagesThreadFragment" />
+        <action
+            android:id="@+id/action_inbox_to_pending_inbox"
+            app:destination="@id/directPendingInboxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/directMessagesThreadFragment"
+        android:name="awais.instagrabber.fragments.directmessages.DirectMessageThreadFragment"
+        tools:layout="@layout/fragment_direct_messages_thread">
+        <argument
+            android:name="threadId"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="pending"
+            android:defaultValue="false"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_thread_to_settings"
+            app:destination="@id/directMessagesSettingsFragment" />
+        <action
+            android:id="@+id/action_thread_to_image_edit"
+            app:destination="@id/imageEditFragment" />
+        <action
+            android:id="@+id/action_thread_to_story"
+            app:destination="@id/storyViewerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/directMessagesSettingsFragment"
+        android:name="awais.instagrabber.fragments.directmessages.DirectMessageSettingsFragment"
+        android:label="@string/details"
+        tools:layout="@layout/fragment_direct_messages_settings">
+        <argument
+            android:name="threadId"
+            app:argType="string"
+            app:nullable="false" />
+
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="pending"
+            android:defaultValue="false"
+            app:argType="boolean" />
+
+        <action
+            android:id="@+id/action_settings_to_inbox"
+            app:destination="@id/directMessagesInboxFragment"
+            app:popUpTo="@+id/directMessagesInboxFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/imageEditFragment"
+        android:name="awais.instagrabber.fragments.imageedit.ImageEditFragment"
+        android:label="Edit Photo"
+        tools:layout="@layout/fragment_image_edit">
+        <argument
+            android:name="uri"
+            app:argType="android.net.Uri"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyViewerFragment"
+        android:name="awais.instagrabber.fragments.StoryViewerFragment"
+        android:label="StoryViewerFragment"
+        tools:layout="@layout/fragment_story_viewer">
+        <argument
+            android:name="options"
+            app:argType="awais.instagrabber.repositories.requests.StoryViewerOptions" />
+    </fragment>
+    <fragment
+        android:id="@+id/directPendingInboxFragment"
+        android:name="awais.instagrabber.fragments.directmessages.DirectPendingInboxFragment"
+        android:label="@string/pending_requests"
+        tools:layout="@layout/fragment_direct_pending_inbox">
+        <action
+            android:id="@+id/action_pending_inbox_to_thread"
+            app:destination="@id/directMessagesThreadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="awais.instagrabber.fragments.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/postViewFragment"
+        android:name="awais.instagrabber.fragments.PostViewV2Fragment"
+        android:label="Post"
+        tools:layout="@layout/dialog_post_view" />
+</navigation>

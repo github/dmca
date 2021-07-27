@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<awais.instagrabber.customviews.DirectItemFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:clipToPadding="false"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        tools:layout_gravity="end"
+        tools:paddingBottom="@dimen/dm_reaction_adjust_margin">
+
+        <View
+            android:id="@+id/quote_line"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_quote_line"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/reply_container"
+            app:layout_constraintEnd_toStartOf="@id/reply_container"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@id/ivProfilePic"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/reply_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:padding="4dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            app:layout_constraintBottom_toTopOf="@id/reply_container"
+            app:layout_constraintStart_toEndOf="@id/quote_line"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="0dp"
+            tools:text="Replied to you" />
+
+        <FrameLayout
+            android:id="@+id/reply_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@id/tvUsername"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@id/quote_line"
+            app:layout_constraintTop_toBottomOf="@id/reply_info">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/reply_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                app:actualImageScaleType="centerCrop"
+                app:roundedCornerRadius="@dimen/dm_message_card_radius"
+                tools:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/reply_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_reply_text"
+                android:padding="@dimen/dm_message_card_radius_small"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="gone"
+                tools:text="Some message"
+                tools:visibility="gone" />
+        </FrameLayout>
+
+        <awais.instagrabber.customviews.CircularImageView
+            android:id="@+id/ivProfilePic"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@id/chat_message_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvUsername"
+            tools:visibility="gone" />
+
+        <View
+            android:id="@+id/background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@id/chat_message_layout"
+            app:layout_constraintEnd_toEndOf="@id/chat_message_layout"
+            app:layout_constraintStart_toStartOf="@id/chat_message_layout"
+            app:layout_constraintTop_toTopOf="@id/tvUsername"
+            tools:background="@drawable/bg_speech_bubble_incoming" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingStart="@dimen/dm_message_card_radius"
+            android:paddingTop="@dimen/dm_message_card_radius_small"
+            android:paddingEnd="@dimen/dm_message_card_radius"
+            android:paddingBottom="4dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/chat_message_layout"
+            app:layout_constraintEnd_toEndOf="@id/chat_message_layout"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@id/chat_message_layout"
+            app:layout_constraintTop_toBottomOf="@id/reply_container"
+            tools:text="@string/app_name"
+            tools:visibility="visible" />
+
+        <!--app:layout_constraintBottom_toTopOf="@id/reactions"-->
+        <awais.instagrabber.customviews.ChatMessageLayout
+            android:id="@+id/chat_message_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivProfilePic"
+            app:layout_constraintTop_toBottomOf="@id/tvUsername"
+            app:layout_constraintWidth_min="wrap"
+            app:viewPartInfo="@id/message_info"
+            app:viewPartMain="@id/message">
+
+            <FrameLayout
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_height="200dp"
+                tools:layout_width="100dp">
+                <!--<include layout="@layout/layout_dm_text" />-->
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/message_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:gravity="end|bottom"
+                android:minWidth="60dp"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dm_message_card_radius_small">
+
+                <TextView
+                    android:id="@+id/message_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                    android:textColor="@color/grey_500"
+                    tools:text="12:00 am" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/delivery_status"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="4dp"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_check_all_24"
+                    app:tint="@color/grey_500"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+        </awais.instagrabber.customviews.ChatMessageLayout>
+
+        <!--<TextView-->
+        <!--    android:tag="debug"-->
+        <!--    android:textColor="@color/white"-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:visibility="visible"-->
+        <!--    android:layout_height="wrap_content"-->
+        <!--    android:background="@color/black"-->
+        <!--    app:layout_constraintTop_toTopOf="parent"-->
+        <!--    app:layout_constraintStart_toStartOf="parent"-->
+        <!--    app:layout_constraintEnd_toEndOf="parent"/>-->
+
+        <FrameLayout
+            android:id="@+id/reactions_wrapper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="4dp"
+            android:paddingBottom="2dp"
+            android:translationY="@dimen/dm_reaction_translation_y_type_1"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/chat_message_layout"
+            app:layout_constraintTop_toBottomOf="parent"
+            tools:visibility="visible">
+
+            <awais.instagrabber.customviews.ReactionEmojiTextView
+                android:id="@+id/emojis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded_corner"
+                android:elevation="1dp"
+                android:ellipsize="end"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="18sp"
+                tools:text="😀😀😀😀😀😀😀" />
+        </FrameLayout>
+
+        <!--<FrameLayout-->
+        <!--    android:id="@+id/reactions"-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:layout_height="wrap_content"-->
+        <!--    android:background="@drawable/bg_rounded_corner"-->
+        <!--    android:elevation="1dp"-->
+        <!--    android:visibility="gone"-->
+        <!--    app:layout_constraintEnd_toEndOf="@id/chat_message_layout"-->
+        <!--    app:layout_constraintStart_toStartOf="@id/chat_message_layout"-->
+        <!--    app:layout_constraintTop_toBottomOf="@id/chat_message_layout"-->
+        <!--    tools:visibility="visible">-->
+
+        <!--    <androidx.appcompat.widget.AppCompatTextView-->
+        <!--        android:id="@+id/emojis"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:padding="4dp"-->
+        <!--        android:textColor="?android:textColorPrimary"-->
+        <!--        tools:text="😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀" />-->
+        <!--</FrameLayout>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</awais.instagrabber.customviews.DirectItemFrameLayout>

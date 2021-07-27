@@ -1,0 +1,18 @@
+Si vous ne mettez pas en ligne pas de publications ou de stories sur Instagram, mais que vous ne pouvez pas vous en débarrasser à cause des personnes et des contenus, vous avez maintenant une alternative : Barinsta est un beau client qui vous permet de naviguer et d'interagir avec Instagram, tout en vous offrant plus d'options pour contrôler vos données.
+
+* Pour ceux qui n'ont pas de compte, vous pouvez accéder aux profils publiques/hashtags/lieux !
+* Pour ceux qui sont connectés, Barinsta peut obtenir la plupart des fonctionnalités de visualisation et d'interaction, avec des fonctionnalités supplémentaires telles que le téléchargement de messages/stories/avatars, la copie de textes, la comparaison des abonnés/abonnements, et plus encore !
+Avantages supplémentaires :
+
+* Empêche les décisions irrationnelles : Barinsta supprime le double-tap et vous oblige à cliquer dans les publications pour leur donner un like consciencieux. Il vous permet également d'accéder facilement aux publications que vous avez aimées via votre propre profil.
+* Permet la personnalisation : choisissez vos thèmes et mises en page ! Vous pouvez même utiliser une disposition en grille pour le feed !
+* Permet de visionner à votre rythme : pas besoin de «tenir» une story ou de scroller sans fin ! Zoomez quand vous le souhaitez !
+* Ce n'est pas un mod : absolument AUCUNE dépendance de l'application Instagram réelle.
+* Logiciel libre et open source : avec le code source de l'application ouvert pour inspection, pas besoin de s'inquiéter d'affaires louches !
+* Protège votre vie privée de vos amis : Barinsta vous permet de lire des messages et des stories secrètement, sans que vos amis le sachent !
+* Protège votre vie privée d'Instagram : l'application ne demande que ce dont elle a besoin pour vous montrer le contenu et ce que vous avez choisi dans les paramètres. Aucune communication avec des endpoints inutiles et seules des données minimales sont envoyées à Instagram.
+*** S'il vous plait, utilisez cette application de manière responsable. ***
+
+Pour plus d'informations, visiter https://barinsta.austinhuang.me.
+
+(Nous étions auparavant connus sous le nom d'InstaGrabber.)

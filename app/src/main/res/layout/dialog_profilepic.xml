@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_a50">
+
+    <awais.instagrabber.customviews.drawee.ZoomableDraweeView
+        android:id="@+id/imageViewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<androidx.appcompat.widget.AppCompatTextView-->
+    <!--    android:id="@+id/imageInfo"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:background="@android:color/black"-->
+    <!--    android:padding="8dp"-->
+    <!--    android:text="Test text"-->
+    <!--    android:textColor="@android:color/white"-->
+    <!--    android:visibility="visible"-->
+    <!--    tools:visibility="visible" />-->
+
+    <ProgressBar
+        android:id="@+id/progressView"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/download"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="@color/black_a50"
+        android:text="@string/action_download"
+        android:visibility="gone"
+        app:icon="@drawable/ic_download"
+        tools:visibility="visible" />
+</FrameLayout>

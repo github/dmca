@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/likes_nav_graph"
+    app:startDestination="@id/likesViewerFragment">
+
+    <!--<include app:graph="@navigation/hashtag_nav_graph" />-->
+
+    <!--<include app:graph="@navigation/profile_nav_graph" />-->
+
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profile_nav_graph">
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="true" />
+    </action>
+
+    <dialog
+        android:id="@+id/likesViewerFragment"
+        android:name="awais.instagrabber.fragments.LikesViewerFragment"
+        android:label="Comments"
+        tools:layout="@layout/fragment_likes">
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="isComment"
+            app:argType="boolean"
+            app:nullable="false" />
+    </dialog>
+
+    <action
+        android:id="@+id/action_global_likesViewerFragment"
+        app:destination="@id/likesViewerFragment">
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="isComment"
+            app:argType="boolean"
+            app:nullable="false" />
+    </action>
+</navigation>

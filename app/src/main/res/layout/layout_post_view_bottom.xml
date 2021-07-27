@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/buttons_top_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierAllowsGoneWidgets="true"
+        app:barrierDirection="bottom" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/like"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="36dp"
+        android:layout_height="40dp"
+        android:background="@drawable/background_grey_ripple"
+        android:visibility="visible"
+        app:icon="@drawable/ic_not_liked"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="22dp"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@id/likes_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttons_top_barrier"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:visibility="visible" />
+
+    <awais.instagrabber.customviews.FormattedNumberTextView
+        android:id="@+id/likes_count"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/background_grey_ripple"
+        android:gravity="center_vertical"
+        android:maxWidth="100dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toBottomOf="@id/like"
+        app:layout_constraintEnd_toStartOf="@id/comment"
+        app:layout_constraintStart_toEndOf="@id/like"
+        app:layout_constraintTop_toTopOf="@id/like"
+        tools:text="9.9k" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/comment"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="36dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/background_grey_ripple"
+        app:icon="@drawable/ic_outline_comments_24"
+        app:iconPadding="0dp"
+        app:iconSize="22dp"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@id/comments_count"
+        app:layout_constraintStart_toEndOf="@id/likes_count"
+        app:layout_constraintTop_toBottomOf="@id/buttons_top_barrier" />
+
+    <awais.instagrabber.customviews.FormattedNumberTextView
+        android:id="@+id/comments_count"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/background_grey_ripple"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxWidth="100dp"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@id/space_1"
+        app:layout_constraintStart_toEndOf="@id/comment"
+        app:layout_constraintTop_toBottomOf="@id/buttons_top_barrier"
+        tools:text="9999999999999999999999999999999999999999" />
+
+    <Space
+        android:id="@+id/space_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@id/share"
+        app:layout_constraintStart_toEndOf="@id/comments_count"
+        app:layout_constraintTop_toBottomOf="@id/buttons_top_barrier" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/share"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:background="@drawable/background_grey_ripple"
+        app:icon="?attr/actionModeShareDrawable"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="18dp"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@id/save"
+        app:layout_constraintStart_toEndOf="@id/space_1"
+        app:layout_constraintTop_toBottomOf="@id/buttons_top_barrier" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:background="@drawable/background_grey_ripple"
+        android:visibility="visible"
+        app:icon="@drawable/ic_round_bookmark_border_24"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="18dp"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bottom_barrier"
+        app:layout_constraintEnd_toStartOf="@id/download"
+        app:layout_constraintStart_toEndOf="@id/share"
+        app:layout_constraintTop_toBottomOf="@id/buttons_top_barrier"
+        tools:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/download"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:background="@drawable/background_grey_ripple"
+        android:visibility="visible"
+        app:icon="@drawable/ic_download"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="18dp"
+        app:layout_constraintBottom_toTopOf="@id/buttons_bottom_barrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/save"
+        app:layout_constraintTop_toBottomOf="@id/buttons_top_barrier"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/buttons_bottom_barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierAllowsGoneWidgets="true"
+        app:barrierDirection="top" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@id/caption_barrier"
+        app:layout_constraintEnd_toStartOf="@id/views_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttons_bottom_barrier"
+        tools:layout_constraintVertical_chainStyle="packed"
+        tools:text="2020-11-07 11:18:55"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/views_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/date"
+        app:layout_constraintTop_toTopOf="@id/date"
+        tools:text="9999999999 views"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/caption_barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierAllowsGoneWidgets="true"
+        app:barrierDirection="bottom" />
+
+    <awais.instagrabber.customviews.RamboTextViewV2
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@null"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        app:layout_constraintBottom_toTopOf="@id/translate"
+        app:layout_constraintTop_toBottomOf="@id/caption_barrier"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Text text text Text text text Text text text Text text text Text text text"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="@string/translate_caption"
+        android:textColor="@color/blue_600"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/caption" />
+</merge>

@@ -1,0 +1,10 @@
+* Full support on hashtags, including stories, "profile picture" (SD only), post count, and (un)following. Removed "Hashtag:" prefix.
+* Non-logged-in users now have an "add/remove from favorites" button on the profile/hashtag page, alongside Quick Access.
+* Update checker will now have a F-Droid button
+* Updated Italian and Simplified Chinese translations
+* Crash reporter now directs to `instagrabber@austinhuang.me`
+* Adjusted grid size threshold at popular request
+* Adjusted post viewer component sizes (to prevent the buttons being squished downwards, but the exact outcome depends on device)
+* Fixed a bug where highlights of the viewed user gets carried to other users
+* Fixed a bug where mentions in feeds were parsed incorrectly
+* Removed Insta-Stalker (defunct) as an HD profile picture provider, existing users are moved to Instafullsize upon first run.

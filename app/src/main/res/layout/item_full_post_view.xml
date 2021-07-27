@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:weightSum="3.2">
+
+    <include
+        android:id="@+id/topPanel"
+        layout="@layout/item_feed_top" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.9">
+
+        <awais.instagrabber.customviews.helpers.NestedScrollableHost
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/mediaViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </awais.instagrabber.customviews.helpers.NestedScrollableHost>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mediaCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/rounder_corner_semi_black_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <!-- Removing for now, will add in later versions -->
+        <!--<androidx.appcompat.widget.AppCompatImageView-->
+        <!--    android:id="@+id/ivToggleFullScreen"-->
+        <!--    android:layout_width="48dp"-->
+        <!--    android:layout_height="48dp"-->
+        <!--    android:layout_gravity="end|top"-->
+        <!--    android:background="?selectableItemBackgroundBorderless"-->
+        <!--    android:padding="4dp"-->
+        <!--    app:srcCompat="@drawable/ic_fullscreen"-->
+        <!--    app:tint="?android:textColorPrimary" />-->
+    </FrameLayout>
+
+    <include
+        android:id="@+id/bottomPanel"
+        layout="@layout/item_feed_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/postActions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="#0000"
+        android:weightSum="2">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:textColor="@color/btn_lightpink_text_color"
+            android:textSize="18sp"
+            app:backgroundTint="@color/btn_lightpink_background"
+            tools:text="@string/like" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBookmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:text="@string/bookmark"
+            android:textColor="@color/btn_lightorange_text_color"
+            android:textSize="18sp"
+            app:backgroundTint="@color/btn_lightorange_background" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

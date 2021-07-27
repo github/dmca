@@ -1,0 +1,2 @@
+* New profile view for visiting profiles from mention/post/comment without losing all previous screens
+* Bug fixes (incl. #49 and #50)

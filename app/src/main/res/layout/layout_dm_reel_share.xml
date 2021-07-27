@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reel_share_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/share_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@id/quote_line"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        tools:gravity="end"
+        tools:text="Replied to story" />
+
+    <View
+        android:id="@+id/quote_line"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/bg_quote_line"
+        app:layout_constraintBottom_toBottomOf="@id/preview"
+        app:layout_constraintEnd_toStartOf="@id/preview"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/share_info"
+        tools:layout_constraintHorizontal_bias="1"
+        tools:visibility="gone" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/preview"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        app:actualImageScaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/message"
+        app:layout_constraintEnd_toStartOf="@id/quote_line_end"
+        app:layout_constraintStart_toEndOf="@id/quote_line"
+        app:layout_constraintTop_toBottomOf="@id/share_info"
+        tools:background="@mipmap/ic_launcher"
+        tools:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/type_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="@id/preview"
+        app:layout_constraintTop_toTopOf="@id/preview"
+        app:srcCompat="@drawable/ic_video_24"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/quote_line_end"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/bg_quote_line"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/preview"
+        app:layout_constraintTop_toBottomOf="@id/share_info"
+        tools:visibility="visible" />
+
+    <awais.instagrabber.customviews.RamboTextViewV2
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/preview"
+        tools:text="Some message" />
+
+    <!-- Need to make textColor black, so that emojis are rendered opaque -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/reaction"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:textColor="@color/black"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@id/preview"
+        app:layout_constraintEnd_toEndOf="@id/preview"
+        app:layout_constraintStart_toEndOf="@id/preview"
+        app:layout_constraintTop_toTopOf="@id/preview"
+        tools:text="😮"
+        tools:visibility="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

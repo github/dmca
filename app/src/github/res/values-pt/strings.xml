@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_sentry">Ativar Sentry</string>
+    <string name="sentry_summary">Sentry é um ouvinte/gestor de erros que assincronicamente envia o erro/evento para Sentry.io</string>
+    <string name="sentry_start_next_launch">Sentry começará no próximo início</string>
+</resources>

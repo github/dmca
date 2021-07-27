@@ -1,0 +1,195 @@
+v15.9 to v16.5: https://gitlab.com/AwaisKing/instagrabber/-/releases
+From v16.6: https://github.com/austinhuang0131/barinsta/releases
+
+v15.9
+note: there will be no F-Droid updates from this version (v15.9) and onward, download updates from repo's Releases page.
+
++ added user stories in Feed
++ added frame to currently showing slider item
++ removed tap to pause/resume from Post viewer, replaced with controller
++ fixed swipe not working when posts are opened from stories
++ fixed comments not showing for slider items
+
+v15.8
++ added user's website in profile
++ fixed caption mentions length (@kernoeb)
++ fixed some translations (@kernoeb)
++ fixd feed captions merging with "... more"
+
+v15.4
++ ADDED FRENCH AND SPANISH!!!
++-> Huge thanks to @kernoeb (Telegram) for French translation and @sguinetti (GitLab) for Spanish translation!!
+
++ added custom post time format support!
++ fixed flickering after changing settings
++ fixed posts not showing after searching from a private profile
++ fixed stories and profile pictures not downloading in user folders even when option was enabled
++ fixed issues with feed, discover and post viewer
++ fixed search suggestions crashes
+
+v15.2
++ fixed feed video not pausing when opened in post viewer
++ added 1 new profile picture view mode
++ added fields in LogCollector to better understand how things went wrong
++ better comments, story, feed, discover and suggestion fetchers
+
+v15.0
++ added support for Instagram.com urls! (:
++ added "Downloaded" check on posts if they've already been downloaded (as per suggestion)
++ fixed highlights scrolling issues
++ fixed comments issues
++ fixed posts weren't showing after searching anything from a private account
++ fixed suggestions not showing sometimes
++ fixed Stories viewer swipe issues
++ fixed Import/Export dialog not showing on old phones
++ added user's name in suggestions search list
++ added comment likes in Comments viewer
+
++ sending logs won't add empty logs to archive anymore!
++ fixed no new line in logs
++ handled Login WebView lifecycles
++ a better way of handling highlight swipes
++ removed useless code parts
+
+v14.5
++ added changelog after update
++ added swipe support in both Discover/Explore and Feed pages
++ added Send Logs button in Settings to send logs when something doesn't work
++ added clickable user profile in Post Viewer
++ fixed weirdly collapsing toolbar when toolbar is shown at the top
+
+v14.0
++ added theme selection support
++ added import/export settings, favorites and logins functionality (thanks to Airikr [@edgren] on Telegram)
++ added support for downloading slider items from User Feed page
++ added support for usernames and hashtags in user's biography/about text
++ added multiple selection in Discover/Explore page
++ added post date for feed items
++ added some more date formats
++ copyable feed item caption (long tap)
++ fixed late refresh indicator in Followers/Following comparison mode
++ changed feed item size to squares
++ fixed some caption text issues having mentions and hashtags
++ removed clipboard listener (stopped working after some changes)
++ added log collector for different crash scenarios
+
+v13.7
++ fixed custom download folder selection issues
+
+v13.3
++ added discover/explore page (only for logged in users)
++ added function to remove IPTC tracking data from downloaded pictures (thanks to Airikr [@edgren] on Telegram)
++ added multiple accounts support (quick access) and favorites (a suggestion from Saurabh on Telegram)
++ added custom download folder option, you can select where to download posts (a suggestion from Airikr)
++ added desktop mode toggle in Login activity (a suggestion from Eymen on Telegram)
++ added post date in post viewer (a suggestion from W on Telegram)
++ added post time format settings [ Settings > Post Time Settings ]
++ fixed some icons and layouts
++ removed color from slider items in feed
++ removed useless methods and properties
++ better way of handling multiple stories and posts (sliders) in post viewer
++ tried to make notifications grouped together.. hope they work
++ some other fixes and additions which i probably forgot, cause i'm a human ffs
+
+v13.0
++ fixed crash when searching hashtags
++ added lazy loading for hashtags
++ added Show Feed option in Settings (feed may crash app on some phones)
++ added null check in Download async
++ better/adapatable icon
++ fixed sheet dialog themes
+
+v12.7
++ (probably) fixed inflating issue in some devices
+
+v12.5
++ some small performance improvements
+
+v12.0
++ added feed!! (only for logged in users)
++ fixed multiple hashtags with no spaces between them
++ stopped activity from recreating when nothing changed
++ changed highlights to RecyclerView instead of HorizontalScrollView
++ changed some numbers and precisions cause she left me on read
+
+v11.0
++ added crash reporting library
++ added mute/unmute for session
++ better profile picture viewer + profile picture info
++ better swipe gesture
++ fixed mention and hashtag issues
+
+v10.0
+NOTE: YOU MAY NEED TO LOGIN TO VIEW PROFILES CAUSE OF INSTAGRAM CHANGES.
++ added direct download multiple posts dialog
++ fixed notification problems
++ fixed some direct download problems
++ fixed batch download and username folder not creating in some activities
++ fixed update checker
+
+v9.0
++ added search in comments viewer
++ added settings to auto or lazy load posts
++ added user & hashtag stack when back pressed
++ added loading icon when loading posts
++ profile info bar sticks to top
++ fixed highlights and profile picture size in portrait and landscape mode
++ fixed posts loading from other user when restarting app
++ fixed posts size changing when scrolled
++ users & hashtag search shows only users or hashtag when first char is @ or #
++ scrolls to top when back pressed
+
+v8.0
++ added pull-to-refresh layout in main posts, followers/following viewer
++ added search in followers/following viewer
++ added video views in post viewer
++ added animation when showing highlights (if available)
++ fixed long usernames not animating (marquee)
++ fixed padding and size in portrait and landscape modes
++ fixed accounts showing personal followers/following when account has 0 followers/following
++ fixed double ripple when tapped on profile picture
++ smaller story border around profile picture
+
+v7.0
++ added comments viewer!!
++ added highest quality post fetcher
++ added loading indicator where it was missing before
++ fixed highlight name alignment
++ fixed swiping on posts opened via Share or link
+
+v6.0
++ added story highlights!! (issue #5)
++ added button to view posts posted in stories
++ added verified badge for accounts
++ fixed posts & story swiping issues
++ fixed slow loading and stuff
++ fixed different margins and sizes
++ fixed activity not recreating after settings dialogs closed
+
+v5.0
++ added followers / following checker
++ added search view suggestions for usernames & hashtags
++ added sliding profile container
++ fixed batch download permission issue (issue #4)
++ fixed some small screen panning issues
++ fixed search view width
++ fixed update checker
+
+v4.0
++ fixed Login and Visit project page button codes.
+
+v3.0
++ fixed posts merged from different accounts when searched while posts are loading!
++ view stories (only if you're logged in)
++ directly download posts
++ choose between two pfp (profile picture) viewer methods
++ fixed search box not showing up when toolbar is at bottom
++ automatically checks for updates
+
+v2.0
++ fixed Login crashes
+
+v1.0
++ first ever changelog
++ basic stuff like downloading profile pics, posts and copying captions and bio.
++ batch download posts

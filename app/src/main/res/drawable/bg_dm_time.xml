@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="-90"
+        android:endColor="@color/grey_900"
+        android:startColor="#00FFFFFF"
+        android:type="linear" />
+    <corners
+        android:bottomLeftRadius="@dimen/dm_message_card_radius_small"
+        android:bottomRightRadius="@dimen/dm_message_card_radius_small"
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp" />
+</shape>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<awais.instagrabber.customviews.RamboTextViewV2 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvMessage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dm_message_card_radius"
+    android:paddingTop="@dimen/dm_message_card_radius_small"
+    android:paddingEnd="@dimen/dm_message_card_radius"
+    android:paddingBottom="@dimen/dm_message_card_radius_small"
+    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+    android:textColor="@color/white"
+    tools:text="So here you can see the timestamp overlaps lol tt tt tt tt tt tt tt tt tt tt t" />

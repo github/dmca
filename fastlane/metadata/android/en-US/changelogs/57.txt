@@ -1,0 +1,3 @@
+Preliminary support for live videos, as well as bug fixes.
+
+For details see https://github.com/austinhuang0131/barinsta/releases/tag/v19.0.5

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_info_container_bottom_space">4dp</dimen>
+
+
+    <dimen name="profile_picture_size">70dp</dimen>
+    <dimen name="slider_item_size">65dp</dimen>
+    <dimen name="highlight_size">48dp</dimen>
+
+    <dimen name="story_item_height">70dp</dimen>
+    <dimen name="story_item_width">38dp</dimen>
+</resources>

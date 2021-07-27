@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/voice_media"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/play_wrapper"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/waveformSeekBar"
+        app:layout_constraintEnd_toStartOf="@id/waveformSeekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/play_pause"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:insetLeft="1px"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:visibility="visible"
+            app:backgroundTint="@color/blue_900"
+            app:elevation="8dp"
+            app:icon="@drawable/ic_round_play_arrow_24"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="24dp"
+            app:iconTint="@color/white"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Button.Circle"
+            tools:visibility="visible" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progress_bar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="gone"
+            app:indicatorColor="?colorSurface"
+            app:trackColor="@color/blue_900"
+            tools:visibility="gone" />
+    </FrameLayout>
+
+    <!--<com.frolo.waveformseekbar.WaveformSeekBar-->
+    <!--    android:id="@+id/waveformSeekBar"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="54dp"-->
+    <!--    android:layout_marginStart="8dp"-->
+    <!--    android:layout_marginEnd="8dp"-->
+    <!--    android:layout_weight="1"-->
+    <!--    app:waveBackgroundColor="@color/white"-->
+    <!--    app:waveProgressColor="@color/blue_400" />-->
+
+    <awais.instagrabber.customviews.masoudss_waveform.WaveformSeekBar
+        android:id="@+id/waveformSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        app:waveformBackgroundColor="?dmWaveformBgColor"
+        app:layout_constraintBottom_toTopOf="@id/duration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/play_wrapper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:waveformProgressColor="?dmWaveformProgressColor" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/waveformSeekBar"
+        tools:text="00:00/00:00" />
+</androidx.constraintlayout.widget.ConstraintLayout>

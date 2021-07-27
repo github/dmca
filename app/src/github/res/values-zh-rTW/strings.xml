@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_sentry">啟用 Sentry</string>
+    <string name="sentry_summary">Sentry 將會錯誤報告發送至 Sentry.io</string>
+    <string name="sentry_start_next_launch">下次啟用應用程式時將會開啟 Sentry</string>
+</resources>

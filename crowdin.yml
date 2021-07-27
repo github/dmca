@@ -1,0 +1,5 @@
+files:
+  - source: '/app/src/main/res/values/[arrays][strings][!styles]'
+    translation: /app/src/main/res/values-%two_letters_code%/%original_file_name%
+  - source: '/app/src/github/res/values/[arrays][strings][!styles]'
+    translation: /app/src/github/res/values-%two_letters_code%/%original_file_name%

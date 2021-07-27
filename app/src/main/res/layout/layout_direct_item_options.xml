@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<androidx.appcompat.widget.AppCompatImageView-->
+        <!--    android:id="@+id/img1"-->
+        <!--    android:layout_width="48dp"-->
+        <!--    android:layout_height="0dp"-->
+        <!--    android:padding="4dp"-->
+        <!--    android:scaleType="fitCenter"-->
+        <!--    app:layout_constraintBottom_toTopOf="@id/divider"-->
+        <!--    app:layout_constraintDimensionRatio="1"-->
+        <!--    app:layout_constraintEnd_toStartOf="@id/img2"-->
+        <!--    app:layout_constraintStart_toStartOf="parent"-->
+        <!--    app:layout_constraintTop_toTopOf="parent"-->
+        <!--    tools:srcCompat="@mipmap/ic_launcher" />-->
+
+        <!--<androidx.appcompat.widget.AppCompatImageView-->
+        <!--    android:id="@+id/img2"-->
+        <!--    android:layout_width="48dp"-->
+        <!--    android:layout_height="0dp"-->
+        <!--    android:padding="4dp"-->
+        <!--    android:scaleType="fitCenter"-->
+        <!--    app:layout_constraintDimensionRatio="1"-->
+        <!--    app:layout_constraintEnd_toStartOf="@id/img3"-->
+        <!--    app:layout_constraintStart_toEndOf="@id/img1"-->
+        <!--    app:layout_constraintTop_toTopOf="parent"-->
+        <!--    tools:srcCompat="@mipmap/ic_launcher" />-->
+
+        <!--<awais.instagrabber.customviews.SquareImageView-->
+        <!--    android:id="@+id/img3"-->
+        <!--    android:layout_width="48dp"-->
+        <!--    android:layout_height="48dp"-->
+        <!--    android:padding="4dp"-->
+        <!--    app:layout_constraintEnd_toEndOf="parent"-->
+        <!--    app:layout_constraintStart_toEndOf="@id/img2"-->
+        <!--    app:layout_constraintTop_toTopOf="parent"-->
+        <!--    tools:srcCompat="@mipmap/ic_launcher" />-->
+
+        <!--<include-->
+        <!--    android:id="@+id/divider"-->
+        <!--    layout="@layout/item_pref_divider"-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:layout_height="1dp"-->
+        <!--    app:layout_constraintEnd_toEndOf="@id/img3"-->
+        <!--    app:layout_constraintStart_toStartOf="@id/img1"-->
+        <!--    app:layout_constraintTop_toBottomOf="@id/img1" />-->
+
+        <!--<androidx.appcompat.widget.AppCompatTextView-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:layout_height="wrap_content"-->
+        <!--    android:text="test"-->
+        <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--    app:layout_constraintEnd_toEndOf="parent"-->
+        <!--    app:layout_constraintStart_toStartOf="parent"-->
+        <!--    app:layout_constraintTop_toBottomOf="@id/divider" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

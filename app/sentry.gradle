@@ -1,0 +1,13 @@
+def dsnKey = 'DSN'
+def defaultDsn = '\"\"'
+
+final Properties properties = new Properties()
+File propertiesFile = rootProject.file('sentry.properties')
+if (!propertiesFile.exists()) {
+    propertiesFile.createNewFile()
+}
+properties.load(new FileInputStream(propertiesFile))
+
+ext{
+    SENTRY_DSN = properties.getProperty(dsnKey, defaultDsn)
+}
