@@ -1,14 +1,15 @@
 **Are you the owner of the content that has been disabled, or authorized to act on the owner’s behalf?**  
 
-Yes, I’m one of the collaborators that developed and uploaded content in this repository. 
+Yes, I’m one of the collaborators that developed and uploaded content in this repository.
 
 **Please describe the nature of your content ownership or authorization to act on the owner's behalf.**  
 
-I’m one of the collaborators that developed and uploaded content in this repository. 
+I’m one of the collaborators that developed and uploaded content in this repository.
 
 **What files were taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.**  
 
-https://github.com/GTAmodding/re3 and it’s fork network.
+https://github.com/GTAmodding/re3 and it’s fork network. <br>
+[*GitHub Note: only applicable to https://github.com/erorcun/re3*]
 
 
 **Do you want to make changes to your repository or do you want to dispute the notice?**  
