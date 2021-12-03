@@ -16,7 +16,7 @@ GitHub
 
 **Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
 
-I am [private] for the company Anthrophi Technologies and was [private] of a malicious ex-contractor who has stolen and recently posted our company's code on your website, in breach of his signed contract and signed NDA. I am now working with our lawyers to prosecute the ex-contractor directly, however our confidential and highly valuable code has now been publicly shared illegally on your platform, and we will be taking further action on the company's behalf should this not be removed immediately from your platform, and all future attempts by this person to post information related to our company on your website not be blocked. Please consider this an official notice. We thank you for your prompt cooperation considering the circumstances.
+I am [private] for the company [private] and was [private] of a malicious ex-contractor who has stolen and recently posted our company's code on your website, in breach of his signed contract and signed NDA. I am now working with our lawyers to prosecute the ex-contractor directly, however our confidential and highly valuable code has now been publicly shared illegally on your platform, and we will be taking further action on the company's behalf should this not be removed immediately from your platform, and all future attempts by this person to post information related to our company on your website not be blocked. Please consider this an official notice. We thank you for your prompt cooperation considering the circumstances.
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
 
