@@ -5,7 +5,7 @@ Bytescare is sending this anti-piracy notice as the authorised representative of
 Infringing Urls:
 
 https://github.com/ngbcos/CS7641/blob/master/McGrawHill_-_Machine_Learning_-Tom_Mitchell.pdf  
-https://github-production-repository-file-5c1aeb.s3.amazonaws.com/145331675/2300601?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200326%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200326T184757Z&X-Amz-Expires=300&X-Amz-Signature=c1874e24adaa47ac66a1ca8b0e59c4bd6f3a7e5a6374ee0fe066fc428e836e21&X-Amz-SignedHeaders=host&actor_id=4628988&response-content-disposition=attachment%3Bfilename%3DArtificial.Intelligence.3rd.Ed.BY.Elaine.Rich.Kevin.Knight.Shivashankar.Nair.pdf&response-content-type=application%2Fpdf  
+[private]  
 https://shikhar-scs.github.io/thisisit/Bieser.pdf  
 https://github.com/zheguang/papers/blob/master/math/principles_of_mathematical_analysis_walter_rudin.pdf  
 https://github.com/vedic-partap/Codes/blob/master/books/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf  
