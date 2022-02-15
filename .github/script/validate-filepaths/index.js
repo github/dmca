@@ -25,7 +25,7 @@ let commentCopyForFilesChangedInThisPr =
   prChangedFilesWithInvalidDates.length ||
   prChangedFilesNotInCorrectFolder.length
     ? ` I've scanned the changed files and found some issues to double check:`
-    : ` All DCMA notices changed in this PR look good to me.`;
+    : ` All DMCA notices changed in this PR appear to have valid YYYY-MM-DD dates and seem to be in the correct folder.`;
 
 commentCopyForFilesChangedInThisPr += prChangedFilesWithInvalidDates.length
   ? `\n\n**Notices that don't contain a date that conforms to the YYYY-MM-DD format:**\n\n${prChangedFilesWithInvalidDates
@@ -72,7 +72,7 @@ const [filesInCorrectFolder, filesNotInCorrectFolder] = partition(
 let commentCopyForAllDmcaNoticesInRepo =
   filesWithInvalidDates.length || filesNotInCorrectFolder.length
     ? `\n# Other Files in Repo\nI've also scanned the rest of the repo and found some files to double check:`
-    : `\n# Other Files in Repo\nThe other DCMA notices in the repo look good to me.`;
+    : `\n# Other Files in Repo\nThe other DMCA notices in the repo appear to have valid YYYY-MM-DD dates and seem to be in the correct folder.`;
 
 const invalidDatesList = filesWithInvalidDates.length
   ? `\n\n**Notices that don't contain a date that conforms to the YYYY-MM-DD format:**\n\n${filesWithInvalidDates
