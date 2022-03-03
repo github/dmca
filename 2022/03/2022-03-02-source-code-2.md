@@ -1,0 +1,113 @@
+Before disabling any content in relation to this takedown notice, GitHub
+- contacted the owners of some or all of the affected repositories to give them an opportunity to [make changes](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#a-how-does-this-actually-work).
+- provided information on how to [submit a DMCA Counter Notice](https://docs.github.com/en/articles/guide-to-submitting-a-dmca-counter-notice).
+
+To learn about when and why GitHub may process some notices this way, please visit our [README](https://github.com/github/dmca/blob/master/README.md#anatomy-of-a-takedown-notice).
+
+---
+
+**Are you the copyright holder or authorized to act on the copyright owner's behalf?**
+
+Yes, I am the copyright holder.
+
+**Are you submitting a revised DMCA notice after GitHub Trust & Safety requested you make changes to your original notice?**
+
+No
+
+**Does your claim involve content on GitHub or npm.js?**
+
+GitHub
+
+**Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
+
+The original copyrighted works are the following game assets for Unity created by us:
+
+- Cartoon GUI Pack: https://assetstore.unity.com/packages/2d/gui/cartoon-gui-pack-48850  
+- Clean & Minimalist GUI Pack: https://assetstore.unity.com/packages/2d/gui/clean-minimalist-gui-pack-75123  
+- Easy Flat GUI Pack: https://assetstore.unity.com/packages/2d/gui/easy-flat-gui-pack-39327  
+- Sweet Cookie GUI Pack: https://assetstore.unity.com/packages/2d/gui/sweet-cookie-gui-pack-87204  
+
+The infringing URLs are redistributing the entire contents of the assets, and you can confirm this by inspecting the ‘Package Content’ section of the original links above and comparing it to the infringing repository. As a concrete example of this, please see the following example C# scripts, which even include our original copyright notice at the top:
+
+- Infringing repository 1:  
+https://github.com/Pinkpanterus/ImageCatalog/blob/main/ImageCatalog/Assets/GUIPackCartoon/Demo/Scripts/AnimatedButton.cs
+
+- Infringing repository 2:  
+https://github.com/budgeup/prototypes/blob/main/Refs/Assets/GUIPackCartoon/Demo/Scripts/AnimatedButton.cs
+
+- Infringing repository 3:  
+https://github.com/budgeup/dancemaster/blob/main/DanceMasterClient/Assets/GUIPackCartoon/Demo/Scripts/AnimatedButton.cs
+
+- Infringing repository 4:  
+https://github.com/HungSewingMachine/VampireSurvival/blob/69356ceaeaced90be22f8d9bd876395fd9fba344/Assets/GenifyStudio/Scripts/Tool/UIExtentions/AnimatedButton/AnimatedButton.cs
+
+- Infringing repository 5:  
+https://github.com/zephyr1125/WebARHost/blob/master/Assets/GUIPack-Clean%26Minimalist/Demo/Scripts/CleanButton.cs
+
+- Infringing repository 6:  
+https://github.com/dqrook/SangHun0331-Match3/blob/main/Match%203/Assets/GUIPack-Sweet-Cookie/Demo/Scripts/AnimatedButton.cs
+
+- Infringing repository 7:  
+https://github.com/Rad1m/unityLogicalGame/blob/main/Assets/500_GUI/GUIPackEasyFlat/Demo/Scripts/AnimatedButton.cs
+
+**Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
+
+- Cartoon GUI Pack: https://assetstore.unity.com/packages/2d/gui/cartoon-gui-pack-48850  
+- Clean & Minimalist GUI Pack: https://assetstore.unity.com/packages/2d/gui/clean-minimalist-gui-pack-75123  
+- Easy Flat GUI Pack: https://assetstore.unity.com/packages/2d/gui/easy-flat-gui-pack-39327  
+- Sweet Cookie GUI Pack: https://assetstore.unity.com/packages/2d/gui/sweet-cookie-gui-pack-87204
+
+**What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.**
+
+Cartoon GUI Pack  
+------------------  
+https://github.com/Pinkpanterus/ImageCatalog/tree/main/ImageCatalog/Assets/GUIPackCartoon  
+https://github.com/budgeup/prototypes/tree/main/Refs/Assets/GUIPackCartoon  
+https://github.com/budgeup/dancemaster/tree/main/DanceMasterClient/Assets/GUIPackCartoon  
+https://github.com/HungSewingMachine/VampireSurvival/blob/69356ceaeaced90be22f8d9bd876395fd9fba344/Assets/GenifyStudio/Scripts/Tool/UIExtentions/AnimatedButton/AnimatedButton.cs
+
+Clean & Minimalist GUI Pack  
+-----------------------------  
+https://github.com/zephyr1125/WebARHost/tree/master/Assets/GUIPack-Clean%26Minimalist
+
+Easy Flat GUI Pack  
+-------------------  
+https://github.com/Rad1m/unityLogicalGame/tree/main/Assets/500_GUI/GUIPackEasyFlat
+
+Sweet Cookie GUI Pack  
+------------------------  
+https://github.com/dqrook/SangHun0331-Match3/tree/main/Match%203/Assets/GUIPack-Sweet-Cookie
+
+**Do you claim to have any technological measures in place to control access to your copyrighted content? Please see our <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice#complaints-about-anti-circumvention-technology">Complaints about Anti-Circumvention Technology</a> if you are unsure.**
+
+No
+
+**<a href="https://docs.github.com/articles/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork">Have you searched for any forks</a> of the allegedly infringing files or repositories? Each fork is a distinct repository and must be identified separately if you believe it is infringing and wish to have it taken down.**
+
+Yes.
+
+**Is the work licensed under an open source license?**
+
+No
+
+**What would be the best solution for the alleged infringement?**
+
+Reported content must be removed
+
+**Do you have the alleged infringer’s contact information? If so, please provide it.**
+
+**I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
+
+**I have taken <a href="https://www.lumendatabase.org/topics/22">fair use</a> into consideration.**
+
+**I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.**
+
+**I have read and understand GitHub's <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice/">Guide to Submitting a DMCA Takedown Notice</a>.**
+
+**So that we can get back to you, please provide either your telephone number or physical address.**
+
+[private]
+
+**Please type your full legal name below to sign this request.**
+
+[private]
