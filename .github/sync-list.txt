@@ -1,0 +1,8 @@
+.github/script/validate-filepaths/
+.github/.gitignore
+.github/pull_request_template.md
+20*/*
+data/
+.gitignore
+CONTRIBUTING.md
+README.md
