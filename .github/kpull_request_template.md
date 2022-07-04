@@ -1,4 +1,4 @@
-If you are looking to file or dispute a takedown notice by posting to this repository, please STOP :stop_sign: because we do not accept Pull Requests or other contributions to this repository.
+If  you are looking to file or dispute a takedown notice by posting to this repository, please STOP :stop_sign: because we do not accept Pull Requests or other contributions to this repository.
 
 Read on to learn about the available paths forward.
 
