@@ -51,8 +51,7 @@ Repository can be made private
 
 **Do you have the alleged infringer’s contact information? If so, please provide it.**
 
-No contact info found or i would have contact them first
-https://api.github.com/users/Mirriu
+No contact info found or i would have contact them first [private]
 
 **I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
 
