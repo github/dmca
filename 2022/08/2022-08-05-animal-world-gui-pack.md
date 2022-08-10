@@ -73,8 +73,8 @@ Reported content must be removed
 
 **So that we can get back to you, please provide either your telephone number or physical address.**
 
-private]  
+[private]  
 
 **Please type your full legal name below to sign this request.**
 
-private]  
+[private]  
