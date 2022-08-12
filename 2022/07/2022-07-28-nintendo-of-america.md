@@ -1,4 +1,9 @@
-While GitHub did not find sufficient information to determine a valid anti-circumvention claim, we determined that this takedown notice contains other valid copyright claim(s).
+Before disabling any content in relation to this takedown notice, GitHub
+- contacted the owners of the affected repositories to give them an opportunity to [make changes](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#a-how-does-this-actually-work).
+- provided information on how to [submit a DMCA Counter Notice](https://docs.github.com/en/articles/guide-to-submitting-a-dmca-counter-notice).
+- offered to connect the owners of the affected repositories with [legal resources](https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/#developer-defense-fund) as part of our commitment to standing up for developers.
+
+To learn about when and why GitHub may process some notices this way, please visit our [README](https://github.com/github/dmca/blob/master/README.md#anatomy-of-a-takedown-notice).
 
 ---
 
