@@ -36,7 +36,7 @@ As a concrete example of this, please see the following example files:
   
 - Infringing repository 2: https://github.com/Alaash97/Shooty-Royale/blob/main/ShootyRoyale/Assets/GUIPackEasyFlat/Demo/Scripts/AnimatedButton.cs  
   
-- Infringing repository 3: https://github.com/xmyhhh/Unity-AR-Streaming/blob/main/UnityProject/Assets/Art/UIPack/GUIPackEasyFlat/GUIPackEasyFlat/Documentation/Documentation.pdf  
+- Infringing repository 3: [invalid]
   
 - Infringing repository 4: https://github.com/esware/CarRushDemo/blob/main/Assets/Scripts/LevelTransition/AnimatedButton.cs  
   
