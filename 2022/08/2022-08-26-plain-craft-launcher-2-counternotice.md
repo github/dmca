@@ -12,7 +12,7 @@ This repository was created by my account (LTCatt) and has been active for sever
 If this is not enough to prove that I am the author, you can see this file from the repository: https://github.com/Hex-Dragon/PCL2/blob/master/Plain%20Craft%20Launcher%202/Images/Heads/LTCat.jpg  
 This file is my avatar, and the file name "LTCat" is my GitHub username.
 
-Also, in line 21 of the About page (https://github.com/LTCatt/PCL2/blob/master/Plain%20Craft%20Launcher%202/Pages/PageOther/PageOtherAbout.xaml), it says The author is "龙腾猫跃", which is my GitHub nickname.
+Also, in line 21 of the About page ([private]), it says The author is "[private]", which is my GitHub nickname.
 
 I can also upload other supporting documentation, so feel free if you need it.
 
