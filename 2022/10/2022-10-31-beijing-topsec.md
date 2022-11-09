@@ -20,7 +20,7 @@ I'm fully authorized to act on behalf of Beijing Topsec Technologies Group(http:
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
 
-Beijing Topsec has developed a product named {"TA-EX"(https://www.topsec.com.cn/products/TA-EX)}[private]。
+Beijing Topsec has developed a product named {“TA-EX”}[private]。
 
 The code for this product was originally uploaded to GitHub by a former employee ([private]) of Beijing Topsec and was not authorized by Beijing Topsec. We contacted him to delete the original repository(named "ex-sim-web"), but before he deleted it, a user forked it and we didn't notice it.
 
