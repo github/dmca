@@ -13,15 +13,15 @@ GitHub
 **Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
 
 I am the [private] and [private] of repository '[private]', which was firstly committed on [private]
-I hope that except for the private repository created by [private]([private]), all that other revelant repositories of '[private]' should be taken down.
+I hope that except for the private repository created by [private] ([private]), all that other revelant repositories of '[private]' should be taken down.
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
 
-Project 'Course-Bullying-in-SJTU' was developed by [private](Github code:[private], email:[private]), namely [private], for choosing courses automatically and quickly for undergraduates in [private] in [private]. However, some students in our school claimed that using scripts in choosing courses is illegal in our school, so in Sept 2022, I changed my repository visuality into private, to prevent any possible threat, and from then on this repository will be shut down and no longer open for use permanently. After that, all the use of the project is illegal and may cause harm to the me.
+Project 'Course-Bullying-in-SJTU' was developed by [private](Github code: [private], email: [private]), namely [private], for choosing courses automatically and quickly for undergraduates in [private] in [private]. However, some students in our school claimed that using scripts in choosing courses is illegal in our school, so in Sept 2022, I changed my repository visuality into private, to prevent any possible threat, and from then on this repository will be shut down and no longer open for use permanently. After that, all the use of the project is illegal and may cause harm to the me.
 
-In the allegedly infringing repository (URL: https://github.com/21tqLiu/Course-Bullying-in-SJTU), it is easy to see that all the commits of this repo was submitted by [private], and in the readme file of this repo, my [private] can be found. All the details mentioned above shows that Project 'Course-Bullying-in-SJTU' is developed by [private](Github code:[private], email:1[private]), and any later use of the project may be bad for me.
+In the allegedly infringing repository (URL: [invalid]), it is easy to see that all the commits of this repo was submitted by [private], and in the readme file of this repo, my [private] can be found. All the details mentioned above shows that Project 'Course-Bullying-in-SJTU' is developed by [private](Github code:[private], email: [private]), and any later use of the project may be bad for me.
 
-I hope that except for the private repository created by [private]([private]), all that other revelant repositories of '[private]' should be taken down.
+I hope that except for the private repository created by [private] ([private]), all that other revelant repositories of '[private]' should be taken down.
 
 **What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.**
 
