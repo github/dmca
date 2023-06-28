@@ -4,6 +4,10 @@ You can learn more in [GitHub's Acceptable Use Policies](https://docs.github.com
 
 ---
 
+While GitHub did not find sufficient information to determine a valid anti-circumvention claim, we determined that this takedown notice contains other valid copyright claim(s).
+
+---
+
 **Are you the copyright holder or authorized to act on the copyright owner's behalf?**
 
 Yes, I am authorized to act on the copyright owner's behalf.
