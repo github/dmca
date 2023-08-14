@@ -1,0 +1,7 @@
+
+I have read and understood GitHub's "DMCA Notification Submission Guidelines".   https://github.com/williambai/beyond-webapp  websites have leaked the backend code of the Guizhou Unicom Wo Assistant App, resulting in the leakage of the administrator's username and password, as well as various backend management functions, including email function, friend function, user account management function, file management function, session management function, [private] customer management, data management, etc. So, our unit hopes that you can remove sensitive information related to Guizhou Unicom Wo Assistant and delete the entire folder. The attachment contains relevant sensitive information.  
+I have taken fair use into consideration.  
+Contact person:[private], [private], [private]  
+I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.  
+I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.  
+I declare that I have sufficient reason to believe that the use of the copyrighted materials mentioned above in the infringing website has not been authorized by the copyright owner, their agent, or the law. I have considered the situation of reasonable use.  
