@@ -12,7 +12,7 @@ In short, we believe that transparency on a specific and ongoing level is essent
 
 It only means that we received the notice on the indicated date. It does ***not*** mean that the content was unlawful or wrong. It does ***not*** mean that the user identified in the notice has done anything wrong. We don't make or imply any judgment about the merit of the claims they make. We post these notices and requests only for informational purposes.
 
-For more details, see our [DMCA policy](https://help.github.com/articles/dmca-takedown-policy/).
+For more details, see our [DMCA policy](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy).
 
 #### Anatomy of a takedown notice
 
