@@ -24,7 +24,7 @@ I am the [private] of the code. I hold the copyright to the code that was copied
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
 
-The original work that was copied is my GitHub repository:
+The original work that was copied is [private] repository:
 
 https://github.com/deathline94/Juicity-Installer
 
