@@ -20,9 +20,9 @@ Three repositories on GitHub are infringing upon our rights by replicating our w
 
 The repositories in question are:  
 
-- h  
+- [invalid] 
 
-- https://github.com/NadyaLenkovets/Glass-Hut  
+- [invalid]  
 
 - https://github.com/Vitals13/huts
 
