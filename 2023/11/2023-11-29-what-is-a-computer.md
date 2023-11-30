@@ -54,7 +54,7 @@ Reported content must be removed
 **Do you have the alleged infringer’s contact information? If so, please provide it.**
 
 [private]  
-https://github.com/medvednikov
+[private]
 
 **I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
 
