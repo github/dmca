@@ -14,7 +14,7 @@ GitHub
 
 **Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
 
-We are writing in the name and on behalf of Realityshare, a cybersecurity company located in San Jose.
+We are writing in the name and on behalf of Realityshare, a cybersecurity company located in [private].
 The respository contains unauthorized use of our internal code base.
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
