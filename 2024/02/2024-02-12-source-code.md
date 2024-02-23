@@ -1,0 +1,82 @@
+**Are you the copyright holder or authorized to act on the copyright owner's behalf?**
+
+Yes, I am authorized to act on the copyright owner's behalf.
+
+**Are you submitting a revised DMCA notice after GitHub Trust & Safety requested you make changes to your original notice?**
+
+No
+
+**Does your claim involve content on GitHub or npm.js?**
+
+GitHub
+
+**Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
+
+We are the small and non-github based team associated by the voluntary member.
+Actual copyright holder [private] asked me to stress DMCA violation to the target repository user because he is not so fluent at English communication.
+He obviously has expressed he can accept the contact from github organization if necessary to his address : [private]  
+I have been requested to handle DMCA takedown subject from him comprehensively.
+
+**Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
+
+https://www.pyonpyon.jp/~gasshi/fm/  
+https://ym2203.com/  
+We have created SPFM series FM sound chip player hardware and software.  
+Regarding the hardware the product originator has been selling this product at [private] in [private].  
+But for the software, we have published our work only binary and simple instructions.
+
+The DCMA takedown target is here: [private]  
+At this repositories, some of SPFM relevant repositories were simply copied from our original website. That is why he must not have original source codes.
+Most significant point is these repository owner wrongly and willfully changed the license from our rights base to MIT, these software and binary owner is very us(and strictly [private]), target repositories license MD were totally wrong and violating our rights.
+
+**What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.**
+
+Following repositories entirely:  
+https://github.com/denjhang/mmldrv  
+https://github.com/denjhang/SPFM-Player-V2  
+https://github.com/denjhang/SCCI  
+https://github.com/denjhang/SPFM-Light  
+
+**Do you claim to have any technological measures in place to control access to your copyrighted content? Please see our <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice#complaints-about-anti-circumvention-technology">Complaints about Anti-Circumvention Technology</a> if you are unsure.**
+
+No
+
+**<a href="https://docs.github.com/articles/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork">Have you searched for any forks</a> of the allegedly infringing files or repositories? Each fork is a distinct repository and must be identified separately if you believe it is infringing and wish to have it taken down.**
+
+Yes we searched in github repos. These 4 repositories are the target that denghang seems wrongly changed the owner and the license to MIT and GPL3.0.  
+https://github.com/denjhang/mmldrv  
+https://github.com/denjhang/SPFM-Player-V2  
+https://github.com/denjhang/SCCI  
+https://github.com/denjhang/SPFM-Light  
+
+**Is the work licensed under an open source license?**
+
+No
+
+**What would be the best solution for the alleged infringement?**
+
+Reported content must be removed
+
+**Do you have the alleged infringer’s contact information? If so, please provide it.**
+
+We know only github his page and the [private] account (for [private] account he disclosed his ID at github page)  
+https://github.com/denjhang
+
+**I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
+
+**I have taken <a href="https://www.lumendatabase.org/topics/22">fair use</a> into consideration.**
+
+**I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.**
+
+**I have read and understand GitHub's <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice/">Guide to Submitting a DMCA Takedown Notice</a>.**
+
+**So that we can get back to you, please provide either your telephone number or physical address.**
+
+[private]  
+[private], [private], [private], [private], [private]  
+mail address: [private]  
+Please contact me via email as much as possible because in daytime I cannot use my private [private] because of company prohibited.
+
+**Please type your full legal name below to sign this request.**
+
+[private]
