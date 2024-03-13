@@ -59,7 +59,7 @@ https://github.com/YuhBoyMatty/GH-Injector-Builds
 https://github.com/Manaball123/GH-Injector-Builds  
 https://github.com/YuhBoyMatty/GHInjectorPrivateRelease  
 https://github.com/NutArrikatoooo/gh-injector-latest-main  
-https://guidedhacking.com/resources/guided-hacking-dll-injector.4/  
+[invalid]   
 https://github.com/mbandit1337/GH-Injector-V3  
 https://github.com/zhouzu/gh-injector-latest  
 https://github.com/luanon404/GH-Injector-GUI  
