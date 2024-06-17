@@ -24,7 +24,7 @@ Credits were required if any of [private] code was to be used in another file.
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
 
-https://github.com/vy-xa/femboyhook/blob/main/main.lua
+[private]
 
 This was some lua code that [private] had made, fully open source and could be used in other projects if credited.
 
