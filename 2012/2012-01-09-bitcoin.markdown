@@ -1,7 +1,0 @@
-[private]
-
-SolidCoin (<https://github.com/solidcoin/solidcoin/>) is infringing on my copyright of code originally contributed to Bitcoin (<https://github.com/bitcoin/bitcoin/>) under the MIT license. The specific substantial code I hold the copyright to appears in at least wallet.cpp in both Bitcoin and SolidCoin, in the method CWallet::SelectCoinsMinConf. I licensed this code under the MIT license, and SolidCoin has stripped my copyright and terms from all the code, in violation of this license.
-
-I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law. I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.
-
-[private]
