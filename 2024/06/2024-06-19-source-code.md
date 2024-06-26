@@ -6,6 +6,10 @@ To learn about when and why GitHub may process some notices this way, please vis
 
 ---
 
+While GitHub did not find sufficient information to determine a valid anti-circumvention claim, we determined that this takedown notice contains other valid copyright claim(s).
+
+---
+
 **Are you the copyright holder or authorized to act on the copyright owner's behalf?**
 
 Yes, I am the copyright holder.
