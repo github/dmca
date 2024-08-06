@@ -36,7 +36,7 @@ all code stays on internal systems that are behind a firewall and VPN. code is a
 
 **How is the accused project designed to circumvent your technological protection measures?**
 
-we are investigating but looks like a disgruntled ex-employee somehow transferred the code base to a personal computer and then pushed to github
+This is a copy of our proprietary code and we are currently investigating how and how the code was posted to Github. There is no indication, at this point, that it was malicious or intentional circumventing of standard security and technology protection measures.
 
 **<a href="https://docs.github.com/articles/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork">Have you searched for any forks</a> of the allegedly infringing files or repositories? Each fork is a distinct repository and must be identified separately if you believe it is infringing and wish to have it taken down.**
 
