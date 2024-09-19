@@ -36,7 +36,7 @@ You can also see the infringing person to be removing/updating [private] LICENSE
 
 This work is a web-based Discord token checker, which is used to filter valid and invalid Discord tokens.
 
-This user has already infringed my rights in the past: https://github.com/github/dmca/blob/6afc9fbfeb052b8bbbb464413df273fc289a2a35/2023/12/2023-12-11-discord-checker-web.md?plain=1#L23
+This user has already infringed my rights in the past: [private]
 
 Allegedly this user is also the owner of the website [private] which illegally hosts the content of this GitHub repository.
 
@@ -76,7 +76,7 @@ Add the License and copyright notice to the source code and add attribution, sta
 
 (Preferred because it includes [private])
 
-Removing the content from GitHub entirely. Also consider blocking the users GitHub profile since this is not the first time violating my rights (see https://github.com/github/dmca/blob/6afc9fbfeb052b8bbbb464413df273fc289a2a35/2023/12/2023-12-11-discord-checker-web.md?plain=1#L23).
+Removing the content from GitHub entirely. Also consider blocking the users GitHub profile since this is not the first time violating my rights (see [private]).
 Also it needs to be removed because it includes some personal details of [private] which are [private] and my [private] username:  
 https://github.com/allah112233/efeasefe.wtf#README
 
