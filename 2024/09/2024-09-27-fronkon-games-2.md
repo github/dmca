@@ -48,7 +48,7 @@ Repository can be made private
 
 **Do you have the alleged infringer’s contact information? If so, please provide it.**
 
-Nothing more than the contact information on their Github profile.
+Nothing more than the [private] on their [private] profile.
 
 **I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
 
