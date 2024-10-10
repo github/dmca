@@ -1,0 +1,80 @@
+Before disabling any content in relation to this takedown notice, GitHub
+- contacted the owners of some or all of the affected repositories to give them an opportunity to [make changes](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#a-how-does-this-actually-work).
+- provided information on how to [submit a DMCA Counter Notice](https://docs.github.com/en/articles/guide-to-submitting-a-dmca-counter-notice).
+
+To learn about when and why GitHub may process some notices this way, please visit our [README](https://github.com/github/dmca/blob/master/README.md#anatomy-of-a-takedown-notice).
+
+---
+
+**Are you the copyright holder or authorized to act on the copyright owner's behalf?**
+
+Yes, I am authorized to act on the copyright owner's behalf.
+
+**Are you submitting a revised DMCA notice after GitHub Trust & Safety requested you make changes to your original notice?**
+
+No
+
+**Does your claim involve content on GitHub or npm.js?**
+
+GitHub
+
+**Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
+
+I, [private], [private] for BLOCK X Technologies Pvt Ltd, with a registered office at [private], am representing Zee Entertainment Enterprises Limited (‘our client’), which has its corporate office at [private]. The Letter of Authorization can be accessed at [private].
+
+**Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
+
+Our client has exclusive rights for all the content operated in their video streaming/over-the-top service with the brand name “ZEE5”. Upon the instructions of our client, we are sending this notice for all the copyrighted works streaming in the Zee-operated channels under the banner 'ZEE'. including the channels Zee Tamil, Zee CinemaHD, Zee TalkiesHD, Zee TVHD and etc., The original contents of the channel can be accessed at the following URL: https://www.zee5.com/. The alleged repository URL in question are engaging in the act of illegally disseminating our copyrighted content through m3U8 URLs without our client's knowledge and permission and the same does not fall under the doctrine of Fair Use. Thus, the reported repository URL in entirety is liable to be removed or terminated for violating our copyrighted works.
+
+We wish to clarify and explicitly assert that the entirety of the repository, as referenced by the link provided, constitutes an infringement upon the intellectual property rights of our client’s original work.
+
+**What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.**
+
+"The following Repository in its entirety is infringing upon the orginal work "  
+https://github.com/sohag1192/BDIX-IPTV
+
+**Do you claim to have any technological measures in place to control access to your copyrighted content? Please see our <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice#complaints-about-anti-circumvention-technology">Complaints about Anti-Circumvention Technology</a> if you are unsure.**
+
+No
+
+**<a href="https://docs.github.com/articles/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork">Have you searched for any forks</a> of the allegedly infringing files or repositories? Each fork is a distinct repository and must be identified separately if you believe it is infringing and wish to have it taken down.**
+
+Yes we have searched for forks and based on the representative number of forks we have reviewed, we believe that all or most of the forks are infringing to the same extent as the parent repository.  
+https://github.com/Habib2399/BDIX-IPTV  
+https://github.com/alphaQ69/BDIX-IPTV  
+https://github.com/coding-A412/BDIX-IPTV  
+https://github.com/dhimant1990/BDIX-IPTV  
+https://github.com/Diptv24/BDIX-IPTV  
+https://github.com/Github-Alexandria/BDIX-IPTV  
+https://github.com/imfaisalriam/BDIX-IPTV  
+https://github.com/Mahmudul112/BDIX-IPTV  
+https://github.com/SABAPPY/BDIX-IPTV  
+https://github.com/sonnet007/BDIX-IPTV  
+https://github.com/MONIR1560/BDIX-IPTV  
+https://github.com/dhimant1990/BDIX-IPTV/tree/master
+
+**Is the work licensed under an open source license?**
+
+No
+
+**What would be the best solution for the alleged infringement?**
+
+Reported content must be removed
+
+**Do you have the alleged infringer’s contact information? If so, please provide it.**
+
+**I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
+
+**I have taken <a href="https://www.lumendatabase.org/topics/22">fair use</a> into consideration.**
+
+**I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.**
+
+**I have read and understand GitHub's <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice/">Guide to Submitting a DMCA Takedown Notice</a>.**
+
+**So that we can get back to you, please provide either your telephone number or physical address.**
+
+[private]
+
+**Please type your full legal name below to sign this request.**
+
+[private]
