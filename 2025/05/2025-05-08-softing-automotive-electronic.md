@@ -6,6 +6,10 @@ To learn about when and why GitHub may process some notices this way, please vis
 
 ---
 
+Note: Because the parent repository was actively being forked when this DMCA takedown notice was received, and the submitter had identified all known forks at the time they submitted the takedown notice, GitHub processed the takedown notice against the entire network of 21 repositories, inclusive of the parent repository.
+
+---
+
 **Are you the copyright holder or authorized to act on the copyright owner's behalf? If you are submitting this notice on behalf of a company, please be sure to use an email address on the company's domain. If you use a personal email address for a notice submitted on behalf of a company, we may not be able to process it.**
 
 Yes, I am authorized to act on the copyright owner's behalf.
@@ -78,7 +82,7 @@ https://github.com/653310641/ODB
 
 https://github.com/anonbeat/ODB
 
-https://github.com/anywhereyang/smr-d;
+https://github.com/anywhereyang/smr-d  
 
 https://github.com/callumhutchy/ODB
 
