@@ -6,6 +6,13 @@ To learn about when and why GitHub may process some notices this way, please vis
 
 ---
 
+Identification and localization of the infringing material: URL: https://futbolonlinetv.com/  
+IP: [private]  
+Timestamp: [private]  
+Content infringed : Paris - Arsenal -- UEFA Champions League  
+Content owner : GROUPE CANAL+  
+Type of infringement: illegal streams infringing exclusive broadcasting rights
+
 Dear Madam, Dear Sir,
 
 LEAKID is a [private] company whose principal activity is to protect contents online such as sport events of the media or entertainment industry by monitoring, detecting and removing unauthorized and illegal contents (see www.leakid.com) which constitute among others copyright infringement, rights related to copyright infringement, exclusive broadcasting rights or exclusive rights of exploitation infringement and is an authorized agent of GROUPE CANAL+ and writes on its behalf.
