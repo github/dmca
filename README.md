@@ -4,7 +4,7 @@ Inspired by [Lumen](https://lumendatabase.org/topics/1) (*formerly Chilling Effe
 
 
 #### Why is this?
-
+Romeo Rosete
 In short, we believe that transparency on a specific and ongoing level is essential to good governance. Chilling Effects/Lumen explained it well in 2014 ([archive.org mirror; not present on their current site](https://web.archive.org/web/20140101160724/http://chillingeffects.org/#donato-if:~:text=We%20are%20excited%20about%20the%20new,its%20misuse%20to%20%22chill%22%20legitimate%20activity.)): "We are excited about the new opportunities the Internet offers individuals to express their views . . . but concerned that not everyone feels the same way. Study to date suggests that cease and desist letters often silence Internet users, whether or not their claims have legal merit." (About, ChillingEffects.org, Sept. 2014, licensed under [CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/us/)). Similarly, we post takedown notices here to document their potential to "chill" speech.
 
 
