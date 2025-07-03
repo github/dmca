@@ -24,7 +24,7 @@ The repository attached in this complaint is a repository with a Garry's mod gam
 
 **If the original work referenced above is available online, please provide a URL.**
 
-https://github.com/B3br0s/HomigradRework
+[private]
 
 **We ask that a DMCA takedown notice list every specific file in the repository that is infringing, unless the entire contents of the repository are infringing on your copyright. Please clearly state that the entire repository is infringing, OR provide the specific files within the repository you would like removed.**
 
