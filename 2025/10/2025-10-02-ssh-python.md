@@ -1,0 +1,108 @@
+Before disabling any content in relation to this takedown notice, GitHub
+- contacted the owners of some or all of the affected repositories to give them an opportunity to [make changes](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#a-how-does-this-actually-work).
+- provided information on how to [submit a DMCA Counter Notice](https://docs.github.com/en/articles/guide-to-submitting-a-dmca-counter-notice).
+
+To learn about when and why GitHub may process some notices this way, please visit our [README](https://github.com/github/dmca/blob/master/README.md#anatomy-of-a-takedown-notice).
+
+---
+
+**Are you the copyright holder or authorized to act on the copyright owner's behalf? If you are submitting this notice on behalf of a company, please be sure to use an email address on the company's domain. If you use a personal email address for a notice submitted on behalf of a company, we may not be able to process it.**
+
+Yes, I am the copyright holder.
+
+**Are you submitting a revised DMCA notice after GitHub Trust & Safety requested you make changes to your original notice?**
+
+No
+
+**Does your claim involve content on GitHub or npm.js?**
+
+GitHub
+
+**Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
+
+I am the [private] of the software hosted on Github.com and copyright owner.
+
+**Please provide a detailed description of the original copyrighted work that has allegedly been infringed.**
+
+https://github.com/ParallelSSH/ssh-python - Python bindings for libssh C library.
+
+This is original work, created by [private], first published on Github on May 29, 2018.
+
+**If the original work referenced above is available online, please provide a URL.**
+
+Code: https://github.com/ParallelSSH/ssh-python
+
+Published packages on PyPi: https://pypi.org/project/ssh-python
+
+Code and packages first released May 29 2018 as seen at https://pypi.org/project/ssh-python/#history and on the history of the Github repository.
+
+**We ask that a DMCA takedown notice list every specific file in the repository that is infringing, unless the entire contents of the repository are infringing on your copyright. Please clearly state that the entire repository is infringing, OR provide the specific files within the repository you would like removed.**
+
+**Based on the above, I confirm that:**
+
+The entire repository is infringing
+
+**Identify the full repository URL that is infringing:**
+
+https://github.com/Red-M/Redlibssh
+
+**Do you claim to have any technological measures in place to control access to your copyrighted content? Please see our <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice#complaints-about-anti-circumvention-technology">Complaints about Anti-Circumvention Technology</a> if you are unsure.**
+
+No
+
+**If you are reporting an allegedly infringing fork, please note that each fork is a distinct repository and <i>must be identified separately</i>. Please read more about <a href="https://docs.github.com/articles/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork">forks.</a> As forks may often contain different material than in the parent repository, if you believe any of the repositories or files in the forks are infringing, please list each fork URL below:**
+
+**Based on the representative number of forks I have reviewed, I believe that all or most of the forks are infringing to the same extent as the parent repository.**
+
+**Is the work licensed under an open source license?**
+
+Yes
+
+**Which license?**
+
+gnu-lesser-general-public-license-v2.1
+
+**How do you believe the license is being violated?**
+
+The original work's copyright notice was changed to change the author from [private] to the owner of the infringing repositories.
+
+The author field on the published packages on PyPi was also changed from [private] to the owner of the infringing repositories.
+
+Infringing copyright notice can be seen here:
+https://github.com/Red-M/Redlibssh/blob/master/ssh/c_callbacks.pxd#L1-L3
+
+Copyright of [private] name does not end at 2018 as the infringing repository suggests.
+
+Further more, the infringing person has not made any changes to the code and there for has no copyright claims to it, as opposed to the copyright notice on the infringing repository.
+
+Even if/when the infringing person makes changes to the code, the original author of the work is [private], and the author field of any published packages of forks, including the infringing repository, must remain [private].
+
+Infringing author field can be seen here https://pypi.org/project/redlibssh/#history
+
+**What changes can be made to bring the project into compliance with the license? For example, adding attribution, adding a license, making the repository private.**
+
+The copyright notice of the forked work must remain the same. It is a copyright violation to change the copyright notice of a fork and modify it to exclude copyright from the original author(s) and further incorrectly end copyright of the original author at the date the fork was made.
+
+It is a further copyright violation to incorrectly assign copyrights to the infringing person, who has made no changes to them. If the infringing person has made any changes to certain files within the fork, they can claim copyright on those files alone, not all files in the forked repository.
+
+It is a further copyright violation to claim authorship of forked work as if the fork is original work of the infringing person, which is a false statement punishable by law.
+
+**Do you have the alleged infringer’s contact information? If so, please provide it.**
+
+[private]
+
+**I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
+
+**I have taken <a href="https://www.lumendatabase.org/topics/22">fair use</a> into consideration.**
+
+**I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.**
+
+**I have read and understand GitHub's <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice/">Guide to Submitting a DMCA Takedown Notice</a>.**
+
+**So that we can get back to you, please provide either your telephone number or physical address.**
+
+[private]
+
+**Please type your full name for your signature.**
+
+[private]
