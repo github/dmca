@@ -6,11 +6,7 @@ One or more repositories in this DMCA takedown notice has been processed in acco
 
 You can learn more in [GitHub's Acceptable Use Policies](https://docs.github.com/en/github/site-policy/github-acceptable-use-policies).
 
----
-
-Note: Because the reported network that contained the allegedly infringing content was larger than one hundred (100) gists, and the submitter alleged that all or most of the forks were infringing to the same extent as the parent gist, GitHub processed the takedown notice against the entire network of 175 gists, inclusive of the parent gist.
-
----
+--- 
 
 **Are you the copyright holder or authorized to act on the copyright owner's behalf? If you are submitting this notice on behalf of a company, please be sure to use an email address on the company's domain. If you use a personal email address for a notice submitted on behalf of a company, we may not be able to process it.**
 
