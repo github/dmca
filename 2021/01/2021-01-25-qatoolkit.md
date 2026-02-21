@@ -8,7 +8,7 @@ BP Mobile LLC owns all exclusive rights to QAToolkit (QAT).
 QAT is a proprietary software kit which was developed for internal use and not designed for distribution of any kind.  
 It has come to our attention that in 2018 QAT was placed on GitHub by user <fvonk>: https://github.com/fvonk/qat  
 As the GitHub repository is synchronized with our corporate storage, all updates that have been made on our side automatically became available to public - they are dispalyed on 
-GitHub as commited by our developers.  
+GitHub as committed by our developers.  
 Thus we claim that QAT was accessed and distributed without authorization of the rightholder. 
 
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
