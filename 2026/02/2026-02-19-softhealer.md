@@ -20,7 +20,7 @@ GitHub
    
 **Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**   
    
-We have a different private git repository at https://github.com/softhealer and We sell our all modules on odoo apps store https://apps.odoo.com/apps/modules/browse?author=Softhealer Technologies and here are app store links   
+We have a different private git repository at [private] and We sell our all modules on odoo apps store https://apps.odoo.com/apps/modules/browse?author=Softhealer Technologies and here are app store links   
 All aboves modules contain Odoo Proprietary License v1.0 (OPL-1) I will give more information about OPL license in below section.   
    
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed.**   
