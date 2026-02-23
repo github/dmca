@@ -1,4 +1,4 @@
-import walkSync from "walk-sync";
+import { readdirSync, statSync } from "fs";
 import {
   isFileInCorrectFolder,
   isFilepathDateValid,
@@ -53,7 +53,9 @@ ${dmcaFilesChangedInPr
 commentBody += commentCopyForFilesChangedInThisPr;
 commentBody += commentCopyForCategoriesOfFilesChangedInThisPr;
 
-const filesInDmcaNoticeFolders = walkSync(".", { directories: false })
+const filesInDmcaNoticeFolders = readdirSync(".", { recursive: true })
+  .filter((f) => statSync(f).isFile())
+  .sort()
   .filter(isFileInsideAYearFolder)
   .filter((file) => {
     const isFileAmongChangedFiles = dmcaFilesChangedInPr.includes(file);

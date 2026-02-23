@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@actions/core": "^1.10.1",
-    "lodash": "^4.17.23",
-    "walk-sync": "^3.0.0"
+    "lodash": "^4.17.23"
   }
 }
