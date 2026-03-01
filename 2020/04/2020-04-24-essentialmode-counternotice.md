@@ -38,7 +38,7 @@ We have already explained to GitHub how [private] attempt to license his code to
 We found out that the web archive website had indexed his old website that he no longer uses, http://essentialmode.com.
 Web archive link: http://web.archive.org/web/20180516175223/https://docs.essentialmode.com/#license
 
-So around 2018-05-16 according to his website essentialmode v4 (and also some some versions at v5) were in fact licensed under nolicense **and not AGPLv3**. ESX-Org and its project es_extended was initialy commited to in 2017-06-31. So that's proof that [private] is lying about the AGPLv3 license. In his old website you can get a download link to his old version of essentialmode v4 that also had no license. ESX was developed around the time when essentialmode v4 was released to the public. The license he can enforce on us is nolicense and not AGPLv3.
+So around 2018-05-16 according to his website essentialmode v4 (and also some some versions at v5) were in fact licensed under nolicense **and not AGPLv3**. ESX-Org and its project es_extended was initialy committed to in 2017-06-31. So that's proof that [private] is lying about the AGPLv3 license. In his old website you can get a download link to his old version of essentialmode v4 that also had no license. ESX was developed around the time when essentialmode v4 was released to the public. The license he can enforce on us is nolicense and not AGPLv3.
 
 Again if there's anything we can provide to prove what I've mentioned then do not hesitate to contact, thanks a lot guys!
 [private]  

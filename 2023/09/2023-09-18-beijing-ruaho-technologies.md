@@ -16,7 +16,7 @@ GitHub
 
 **Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
 
-the 'https://github.com/zhanght86/qhbx' was first commited by [private] ([private]) and all contents commited by [private] .This project is a private code , cloned by gitbub user zhanght86 , please remove it ,thanks.  
+the 'https://github.com/zhanght86/qhbx' was first committed by [private] ([private]) and all contents committed by [private] .This project is a private code , cloned by gitbub user zhanght86 , please remove it ,thanks.  
 I have a good faith belief that use of the copyrighted materials described above on the web pages is not authorized by the copyright owner, or its agent, or the law. I have taken fair use into consideration  
 I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or authorized to act on behalf of the owner, of an exclusíve right that is allegedly infringed.
 
