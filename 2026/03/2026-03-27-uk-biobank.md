@@ -1,0 +1,145 @@
+Before disabling any content in relation to this takedown notice, GitHub
+- contacted the owners of some or all of the affected repositories to give them an opportunity to [make changes](https://docs.github.com/en/github/site-policy/dmca-takedown-policy#a-how-does-this-actually-work).
+- provided information on how to [submit a DMCA Counter Notice](https://docs.github.com/en/articles/guide-to-submitting-a-dmca-counter-notice).
+
+To learn about when and why GitHub may process some notices this way, please visit our [README](https://github.com/github/dmca/blob/master/README.md#anatomy-of-a-takedown-notice).
+
+---
+
+Dear GitHub,
+
+ 
+
+Introduction
+
+ 
+
+I am writing on behalf of UK Biobank Limited (UK Biobank) and am authorized to act on behalf of the company in matters relating to the protection and enforcement of its intellectual property rights.
+
+ 
+
+UK Biobank maintains a large-scale biomedical research resource containing extensive genetic, phenotypic, and health-related data collected from approximately half a million UK participants. The UK Biobank database has been prepared through significant selection, coordination, and arrangement of genotype and phenotype data by UK Biobank. As a result, UK Biobank owns the intellectual property rights (copyright) in this database and the data contained within it.
+
+ 
+
+Further information about UK Biobank and its research resource can be found here:
+https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/about-us
+
+ 
+
+The UK Biobank database is proprietary and is not publicly released. Access is granted only to approved researchers who have entered into UK Biobank’s non-negotiable Material Transfer Agreement, available here:
+[private]. Under this agreement, researchers are granted a limited licence to access the database for specific research purposes. The licence expressly prohibits the licensee from reproducing, redistributing, publishing, or otherwise making the underlying data publicly available. Moreover, the unauthorized reproduction, copying, distribution, or publication of these data constitutes an infringement of UK Biobank’s copyright (intellectual property rights).
+
+ 
+
+Due to the sensitive, confidential and proprietary nature of this dataset, UK Biobank does not make the underlying data available in any public format and provides access only through secure controlled mechanisms to authorized researchers.
+
+ 
+
+Identification of Copyrighted Work
+
+ 
+
+The UK Biobank resource is a proprietary research database which has been created by UK Biobank through substantial investment (well into the $hundreds of millions) in the collection, selection, verification, organization, and curation of biomedical data from approximately half a million UK participants. The UK Biobank database is a copyright work under international law.   
+
+ 
+
+The copyrighted work that has been infringed consists of datasets and database materials originating from the UK Biobank research database, including genetic, phenotypic, and health-related participant data and associated compiled data files maintained by UK Biobank.
+
+ 
+
+The unauthorized extraction, reproduction, redistribution, or public dissemination of this database (or a substantial part thereof) constitutes an infringement of UK Biobank’s intellectual property rights (copyright) and there is no available fair use defence (even taking into account the wider remit of US fair use as compared to UK fair dealing).
+
+ 
+
+Location of Infringing Material
+
+ 
+
+UK Biobank has identified a repository hosted on GitHub that contains files derived from, or reproducing portions of, the UK Biobank dataset.
+
+ 
+
+The following repository includes the following files that infringe UK Biobank’s intellectual property rights:
+
+ 
+
+https://github.com/Kakashi-sensei/T40_rsfMRI/blob/9d93228b29a37d3e1294a9fb7752035463ea36d1/nu.csv
+
+https://github.com/Kakashi-sensei/T40_rsfMRI/blob/b3527ef8087be91c9a6b173800c5327f98133fca/TOMM40s_withoutNA.csv
+
+https://github.com/Kakashi-sensei/T40_rsfMRI/blob/d54eb8fcc114065f31008bff9607a30088cf8600/TOMM40s.csv
+
+https://github.com/Kakashi-sensei/T40_rsfMRI/blob/9ed67d34c99525f1ec1ce9f3d3d997afc0d8137c/UKB_Jan_27_2020.csv
+
+ 
+
+These files reproduce or distribute data originating from the UK Biobank resource without authorization. UK Biobank has been unable to identify or contact the repository owner.
+
+ 
+
+Request
+
+ 
+
+UK Biobank respectfully requests that GitHub remove or disable access to the infringing materials identified above in accordance with the DMCA Requirements.
+
+ 
+
+Confirmations
+
+ 
+
+I have read and understand GitHub's Guide to Filing a DMCA Notice.
+
+ 
+
+I have a good faith belief that the use of the copyrighted materials described above on the identified web pages is not authorized by the copyright owner, its agent, or the law.
+
+ 
+
+I have taken fair use into consideration and believe that the use described above does not qualify as fair use.
+
+ 
+
+I swear, under penalty of perjury, that the information contained in this notification is accurate and that I am authorized to act on behalf of the copyright owner of the exclusive rights that are allegedly infringed.
+
+ 
+
+Contact Details
+
+ 
+
+Should you require any further information or clarification, please do not hesitate to contact me at [private] or using the details below:
+
+ 
+
+UK Biobank Limited
+
+[private]
+
+[private]
+
+[private]
+
+[private]
+
+[private]
+
+ 
+
+Tel: [private]
+
+ 
+
+We thank you for your attention in this matter.
+
+ 
+
+Yours faithfully,
+
+ 
+
+[private]
+
+UK Biobank [private]
