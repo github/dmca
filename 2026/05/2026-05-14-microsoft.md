@@ -2,6 +2,10 @@ While GitHub did not find sufficient information to determine a valid anti-circu
 
 ---
 
+Note: Because the reported network that contained the allegedly infringing content was larger than one hundred (100) repositories, and the submitter alleged that all or most of the forks were infringing to the same extent as the parent repository, GitHub processed the takedown notice against the entire network of 1349 repositories, inclusive of the parent repository.  
+
+---
+
 **Are you the copyright holder or authorized to act on the copyright owner's behalf? If you are submitting this notice on behalf of a company, please be sure to use an email address on the company's domain. If you use a personal email address for a notice submitted on behalf of a company, we may not be able to process it.**
 
 Yes, I am authorized to act on the copyright owner's behalf.
