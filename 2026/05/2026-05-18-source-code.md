@@ -26,11 +26,11 @@ The original copyrighted work is [private] closed-source software project known 
   
 The infringed portions include original C# memory-management code used to update Black Hawk Down server settings and map-cycle data. This code includes custom logic for reading and writing specific game memory addresses, updating map lists, resetting map-cycle indexes, writing map filenames and custom-map flags, enforcing a 128-map limit, and handling related server memory structures.  
   
-A particularly distinctive part of my original work is the map-cycle update logic, including the original exception message:  
+A particularly distinctive part of [private] original work is the map-cycle update logic, including the original exception message:  
   
 [private]  
   
-This message appears in my original BMT_TV source code as part of the map-cycle validation and update routines. The surrounding code also contains original implementation details, including use of the Black Hawk Down base address, the server map-cycle pointer, map-count updates, map index resets, custom-map flag writes, and entry advancement logic. [private] source code shows this map-cycle logic using the `0x005ED5F8` pointer, `+ 0x4` map count, `+ 0xC` current map index, and `0x24` map-entry advancement structure.  
+This message appears in [private] original [private] source code as part of the map-cycle validation and update routines. The surrounding code also contains original implementation details, including use of the Black Hawk Down base address, the server map-cycle pointer, map-count updates, map index resets, custom-map flag writes, and entry advancement logic. [private] source code shows this map-cycle logic using the `0x005ED5F8` pointer, `+ 0x4` map count, `+ 0xC` current map index, and `0x24` map-entry advancement structure.  
   
 This work was not published as open-source software. [private] did not license, assign, or authorize the HawkSync repository owner or its contributors to copy, publish, distribute, or create derivative works from this source code.  
   
