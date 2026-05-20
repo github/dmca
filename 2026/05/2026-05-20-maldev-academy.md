@@ -41,7 +41,7 @@ The entire repository is infringing
 
 **Identify the full repository URL that is infringing:**
 
-https://github.com/W41T3D3V1L/dist
+[private]
 
 **Do you claim to have any technological measures in place to control access to your copyrighted content? Please see our <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice#complaints-about-anti-circumvention-technology">Complaints about Anti-Circumvention Technology</a> if you are unsure.**
 
