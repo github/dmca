@@ -2,54 +2,89 @@
  * Tests for validate-filepaths main script logic
  */
 
+function runValidateFilepaths(changedFiles) {
+  jest.resetModules();
+
+  process.env.CHANGED_FILES = changedFiles.join("\n");
+
+  const core = {
+    getInput: jest.fn((name) => (name === "changed-files" ? process.env.CHANGED_FILES : "")),
+    setFailed: jest.fn(),
+    info: jest.fn(),
+    warning: jest.fn(),
+    error: jest.fn(),
+    setOutput: jest.fn(),
+  };
+
+  jest.doMock("@actions/core", () => core);
+  jest.doMock("fs", () => ({
+    existsSync: jest.fn(() => true),
+    statSync: jest.fn(() => ({ isDirectory: () => false })),
+    readdirSync: jest.fn(() => []),
+    readFileSync: jest.fn(() => ""),
+  }));
+
+  jest.isolateModules(() => {
+    require("../index.js");
+  });
+
+  return core;
+}
+
+afterEach(() => {
+  delete process.env.CHANGED_FILES;
+  jest.resetModules();
+  jest.clearAllMocks();
+  jest.unmock("@actions/core");
+  jest.unmock("fs");
+});
+
 describe("isFileInsideAYearFolder", () => {
-  // This function is defined in index.js - we test the logic it's testing
+  test("accepts a file in a year folder", () => {
+    const core = runValidateFilepaths(["2024/2024-01-01-brand.markdown"]);
 
-  function isFileInsideAYearFolder(filepath) {
-    return filepath.match(/^\d{4}/) !== null;
-  }
-
-  test("returns true for file in year folder", () => {
-    expect(isFileInsideAYearFolder("2024/2024-01-01-brand.markdown")).toBe(true);
+    expect(core.setFailed).not.toHaveBeenCalled();
   });
 
-  test("returns true for file in year/month subfolder", () => {
-    expect(isFileInsideAYearFolder("2024/01/2024-01-01-brand.markdown")).toBe(true);
+  test("accepts a file in a year/month subfolder", () => {
+    const core = runValidateFilepaths(["2024/01/2024-01-01-brand.markdown"]);
+
+    expect(core.setFailed).not.toHaveBeenCalled();
   });
 
-  test("returns false for file not in year folder", () => {
-    expect(isFileInsideAYearFolder("README.md")).toBe(false);
+  test("rejects a file not in a year folder", () => {
+    const core = runValidateFilepaths(["README.md"]);
+
+    expect(core.setFailed).toHaveBeenCalled();
   });
 
-  test("returns false for file with non-year folder", () => {
-    expect(isFileInsideAYearFolder("foo/2024-01-01-brand.markdown")).toBe(false);
+  test("rejects a file with a non-year top-level folder", () => {
+    const core = runValidateFilepaths(["foo/2024-01-01-brand.markdown"]);
+
+    expect(core.setFailed).toHaveBeenCalled();
   });
 });
 
 describe("filepath date validation pattern", () => {
-  // Tests for the YYYY-MM-DD brand.markdown naming pattern
-
-  function isFilepathDateValid(filepath) {
-    const filename = filepath.split("/").pop();
-    const dateStringInFilename = filename.match(/\d{4}-\d{2}-\d{2}/);
-    return dateStringInFilename !== null;
-  }
-
-  test("validates correct YYYY-MM-DD format in filename", () => {
-    expect(isFilepathDateValid("2024/01/2024-01-15-brand.markdown")).toBe(true);
-    expect(isFilepathDateValid("2023/12/2023-12-31-company.markdown")).toBe(true);
+  test("accepts correct YYYY-MM-DD format in filename", () => {
+    expect(
+      runValidateFilepaths(["2024/01/2024-01-15-brand.markdown"]).setFailed
+    ).not.toHaveBeenCalled();
+    expect(
+      runValidateFilepaths(["2023/12/2023-12-31-company.markdown"]).setFailed
+    ).not.toHaveBeenCalled();
   });
 
-  test("invalidates incorrect date formats", () => {
-    expect(isFilepathDateValid("2024/1-01-15-brand.markdown")).toBe(false);
-    expect(isFilepathDateValid("2024/01/24-01-15-brand.markdown")).toBe(false);
-    expect(isFilepathDateValid("2024/01/2024-1-15-brand.markdown")).toBe(false);
-    expect(isFilepathDateValid("2024/01/2024-01-5-brand.markdown")).toBe(false);
+  test("rejects incorrect date formats", () => {
+    expect(runValidateFilepaths(["2024/1-01-15-brand.markdown"]).setFailed).toHaveBeenCalled();
+    expect(runValidateFilepaths(["2024/01/24-01-15-brand.markdown"]).setFailed).toHaveBeenCalled();
+    expect(runValidateFilepaths(["2024/01/2024-1-15-brand.markdown"]).setFailed).toHaveBeenCalled();
+    expect(runValidateFilepaths(["2024/01/2024-01-5-brand.markdown"]).setFailed).toHaveBeenCalled();
   });
 
-  test("invalidates filenames without date", () => {
-    expect(isFilepathDateValid("README.md")).toBe(false);
-    expect(isFilepathDateValid("2024/01/brand.markdown")).toBe(false);
+  test("rejects filenames without date", () => {
+    expect(runValidateFilepaths(["README.md"]).setFailed).toHaveBeenCalled();
+    expect(runValidateFilepaths(["2024/01/brand.markdown"]).setFailed).toHaveBeenCalled();
   });
 });
 
