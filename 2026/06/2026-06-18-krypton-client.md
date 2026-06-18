@@ -87,7 +87,7 @@ These actions effectively circumvent the technological measures that control acc
 **If you are reporting an allegedly infringing fork, please note that each fork is a distinct repository and <i>must be identified separately</i>. Please read more about <a href="https://docs.github.com/articles/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork">forks.</a> As forks may often contain different material than in the parent repository, if you believe any of the repositories or files in the forks are infringing, please list each fork URL below:**
 
 https://github.com/smashr812391/Krypton-1.20.4  
-https://github.com/flopper251/KryptonClient-SRC  
+[private]  
 https://github.com/ImLegiitXD/krypton  
 https://github.com/H1ggsK/RadonClient  
 https://github.com/Sucubuz/KryptonClient  
