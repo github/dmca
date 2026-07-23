@@ -143,7 +143,6 @@ https://github.com/PersonForever/jetbra
 https://github.com/Stranger65536/jetbra  
 https://github.com/aabbcc332211/jetbra  
 https://github.com/menghuanqiji/jetbra  
-https://github.com/VladChekunov/jetbra  
 https://github.com/pijng/jetbra  
 https://github.com/xzchina/jetbra  
 https://github.com/jyotidwi/jetbra_novitechie  
