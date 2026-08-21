@@ -17,7 +17,7 @@ I am the copyright holder of this project. This project is Unlicensed, which mak
 **Please provide a detailed description of the original copyrighted work that has allegedly been infringed. If possible, include a URL to where it is posted online.**
 
 The project is located at [private]  
-There are very clear commits which were commited way before the offending repository existed.  
+There are very clear commits which were committed way before the offending repository existed.  
 The offender has downloaded the project, changed the details to link to their [private] and claimed the project as theirs.
 
 The repository holder has been contacted through an issue which they acknowledged previously. They had made the repository private but I had later discovered that they had made the repository public again.
