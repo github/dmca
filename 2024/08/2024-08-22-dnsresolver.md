@@ -19,7 +19,7 @@ I am the [private] of the repository of [private] own. [private] have written th
 This is the copied work: https://github.com/Harsh-Khandelwal60/DNS-Resolver  
 This is [private] own repository: https://github.com/GuyEternal/DNSResolver
 
-The thing is the person who has copied [private] code has changed the commit history to 6 or 7 months ago to make it look like he commited it long ago, but actually as you can clearly see it looks totally copied from [private] repo. i.e. GuyEternal/DNSResolver
+The thing is the person who has copied [private] code has changed the commit history to 6 or 7 months ago to make it look like he committed it long ago, but actually as you can clearly see it looks totally copied from [private] repo. i.e. GuyEternal/DNSResolver
 
 **What files should be taken down? Please provide URLs for each file, or if the entire repository, the repository’s URL.**
 
