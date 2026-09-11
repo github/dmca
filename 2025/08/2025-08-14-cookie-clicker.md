@@ -48,7 +48,8 @@ These sites are distributing Cookie Clicker in violation of DashNet's copyright,
 **If the original work referenced above is available online, please provide a URL.**
 
 - https://trixter9994.github.io/Cookie-Clicker-Source-Code  
-- https://cookieclicker-unblocked-online.github.io  
+- https://cookieclicker-unblocked-online.github.io
+- https://cookieclicker-unblocked-online.bitbucket.io
 - https://ozh.github.io/cookieclicker  
 - https://realben9.github.io/ccsc/stable/v2052  
 - https://eli-schwartz.github.io/cookieclicker  
