@@ -33,7 +33,7 @@ information from Match Group’s servers".
 
 This is a patently false representation of the way Pofapi accesses its
 content -- as can be plainly seen by even a basic code analysis of any
-version of Pofapi ever commited to that repository, Pofapi has not, nor
+version of Pofapi ever committed to that repository, Pofapi has not, nor
 has it ever "bypassed the POF network", nor does it "improperly access
 their backend". Furthermore, nor does it access proprietary or
 restricted information not available in any other browser. Furthmore,
