@@ -10,7 +10,7 @@ It is clear via the directory structure, comments and contents of the files (exa
 
 It is a direct, literal copy of our work, albeit several versions old. Regardless, it contains content that has been unchanged and poses a direct intellectual property and security risk to our business.
 
-The current, legitimate copy of our codebase is current hosted on a different git provider, but I have commited a temporary copy to our private company repository on GitHub. The location of our copy is hosted at [private].
+The current, legitimate copy of our codebase is current hosted on a different git provider, but I have committed a temporary copy to our private company repository on GitHub. The location of our copy is hosted at [private].
 
 User rishiphp0312 must immediately delete the entire repository located at https://github.com/rishiphp0312/rishisitebuilding/ and any local copies of the identified code.
 
