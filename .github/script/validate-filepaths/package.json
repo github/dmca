@@ -10,7 +10,7 @@
   "author": "",
   "type": "module",
   "engines": {
-    "node": ">=18.14.0"
+    "node": "20 || >=22"
   },
   "devDependencies": {
     "jest": "^30.0.0"
@@ -20,8 +20,11 @@
     "lodash": "^4.18.1"
   },
   "overrides": {
+    "minimatch": "^10.2.1",
+    "brace-expansion": "5.0.12",
+    "browserslist": "^4.28.7",
+    "baseline-browser-mapping": "^2.11.0",
     "@babel/core": "^7.29.6",
-    "minimatch": "^10.2.1"
     "uuid": "^11.1.1"
   }
 }
