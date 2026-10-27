@@ -13,6 +13,7 @@
     "node": ">=18.14.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.6",
     "jest": "^30.0.0"
   },
   "dependencies": {
