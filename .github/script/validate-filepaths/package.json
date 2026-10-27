@@ -10,7 +10,7 @@
   "author": "",
   "type": "module",
   "engines": {
-    "node": ">=18.14.0"
+    "node": "20 || >=22"
   },
   "devDependencies": {
     "jest": "^30.0.0"
