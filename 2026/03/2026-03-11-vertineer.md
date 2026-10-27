@@ -1,0 +1,120 @@
+While GitHub did not find sufficient information to determine a valid anti-circumvention claim, we determined that this takedown notice contains other valid copyright claim(s).
+
+---
+
+**Are you the copyright holder or authorized to act on the copyright owner's behalf? If you are submitting this notice on behalf of a company, please be sure to use an email address on the company's domain. If you use a personal email address for a notice submitted on behalf of a company, we may not be able to process it.**
+
+Yes, I am the copyright holder.
+
+**Are you submitting a revised DMCA notice after GitHub Trust & Safety requested you make changes to your original notice?**
+
+No
+
+**Does your claim involve content on GitHub or npm.js?**
+
+GitHub
+
+**Please describe the nature of your copyright ownership or authorization to act on the owner's behalf.**
+
+The reported content is [private] intellectual property. It originates from a website project that [private] personally created and owned under the name BLOX City. I was the [private] and [private] of the platform.
+
+The website was built using the Laravel PHP framework and managed with phpMyAdmin for database administration. The application structure, backend logic, database schema, and website content were all developed by me. Development was carried out using Laravel tools such as Artisan (e.g., "php artisan make" commands) to generate application components including models, controllers, migrations, and other framework resources.
+
+Because [private] personally created the codebase, site design, and associated materials for the BLOX City website, [private] hold the original copyright to this content. The material being reported was taken from [private] project without [private] authorization. I did not grant permission for this content to be copied, redistributed, or reused elsewhere.
+
+Therefore, I am submitting this report as the [private] of the original BLOX City website and its associated source code and materials.
+
+**Please provide a detailed description of the original copyrighted work that has allegedly been infringed.**
+
+The original copyrighted work consists of a custom-built website and its associated source code, database structure, design elements, and original content created by [private] for a project called BLOX City. The website was a browser-based platform that [private] personally developed and managed.
+
+The site was developed using the Laravel PHP framework, with backend functionality written in PHP and the database managed through phpMyAdmin using a MySQL database. The application architecture included Laravel components such as controllers, models, migrations, middleware, routes, and views generated and managed through Laravel’s Artisan command-line tools (for example, "php artisan make" commands). These components were custom configured and coded by me as part of the platform’s core functionality.
+
+The copyrighted material includes, but is not limited to:
+
+- The original Laravel project source code and application structure
+- Custom PHP backend logic and routing
+- Database schema, migrations, and tables used by the platform
+- Website layout, interface structure, and design elements
+- Original written content and configuration files associated with the project
+- Any custom features or modules implemented specifically for the BLOX City platform
+
+The BLOX City website and its codebase were originally created and hosted on a domain that [private] owned and controlled. The development of this project required substantial time and technical work to design the system architecture, implement functionality, and maintain the platform.
+
+The allegedly infringing material reproduces or distributes portions of this original website project, including code, structural elements, or other content that originated from [private] BLOX City platform. [private] did not authorize any third party to copy, republish, or distribute this material.
+
+As the [private] and [private] of the BLOX City website and its associated source code, [private] hold the copyright to the work described above.
+
+**If the original work referenced above is available online, please provide a URL.**
+
+https://topsecret.vertineer.com
+
+**We ask that a DMCA takedown notice list every specific file in the repository that is infringing, unless the entire contents of the repository are infringing on your copyright. Please clearly state that the entire repository is infringing, OR provide the specific files within the repository you would like removed.**
+
+**Based on the above, I confirm that:**
+
+The entire repository is infringing
+
+**Identify the full repository URL that is infringing:**
+
+https://github.com/idkhowtoLOL/BloxCreate-Source
+
+**Do you claim to have any technological measures in place to control access to your copyrighted content? Please see our <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice#complaints-about-anti-circumvention-technology">Complaints about Anti-Circumvention Technology</a> if you are unsure.**
+
+Yes
+
+**What technological measures do you have in place and how do they effectively control access to your copyrighted material?**
+
+The BLOX City website and its associated source code were protected through several technological measures designed to control access to the copyrighted material and prevent unauthorized use or distribution.
+
+First, the website was hosted on a privately managed server environment where access to the source code and server files was restricted to authorized accounts only. Administrative access to the hosting environment was protected through secure login credentials and server-level authentication. Only [private], as the owner and developer, had permission to access or modify the application files and server configuration.
+
+Second, the platform was developed using the Laravel framework, which includes built-in security and access control mechanisms. Sensitive parts of the application, including administrative panels, backend logic, and configuration files, were protected through authentication systems, middleware access controls, and environment configuration files (.env) that were not publicly accessible. These systems ensured that only authenticated users with the appropriate permissions could access protected sections of the platform.
+
+Third, the database used by the platform was managed through phpMyAdmin and secured with database authentication credentials. Direct access to the database, including the schema, tables, and stored data, required authorized login credentials and was not available to the public.
+
+Additionally, the website’s server directory structure restricted public access to only the intended public web directory, while the application code, configuration files, and other protected resources remained outside the publicly accessible directory. This prevented direct downloading or viewing of the application’s underlying code through the web server.
+
+Together, these technological protections—including server authentication, Laravel access control systems, restricted file structures, and secured database access—were implemented to effectively control and limit access to the copyrighted BLOX City source code and associated materials.
+
+**How is the accused project designed to circumvent your technological protection measures?**
+
+The accused project appears to circumvent the technological protection measures implemented for the BLOX City website by reproducing and distributing portions of the protected source code and application structure outside of the original secured hosting environment.
+
+The BLOX City project was originally hosted on a private server where access to the source code, configuration files, and database systems was restricted to authorized administrative accounts only. Sensitive components of the Laravel application—including controllers, models, migrations, and environment configuration files—were stored outside of the publicly accessible web directory and protected through server authentication, framework-level access controls, and restricted database credentials.
+
+The accused project bypasses these protection measures by distributing or using copies of the original source code and structural components without authorization. By obtaining and republishing these files outside of the secured server environment, the project effectively circumvents the technological controls that were put in place to restrict access to the protected materials.
+
+In particular, the accused project appears to replicate parts of the BLOX City codebase, including backend logic, application structure, and potentially database-related components that were intended to remain private within the original development environment. This replication allows the code to be accessed, used, or redistributed without passing through the authentication and access control mechanisms implemented on the original server.
+
+As a result, the accused project undermines the technological protection measures that were designed to control access to the copyrighted BLOX City source code and related materials.
+
+**If you are reporting an allegedly infringing fork, please note that each fork is a distinct repository and <i>must be identified separately</i>. Please read more about <a href="https://docs.github.com/articles/dmca-takedown-policy#b-what-about-forks-or-whats-a-fork">forks.</a> As forks may often contain different material than in the parent repository, if you believe any of the repositories or files in the forks are infringing, please list each fork URL below:**
+
+**Is the work licensed under an open source license?**
+
+No
+
+**What would be the best solution for the alleged infringement?**
+
+Reported content must be removed
+
+**Do you have the alleged infringer’s contact information? If so, please provide it.**
+
+I do not have direct contact information for the alleged infringer. The only identifying information available is the username and profile associated with the repository hosting the infringing material.
+
+**I have a good faith belief that use of the copyrighted materials described above on the infringing web pages is not authorized by the copyright owner, or its agent, or the law.**
+
+**I have taken <a href="https://www.lumendatabase.org/topics/22">fair use</a> into consideration.**
+
+**I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed.**
+
+**I have read and understand GitHub's <a href="https://docs.github.com/articles/guide-to-submitting-a-dmca-takedown-notice/">Guide to Submitting a DMCA Takedown Notice</a>.**
+
+**So that we can get back to you, please provide either your telephone number or physical address.**
+
+[private]
+
+**Please type your full name for your signature.**
+
+[private]
