@@ -4,7 +4,6 @@ import {
   isFilepathDateValid,
   getNoticeCategory,
 } from "./utils/validators.js";
-import { escapeMarkdown } from "./utils/markdown.js";
 import _ from "lodash";
 const { partition } = _;
 import { setOutput } from "@actions/core";
@@ -30,13 +29,13 @@ let commentCopyForFilesChangedInThisPr =
 
 commentCopyForFilesChangedInThisPr += prChangedFilesWithInvalidDates.length
   ? `\n\n**Notices that don't contain a date that conforms to the YYYY-MM-DD format:**\n\n${prChangedFilesWithInvalidDates
-      .map((file) => `- ${escapeMarkdown(file)}`)
+      .map((file) => `- ${file}`)
       .join("\n")}`
   : "";
 
 commentCopyForFilesChangedInThisPr += prChangedFilesNotInCorrectFolder.length
   ? `\n\n**Notices that might need to be moved to the correct year/month folder:**\n\n${prChangedFilesNotInCorrectFolder
-      .map((file) => `- ${escapeMarkdown(file)}`)
+      .map((file) => `- ${file}`)
       .join("\n")}`
   : "";
 
@@ -46,7 +45,7 @@ let commentCopyForCategoriesOfFilesChangedInThisPr = `\n\n**Notices appear to fa
 ${dmcaFilesChangedInPr
   .map((filepath) => {
     const noticeCategory = getNoticeCategory(filepath);
-    return "| " + escapeMarkdown(filepath) + " | " + noticeCategory + " |";
+    return "| " + filepath + " | " + noticeCategory + " |";
   })
   .join("\n")}
 `;
@@ -79,13 +78,13 @@ let commentCopyForAllDmcaNoticesInRepo =
 
 const invalidDatesList = filesWithInvalidDates.length
   ? `\n\n**Notices that don't contain a date that conforms to the YYYY-MM-DD format:**\n\n${filesWithInvalidDates
-      .map((file) => `- ${escapeMarkdown(file)}`)
+      .map((file) => `- ${file}`)
       .join("\n")}`
   : "";
 
 const incorrectFolderList = filesNotInCorrectFolder.length
   ? `\n\n**Notices that might need to be moved to the correct year/month folder:**\n\n${filesNotInCorrectFolder
-      .map((file) => `- ${escapeMarkdown(file)}`)
+      .map((file) => `- ${file}`)
       .join("\n")}`
   : "";
 
