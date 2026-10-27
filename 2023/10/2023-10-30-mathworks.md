@@ -1,0 +1,31 @@
+While GitHub did not find sufficient information to determine a valid anti-circumvention claim, we determined that this takedown notice contains other valid copyright claim(s).
+
+---
+
+Dear GitHub, Inc.:
+
+On behalf of The MathWorks, Inc. ("MathWorks") and pursuant to Sections 512(c)(3) and 512(d)(3) of the Copyright Act (17 U.S.C. 512(c)(3) and 512(d)(3)), I am writing to place you on notice of circumvention materials made available and services offered on the GitHub.com web site at the URL https://github.com/firstborg/matlab-pcode-decompiler.   The GitHub username associated with this URL is “firstborg".
+
+I have a good faith belief that use of the circumventing the services described and offered on the above infringing web pages is not authorized by the copyright owner, its agent, or the law.  Specifically, I have a good faith belief that the services identified above violate at least 17 U.S.C. §§ 1201(a)(2) and/or 1201(b)(1) as to circumventing effective access controls and copyright protection measures of works protected under Title 17 of the United States Code, such access controls and protection being provided by MathWorks' MATLAB® computer program for user created MATLAB programs and related toolbox add-on computer programs.  In particular, the above referenced repo offers services to circumvent MATLAB® pcode capability, which allows a MATLAB user, including MathWorks, to obfuscate his or her MATLAB code using a MathWorks proprietary, obfuscating code format that MathWorks makes available in its products via an anti-circumvention capability.   See https://www.mathworks.com/help/matlab/ref/pcode.html  
+
+The MATLAB® pcode capability allows a MATLAB user to share their original MATLAB® code file with other users while protecting the user’s underlying code file’s expression (intellectual property) through a proprietary obfuscation process.  The above referenced GitHub repo is offering services (for a “donation”) to de-obfuscate MATLAB® pcode files that have been subject to the technological measures applied by the MATLAB® pcode capability to control access to the user’s underlying protected file.  See https://github.com/firstborg/matlab-pcode-decompiler/blob/master/README.md 
+
+These offered de-obfuscating or unscrambling services made available by the above referenced GitHub repo is unauthorized.
+
+I have taken fair use into consideration. I have read and understand GitHub's Guide to Filing a DMCA Notice. I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed, including the anti-circumvention capabilities referenced above. 
+
+Please act expeditiously to take down these materials as soon as possible.
+
+If you have any questions or concerns, do not hesitate to contact me at the telephone number, email address, or postal address indicated below. Thank you.
+
+Sincerely,
+
+[private]  
+[private]  
+[private]  
+[private]  
+[private]  
+[private]  
+[private]  
+
+ 

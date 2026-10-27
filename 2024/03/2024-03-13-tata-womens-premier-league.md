@@ -1,0 +1,65 @@
+Sub: Unauthorised Broadcasts of Audio-visual Footage from the TATA
+Women’s Premier League 2024
+
+I am an agent authorised to act on behalf of the owner of intellectual
+property rights. The intellectual property rights include the
+copyright in and the rights to broadcast the TATA Women’s Premier
+League 2024 (“League”) organised under the auspices of the Board of
+Control for Cricket in India (“BCCI”). These rights include, without
+limitation, TV Live Broadcast Rights and TV Highlights Rights, Mobile
+Rights and Internet Rights for Live, Deferred, Delayed broadcasts and
+Highlights for all matches of the League (“Matches”) on television and
+on the Internet (“Exclusive Rights”). These Exclusive Rights originate
+with the BCCI, and the BCCI and its authorised licensees are entitled
+to enforce these rights. For your information, these Exclusive Rights
+have been granted to Viacom18 Media Private Limited (“Viacom18”) in
+the territory of India (“Territory”).
+
+Proprietary audio-visual footage and production content relating to
+the Matches (“Copyrighted Content”) will be transmitted with license
+and authorisation on various platforms from India by Viacom18 in the
+Territory.
+
+The Copyrighted Content has been identified and is accessible, as of
+the date of this notice, at the following URLs:
+
+[invalid]  
+[invalid]  
+[invalid]  
+[invalid]  
+http://manjeettg.github.io/Sp18/  
+http://manjeettg.github.io/Sp18HD/  
+[invalid]  
+
+The Copyrighted Content is hosted, without licence, on the following
+IP address: [private]
+
+Please immediately disable access to the streams and URLs listed above
+and suspend them from your servers to prevent continued violation of
+the Exclusive Rights referred to above.
+
+Please also take appropriate action against the account holder for
+repeat infringements under your Abuse Policy/Terms of Service
+Agreement.
+
+I have a good faith belief that the use of the Copyrighted Content as
+described above is not authorised by the copyright owner, its agent,
+or the law.
+
+I understand that this notice may lead to the termination of the user
+account and URLs associated with the infringements detailed above.
+
+Your immediate acknowledgement and action are solicited with respect
+to this notice.
+
+I may be contacted via e-mail at [private], via fax
+on [private], or at BCCI Rights, [private], [private] in relation to
+this notice.
+
+I swear, under the penalty of perjury, that the information in this
+notice is accurate and that I am authorised to act on behalf of the
+owner of an exclusive right that is allegedly infringed.
+
+BCCI reserves all its rights in this matter.
+
+// [private] //
