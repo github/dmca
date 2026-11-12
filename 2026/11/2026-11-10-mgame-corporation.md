@@ -5,6 +5,10 @@ Before disabling any content in relation to this takedown notice, GitHub
 To learn about when and why GitHub may process some notices this way, please visit our [README](https://github.com/github/dmca/blob/master/README.md#anatomy-of-a-takedown-notice).  
   
 ---  
+
+Note: Because the reported network that contained the allegedly infringing content was larger than one hundred (100) repositories, and the submitter alleged that all or most of the forks were infringing to the same extent as the parent repository, GitHub processed the takedown notice against the entire network of 248 repositories, inclusive of the parent repository.
+
+---
   
 Dear GitHub Copyright Agent,  
   
