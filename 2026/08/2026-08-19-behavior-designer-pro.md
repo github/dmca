@@ -59,7 +59,7 @@ No
   
 **What would be the best solution for the alleged infringement?**  
   
-Reported content must be removed  
+Repository can be made private
   
 **Do you have the alleged infringer’s contact information? If so, please provide it.**  
   
